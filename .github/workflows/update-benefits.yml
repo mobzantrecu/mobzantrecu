@@ -25,6 +25,26 @@ jobs:
         with:
           node-version: 20
 
+      - name: Diagnose Santander API
+        run: |
+          echo "=== API IPv4 ==="
+
+          curl -4 -v \
+            --http1.1 \
+            --max-time 20 \
+            -o /dev/null \
+            -w "\nHTTP: %{http_code}\nIP: %{remote_ip}\nTime: %{time_total}\n" \
+            "https://www.santander.com.ar/bff-benefits/brands?categories=GAS&days=&exclusive=&pay_with=&location=caba&page=1&limit=12"
+
+          echo "=== API IPv6 ==="
+
+          curl -6 -v \
+            --http1.1 \
+            --max-time 20 \
+            -o /dev/null \
+            -w "\nHTTP: %{http_code}\nIP: %{remote_ip}\nTime: %{time_total}\n" \
+            "https://www.santander.com.ar/bff-benefits/brands?categories=GAS&days=&exclusive=&pay_with=&location=caba&page=1&limit=12"
+
       - name: Test Santander connection
         run: |
           curl -v \
