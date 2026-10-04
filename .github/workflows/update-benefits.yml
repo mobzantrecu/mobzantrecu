@@ -28,51 +28,53 @@ jobs:
       - name: Test Santander with Node IPv4
         run: |
           node --input-type=module <<'EOF'
-          import dns from "node:dns";
-          import { Agent } from "undici";
+          import https from "node:https";
 
-          const url =
-            "https://www.santander.com.ar/bff-benefits/brands?categories=GAS&days=&exclusive=&pay_with=&location=caba&page=1&limit=12";
-
-          const lookup = (hostname, options, callback) => {
-            dns.lookup(
-              hostname,
-              {
-                ...options,
-                family: 4,
-              },
-              callback
-            );
-          };
-
-          const dispatcher = new Agent({
-            connect: {
-              lookup,
-            },
-          });
-
-          console.log("Requesting Santander...");
-
-          const response = await fetch(url, {
-            dispatcher,
-            headers: {
-              Accept: "application/json",
-              "User-Agent": "Mozilla/5.0",
-            },
-          });
-
-          console.log("Status:", response.status);
-
-          const data = await response.json();
-
-          console.log(
-            "Brands:",
-            data?.data?.length ??
-            data?.brands?.length ??
-            "unknown"
+          const url = new URL(
+            "https://www.santander.com.ar/bff-benefits/brands?categories=GAS&days=&exclusive=&pay_with=&location=caba&page=1&limit=12"
           );
 
-          dispatcher.close();
+          const response = await new Promise((resolve, reject) => {
+            const request = https.get(
+              {
+                hostname: url.hostname,
+                path: url.pathname + url.search,
+                family: 4,
+                headers: {
+                  Accept: "application/json",
+                  "User-Agent": "Mozilla/5.0",
+                },
+              },
+              (response) => {
+                let body = "";
+
+                response.setEncoding("utf8");
+
+                response.on("data", (chunk) => {
+                  body += chunk;
+                });
+
+                response.on("end", () => {
+                  resolve({
+                    statusCode: response.statusCode,
+                    body,
+                  });
+                });
+              }
+            );
+
+            request.setTimeout(20000, () => {
+              request.destroy(
+                new Error("Request timeout")
+              );
+            });
+
+            request.on("error", reject);
+          });
+
+          console.log("Status:", response.statusCode);
+          console.log("Body length:", response.body.length);
+          console.log(response.body.slice(0, 500));
           EOF
 
       - name: Collect benefits
