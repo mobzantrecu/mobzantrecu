@@ -30,21 +30,6 @@ jobs:
       - name: Build HTML
         run: npm run build-html
 
-      - name: Commit generated files
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add output/active-benefits.json output/index.html
-
-          if git diff --cached --quiet; then
-            echo "No generated changes"
-            exit 0
-          fi
-
-          git commit -m "chore: rebuild benefits"
-          git push
-
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
