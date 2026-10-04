@@ -25,6 +25,14 @@ jobs:
         with:
           node-version: 20
 
+      - name: Test Santander connection
+        run: |
+          curl -v \
+            --max-time 20 \
+            -H "Accept: application/json" \
+            -H "User-Agent: Mozilla/5.0" \
+            "https://www.santander.com.ar/bff-benefits/brands?categories=GAS&days=&exclusive=&pay_with=&location=caba&page=1&limit=12"
+
       - name: Collect benefits
         run: npm start
 
