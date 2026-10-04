@@ -19,7 +19,7 @@ const CONFIG = {
       exclusive: "",
       pay_with: "",
       location: "caba",
-      limit: 100,
+      limit: 12,
     },
   },
 
@@ -56,29 +56,35 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-async function fetchJson(url, options = {}) {
+async function fetchJson(
+  url,
+  {
+    retries = 3,
+    timeoutMs = 30000,
+  } = {}
+) {
   let lastError;
 
-  for (
-    let attempt = 1;
-    attempt <= CONFIG.request.retries;
-    attempt++
-  ) {
+  for (let attempt = 1; attempt <= retries; attempt++) {
     const controller = new AbortController();
 
     const timeout = setTimeout(() => {
       controller.abort();
-    }, CONFIG.request.timeoutMs);
+    }, timeoutMs);
 
     try {
+      console.log(
+        `GET ${url} (intento ${attempt}/${retries})`
+      );
+
       const response = await fetch(url, {
-        ...options,
         signal: controller.signal,
 
         headers: {
-          Accept: "application/json",
-          "User-Agent": "Mozilla/5.0",
-          ...(options.headers || {}),
+          "Accept": "application/json",
+          "User-Agent":
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/131.0.0.0 Safari/537.36",
+          "Referer": "https://www.santander.com.ar/",
         },
       });
 
@@ -91,17 +97,34 @@ async function fetchJson(url, options = {}) {
       }
 
       return await response.json();
+
     } catch (error) {
       clearTimeout(timeout);
 
       lastError = error;
 
-      console.warn(
-        `Request failed (${attempt}/${CONFIG.request.retries}): ${url}`
+      console.error(
+        `Request failed (${attempt}/${retries}):`,
+        url
       );
 
-      if (attempt < CONFIG.request.retries) {
-        await sleep(500 * attempt);
+      console.error(
+        error instanceof Error
+          ? error.message
+          : error
+      );
+
+      if (attempt < retries) {
+        const delay =
+          attempt * 3000;
+
+        console.log(
+          `Esperando ${delay}ms antes de reintentar...`
+        );
+
+        await new Promise((resolve) =>
+          setTimeout(resolve, delay)
+        );
       }
     }
   }
