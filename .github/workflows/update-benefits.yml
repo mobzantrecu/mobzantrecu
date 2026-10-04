@@ -1,14 +1,13 @@
-name: Update and Deploy
+name: Update Benefits
 
 on:
-  schedule:
-    - cron: "15 6 * * *"
-      timezone: "America/Argentina/Buenos_Aires"
-
+  push:
+    paths:
+      - "output/benefits.json"
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -20,81 +19,44 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: Test Santander every IPv4
-        run: |
-          set -e
-
-          URL="https://www.santander.com.ar/bff-benefits/brands?categories=GAS&days=&exclusive=&pay_with=&location=caba&limit=12"
-          HOST="www.santander.com.ar"
-
-          IPS=$(getent ahostsv4 "$HOST" | awk '{print $1}' | sort -u)
-
-          echo "IPs encontradas:"
-          echo "$IPS"
-
-          for IP in $IPS; do
-            echo ""
-            echo "========================================"
-            echo "Probando $IP"
-            echo "========================================"
-
-            if curl \
-              --resolve "$HOST:443:$IP" \
-              --http1.1 \
-              --fail-with-body \
-              --silent \
-              --show-error \
-              --max-time 10 \
-              -H "Accept: application/json" \
-              -H "User-Agent: Mozilla/5.0" \
-              -o /tmp/santander.json \
-              "$URL"
-            then
-              echo ""
-              echo "✅ FUNCIONÓ: $IP"
-              echo "Body:"
-              head -c 200 /tmp/santander.json
-              echo ""
-              exit 0
-            else
-              echo "❌ FALLÓ: $IP"
-            fi
-          done
-
-          echo ""
-          echo "❌ Ningún IP de Santander respondió"
-          exit 1
-
-      - name: Collect benefits
-        run: npm start
-
       - name: Filter active benefits
         run: npm run filter-active
 
-      - name: Generate HTML
+      - name: Build HTML
         run: npm run build-html
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add output/active-benefits.json output/index.html
+
+          if git diff --cached --quiet; then
+            echo "No generated changes"
+            exit 0
+          fi
+
+          git commit -m "chore: rebuild benefits"
+          git push
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./output
+          path: output
 
   deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
-    needs: build
-
-    runs-on: ubuntu-latest
 
     steps:
       - name: Deploy to GitHub Pages
