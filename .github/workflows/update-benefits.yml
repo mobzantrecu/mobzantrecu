@@ -25,51 +25,55 @@ jobs:
         with:
           node-version: 20
 
-      - name: Diagnose Santander API
+      - name: Test Santander with Node IPv4
         run: |
-          echo "=== API IPv4 ==="
+          node --input-type=module <<'EOF'
+          import dns from "node:dns";
+          import { Agent } from "undici";
 
-          curl -4 -v \
-            --http1.1 \
-            --max-time 20 \
-            -o /dev/null \
-            -w "\nHTTP: %{http_code}\nIP: %{remote_ip}\nTime: %{time_total}\n" \
-            "https://www.santander.com.ar/bff-benefits/brands?categories=GAS&days=&exclusive=&pay_with=&location=caba&page=1&limit=12"
+          const url =
+            "https://www.santander.com.ar/bff-benefits/brands?categories=GAS&days=&exclusive=&pay_with=&location=caba&page=1&limit=12";
 
-          echo "=== API IPv6 ==="
+          const lookup = (hostname, options, callback) => {
+            dns.lookup(
+              hostname,
+              {
+                ...options,
+                family: 4,
+              },
+              callback
+            );
+          };
 
-          curl -6 -v \
-            --http1.1 \
-            --max-time 20 \
-            -o /dev/null \
-            -w "\nHTTP: %{http_code}\nIP: %{remote_ip}\nTime: %{time_total}\n" \
-            "https://www.santander.com.ar/bff-benefits/brands?categories=GAS&days=&exclusive=&pay_with=&location=caba&page=1&limit=12"
+          const dispatcher = new Agent({
+            connect: {
+              lookup,
+            },
+          });
 
-      - name: Test Santander connection
-        run: |
-          curl -v \
-            --http1.1 \
-            --max-time 20 \
-            -c /tmp/santander-cookies.txt \
-            -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36" \
-            "https://www.santander.com.ar/" \
-            -o /dev/null
+          console.log("Requesting Santander...");
 
-          echo "=== Cookies obtenidas ==="
-          cat /tmp/santander-cookies.txt
+          const response = await fetch(url, {
+            dispatcher,
+            headers: {
+              Accept: "application/json",
+              "User-Agent": "Mozilla/5.0",
+            },
+          });
 
-          echo "=== Llamando API ==="
+          console.log("Status:", response.status);
 
-          curl -v \
-            --http1.1 \
-            --max-time 20 \
-            -b /tmp/santander-cookies.txt \
-            -H "Accept: application/json, text/plain, */*" \
-            -H "Accept-Language: es-AR,es;q=0.9,en;q=0.8" \
-            -H "Referer: https://www.santander.com.ar/" \
-            -H "Origin: https://www.santander.com.ar" \
-            -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36" \
-            "https://www.santander.com.ar/bff-benefits/brands?categories=GAS&days=&exclusive=&pay_with=&location=caba&page=1&limit=12"
+          const data = await response.json();
+
+          console.log(
+            "Brands:",
+            data?.data?.length ??
+            data?.brands?.length ??
+            "unknown"
+          );
+
+          dispatcher.close();
+          EOF
 
       - name: Collect benefits
         run: npm start
