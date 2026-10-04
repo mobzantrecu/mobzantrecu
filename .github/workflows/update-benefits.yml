@@ -28,6 +28,7 @@ jobs:
       - name: Test Santander connection
         run: |
           curl -v \
+            --http1.1 \
             --max-time 20 \
             -H "Accept: application/json" \
             -H "User-Agent: Mozilla/5.0" \
