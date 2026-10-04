@@ -10,6 +10,12 @@ const OUTPUT_FILE = path.resolve(
   "output/index.html"
 );
 
+function buildGoogleMapsUrl(brand) {
+  const query = `${brand}, CABA, Buenos Aires, Argentina`;
+
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+}
+
 function escapeHtml(value) {
   if (value === null || value === undefined) {
     return "";
@@ -162,6 +168,15 @@ function renderBenefit(benefit, index) {
           </div>
 
           ${renderDetails(benefit.details)}
+
+          <a
+            href="${buildGoogleMapsUrl(benefit.brand)}"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline-secondary btn-sm mt-3"
+          >
+            📍 Ver locales en CABA
+          </a>
 
           ${
             validUntil

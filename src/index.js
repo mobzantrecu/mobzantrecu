@@ -1,8 +1,6 @@
 
 import fs from "node:fs/promises";
 import path from "node:path";
-import { execFile } from "node:child_process";
-import { promisify } from "node:util";
 
 // ============================================================
 // CONFIG
@@ -20,6 +18,7 @@ const CONFIG = {
       days: "",
       exclusive: "",
       pay_with: "",
+      page:1,
       location: "caba",
       limit: 12,
     },
@@ -53,74 +52,6 @@ const CONFIG = {
 // ============================================================
 // HTTP
 // ============================================================
-
-
-const execFileAsync = promisify(execFile);
-
-export async function fetchJsonSantander(
-  url,
-  {
-    timeoutMs = 30000,
-    retries = 3,
-  } = {}
-) {
-  let lastError;
-
-  for (let attempt = 1; attempt <= retries; attempt++) {
-    try {
-      console.log(
-        `Santander request ${attempt}/${retries}: ${url}`
-      );
-
-      const { stdout } = await execFileAsync(
-        "curl",
-        [
-          "-4",
-          "--http1.1",
-          "--fail-with-body",
-          "--silent",
-          "--show-error",
-          "--location",
-          "--max-time",
-          String(Math.ceil(timeoutMs / 1000)),
-          "-H",
-          "Accept: application/json",
-          "-H",
-          "User-Agent: Mozilla/5.0",
-          url,
-        ],
-        {
-          maxBuffer: 10 * 1024 * 1024,
-        }
-      );
-
-      return JSON.parse(stdout);
-    } catch (error) {
-      lastError = error;
-
-      console.error(
-        `Santander request failed (${attempt}/${retries}):`,
-        error.message
-      );
-
-      if (attempt < retries) {
-        const delay = attempt * 3000;
-
-        console.log(
-          `Esperando ${delay}ms antes de reintentar...`
-        );
-
-        await new Promise((resolve) =>
-          setTimeout(resolve, delay)
-        );
-      }
-    }
-  }
-
-  throw new Error(
-    `Santander request failed after ${retries} attempts: ${lastError?.message}`
-  );
-}
 
 
 function sleep(ms) {
@@ -266,21 +197,44 @@ function buildUrl(baseUrl, params = {}) {
 // ============================================================
 
 async function getSantanderBrands() {
-  const url = buildUrl(
-    `${CONFIG.santander.baseUrl}/brands`,
-    CONFIG.santander.brands
-  );
+  const allBrands = [];
+  let page = 1;
 
   console.log("\n[SANTANDER]");
-  console.log(`Getting brands: ${url}`);
 
-  const response = await fetchJson(url);
+  while (true) {
+    const params = {
+      ...CONFIG.santander.brands,
+      page,
+    };
+
+    const url = buildUrl(
+      `${CONFIG.santander.baseUrl}/brands`,
+      params
+    );
+
+    console.log(`Getting brands page ${page}: ${url}`);
+
+    const response = await fetchJson(url);
+    const items = response.items ?? [];
+
+    console.log(
+      `Page ${page}: found ${items.length} brands`
+    );
+
+    if (items.length === 0) {
+      break;
+    }
+
+    allBrands.push(...items);
+    page++;
+  }
 
   console.log(
-    `Found ${response.items?.length ?? 0} brands`
+    `Santander: total brands -> ${allBrands.length}`
   );
 
-  return response.items ?? [];
+  return allBrands;
 }
 
 async function getSantanderBrandPublications(brandId) {
