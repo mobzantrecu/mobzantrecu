@@ -30,13 +30,27 @@ jobs:
           curl -v \
             --http1.1 \
             --max-time 20 \
+            -c /tmp/santander-cookies.txt \
+            -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36" \
+            "https://www.santander.com.ar/" \
+            -o /dev/null
+
+          echo "=== Cookies obtenidas ==="
+          cat /tmp/santander-cookies.txt
+
+          echo "=== Llamando API ==="
+
+          curl -v \
+            --http1.1 \
+            --max-time 20 \
+            -b /tmp/santander-cookies.txt \
             -H "Accept: application/json, text/plain, */*" \
             -H "Accept-Language: es-AR,es;q=0.9,en;q=0.8" \
             -H "Referer: https://www.santander.com.ar/" \
             -H "Origin: https://www.santander.com.ar" \
             -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36" \
             "https://www.santander.com.ar/bff-benefits/brands?categories=GAS&days=&exclusive=&pay_with=&location=caba&page=1&limit=12"
-          
+
       - name: Collect benefits
         run: npm start
 
