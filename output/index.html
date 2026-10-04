@@ -1,0 +1,7401 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+
+  <title>Beneficios</title>
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+
+  <style>
+    body {
+      background: #f5f6f8;
+    }
+
+    .navbar-brand {
+      font-weight: 700;
+    }
+
+    .hero {
+      background: white;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    .benefit-card {
+      border-radius: 14px;
+      overflow: hidden;
+      transition:
+        transform 0.15s ease,
+        box-shadow 0.15s ease;
+    }
+
+    .benefit-card:hover {
+      transform: translateY(-3px);
+      box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.10) !important;
+    }
+
+    .benefit-image {
+      width: 100%;
+      height: 190px;
+      object-fit: cover;
+      background: #eee;
+    }
+
+    .no-image {
+      height: 190px;
+      background: linear-gradient(
+        135deg,
+        #f1f3f5 0%,
+        #dee2e6 100%
+      );
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      padding: 24px;
+      text-align: center;
+    }
+
+    .no-image-brand {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #343a40;
+      line-height: 1.15;
+      max-width: 90%;
+    }
+
+    .benefit-readable {
+      font-size: 1.05rem;
+      font-weight: 600;
+      line-height: 1.35;
+    }
+
+    .benefit-details {
+      border-top: 1px solid #eee;
+      padding-top: 12px;
+    }
+
+    .stats {
+      font-size: 0.9rem;
+    }
+
+    .filter-button.active {
+      color: white;
+    }
+
+    @media (max-width: 576px) {
+      .benefit-image,
+      .no-image {
+        height: 220px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar bg-dark navbar-dark">
+    <div class="container">
+      <span class="navbar-brand">
+        Beneficios
+      </span>
+
+      <span class="navbar-text">
+        146 beneficios
+      </span>
+    </div>
+  </nav>
+
+  <section class="hero py-4">
+    <div class="container">
+
+      <div class="row align-items-center g-3">
+
+        <div class="col-lg-6">
+          <h1 class="h3 mb-1">
+            Beneficios vigentes
+          </h1>
+
+          <p class="text-secondary mb-0">
+            Santander y Club La Nación
+          </p>
+        </div>
+
+        <div class="col-lg-6">
+          <input
+            id="search"
+            type="search"
+            class="form-control"
+            placeholder="Buscar comercio o beneficio..."
+          >
+        </div>
+
+      </div>
+
+      <div class="d-flex flex-wrap gap-2 mt-3">
+
+        <button
+          class="btn btn-dark filter-button active"
+          data-filter="all"
+        >
+          Todos
+        </button>
+
+        <button
+          class="btn btn-outline-danger filter-button"
+          data-filter="santander"
+        >
+          Santander
+        </button>
+
+        <button
+          class="btn btn-outline-dark filter-button"
+          data-filter="lanacion"
+        >
+          Club La Nación
+        </button>
+
+      </div>
+
+    </div>
+  </section>
+
+  <main class="container py-4">
+
+    <div
+      class="stats text-secondary mb-3"
+      id="results"
+    >
+      146 resultados
+    </div>
+
+    <div
+      class="row g-4"
+      id="benefits"
+    >
+      
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="santander"
+      data-search="café martínez 20% off en café martínez con visa pago: qr - modo tarjeta: debito / credito martes y miércoles tope: $20.000 tope de reintegro: $20.000 mensual"
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <div class="no-image">
+        <div class="no-image-brand">
+          Café Martínez
+        </div>
+      </div>
+    
+
+          <span
+            class="badge bg-danger position-absolute top-0 end-0 m-2"
+          >
+            Santander
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            Café Martínez
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en Café Martínez con VISA
+          </div>
+
+          
+    <div class="benefit-details">
+      
+            <div class="small text-secondary mb-1">
+              Pago: QR - Modo
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tarjeta: DEBITO / CREDITO
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              martes y miércoles
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tope: $20.000
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tope de reintegro: $20.000 mensual
+            </div>
+          
+    </div>
+  
+
+          
+                <div class="mt-auto pt-3">
+                  <small class="text-muted">
+                    Vigente hasta 28/10/2026
+                  </small>
+                </div>
+              
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="santander"
+      data-search="café martínez 10% off en café martínez con visa pago: qr - modo tarjeta: debito / credito martes y miércoles tope: $10.000 tope de reintegro: $10.000 mensual"
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <div class="no-image">
+        <div class="no-image-brand">
+          Café Martínez
+        </div>
+      </div>
+    
+
+          <span
+            class="badge bg-danger position-absolute top-0 end-0 m-2"
+          >
+            Santander
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            Café Martínez
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            10% OFF en Café Martínez con VISA
+          </div>
+
+          
+    <div class="benefit-details">
+      
+            <div class="small text-secondary mb-1">
+              Pago: QR - Modo
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tarjeta: DEBITO / CREDITO
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              martes y miércoles
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tope: $10.000
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tope de reintegro: $10.000 mensual
+            </div>
+          
+    </div>
+  
+
+          
+                <div class="mt-auto pt-3">
+                  <small class="text-muted">
+                    Vigente hasta 28/10/2026
+                  </small>
+                </div>
+              
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="santander"
+      data-search="mostaza 25% off en mostaza con visa pago: no aplica tarjeta: debito / credito todos los miércoles tope: $15.000 tope de reintegro: $15.000 mensual"
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <div class="no-image">
+        <div class="no-image-brand">
+          Mostaza
+        </div>
+      </div>
+    
+
+          <span
+            class="badge bg-danger position-absolute top-0 end-0 m-2"
+          >
+            Santander
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            Mostaza
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            25% OFF en Mostaza con VISA
+          </div>
+
+          
+    <div class="benefit-details">
+      
+            <div class="small text-secondary mb-1">
+              Pago: No Aplica
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tarjeta: DEBITO / CREDITO
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Todos los miércoles
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tope: $15.000
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tope de reintegro: $15.000 mensual
+            </div>
+          
+    </div>
+  
+
+          
+                <div class="mt-auto pt-3">
+                  <small class="text-muted">
+                    Vigente hasta 31/10/2026
+                  </small>
+                </div>
+              
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="santander"
+      data-search="the food market 25% off en the food market con visa pago: qr - modo tarjeta: debito / credito todos los martes tope: $15.000 tope de reintegro: $15.000 mensual"
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <div class="no-image">
+        <div class="no-image-brand">
+          The Food Market
+        </div>
+      </div>
+    
+
+          <span
+            class="badge bg-danger position-absolute top-0 end-0 m-2"
+          >
+            Santander
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            The Food Market
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            25% OFF en The Food Market con VISA
+          </div>
+
+          
+    <div class="benefit-details">
+      
+            <div class="small text-secondary mb-1">
+              Pago: QR - Modo
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tarjeta: DEBITO / CREDITO
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Todos los martes
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tope: $15.000
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tope de reintegro: $15.000 mensual
+            </div>
+          
+    </div>
+  
+
+          
+                <div class="mt-auto pt-3">
+                  <small class="text-muted">
+                    Vigente hasta 30/11/2026
+                  </small>
+                </div>
+              
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="santander"
+      data-search="the food market 15% off en the food market con visa pago: qr - modo tarjeta: debito / credito todos los martes tope: $9.000 tope de reintegro: $9.000 mensual"
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <div class="no-image">
+        <div class="no-image-brand">
+          The Food Market
+        </div>
+      </div>
+    
+
+          <span
+            class="badge bg-danger position-absolute top-0 end-0 m-2"
+          >
+            Santander
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            The Food Market
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            15% OFF en The Food Market con VISA
+          </div>
+
+          
+    <div class="benefit-details">
+      
+            <div class="small text-secondary mb-1">
+              Pago: QR - Modo
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tarjeta: DEBITO / CREDITO
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Todos los martes
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tope: $9.000
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tope de reintegro: $9.000 mensual
+            </div>
+          
+    </div>
+  
+
+          
+                <div class="mt-auto pt-3">
+                  <small class="text-muted">
+                    Vigente hasta 30/11/2026
+                  </small>
+                </div>
+              
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="santander"
+      data-search="grido 20% off en grido con visa pago: qr - modo tarjeta: debito / credito / recargable todos los días tope: $10.000 tope de reintegro: $10.000 mensual"
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <div class="no-image">
+        <div class="no-image-brand">
+          Grido
+        </div>
+      </div>
+    
+
+          <span
+            class="badge bg-danger position-absolute top-0 end-0 m-2"
+          >
+            Santander
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            Grido
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en Grido con VISA
+          </div>
+
+          
+    <div class="benefit-details">
+      
+            <div class="small text-secondary mb-1">
+              Pago: QR - Modo
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tarjeta: DEBITO / CREDITO / RECARGABLE
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Todos los días
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tope: $10.000
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tope de reintegro: $10.000 mensual
+            </div>
+          
+    </div>
+  
+
+          
+                <div class="mt-auto pt-3">
+                  <small class="text-muted">
+                    Vigente hasta 31/10/2026
+                  </small>
+                </div>
+              
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="santander"
+      data-search="grido 10% off en grido con visa pago: qr - modo tarjeta: debito / credito / recargable todos los días tope: $5.000 tope de reintegro: $5.000 mensual"
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <div class="no-image">
+        <div class="no-image-brand">
+          Grido
+        </div>
+      </div>
+    
+
+          <span
+            class="badge bg-danger position-absolute top-0 end-0 m-2"
+          >
+            Santander
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            Grido
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            10% OFF en Grido con VISA
+          </div>
+
+          
+    <div class="benefit-details">
+      
+            <div class="small text-secondary mb-1">
+              Pago: QR - Modo
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tarjeta: DEBITO / CREDITO / RECARGABLE
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Todos los días
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tope: $5.000
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tope de reintegro: $5.000 mensual
+            </div>
+          
+    </div>
+  
+
+          
+                <div class="mt-auto pt-3">
+                  <small class="text-muted">
+                    Vigente hasta 31/10/2026
+                  </small>
+                </div>
+              
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="santander"
+      data-search="fabric sushi 25% off en fabric sushi con visa pago: no aplica tarjeta: debito / credito todos los días sin tope de reintegro"
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <div class="no-image">
+        <div class="no-image-brand">
+          Fabric Sushi
+        </div>
+      </div>
+    
+
+          <span
+            class="badge bg-danger position-absolute top-0 end-0 m-2"
+          >
+            Santander
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            Fabric Sushi
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            25% OFF en Fabric Sushi con VISA
+          </div>
+
+          
+    <div class="benefit-details">
+      
+            <div class="small text-secondary mb-1">
+              Pago: No Aplica
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tarjeta: DEBITO / CREDITO
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Todos los días
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Sin tope de reintegro
+            </div>
+          
+    </div>
+  
+
+          
+                <div class="mt-auto pt-3">
+                  <small class="text-muted">
+                    Vigente hasta 31/12/2026
+                  </small>
+                </div>
+              
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="santander"
+      data-search="almacén de pizzas 25% off en almacén de pizzas con visa pago: no aplica tarjeta: debito / credito todos los días sin tope de reintegro"
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <div class="no-image">
+        <div class="no-image-brand">
+          Almacén de Pizzas
+        </div>
+      </div>
+    
+
+          <span
+            class="badge bg-danger position-absolute top-0 end-0 m-2"
+          >
+            Santander
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            Almacén de Pizzas
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            25% OFF en Almacén de Pizzas con VISA
+          </div>
+
+          
+    <div class="benefit-details">
+      
+            <div class="small text-secondary mb-1">
+              Pago: No Aplica
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tarjeta: DEBITO / CREDITO
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Todos los días
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Sin tope de reintegro
+            </div>
+          
+    </div>
+  
+
+          
+                <div class="mt-auto pt-3">
+                  <small class="text-muted">
+                    Vigente hasta 30/4/2027
+                  </small>
+                </div>
+              
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="santander"
+      data-search="cabaña las lilas 25% off en cabaña las lilas con visa pago: no aplica tarjeta: debito / credito todos los días sin tope de reintegro"
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <div class="no-image">
+        <div class="no-image-brand">
+          Cabaña Las Lilas
+        </div>
+      </div>
+    
+
+          <span
+            class="badge bg-danger position-absolute top-0 end-0 m-2"
+          >
+            Santander
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            Cabaña Las Lilas
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            25% OFF en Cabaña Las Lilas con VISA
+          </div>
+
+          
+    <div class="benefit-details">
+      
+            <div class="small text-secondary mb-1">
+              Pago: No Aplica
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tarjeta: DEBITO / CREDITO
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Todos los días
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Sin tope de reintegro
+            </div>
+          
+    </div>
+  
+
+          
+                <div class="mt-auto pt-3">
+                  <small class="text-muted">
+                    Vigente hasta 30/11/2026
+                  </small>
+                </div>
+              
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="santander"
+      data-search="checkpoint charlie 25% off en checkpoint charlie con visa pago: no aplica tarjeta: debito / credito todos los días sin tope de reintegro"
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <div class="no-image">
+        <div class="no-image-brand">
+          Checkpoint Charlie
+        </div>
+      </div>
+    
+
+          <span
+            class="badge bg-danger position-absolute top-0 end-0 m-2"
+          >
+            Santander
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            Checkpoint Charlie
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            25% OFF en Checkpoint Charlie con VISA
+          </div>
+
+          
+    <div class="benefit-details">
+      
+            <div class="small text-secondary mb-1">
+              Pago: No Aplica
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tarjeta: DEBITO / CREDITO
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Todos los días
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Sin tope de reintegro
+            </div>
+          
+    </div>
+  
+
+          
+                <div class="mt-auto pt-3">
+                  <small class="text-muted">
+                    Vigente hasta 31/5/2027
+                  </small>
+                </div>
+              
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="santander"
+      data-search="chiquilín 25% off en chiquilín con visa pago: no aplica tarjeta: debito / credito todos los días sin tope de reintegro"
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <div class="no-image">
+        <div class="no-image-brand">
+          Chiquilín
+        </div>
+      </div>
+    
+
+          <span
+            class="badge bg-danger position-absolute top-0 end-0 m-2"
+          >
+            Santander
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            Chiquilín
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            25% OFF en Chiquilín con VISA
+          </div>
+
+          
+    <div class="benefit-details">
+      
+            <div class="small text-secondary mb-1">
+              Pago: No Aplica
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tarjeta: DEBITO / CREDITO
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Todos los días
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Sin tope de reintegro
+            </div>
+          
+    </div>
+  
+
+          
+                <div class="mt-auto pt-3">
+                  <small class="text-muted">
+                    Vigente hasta 31/3/2027
+                  </small>
+                </div>
+              
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="santander"
+      data-search="dragón blanco 25% off en dragón blanco con visa pago: no aplica tarjeta: debito / credito todos los días sin tope de reintegro"
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <div class="no-image">
+        <div class="no-image-brand">
+          Dragón Blanco
+        </div>
+      </div>
+    
+
+          <span
+            class="badge bg-danger position-absolute top-0 end-0 m-2"
+          >
+            Santander
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            Dragón Blanco
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            25% OFF en Dragón Blanco con VISA
+          </div>
+
+          
+    <div class="benefit-details">
+      
+            <div class="small text-secondary mb-1">
+              Pago: No Aplica
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tarjeta: DEBITO / CREDITO
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Todos los días
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Sin tope de reintegro
+            </div>
+          
+    </div>
+  
+
+          
+                <div class="mt-auto pt-3">
+                  <small class="text-muted">
+                    Vigente hasta 31/12/2026
+                  </small>
+                </div>
+              
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="santander"
+      data-search="el puente 20% off en el puente con visa pago: no aplica tarjeta: debito / credito todos los jueves tope: $10.000 tope de reintegro: $10.000 mensual"
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <div class="no-image">
+        <div class="no-image-brand">
+          El Puente
+        </div>
+      </div>
+    
+
+          <span
+            class="badge bg-danger position-absolute top-0 end-0 m-2"
+          >
+            Santander
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            El Puente
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en El Puente con VISA
+          </div>
+
+          
+    <div class="benefit-details">
+      
+            <div class="small text-secondary mb-1">
+              Pago: No Aplica
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tarjeta: DEBITO / CREDITO
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Todos los jueves
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tope: $10.000
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tope de reintegro: $10.000 mensual
+            </div>
+          
+    </div>
+  
+
+          
+                <div class="mt-auto pt-3">
+                  <small class="text-muted">
+                    Vigente hasta 31/10/2026
+                  </small>
+                </div>
+              
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="santander"
+      data-search="emperador meiji 25% off en emperador meiji con visa pago: no aplica tarjeta: debito / credito / recargable todos los días sin tope de reintegro"
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <div class="no-image">
+        <div class="no-image-brand">
+          Emperador Meiji
+        </div>
+      </div>
+    
+
+          <span
+            class="badge bg-danger position-absolute top-0 end-0 m-2"
+          >
+            Santander
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            Emperador Meiji
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            25% OFF en Emperador Meiji con VISA
+          </div>
+
+          
+    <div class="benefit-details">
+      
+            <div class="small text-secondary mb-1">
+              Pago: No Aplica
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tarjeta: DEBITO / CREDITO / RECARGABLE
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Todos los días
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Sin tope de reintegro
+            </div>
+          
+    </div>
+  
+
+          
+                <div class="mt-auto pt-3">
+                  <small class="text-muted">
+                    Vigente hasta 30/11/2026
+                  </small>
+                </div>
+              
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="santander"
+      data-search="hierro bodegón 25% off en hierro bodegón con visa pago: no aplica tarjeta: debito / credito todos los días sin tope de reintegro"
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <div class="no-image">
+        <div class="no-image-brand">
+          Hierro Bodegón
+        </div>
+      </div>
+    
+
+          <span
+            class="badge bg-danger position-absolute top-0 end-0 m-2"
+          >
+            Santander
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            Hierro Bodegón
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            25% OFF en Hierro Bodegón con VISA
+          </div>
+
+          
+    <div class="benefit-details">
+      
+            <div class="small text-secondary mb-1">
+              Pago: No Aplica
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tarjeta: DEBITO / CREDITO
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Todos los días
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Sin tope de reintegro
+            </div>
+          
+    </div>
+  
+
+          
+                <div class="mt-auto pt-3">
+                  <small class="text-muted">
+                    Vigente hasta 31/12/2026
+                  </small>
+                </div>
+              
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="santander"
+      data-search="kansas 25% off en kansas con visa pago: no aplica tarjeta: debito / credito martes y miércoles sin tope de reintegro"
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <div class="no-image">
+        <div class="no-image-brand">
+          Kansas
+        </div>
+      </div>
+    
+
+          <span
+            class="badge bg-danger position-absolute top-0 end-0 m-2"
+          >
+            Santander
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            Kansas
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            25% OFF en Kansas con VISA
+          </div>
+
+          
+    <div class="benefit-details">
+      
+            <div class="small text-secondary mb-1">
+              Pago: No Aplica
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tarjeta: DEBITO / CREDITO
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              martes y miércoles
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Sin tope de reintegro
+            </div>
+          
+    </div>
+  
+
+          
+                <div class="mt-auto pt-3">
+                  <small class="text-muted">
+                    Vigente hasta 31/12/2026
+                  </small>
+                </div>
+              
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="santander"
+      data-search="la stampa 25% off en la stampa con visa pago: no aplica tarjeta: debito / credito todos los días sin tope de reintegro"
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <div class="no-image">
+        <div class="no-image-brand">
+          La Stampa
+        </div>
+      </div>
+    
+
+          <span
+            class="badge bg-danger position-absolute top-0 end-0 m-2"
+          >
+            Santander
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            La Stampa
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            25% OFF en La Stampa con VISA
+          </div>
+
+          
+    <div class="benefit-details">
+      
+            <div class="small text-secondary mb-1">
+              Pago: No Aplica
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tarjeta: DEBITO / CREDITO
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Todos los días
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Sin tope de reintegro
+            </div>
+          
+    </div>
+  
+
+          
+                <div class="mt-auto pt-3">
+                  <small class="text-muted">
+                    Vigente hasta 31/12/2026
+                  </small>
+                </div>
+              
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="santander"
+      data-search="mutsuhito omakase 25% off en mutsuhito omakase con visa pago: no aplica tarjeta: debito / credito todos los días sin tope de reintegro"
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <div class="no-image">
+        <div class="no-image-brand">
+          Mutsuhito Omakase
+        </div>
+      </div>
+    
+
+          <span
+            class="badge bg-danger position-absolute top-0 end-0 m-2"
+          >
+            Santander
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            Mutsuhito Omakase
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            25% OFF en Mutsuhito Omakase con VISA
+          </div>
+
+          
+    <div class="benefit-details">
+      
+            <div class="small text-secondary mb-1">
+              Pago: No Aplica
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tarjeta: DEBITO / CREDITO
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Todos los días
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Sin tope de reintegro
+            </div>
+          
+    </div>
+  
+
+          
+                <div class="mt-auto pt-3">
+                  <small class="text-muted">
+                    Vigente hasta 31/12/2026
+                  </small>
+                </div>
+              
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="santander"
+      data-search="piegari 25% off en piegari con visa pago: no aplica tarjeta: debito / credito todos los días sin tope de reintegro"
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <div class="no-image">
+        <div class="no-image-brand">
+          Piegari
+        </div>
+      </div>
+    
+
+          <span
+            class="badge bg-danger position-absolute top-0 end-0 m-2"
+          >
+            Santander
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            Piegari
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            25% OFF en Piegari con VISA
+          </div>
+
+          
+    <div class="benefit-details">
+      
+            <div class="small text-secondary mb-1">
+              Pago: No Aplica
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tarjeta: DEBITO / CREDITO
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Todos los días
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Sin tope de reintegro
+            </div>
+          
+    </div>
+  
+
+          
+                <div class="mt-auto pt-3">
+                  <small class="text-muted">
+                    Vigente hasta 31/12/2026
+                  </small>
+                </div>
+              
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="santander"
+      data-search="ribs al río 25% off en ribs al río con visa pago: no aplica tarjeta: debito / credito todos los días sin tope de reintegro"
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <div class="no-image">
+        <div class="no-image-brand">
+          Ribs al Río
+        </div>
+      </div>
+    
+
+          <span
+            class="badge bg-danger position-absolute top-0 end-0 m-2"
+          >
+            Santander
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            Ribs al Río
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            25% OFF en Ribs al Río con VISA
+          </div>
+
+          
+    <div class="benefit-details">
+      
+            <div class="small text-secondary mb-1">
+              Pago: No Aplica
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tarjeta: DEBITO / CREDITO
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Todos los días
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Sin tope de reintegro
+            </div>
+          
+    </div>
+  
+
+          
+                <div class="mt-auto pt-3">
+                  <small class="text-muted">
+                    Vigente hasta 31/12/2026
+                  </small>
+                </div>
+              
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="santander"
+      data-search="rufino 25% off en rufino con visa pago: no aplica tarjeta: debito / credito todos los días sin tope de reintegro"
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <div class="no-image">
+        <div class="no-image-brand">
+          Rufino
+        </div>
+      </div>
+    
+
+          <span
+            class="badge bg-danger position-absolute top-0 end-0 m-2"
+          >
+            Santander
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            Rufino
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            25% OFF en Rufino con VISA
+          </div>
+
+          
+    <div class="benefit-details">
+      
+            <div class="small text-secondary mb-1">
+              Pago: No Aplica
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tarjeta: DEBITO / CREDITO
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Todos los días
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Sin tope de reintegro
+            </div>
+          
+    </div>
+  
+
+          
+                <div class="mt-auto pt-3">
+                  <small class="text-muted">
+                    Vigente hasta 31/12/2026
+                  </small>
+                </div>
+              
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="santander"
+      data-search="tigre morado 25% off en tigre morado con visa pago: no aplica tarjeta: debito / credito / recargable todos los días sin tope de reintegro"
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <div class="no-image">
+        <div class="no-image-brand">
+          Tigre Morado
+        </div>
+      </div>
+    
+
+          <span
+            class="badge bg-danger position-absolute top-0 end-0 m-2"
+          >
+            Santander
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            Tigre Morado
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            25% OFF en Tigre Morado con VISA
+          </div>
+
+          
+    <div class="benefit-details">
+      
+            <div class="small text-secondary mb-1">
+              Pago: No Aplica
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tarjeta: DEBITO / CREDITO / RECARGABLE
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Todos los días
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Sin tope de reintegro
+            </div>
+          
+    </div>
+  
+
+          
+                <div class="mt-auto pt-3">
+                  <small class="text-muted">
+                    Vigente hasta 31/12/2026
+                  </small>
+                </div>
+              
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="santander"
+      data-search="tostado café club 20% off en tostado café club con visa pago: no aplica tarjeta: debito / credito viernes y sábado tope: $20.000 tope de reintegro: $20.000 mensual"
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <div class="no-image">
+        <div class="no-image-brand">
+          Tostado Café Club
+        </div>
+      </div>
+    
+
+          <span
+            class="badge bg-danger position-absolute top-0 end-0 m-2"
+          >
+            Santander
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            Tostado Café Club
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en Tostado Café Club con VISA
+          </div>
+
+          
+    <div class="benefit-details">
+      
+            <div class="small text-secondary mb-1">
+              Pago: No Aplica
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tarjeta: DEBITO / CREDITO
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              viernes y sábado
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tope: $20.000
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tope de reintegro: $20.000 mensual
+            </div>
+          
+    </div>
+  
+
+          
+                <div class="mt-auto pt-3">
+                  <small class="text-muted">
+                    Vigente hasta 31/12/2026
+                  </small>
+                </div>
+              
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="santander"
+      data-search="yatai yatoi 25% off en yatai yatoi con visa pago: no aplica tarjeta: debito / credito todos los días sin tope de reintegro"
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <div class="no-image">
+        <div class="no-image-brand">
+          Yatai Yatoi
+        </div>
+      </div>
+    
+
+          <span
+            class="badge bg-danger position-absolute top-0 end-0 m-2"
+          >
+            Santander
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            Yatai Yatoi
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            25% OFF en Yatai Yatoi con VISA
+          </div>
+
+          
+    <div class="benefit-details">
+      
+            <div class="small text-secondary mb-1">
+              Pago: No Aplica
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Tarjeta: DEBITO / CREDITO
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Todos los días
+            </div>
+          
+            <div class="small text-secondary mb-1">
+              Sin tope de reintegro
+            </div>
+          
+    </div>
+  
+
+          
+                <div class="mt-auto pt-3">
+                  <small class="text-muted">
+                    Vigente hasta 30/11/2026
+                  </small>
+                </div>
+              
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="albur 2x1 en albur "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768628_e609951691.jpg"
+        class="card-img-top benefit-image"
+        alt="ALBUR"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            ALBUR
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            2x1 en ALBUR
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="genovés 25% off en genovés "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768088_9b0b7feb7b.jpg"
+        class="card-img-top benefit-image"
+        alt="GENOVÉS"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            GENOVÉS
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            25% OFF en GENOVÉS
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="army 30% off en army "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/B773090_8f82237b53.jpg"
+        class="card-img-top benefit-image"
+        alt="ARMY"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            ARMY
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            30% OFF en ARMY
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="kimchi garden 20% off en kimchi garden "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768667_0b1cc2f421.jpg"
+        class="card-img-top benefit-image"
+        alt="KIMCHI GARDEN"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            KIMCHI GARDEN
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en KIMCHI GARDEN
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="almacén de pizzas 20% off en almacén de pizzas "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A765638_f7f7d35d41.jpg"
+        class="card-img-top benefit-image"
+        alt="ALMACÉN DE PIZZAS"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            ALMACÉN DE PIZZAS
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en ALMACÉN DE PIZZAS
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="sampa 20% off en sampa "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768384_1f33e94b71.jpg"
+        class="card-img-top benefit-image"
+        alt="SAMPA"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            SAMPA
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en SAMPA
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="la pebeta 15% off en la pebeta "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768617_193d7a5874.jpg"
+        class="card-img-top benefit-image"
+        alt="LA PEBETA"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            LA PEBETA
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            15% OFF en LA PEBETA
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="la cabaña 30% off en la cabaña "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A766608_10965b86f5.jpg"
+        class="card-img-top benefit-image"
+        alt="LA CABAÑA"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            LA CABAÑA
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            30% OFF en LA CABAÑA
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="go bar 25% off en go bar "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768266_fa6723db7c.jpg"
+        class="card-img-top benefit-image"
+        alt="GO BAR"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            GO BAR
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            25% OFF en GO BAR
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="tom - tortugas open mall 2x1 en tom - tortugas open mall "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767765_1ae054a114.jpg"
+        class="card-img-top benefit-image"
+        alt="TOM - TORTUGAS OPEN MALL"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            TOM - TORTUGAS OPEN MALL
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            2x1 en TOM - TORTUGAS OPEN MALL
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="novecento 20% off en novecento "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A763870_db0a1ee9f5.jpg"
+        class="card-img-top benefit-image"
+        alt="NOVECENTO"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            NOVECENTO
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en NOVECENTO
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="happening puerto madero 25% off en happening puerto madero "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767800_7e53644a9f.jpg"
+        class="card-img-top benefit-image"
+        alt="HAPPENING PUERTO MADERO"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            HAPPENING PUERTO MADERO
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            25% OFF en HAPPENING PUERTO MADERO
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="the avocado company 15% off en the avocado company "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768641_4f4407e17d.jpg"
+        class="card-img-top benefit-image"
+        alt="THE AVOCADO COMPANY"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            THE AVOCADO COMPANY
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            15% OFF en THE AVOCADO COMPANY
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="mostaza 30% off en mostaza "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/B775123_566545cceb.jpg"
+        class="card-img-top benefit-image"
+        alt="MOSTAZA"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            MOSTAZA
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            30% OFF en MOSTAZA
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="bagels &amp; bagels 20% off en bagels &amp; bagels "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768676_919abc9533.jpg"
+        class="card-img-top benefit-image"
+        alt="BAGELS &amp; BAGELS"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            BAGELS &amp; BAGELS
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en BAGELS &amp; BAGELS
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="don julio parrilla 20% off en don julio parrilla "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/B775119_830495693b.jpg"
+        class="card-img-top benefit-image"
+        alt="DON JULIO PARRILLA"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            DON JULIO PARRILLA
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en DON JULIO PARRILLA
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="arte de mafia 30% off en arte de mafia "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A766936_3e85213918.JPG"
+        class="card-img-top benefit-image"
+        alt="ARTE DE MAFIA"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            ARTE DE MAFIA
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            30% OFF en ARTE DE MAFIA
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="don giovanni 20% off en don giovanni "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767510_b22bf69514.jpg"
+        class="card-img-top benefit-image"
+        alt="DON GIOVANNI"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            DON GIOVANNI
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en DON GIOVANNI
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="amaretti 25% off en amaretti "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768261_929c671dd8.jpg"
+        class="card-img-top benefit-image"
+        alt="AMARETTI"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            AMARETTI
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            25% OFF en AMARETTI
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="julia restaurante 20% off en julia restaurante "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/julia_05_01_44e090a67b.jpg"
+        class="card-img-top benefit-image"
+        alt="JULIA RESTAURANTE"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            JULIA RESTAURANTE
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en JULIA RESTAURANTE
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="malvón 20% off en malvón "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768744_6589bdefb2.jpg"
+        class="card-img-top benefit-image"
+        alt="MALVÓN"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            MALVÓN
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en MALVÓN
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="burger54 20% off en burger54 "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767036_674607d894.jpg"
+        class="card-img-top benefit-image"
+        alt="BURGER54"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            BURGER54
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en BURGER54
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="kanu sushi 20% off en kanu sushi "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768494_e72549d48e.jpg"
+        class="card-img-top benefit-image"
+        alt="KANU SUSHI"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            KANU SUSHI
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en KANU SUSHI
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="sushiclub 2x1 en sushiclub "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767816_06c10c251a.jpg"
+        class="card-img-top benefit-image"
+        alt="SUSHICLUB"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            SUSHICLUB
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            2x1 en SUSHICLUB
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="tartaruga 20% off en tartaruga "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767620_371b37213e.jpg"
+        class="card-img-top benefit-image"
+        alt="TARTARUGA"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            TARTARUGA
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en TARTARUGA
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="electric cafe 20% off en electric cafe "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768630_4cd2954ee5.jpg"
+        class="card-img-top benefit-image"
+        alt="ELECTRIC CAFE"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            ELECTRIC CAFE
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en ELECTRIC CAFE
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="justo brandzen 20% off en justo brandzen "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A766992_5179f3198b.jpg"
+        class="card-img-top benefit-image"
+        alt="JUSTO BRANDZEN"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            JUSTO BRANDZEN
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en JUSTO BRANDZEN
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="vasalissa chocolatier 15% off en vasalissa chocolatier "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A766596_013681f199.jpg"
+        class="card-img-top benefit-image"
+        alt="VASALISSA CHOCOLATIER"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            VASALISSA CHOCOLATIER
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            15% OFF en VASALISSA CHOCOLATIER
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="la malbequería 20% off en la malbequería "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A766514_b0b575d2e2.jpg"
+        class="card-img-top benefit-image"
+        alt="LA MALBEQUERÍA"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            LA MALBEQUERÍA
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en LA MALBEQUERÍA
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="hard rock puerto madero 20% off en hard rock puerto madero "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768734_a6f9a34b7f.jpg"
+        class="card-img-top benefit-image"
+        alt="HARD ROCK PUERTO MADERO"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            HARD ROCK PUERTO MADERO
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en HARD ROCK PUERTO MADERO
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="la cabrera 20% off en la cabrera "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768188_59ec90e230.jpg"
+        class="card-img-top benefit-image"
+        alt="LA CABRERA"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            LA CABRERA
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en LA CABRERA
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="prosciutto lanús 20% off en prosciutto lanús "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768099_fd800dc4fb.jpg"
+        class="card-img-top benefit-image"
+        alt="PROSCIUTTO LANÚS"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            PROSCIUTTO LANÚS
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en PROSCIUTTO LANÚS
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="trece café 20% off en trece café "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768119_7deb98f3ae.jpg"
+        class="card-img-top benefit-image"
+        alt="TRECE CAFÉ"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            TRECE CAFÉ
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en TRECE CAFÉ
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="pollo trak 25% off en pollo trak "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767901_bb55c3859a.jpg"
+        class="card-img-top benefit-image"
+        alt="POLLO TRAK"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            POLLO TRAK
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            25% OFF en POLLO TRAK
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="rusticana 20% off en rusticana "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/rusticana_01_01_8c729ca76a.jpg"
+        class="card-img-top benefit-image"
+        alt="RUSTICANA"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            RUSTICANA
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en RUSTICANA
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="saverio helados 15% off en saverio helados "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767746_1d951b447a.jpg"
+        class="card-img-top benefit-image"
+        alt="SAVERIO HELADOS"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            SAVERIO HELADOS
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            15% OFF en SAVERIO HELADOS
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="el gato negro 20% off en el gato negro "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A766232_5c57d1f10e.jpg"
+        class="card-img-top benefit-image"
+        alt="EL GATO NEGRO"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            EL GATO NEGRO
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en EL GATO NEGRO
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="anasagasti 20% off en anasagasti "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768225_b6d5261ce1.jpg"
+        class="card-img-top benefit-image"
+        alt="ANASAGASTI"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            ANASAGASTI
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en ANASAGASTI
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="lo de jesús 20% off en lo de jesús "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/lo_de_jesus_01_01_2ed98d3e6f.jpg"
+        class="card-img-top benefit-image"
+        alt="LO DE JESÚS"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            LO DE JESÚS
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en LO DE JESÚS
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="las vasijas restaurante 20% off en las vasijas restaurante "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767509_5bfe22729c.jpg"
+        class="card-img-top benefit-image"
+        alt="LAS VASIJAS RESTAURANTE"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            LAS VASIJAS RESTAURANTE
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en LAS VASIJAS RESTAURANTE
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="bou 30% off en bou "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768029_78fa91815f.jpg"
+        class="card-img-top benefit-image"
+        alt="BOU"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            BOU
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            30% OFF en BOU
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="aldo&#039;s wine bar 20% off en aldo&#039;s wine bar "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767818_5bdf3703ee.JPG"
+        class="card-img-top benefit-image"
+        alt="ALDO&#039;S WINE BAR"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            ALDO&#039;S WINE BAR
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en ALDO&#039;S WINE BAR
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="pauline boulangerie 20% off en pauline boulangerie "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768583_d061f457fd.jpg"
+        class="card-img-top benefit-image"
+        alt="PAULINE BOULANGERIE"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            PAULINE BOULANGERIE
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en PAULINE BOULANGERIE
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="debarricas 25% off en debarricas "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768439_468a8226d3.jpg"
+        class="card-img-top benefit-image"
+        alt="DEBARRICAS"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            DEBARRICAS
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            25% OFF en DEBARRICAS
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="cocu 20% off en cocu "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767215_2eb61ebe6a.jpg"
+        class="card-img-top benefit-image"
+        alt="COCU"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            COCU
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en COCU
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="thames bar 20% off en thames bar "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767449_96d03054b2.jpg"
+        class="card-img-top benefit-image"
+        alt="THAMES BAR"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            THAMES BAR
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en THAMES BAR
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="cauca 20% off en cauca "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767890_2946c87f96.jpg"
+        class="card-img-top benefit-image"
+        alt="CAUCA"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            CAUCA
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en CAUCA
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="joe&#039;s grill 20% off en joe&#039;s grill "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768643_b137ab5f75.jpg"
+        class="card-img-top benefit-image"
+        alt="JOE&#039;S GRILL"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            JOE&#039;S GRILL
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en JOE&#039;S GRILL
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="victor audio bar 15% off en victor audio bar "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768480_0115f3e5e0.jpg"
+        class="card-img-top benefit-image"
+        alt="VICTOR AUDIO BAR"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            VICTOR AUDIO BAR
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            15% OFF en VICTOR AUDIO BAR
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="ávito bristó café 15% off en ávito bristó café "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768601_048b3a5b06.jpg"
+        class="card-img-top benefit-image"
+        alt="ÁVITO BRISTÓ CAFÉ"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            ÁVITO BRISTÓ CAFÉ
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            15% OFF en ÁVITO BRISTÓ CAFÉ
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="isabel delivery 30% off en isabel delivery "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768543_0e45b0690f.jpg"
+        class="card-img-top benefit-image"
+        alt="ISABEL DELIVERY"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            ISABEL DELIVERY
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            30% OFF en ISABEL DELIVERY
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="campobravo 20% off en campobravo "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/campo_bravo_39dfad9460.jpg"
+        class="card-img-top benefit-image"
+        alt="CAMPOBRAVO"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            CAMPOBRAVO
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en CAMPOBRAVO
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="la casona del nonno 20% off en la casona del nonno "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A764268_e691dd54da.jpg"
+        class="card-img-top benefit-image"
+        alt="LA CASONA DEL NONNO"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            LA CASONA DEL NONNO
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en LA CASONA DEL NONNO
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="chungo 20% off en chungo "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/chungo_022_31e19c0c48.jpg"
+        class="card-img-top benefit-image"
+        alt="CHUNGO"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            CHUNGO
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en CHUNGO
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="borja specialty coffee 20% off en borja specialty coffee "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A766700_87d8413c7b.jpg"
+        class="card-img-top benefit-image"
+        alt="BORJA SPECIALTY COFFEE"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            BORJA SPECIALTY COFFEE
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en BORJA SPECIALTY COFFEE
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="sensu 20% off en sensu "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767182_5231a4c7b7.jpg"
+        class="card-img-top benefit-image"
+        alt="SENSU"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            SENSU
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en SENSU
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="gluten free point 20% off en gluten free point "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768666_c4a761d416.jpg"
+        class="card-img-top benefit-image"
+        alt="GLUTEN FREE POINT"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            GLUTEN FREE POINT
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en GLUTEN FREE POINT
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="sushi olazabal 30% off en sushi olazabal "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A766968_354d4fc351.jpg"
+        class="card-img-top benefit-image"
+        alt="SUSHI OLAZABAL"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            SUSHI OLAZABAL
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            30% OFF en SUSHI OLAZABAL
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="cielo azul la maison 20% off en cielo azul la maison "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/cielo_azul_01_01_2cb909bf62.jpg"
+        class="card-img-top benefit-image"
+        alt="CIELO AZUL LA MAISON"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            CIELO AZUL LA MAISON
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en CIELO AZUL LA MAISON
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="mercado de liniers 25% off en mercado de liniers "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768105_bdd7ea7148.jpg"
+        class="card-img-top benefit-image"
+        alt="MERCADO DE LINIERS"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            MERCADO DE LINIERS
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            25% OFF en MERCADO DE LINIERS
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="frappé 30% off en frappé "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767647_7f13ae0d35.jpg"
+        class="card-img-top benefit-image"
+        alt="FRAPPÉ"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            FRAPPÉ
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            30% OFF en FRAPPÉ
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="ninina 20% off en ninina "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768156_04dbf12e69.jpg"
+        class="card-img-top benefit-image"
+        alt="NININA"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            NININA
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en NININA
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="biutiful bar 20% off en biutiful bar "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768644_c2349978f8.jpg"
+        class="card-img-top benefit-image"
+        alt="BIUTIFUL BAR"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            BIUTIFUL BAR
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en BIUTIFUL BAR
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="checkpoint charlie 30% off en checkpoint charlie "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768221_90be3e6a49.jpg"
+        class="card-img-top benefit-image"
+        alt="CHECKPOINT CHARLIE"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            CHECKPOINT CHARLIE
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            30% OFF en CHECKPOINT CHARLIE
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="tres monos bar 15% off en tres monos bar "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768479_bd9ceac198.jpg"
+        class="card-img-top benefit-image"
+        alt="TRES MONOS BAR"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            TRES MONOS BAR
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            15% OFF en TRES MONOS BAR
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="oveja negra wines 20% off en oveja negra wines "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/oveja_negra_01_01_cf3f088d9b.jpg"
+        class="card-img-top benefit-image"
+        alt="OVEJA NEGRA WINES"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            OVEJA NEGRA WINES
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en OVEJA NEGRA WINES
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="empanadas morita 35% off en empanadas morita "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767665_3c3e205421.jpg"
+        class="card-img-top benefit-image"
+        alt="EMPANADAS MORITA"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            EMPANADAS MORITA
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            35% OFF en EMPANADAS MORITA
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="el preferido de palermo 20% off en el preferido de palermo "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768163_413f20c58e.jpg"
+        class="card-img-top benefit-image"
+        alt="EL PREFERIDO DE PALERMO"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            EL PREFERIDO DE PALERMO
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en EL PREFERIDO DE PALERMO
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="parrilla voro carnes 20% off en parrilla voro carnes "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767963_24d54b3122.jpg"
+        class="card-img-top benefit-image"
+        alt="PARRILLA VORO CARNES"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            PARRILLA VORO CARNES
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en PARRILLA VORO CARNES
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="emperador meiji 20% off en emperador meiji "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768512_58874ced5d.jpg"
+        class="card-img-top benefit-image"
+        alt="EMPERADOR MEIJI"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            EMPERADOR MEIJI
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en EMPERADOR MEIJI
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="ilo sushi 25% off en ilo sushi "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767839_e4b6b0a5bf.jpg"
+        class="card-img-top benefit-image"
+        alt="ILO SUSHI"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            ILO SUSHI
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            25% OFF en ILO SUSHI
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="nh collection 20% off en nh collection "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A765852_db9616fdd4.jpg"
+        class="card-img-top benefit-image"
+        alt="NH COLLECTION"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            NH COLLECTION
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en NH COLLECTION
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="osaka 20% off en osaka "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768306_2766f87984.jpg"
+        class="card-img-top benefit-image"
+        alt="OSAKA"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            OSAKA
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en OSAKA
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="la vaca lechera de san telmo 20% off en la vaca lechera de san telmo "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768107_85f4165673.jpg"
+        class="card-img-top benefit-image"
+        alt="LA VACA LECHERA DE SAN TELMO"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            LA VACA LECHERA DE SAN TELMO
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en LA VACA LECHERA DE SAN TELMO
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="monti pastas 20% off en monti pastas "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767666_2e1f827242.jpg"
+        class="card-img-top benefit-image"
+        alt="MONTI PASTAS"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            MONTI PASTAS
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en MONTI PASTAS
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="charqui restaurant 20% off en charqui restaurant "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768301_a9acd7dd8c.jpg"
+        class="card-img-top benefit-image"
+        alt="CHARQUI RESTAURANT"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            CHARQUI RESTAURANT
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en CHARQUI RESTAURANT
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="freddo 2x1 en freddo "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767899_e3177fd433.jpg"
+        class="card-img-top benefit-image"
+        alt="FREDDO"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            FREDDO
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            2x1 en FREDDO
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="zomma tapas 20% off en zomma tapas "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768268_e9ff810f89.jpg"
+        class="card-img-top benefit-image"
+        alt="ZOMMA TAPAS"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            ZOMMA TAPAS
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en ZOMMA TAPAS
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="let it v 20% off en let it v "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768491_bfe4313a3e.jpg"
+        class="card-img-top benefit-image"
+        alt="LET IT V"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            LET IT V
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en LET IT V
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="distrito bs as 20% off en distrito bs as "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768642_d302c0c8a9.jpg"
+        class="card-img-top benefit-image"
+        alt="DISTRITO BS AS"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            DISTRITO BS AS
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en DISTRITO BS AS
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="convite 15% off en convite "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A766202_744bfea3cd.jpg"
+        class="card-img-top benefit-image"
+        alt="CONVITE"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            CONVITE
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            15% OFF en CONVITE
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="bakano 20% off en bakano "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/BAKANO_02_01_0de37b835c.jpg"
+        class="card-img-top benefit-image"
+        alt="BAKANO"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            BAKANO
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en BAKANO
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="growler store 20% off en growler store "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768305_5749b28a24.jpg"
+        class="card-img-top benefit-image"
+        alt="GROWLER STORE"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            GROWLER STORE
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en GROWLER STORE
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="soda café 15% off en soda café "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/soda_cafe_03_01_4407346e4e.jpg"
+        class="card-img-top benefit-image"
+        alt="SODA CAFÉ"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            SODA CAFÉ
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            15% OFF en SODA CAFÉ
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="iceland 20% off en iceland "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767462_eae8a99e30.jpg"
+        class="card-img-top benefit-image"
+        alt="ICELAND"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            ICELAND
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en ICELAND
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="mr. ho 20% off en mr. ho "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/MR_OH_01_01_ca717941e9.jpg"
+        class="card-img-top benefit-image"
+        alt="MR. HO"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            MR. HO
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en MR. HO
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="alamesa 20% off en alamesa "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768098_cbc55cbdaa.jpg"
+        class="card-img-top benefit-image"
+        alt="ALAMESA"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            ALAMESA
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en ALAMESA
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="la ferneteria 20% off en la ferneteria "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768299_538f33a6eb.jpg"
+        class="card-img-top benefit-image"
+        alt="LA FERNETERIA"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            LA FERNETERIA
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en LA FERNETERIA
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="mooi 15% off en mooi "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/B765699_25713a4c8d.jpg"
+        class="card-img-top benefit-image"
+        alt="MOOI"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            MOOI
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            15% OFF en MOOI
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="munchi´s 25% off en munchi´s "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A765779_0f1e5aaac4.jpg"
+        class="card-img-top benefit-image"
+        alt="MUNCHI´S"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            MUNCHI´S
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            25% OFF en MUNCHI´S
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="casa mocha 15% off en casa mocha "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768663_6a5118b443.jpg"
+        class="card-img-top benefit-image"
+        alt="CASA MOCHA"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            CASA MOCHA
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            15% OFF en CASA MOCHA
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="buche salumeria 20% off en buche salumeria "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768605_d773f7d466.jpg"
+        class="card-img-top benefit-image"
+        alt="BUCHE SALUMERIA"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            BUCHE SALUMERIA
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en BUCHE SALUMERIA
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="sudeste restaurant 20% off en sudeste restaurant "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768639_1739d71553.jpg"
+        class="card-img-top benefit-image"
+        alt="SUDESTE RESTAURANT"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            SUDESTE RESTAURANT
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en SUDESTE RESTAURANT
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="ave caesar 20% off en ave caesar "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768094_4bd22cebb2.jpg"
+        class="card-img-top benefit-image"
+        alt="AVE CAESAR"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            AVE CAESAR
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en AVE CAESAR
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="cosi mi piace 20% off en cosi mi piace "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/cosi_mi_piace_01_01_8ffb29dc66.jpg"
+        class="card-img-top benefit-image"
+        alt="COSI MI PIACE"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            COSI MI PIACE
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en COSI MI PIACE
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="club de la birra 20% off en club de la birra "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767902_135e103534.jpg"
+        class="card-img-top benefit-image"
+        alt="CLUB DE LA BIRRA"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            CLUB DE LA BIRRA
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en CLUB DE LA BIRRA
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="fabric 20% off en fabric "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768511_2076c8f0c0.jpg"
+        class="card-img-top benefit-image"
+        alt="FABRIC"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            FABRIC
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en FABRIC
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="magic dragon 20% off en magic dragon "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768095_7a9458e068.jpg"
+        class="card-img-top benefit-image"
+        alt="MAGIC DRAGON"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            MAGIC DRAGON
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en MAGIC DRAGON
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="hispano restaurante 30% off en hispano restaurante "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767314_b20832f9ed.jpeg"
+        class="card-img-top benefit-image"
+        alt="HISPANO RESTAURANTE"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            HISPANO RESTAURANTE
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            30% OFF en HISPANO RESTAURANTE
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="la casona de flores 20% off en la casona de flores "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A763974_846a136ce0.jpg"
+        class="card-img-top benefit-image"
+        alt="LA CASONA DE FLORES"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            LA CASONA DE FLORES
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en LA CASONA DE FLORES
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="guolis 15% off en guolis "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768559_a3b8f1cebf.jpg"
+        class="card-img-top benefit-image"
+        alt="GUOLIS"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            GUOLIS
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            15% OFF en GUOLIS
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="rayuela bebidas 20% off en rayuela bebidas "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768500_46b4089559.jpg"
+        class="card-img-top benefit-image"
+        alt="RAYUELA BEBIDAS"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            RAYUELA BEBIDAS
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en RAYUELA BEBIDAS
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="tigre morado 20% off en tigre morado "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768513_b2013a0c2a.jpg"
+        class="card-img-top benefit-image"
+        alt="TIGRE MORADO"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            TIGRE MORADO
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en TIGRE MORADO
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="musgo 20% off en musgo "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768078_4c4ed128a5.jpg"
+        class="card-img-top benefit-image"
+        alt="MUSGO"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            MUSGO
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en MUSGO
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="il matterello 20% off en il matterello "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A766916_187c468b8e.jpg"
+        class="card-img-top benefit-image"
+        alt="IL MATTERELLO"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            IL MATTERELLO
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en IL MATTERELLO
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="artina café 20% off en artina café "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/artina_02_01_e33b889623.jpg"
+        class="card-img-top benefit-image"
+        alt="ARTINA CAFÉ"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            ARTINA CAFÉ
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en ARTINA CAFÉ
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="bukowski wine and more 20% off en bukowski wine and more "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768212_47e6585b94.jpg"
+        class="card-img-top benefit-image"
+        alt="BUKOWSKI WINE AND MORE"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            BUKOWSKI WINE AND MORE
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en BUKOWSKI WINE AND MORE
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="zorzal wines 2x1 en zorzal wines "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/B775695_6ab72e2bf1.jpg"
+        class="card-img-top benefit-image"
+        alt="ZORZAL WINES"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            ZORZAL WINES
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            2x1 en ZORZAL WINES
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="yatai yatoi 20% off en yatai yatoi "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768514_51fd508a18.jpg"
+        class="card-img-top benefit-image"
+        alt="YATAI YATOI"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            YATAI YATOI
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en YATAI YATOI
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="blindcafé 20% off en blindcafé "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767850_68eca6363b.jpg"
+        class="card-img-top benefit-image"
+        alt="BLINDCAFÉ"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            BLINDCAFÉ
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en BLINDCAFÉ
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="gontran cherrier 30% off en gontran cherrier "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768224_1995105770.jpg"
+        class="card-img-top benefit-image"
+        alt="GONTRAN CHERRIER"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            GONTRAN CHERRIER
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            30% OFF en GONTRAN CHERRIER
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="el palacio de san telmo 20% off en el palacio de san telmo "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768372_2553215b54.jpg"
+        class="card-img-top benefit-image"
+        alt="EL PALACIO DE SAN TELMO"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            EL PALACIO DE SAN TELMO
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en EL PALACIO DE SAN TELMO
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="kayla café bar 20% off en kayla café bar "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/kaya_01_01_c70b824452.jpg"
+        class="card-img-top benefit-image"
+        alt="KAYLA CAFÉ BAR"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            KAYLA CAFÉ BAR
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en KAYLA CAFÉ BAR
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="magnolias gourmet 20% off en magnolias gourmet "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767381_45652d9221.jpg"
+        class="card-img-top benefit-image"
+        alt="MAGNOLIAS GOURMET"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            MAGNOLIAS GOURMET
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en MAGNOLIAS GOURMET
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="dean &amp; dennys 20% off en dean &amp; dennys "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767619_777c10285b.jpg"
+        class="card-img-top benefit-image"
+        alt="DEAN &amp; DENNYS"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            DEAN &amp; DENNYS
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en DEAN &amp; DENNYS
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="donut makers bakery microcentro 15% off en donut makers bakery microcentro "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/donuts_cee2e5b37c.jpg"
+        class="card-img-top benefit-image"
+        alt="DONUT MAKERS BAKERY MICROCENTRO"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            DONUT MAKERS BAKERY MICROCENTRO
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            15% OFF en DONUT MAKERS BAKERY MICROCENTRO
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="la uat bar 15% off en la uat bar "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768478_c25205aaae.jpg"
+        class="card-img-top benefit-image"
+        alt="LA UAT BAR"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            LA UAT BAR
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            15% OFF en LA UAT BAR
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="buller 20% off en buller "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A765634_e43183ded4.jpg"
+        class="card-img-top benefit-image"
+        alt="BULLER"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            BULLER
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en BULLER
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="gundy´s 15% off en gundy´s "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768111_5b5e11cf72.jpg"
+        class="card-img-top benefit-image"
+        alt="GUNDY´S"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            GUNDY´S
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            15% OFF en GUNDY´S
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="tomate 15% off en tomate "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767828_27eea77e9c.jpg"
+        class="card-img-top benefit-image"
+        alt="TOMATE"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            TOMATE
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            15% OFF en TOMATE
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div
+      class="col-12 col-sm-6 col-lg-4 col-xl-3 benefit-item"
+      data-source="lanacion"
+      data-search="cumen cumen 20% off en cumen cumen "
+    >
+      <div class="card h-100 shadow-sm border-0 benefit-card">
+
+        <div class="position-relative">
+          
+      <img
+        src="https://backwebclub-media.glanacion.com/Club.LN-Strapi/A765000_e4a0fca1fc.jpg"
+        class="card-img-top benefit-image"
+        alt="CUMEN CUMEN"
+        loading="lazy"
+        onerror="this.parentElement.classList.add('image-error'); this.remove();"
+      >
+    
+
+          <span
+            class="badge bg-dark position-absolute top-0 end-0 m-2"
+          >
+            Club La Nación
+          </span>
+        </div>
+
+        <div class="card-body d-flex flex-column">
+
+          <h5 class="card-title fw-bold mb-2">
+            CUMEN CUMEN
+          </h5>
+
+          <div class="benefit-readable mb-3">
+            20% OFF en CUMEN CUMEN
+          </div>
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+    </div>
+
+  </main>
+
+  <script>
+    const searchInput =
+      document.getElementById("search");
+
+    const benefitItems =
+      Array.from(
+        document.querySelectorAll(".benefit-item")
+      );
+
+    const filterButtons =
+      Array.from(
+        document.querySelectorAll(".filter-button")
+      );
+
+    const results =
+      document.getElementById("results");
+
+    let currentFilter = "all";
+
+    function updateResults() {
+      const search =
+        searchInput.value
+          .toLowerCase()
+          .trim();
+
+      let visible = 0;
+
+      benefitItems.forEach((item) => {
+        const matchesSource =
+          currentFilter === "all" ||
+          item.dataset.source === currentFilter;
+
+        const matchesSearch =
+          !search ||
+          item.dataset.search.includes(search);
+
+        const visibleItem =
+          matchesSource &&
+          matchesSearch;
+
+        item.classList.toggle(
+          "d-none",
+          !visibleItem
+        );
+
+        if (visibleItem) {
+          visible++;
+        }
+      });
+
+      results.textContent =
+        visible === 1
+          ? "1 resultado"
+          : visible + " resultados";
+    }
+
+    searchInput.addEventListener(
+      "input",
+      updateResults
+    );
+
+    filterButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+
+        currentFilter =
+          button.dataset.filter;
+
+        filterButtons.forEach((item) => {
+          item.classList.remove("active");
+
+          if (
+            item.dataset.filter ===
+            "santander"
+          ) {
+            item.classList.remove(
+              "btn-danger"
+            );
+            item.classList.add(
+              "btn-outline-danger"
+            );
+          }
+
+          if (
+            item.dataset.filter ===
+            "lanacion"
+          ) {
+            item.classList.remove(
+              "btn-dark"
+            );
+            item.classList.add(
+              "btn-outline-dark"
+            );
+          }
+
+          if (
+            item.dataset.filter ===
+            "all"
+          ) {
+            item.classList.remove(
+              "btn-dark"
+            );
+            item.classList.add(
+              "btn-outline-dark"
+            );
+          }
+        });
+
+        button.classList.add("active");
+
+        if (
+          button.dataset.filter ===
+          "santander"
+        ) {
+          button.classList.remove(
+            "btn-outline-danger"
+          );
+          button.classList.add(
+            "btn-danger"
+          );
+        }
+
+        if (
+          button.dataset.filter ===
+          "lanacion"
+        ) {
+          button.classList.remove(
+            "btn-outline-dark"
+          );
+          button.classList.add(
+            "btn-dark"
+          );
+        }
+
+        if (
+          button.dataset.filter ===
+          "all"
+        ) {
+          button.classList.remove(
+            "btn-outline-dark"
+          );
+          button.classList.add(
+            "btn-dark"
+          );
+        }
+
+        updateResults();
+      });
+    });
+  </script>
+
+</body>
+</html>

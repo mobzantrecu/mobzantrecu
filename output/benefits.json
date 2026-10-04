@@ -1,0 +1,5712 @@
+{
+  "generatedAt": "2026-10-04T03:50:51.417Z",
+  "sources": {
+    "santander": 25,
+    "lanacion": 121
+  },
+  "total": 146,
+  "benefits": [
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 60,
+        "publicationId": 7558
+      },
+      "brand": {
+        "id": 60,
+        "name": "Café Martínez"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "description": "Tope de reintegro: $20.000 mensual",
+        "topAmount": 20000,
+        "startDate": "2026-08-04T00:00:00",
+        "endDate": "2026-10-28T00:00:00",
+        "paymentType": "QR - Modo",
+        "frequency": "Mensual",
+        "tag": "Sorpresa"
+      },
+      "conditions": {
+        "additionalText": "<p>Pagando con <strong>QR </strong>a través de la <strong>App Santander</strong>.</p><p></p><p>Beneficio exclusivo para clientes suscriptos a <strong>Sorpresa Santander</strong>.</p>",
+        "specialCondition": null,
+        "legal": "<p>Válido desde el 04/08/2026 hasta el 31/10/2026 todos los martes y miércoles en locales adheridos abonando con QR a través de la App Santander o App MODO con Tarjeta Santander Visa crédito y/o débito, todos los días. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta asociada del cliente. Es necesario que previo a realizarse el reintegro tengas asociada a MODO la cuenta que sea del mismo banco que la tarjeta con la que realizaste la compra. El tope de ahorro se calcula considerando la suma de las compras realizadas por el titular de tarjeta y sus adicionales. El tope de reintegro mensual será de $10.000 para todos los clientes Santander Visa, y el tope de reintegro mensual para clientes adheridos a Sorpresa Santander será de $10.000 extra. Ejemplo: En una compra con tarjeta Santander VISA debito adherida a Sorpresa de $20.000 registrara un consumo de $20.000, un reintegro de $1.000 y otro reintegro por SSorpresa de $1.000.</p>"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 61,
+          "description": "Sorpresa",
+          "code": "SOR"
+        },
+        {
+          "id": 36,
+          "description": "Modo",
+          "code": "MOD"
+        }
+      ],
+      "schedule": {
+        "monday": false,
+        "tuesday": true,
+        "wednesday": true,
+        "thursday": false,
+        "friday": false,
+        "saturday": false,
+        "sunday": false,
+        "fullWeek": false
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 60,
+        "publicationId": 7557
+      },
+      "brand": {
+        "id": 60,
+        "name": "Café Martínez"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 10,
+        "title": "10% de ahorro",
+        "description": "Tope de reintegro: $10.000 mensual",
+        "topAmount": 10000,
+        "startDate": "2026-08-04T00:00:00",
+        "endDate": "2026-10-28T00:00:00",
+        "paymentType": "QR - Modo",
+        "frequency": "Mensual",
+        "tag": null
+      },
+      "conditions": {
+        "additionalText": "<p>Pagando con <strong>QR</strong> a través de la <strong>App Santander</strong>.</p>",
+        "specialCondition": null,
+        "legal": "<p>Válido desde el 01/08/2026 hasta el 31/10/2026 todos los martes y miércoles en locales adheridos abonando con QR a través de la App Santander o App MODO con Tarjeta Santander Visa crédito y/o débito, todos los días. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta asociada del cliente. Es necesario que previo a realizarse el reintegro tengas asociada a MODO la cuenta que sea del mismo banco que la tarjeta con la que realizaste la compra. El tope de ahorro se calcula considerando la suma de las compras realizadas por el titular de tarjeta y sus adicionales. El tope de reintegro mensual será de $10.000 para todos los clientes Santander Visa, y el tope de reintegro mensual para clientes adheridos a Sorpresa Santander será de $10.000 extra. Ejemplo: En una compra con tarjeta Santander VISA debito adherida a Sorpresa de $20.000 registrara un consumo de $20.000, un reintegro de $1.000 y otro reintegro por sorpresa de $1.000.</p>"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 36,
+          "description": "Modo",
+          "code": "MOD"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        }
+      ],
+      "schedule": {
+        "monday": false,
+        "tuesday": true,
+        "wednesday": true,
+        "thursday": false,
+        "friday": false,
+        "saturday": false,
+        "sunday": false,
+        "fullWeek": false
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 1715,
+        "publicationId": 7577
+      },
+      "brand": {
+        "id": 1715,
+        "name": "Mostaza"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "description": "Tope de reintegro: $15.000 mensual",
+        "topAmount": 15000,
+        "startDate": "2026-08-04T00:00:00",
+        "endDate": "2026-10-31T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "Mensual",
+        "tag": "Exclusivo Visa"
+      },
+      "conditions": {
+        "additionalText": "<p>En locales adheridos.</p><p></p>",
+        "specialCondition": null,
+        "legal": "<p>SOLO EN LOCALES ADHERIDOS. VÁLIDO CON TARJETAS SANTANDER VISA, INCLUIDOS LOS PAGOS LOS REALIZADOS CON MODO, GOOGLE PAY Y APPLE PAY. SE EXCLUYEN COMPRAS ABONADAS POR TRANSFERENCIAS, A TRAVÉS DE BILLETERAS VIRTUALES O FINANCIADAS POR PROGRAMAS CUOTA SIMPLE. NO ACUMULABLE CON OTRAS PROMOCIONES. VÁLIDO ÚNICAMENTE PARA CLIENTES TITULARES DE CUENTA BANCARIA SANTANDER.</p>\n<p>El ahorro se hará efectivo vía reintegro dentro de los 60 días de efectuado el consumo en la cuenta titular del cliente. Tope Mensual: suma de las compras realizadas por el titular de la tarjeta de crédito y sus adicionales, y las efectuadas con todas las tarjetas de débito asociadas a la cuenta titular de la misma. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular de la misma. Ejemplo: en una compra con tarjeta de crédito de $60.000, el cliente recibirá un reintegro de $15.000 (Tope) en la cuenta titular.</p>\n"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 56,
+          "description": "Destacado",
+          "code": "DES"
+        },
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        }
+      ],
+      "schedule": {
+        "monday": false,
+        "tuesday": false,
+        "wednesday": true,
+        "thursday": false,
+        "friday": false,
+        "saturday": false,
+        "sunday": false,
+        "fullWeek": false
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 495,
+        "publicationId": 7848
+      },
+      "brand": {
+        "id": 495,
+        "name": "The Food Market"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 25,
+        "title": "25% de ahorro + hasta 3 cuotas fijas",
+        "description": "Tope de reintegro: $15.000 mensual",
+        "topAmount": 15000,
+        "startDate": "2026-10-01T00:00:00",
+        "endDate": "2026-11-30T00:00:00",
+        "paymentType": "QR - Modo",
+        "frequency": "Mensual",
+        "tag": "Sorpresa"
+      },
+      "conditions": {
+        "additionalText": "<p><span style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\">Pagando con </span><strong style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\">QR</strong><span style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\"> a través de la </span><strong style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\">App Santander</strong><span style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\">.</span></p><p></p><p><span style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\">Beneficio exclusivo para clientes suscriptos a </span><strong style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\">Sorpresa Santander</strong><span style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\">.</span></p>",
+        "specialCondition": null,
+        "legal": "<p>PARA CLIENTES SUSCRIPTOS AL PROGRAMA SORPRESA SANTANDER.</p><p>CFTNA: COSTO FINANCIERO TOTAL NOMINAL ANUAL</p><p><span style=\"font-size: 48px;\">CFTNA: 0% 1,50%</span> CARTERA DE CONSUMO.</p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p>Válido todos los días Martes abonando con QR a través de la App Santander o App MODO con Tarjeta Santander crédito y/o débito VISA en todos los locales adheridos. No acumulable con otras promociones. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular.</p><p>El ahorro es exclusivo para clientes suscriptos al programa Sorpresa Santander. La comisión por membresía mensual Sorpresa Santander será debitada de la cuenta o tarjeta de crédito del cliente, el quinto día hábil del mes, conocer precio vigente en: www.santander.com.ar/personas/beneficios/sorpresa. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta asociada del cliente. Tope: suma de las compras realizadas por el titular de tarjeta de crédito y sus adicionales y las efectuadas con todas las tarjetas de débito asociadas a la cuenta del titular de la misma. Es necesario que previo a realizarse el reintegro tengas asociada a MODO la cuenta que sea del mismo banco que la tarjeta con la que realizaste la compra. Ejemplo: En una compra de $120.000, en 3 cuotas, registrará en el resumen un consumo de $40.000 y un reintegro de $15.000 (tope). Del segundo al tercer resumen registrará un consumo de $40.000 en cada uno. Los accionistas de Banco Santander Argentina S.A. no responden en exceso de su integración accionaria.</p>"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 18,
+          "description": "Varios",
+          "code": "VAR"
+        },
+        {
+          "id": 36,
+          "description": "Modo",
+          "code": "MOD"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 61,
+          "description": "Sorpresa",
+          "code": "SOR"
+        }
+      ],
+      "schedule": {
+        "monday": false,
+        "tuesday": true,
+        "wednesday": false,
+        "thursday": false,
+        "friday": false,
+        "saturday": false,
+        "sunday": false,
+        "fullWeek": false
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 495,
+        "publicationId": 7847
+      },
+      "brand": {
+        "id": 495,
+        "name": "The Food Market"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 15,
+        "title": "15% de ahorro + hasta 3 cuotas fijas",
+        "description": "Tope de reintegro: $9.000 mensual",
+        "topAmount": 9000,
+        "startDate": "2026-10-01T00:00:00",
+        "endDate": "2026-11-30T00:00:00",
+        "paymentType": "QR - Modo",
+        "frequency": "Mensual",
+        "tag": null
+      },
+      "conditions": {
+        "additionalText": "<p>Pagando con <strong>QR</strong> a través de la <strong>App Santander</strong>.</p>",
+        "specialCondition": null,
+        "legal": "<p>CFTNA: COSTO FINANCIERO TOTAL NOMINAL ANUAL</p><p><span style=\"font-size: 48px;\">CFTNA: 0% 1,50%</span></p><p>CARTERA DE CONSUMO. TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%. </p><p>Válido todos los Martes abonando con QR a través de la App Santander o App MODO con Tarjeta Santander crédito y/o débito VISA en todos los locales adheridos. No acumulable con otras promociones. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular.</p><p> El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta asociada del cliente. Tope: suma de las compras realizadas por el titular de tarjeta de crédito y sus adicionales y las efectuadas con todas las tarjetas de débito asociadas a la cuenta del titular de la misma. Es necesario que previo a realizarse el reintegro tengas asociada a MODO la cuenta que sea del mismo banco que la tarjeta con la que realizaste la compra. Ejemplo: En una compra de $90.000, en 3 cuotas, registrará en el resumen un consumo de 30.000 y un reintegro de $9.000 (tope). Del segundo al tercer resumen registrará un consumo de $30.000 en cada uno. Los accionistas de Banco Santander Argentina S.A. no responden en exceso de su integración accionaria.</p>"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 18,
+          "description": "Varios",
+          "code": "VAR"
+        },
+        {
+          "id": 36,
+          "description": "Modo",
+          "code": "MOD"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        }
+      ],
+      "schedule": {
+        "monday": false,
+        "tuesday": true,
+        "wednesday": false,
+        "thursday": false,
+        "friday": false,
+        "saturday": false,
+        "sunday": false,
+        "fullWeek": false
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 3459,
+        "publicationId": 7492
+      },
+      "brand": {
+        "id": 3459,
+        "name": "Grido"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "description": "Tope de reintegro: $10.000 mensual",
+        "topAmount": 10000,
+        "startDate": "2026-07-23T00:00:00",
+        "endDate": "2026-10-31T00:00:00",
+        "paymentType": "QR - Modo",
+        "frequency": "Mensual",
+        "tag": "Sorpresa"
+      },
+      "conditions": {
+        "additionalText": "<p>Pagando con <strong>QR</strong> a través de la <strong>App Santander</strong>.</p><p></p><p>Beneficio exclusivo para clientes suscriptos a <strong>Sorpresa Santander</strong>.</p>",
+        "specialCondition": null,
+        "legal": "<p>Válido desde el 23/07/2026 hasta el 31/10/2026 abonando con QR a través de la App Santander o App MODO con Tarjeta Santander Visa crédito y/o débito, todos los días. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta asociada del cliente. Es necesario que previo a realizarse el reintegro tengas asociada a MODO la cuenta que sea del mismo banco que la tarjeta con la que realizaste la compra. El tope de ahorro se calcula considerando la suma de las compras realizadas por el titular de tarjeta y sus adicionales. El tope de reintegro mensual sera de $5.000, el tope de reintegro mensual para clientes adheridos a Sorpresa Santander será de $10.000. Ejemplo: En una compra con tarjeta Santander VISA debito de un cliente adherido a Sorpresa Santander de $20.000 registrara un consumo de $20.000 y un reintegro total de $3.000. Comisión por membresía mensual Sorpresa Santander $5.289,26 + impuestos, importe final: $6.400 (Consumidor final), el que será debitado de la cuenta o tarjeta de crédito del cliente, el quinto día hábil del mes.</p>"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        },
+        {
+          "id": 3,
+          "description": "VISA",
+          "code": "43",
+          "idType": 3,
+          "descriptionType": "RECARGABLE",
+          "codeType": "R",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_recargable.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 417,
+          "description": "Everyday",
+          "code": "DAY"
+        },
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 61,
+          "description": "Sorpresa",
+          "code": "SOR"
+        },
+        {
+          "id": 56,
+          "description": "Destacado",
+          "code": "DES"
+        }
+      ],
+      "schedule": {
+        "monday": true,
+        "tuesday": true,
+        "wednesday": true,
+        "thursday": true,
+        "friday": true,
+        "saturday": true,
+        "sunday": true,
+        "fullWeek": true
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 3459,
+        "publicationId": 7493
+      },
+      "brand": {
+        "id": 3459,
+        "name": "Grido"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 10,
+        "title": "10% de ahorro",
+        "description": "Tope de reintegro: $5.000 mensual",
+        "topAmount": 5000,
+        "startDate": "2026-07-23T00:00:00",
+        "endDate": "2026-10-31T00:00:00",
+        "paymentType": "QR - Modo",
+        "frequency": "Mensual",
+        "tag": null
+      },
+      "conditions": {
+        "additionalText": "<p>Pagando con <strong>QR</strong> a través de la <strong>App Santander</strong>.</p>",
+        "specialCondition": null,
+        "legal": "<p>Válido desde el 23/07/2026 hasta el 31/10/2026 abonando con QR a través de la App Santander o App MODO con Tarjeta Santander Visa crédito y/o débito, todos los días. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta asociada del cliente. Es necesario que previo a realizarse el reintegro tengas asociada a MODO la cuenta que sea del mismo banco que la tarjeta con la que realizaste la compra. El tope de ahorro se calcula considerando la suma de las compras realizadas por el titular de tarjeta y sus adicionales. El tope de reintegro mensual sera de $5.000, el tope de reintegro mensual para clientes adheridos a Sorpresa Santander será de $10.000. Ejemplo: En una compra con tarjeta Santander VISA debito $20.000 registrara un consumo de $20.000 y un reintegro total de $2.000.</p>"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        },
+        {
+          "id": 3,
+          "description": "VISA",
+          "code": "43",
+          "idType": 3,
+          "descriptionType": "RECARGABLE",
+          "codeType": "R",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_recargable.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 417,
+          "description": "Everyday",
+          "code": "DAY"
+        },
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 36,
+          "description": "Modo",
+          "code": "MOD"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 56,
+          "description": "Destacado",
+          "code": "DES"
+        }
+      ],
+      "schedule": {
+        "monday": true,
+        "tuesday": true,
+        "wednesday": true,
+        "thursday": true,
+        "friday": true,
+        "saturday": true,
+        "sunday": true,
+        "fullWeek": true
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 177,
+        "publicationId": 3948
+      },
+      "brand": {
+        "id": 177,
+        "name": "Fabric Sushi"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2025-03-01T00:00:00",
+        "endDate": "2026-12-31T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Select"
+      },
+      "conditions": {
+        "additionalText": "<p>Exclusivo con <strong>Tarjetas Santander Visa Black y Platinum</strong>.</p>\n",
+        "specialCondition": null,
+        "legal": "<p><strong>DISPONIBLE PARA CARTERA DE CONSUMO Y COMERCIAL</strong></p>\n<p>Válida todos los días, en los locales adheridos, abonando con Tarjetas Santander Visa Black y Platinum, incluidos los pagos realizados con MODO, Google Pay y Apple Pay. Se excluyen compras abonadas por transferencias, a través de billeteras virtuales o financiadas por programas Cuota Simple. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria de dicho titular.</p>\n<p>El ahorro se hará efectivo vía reintegro dentro de los 60 días de efectuado el consumo en la cuenta bancaria titular del cliente. No aplica a tarjetas de débito vinculadas a cajas de ahorro en pesos gratuitas, ni pagos realizados con dinero en cuenta. Promoción sin tope de reintegro. Ejemplo: en una compra con tarjeta de crédito de $100.000, el cliente recibirá un reintegro de $25.000 en la cuenta bancaria titular. </p>\n"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 59,
+          "description": "Dining",
+          "code": "DIN"
+        },
+        {
+          "id": 65,
+          "description": "Select",
+          "code": "SEC"
+        },
+        {
+          "id": 315,
+          "description": "Fabric",
+          "code": "FBR"
+        }
+      ],
+      "schedule": {
+        "monday": true,
+        "tuesday": true,
+        "wednesday": true,
+        "thursday": true,
+        "friday": true,
+        "saturday": true,
+        "sunday": true,
+        "fullWeek": true
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 16,
+        "publicationId": 6943
+      },
+      "brand": {
+        "id": 16,
+        "name": "Almacén de Pizzas"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-05-01T00:00:00",
+        "endDate": "2027-04-30T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Select"
+      },
+      "conditions": {
+        "additionalText": "<p>Exclusivo con <strong>Tarjetas Santander Visa Black y Platinum</strong>.</p>\n<p></p>\n<p></p>\n<p></p>\n",
+        "specialCondition": null,
+        "legal": "<p>Válida todos los días, en los locales adheridos, abonando con Tarjetas Santander Visa Black y Platinum, incluidos los pagos realizados con MODO, Google Pay y Apple Pay. Se excluyen compras abonadas por transferencias, a través de billeteras virtuales o financiadas por programas Cuota Simple. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria de dicho titular. </p>\n<p></p>\n<p>El ahorro se hará efectivo vía reintegro dentro de los 60 días de efectuado el consumo en la cuenta bancaria titular del cliente. No aplica a tarjetas de débito vinculadas a cajas de ahorro en pesos gratuitas, ni pagos realizados con dinero en cuenta. Promoción sin tope de reintegro. Ejemplo: en una compra con tarjeta de crédito de $100.000, el cliente recibirá un reintegro de $25.000 en la cuenta bancaria titular. </p>\n"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 59,
+          "description": "Dining",
+          "code": "DIN"
+        }
+      ],
+      "schedule": {
+        "monday": true,
+        "tuesday": true,
+        "wednesday": true,
+        "thursday": true,
+        "friday": true,
+        "saturday": true,
+        "sunday": true,
+        "fullWeek": true
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 1730,
+        "publicationId": 6700
+      },
+      "brand": {
+        "id": 1730,
+        "name": "Cabaña Las Lilas"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-04-01T00:00:00",
+        "endDate": "2026-11-30T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Select"
+      },
+      "conditions": {
+        "additionalText": "<p>Exclusivo con <strong>Tarjetas Santander Visa Black y Platinum</strong>.</p>\n",
+        "specialCondition": null,
+        "legal": "<p>Válida todos los días, en los locales adheridos, abonando con Tarjetas Santander Visa Black y Platinum, incluidos los pagos realizados con MODO, Google Pay y Apple Pay. Se excluyen compras abonadas por transferencias, a través de billeteras virtuales o financiadas por programas Cuota Simple. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria de dicho titular. </p>\n<p>El ahorro se hará efectivo vía reintegro dentro de los 60 días de efectuado el consumo en la cuenta bancaria titular del cliente. No aplica a tarjetas de débito vinculadas a cajas de ahorro en pesos gratuitas, ni pagos realizados con dinero en cuenta. Promoción sin tope de reintegro. Ejemplo: en una compra con tarjeta de crédito de $100.000, el cliente recibirá un reintegro de $25.000 en la cuenta bancaria titular. </p>\n"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 59,
+          "description": "Dining",
+          "code": "DIN"
+        },
+        {
+          "id": 65,
+          "description": "Select",
+          "code": "SEC"
+        }
+      ],
+      "schedule": {
+        "monday": true,
+        "tuesday": true,
+        "wednesday": true,
+        "thursday": true,
+        "friday": true,
+        "saturday": true,
+        "sunday": true,
+        "fullWeek": true
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 1864,
+        "publicationId": 7485
+      },
+      "brand": {
+        "id": 1864,
+        "name": "Checkpoint Charlie"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-07-01T00:00:00",
+        "endDate": "2027-05-31T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Select"
+      },
+      "conditions": {
+        "additionalText": "<p>Exclusivo con <strong>Tarjetas Santander Visa Black y Platinum</strong>.</p>",
+        "specialCondition": null,
+        "legal": "<p>Válida todos los días, en los locales adheridos, abonando con Tarjetas Santander Visa Black y Platinum, incluidos los pagos realizados con MODO, Google Pay y Apple Pay. Se excluyen compras abonadas por transferencias, a través de billeteras virtuales o financiadas por programas Cuota Simple. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria de dicho titular.</p><p></p><p>El ahorro se hará efectivo vía reintegro dentro de los 60 días de efectuado el consumo en la cuenta bancaria titular del cliente. No aplica a tarjetas de débito vinculadas a cajas de ahorro en pesos gratuitas, ni pagos realizados con dinero en cuenta. Promoción sin tope de reintegro. Ejemplo: en una compra con tarjeta de crédito de $100.000, el cliente recibirá un reintegro de $25.000 en la cuenta bancaria titular.</p>"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 59,
+          "description": "Dining",
+          "code": "DIN"
+        },
+        {
+          "id": 65,
+          "description": "Select",
+          "code": "SEC"
+        }
+      ],
+      "schedule": {
+        "monday": true,
+        "tuesday": true,
+        "wednesday": true,
+        "thursday": true,
+        "friday": true,
+        "saturday": true,
+        "sunday": true,
+        "fullWeek": true
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 959,
+        "publicationId": 7426
+      },
+      "brand": {
+        "id": 959,
+        "name": "Chiquilín"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-07-01T00:00:00",
+        "endDate": "2027-03-31T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Select"
+      },
+      "conditions": {
+        "additionalText": "<p><span style=\"background-color: rgb(255, 255, 255); font-size: 16px; color: rgb(79, 84, 87);\">Sin tope de reintegro</span></p><p></p><p><span style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\">Exclusivo con </span><strong style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\">Tarjetas Santander Visa Black y Platinum</strong><span style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\">.</span></p>",
+        "specialCondition": null,
+        "legal": "<p>Válida todos los días, en los locales adheridos, abonando con Tarjetas Santander Visa Black y Platinum, incluidos los pagos realizados con MODO, Google Pay y Apple Pay. Se excluyen compras abonadas por transferencias, a través de billeteras virtuales o financiadas por programas Cuota Simple. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria de dicho titular. </p>\n<p></p>\n<p>El ahorro se hará efectivo vía reintegro dentro de los 60 días de efectuado el consumo en la cuenta bancaria titular del cliente. No aplica a tarjetas de débito vinculadas a cajas de ahorro en pesos gratuitas, ni pagos realizados con dinero en cuenta. Promoción sin tope de reintegro. Ejemplo: en una compra con tarjeta de crédito de $100.000, el cliente recibirá un reintegro de $25.000 en la cuenta bancaria titular. </p>\n"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 65,
+          "description": "Select",
+          "code": "SEC"
+        }
+      ],
+      "schedule": {
+        "monday": true,
+        "tuesday": true,
+        "wednesday": true,
+        "thursday": true,
+        "friday": true,
+        "saturday": true,
+        "sunday": true,
+        "fullWeek": true
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 2726,
+        "publicationId": 5965
+      },
+      "brand": {
+        "id": 2726,
+        "name": "Dragón Blanco"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2025-11-19T00:00:00",
+        "endDate": "2026-12-31T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Select"
+      },
+      "conditions": {
+        "additionalText": "<p>Exclusivo con <strong>Tarjetas Santander Visa Black y Platinum</strong>.</p>\n",
+        "specialCondition": null,
+        "legal": "<p>Válida todos los días, en los locales adheridos, abonando con Tarjetas Santander Visa Black y Platinum, incluidos los pagos realizados con MODO, Google Pay y Apple Pay. Se excluyen compras abonadas por transferencias, a través de billeteras virtuales o financiadas por programas Cuota Simple. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria de dicho titular. </p>\n<p></p>\n<p>El ahorro se hará efectivo vía reintegro dentro de los 60 días de efectuado el consumo en la cuenta bancaria titular del cliente. No aplica a tarjetas de débito vinculadas a cajas de ahorro en pesos gratuitas, ni pagos realizados con dinero en cuenta. Promoción sin tope de reintegro. Ejemplo: en una compra con tarjeta de crédito de $100.000, el cliente recibirá un reintegro de $25.000 en la cuenta bancaria titular. </p>\n"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 59,
+          "description": "Dining",
+          "code": "DIN"
+        },
+        {
+          "id": 65,
+          "description": "Select",
+          "code": "SEC"
+        }
+      ],
+      "schedule": {
+        "monday": true,
+        "tuesday": true,
+        "wednesday": true,
+        "thursday": true,
+        "friday": true,
+        "saturday": true,
+        "sunday": true,
+        "fullWeek": true
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 3581,
+        "publicationId": 7716
+      },
+      "brand": {
+        "id": 3581,
+        "name": "El Puente"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "description": "Tope de reintegro: $10.000 mensual",
+        "topAmount": 10000,
+        "startDate": "2026-08-27T00:00:00",
+        "endDate": "2026-10-31T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "Mensual",
+        "tag": "Sorpresa"
+      },
+      "conditions": {
+        "additionalText": "<p>Beneficio exclusivo para clientes suscriptos a <strong>Sorpresa Santander</strong>.</p>",
+        "specialCondition": null,
+        "legal": "<p>SOLO EN LOCALES ADHERIDOS. VÁLIDO CON TARJETAS SANTANDER VISA, INCLUIDOS LOS PAGOS LOS REALIZADOS CON MODO, GOOGLE PAY Y APPLE PAY. SE EXCLUYEN COMPRAS ABONADAS POR TRANSFERENCIAS, A TRAVÉS DE BILLETERAS VIRTUALES O FINANCIADAS POR PROGRAMAS CUOTA SIMPLE. NO ACUMULABLE CON OTRAS PROMOCIONES. VÁLIDO ÚNICAMENTE PARA CLIENTES TITULARES DE CUENTA BANCARIA SANTANDER.</p><p>El ahorro se hará efectivo vía reintegro dentro de los 60 días de efectuado el consumo en la cuenta titular del cliente. Tope Mensual: suma de las compras realizadas por el titular de la tarjeta de crédito y sus adicionales, y las efectuadas con todas las tarjetas de débito asociadas a la cuenta titular de la misma. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular de la misma. Ejemplo: en una compra con tarjeta de crédito de $60.000, el cliente recibirá un reintegro de $10.000 (Tope) en la cuenta titular.</p><p>Comisión por membresía mensual Sorpresa Santander $5.289,26 + impuestos, importe final: $6.400 (Consumidor final), el que será debitado de la cuenta o tarjeta de crédito del cliente, el quinto día hábil del mes.</p><p></p><p></p><p></p>"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 61,
+          "description": "Sorpresa",
+          "code": "SOR"
+        },
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        }
+      ],
+      "schedule": {
+        "monday": false,
+        "tuesday": false,
+        "wednesday": false,
+        "thursday": true,
+        "friday": false,
+        "saturday": false,
+        "sunday": false,
+        "fullWeek": false
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 168,
+        "publicationId": 6211
+      },
+      "brand": {
+        "id": 168,
+        "name": "Emperador Meiji"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-01-01T00:00:00",
+        "endDate": "2026-11-30T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Select"
+      },
+      "conditions": {
+        "additionalText": "<p>Exclusivo con <strong>Tarjetas Santander Visa Black y Platinum</strong>.</p>\n",
+        "specialCondition": null,
+        "legal": "<p><strong>DISPONIBLE PARA CARTERA DE CONSUMO Y COMERCIAL</strong></p>\n<p>Aplica sólo para compras efectuadas con las tarjetas Santander Visa débito y crédito Black y Platinum. Ejemplo: En una compra con tu tarjeta de débito de $10.000, verás reflejado en el resumen de tu cuenta un consumo de $10.000 y un reintegro de $ 2.500. El ahorro se hará efectivo vía reintegro: tarjeta de crédito en liquidación siguiente, tarjeta recargable vía crédito en la tarjeta que registra el consumo y tarjeta de débito en la cuenta, las dos últimas dentro de los quince días de efectuado el consumo.</p>\n"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        },
+        {
+          "id": 3,
+          "description": "VISA",
+          "code": "43",
+          "idType": 3,
+          "descriptionType": "RECARGABLE",
+          "codeType": "R",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_recargable.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 59,
+          "description": "Dining",
+          "code": "DIN"
+        },
+        {
+          "id": 65,
+          "description": "Select",
+          "code": "SEC"
+        },
+        {
+          "id": 315,
+          "description": "Fabric",
+          "code": "FBR"
+        }
+      ],
+      "schedule": {
+        "monday": true,
+        "tuesday": true,
+        "wednesday": true,
+        "thursday": true,
+        "friday": true,
+        "saturday": true,
+        "sunday": true,
+        "fullWeek": true
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 2253,
+        "publicationId": 6323
+      },
+      "brand": {
+        "id": 2253,
+        "name": "Hierro Bodegón"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-02-01T00:00:00",
+        "endDate": "2026-12-31T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Select"
+      },
+      "conditions": {
+        "additionalText": "<p>Exclusivo con <strong>Tarjetas Santander Visa Black y Platinum</strong>.</p>\n",
+        "specialCondition": null,
+        "legal": "<p>Válida todos los días, en los locales adheridos, abonando con Tarjetas Santander Visa Black y Platinum, incluidos los pagos realizados con MODO, Google Pay y Apple Pay. Se excluyen compras abonadas por transferencias, a través de billeteras virtuales o financiadas por programas Cuota Simple. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria de dicho titular. </p>\n<p></p>\n<p>El ahorro se hará efectivo vía reintegro dentro de los 60 días de efectuado el consumo en la cuenta bancaria titular del cliente. No aplica a tarjetas de débito vinculadas a cajas de ahorro en pesos gratuitas, ni pagos realizados con dinero en cuenta. Promoción sin tope de reintegro. Ejemplo: en una compra con tarjeta de crédito de $100.000, el cliente recibirá un reintegro de $25.000 en la cuenta bancaria titular. </p>\n"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 59,
+          "description": "Dining",
+          "code": "DIN"
+        },
+        {
+          "id": 65,
+          "description": "Select",
+          "code": "SEC"
+        }
+      ],
+      "schedule": {
+        "monday": true,
+        "tuesday": true,
+        "wednesday": true,
+        "thursday": true,
+        "friday": true,
+        "saturday": true,
+        "sunday": true,
+        "fullWeek": true
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 193,
+        "publicationId": 7355
+      },
+      "brand": {
+        "id": 193,
+        "name": "Kansas"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-07-01T00:00:00",
+        "endDate": "2026-12-31T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Select"
+      },
+      "conditions": {
+        "additionalText": "<p>Exclusivo con <strong>Tarjetas Santander Visa Black y Platinum</strong>.</p>",
+        "specialCondition": null,
+        "legal": "<p>Válido en los locales adheridos, abonando con Tarjetas Santander Crédito y/o Débito Visa, incluidos los pagos realizados con MODO, Google Pay y Apple Pay. Se excluyen compras abonadas por transferencias, a través de billeteras virtuales o financiadas por programas Cuota Simple. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria de dicho titular.</p><p>El ahorro se hará efectivo vía reintegro dentro de los 60 días de efectuado el consumo en la cuenta bancaria titular del cliente. No aplica a tarjetas de débito vinculadas a cajas de ahorro en pesos gratuitas, ni pagos realizados con dinero en cuenta. Promoción sin tope de reintegro. Ejemplo: en una compra con tarjeta de crédito de $100.000, el cliente recibirá un reintegro de $25.000 en la cuenta bancaria titular.</p>"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 59,
+          "description": "Dining",
+          "code": "DIN"
+        },
+        {
+          "id": 65,
+          "description": "Select",
+          "code": "SEC"
+        }
+      ],
+      "schedule": {
+        "monday": false,
+        "tuesday": true,
+        "wednesday": true,
+        "thursday": false,
+        "friday": false,
+        "saturday": false,
+        "sunday": false,
+        "fullWeek": false
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 812,
+        "publicationId": 6336
+      },
+      "brand": {
+        "id": 812,
+        "name": "La Stampa"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-02-01T00:00:00",
+        "endDate": "2026-12-31T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Select"
+      },
+      "conditions": {
+        "additionalText": "<p>Exclusivo con <strong>Tarjetas Santander Visa Black y Platinum</strong>.</p>\n",
+        "specialCondition": null,
+        "legal": "<p>Válida todos los días, en los locales adheridos, abonando con Tarjetas Santander Visa Black y Platinum, incluidos los pagos realizados con MODO, Google Pay y Apple Pay. Se excluyen compras abonadas por transferencias, a través de billeteras virtuales o financiadas por programas Cuota Simple. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria de dicho titular. </p>\n<p></p>\n<p>El ahorro se hará efectivo vía reintegro dentro de los 60 días de efectuado el consumo en la cuenta bancaria titular del cliente. No aplica a tarjetas de débito vinculadas a cajas de ahorro en pesos gratuitas, ni pagos realizados con dinero en cuenta. Promoción sin tope de reintegro. Ejemplo: en una compra con tarjeta de crédito de $100.000, el cliente recibirá un reintegro de $25.000 en la cuenta bancaria titular. </p>\n"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 59,
+          "description": "Dining",
+          "code": "DIN"
+        },
+        {
+          "id": 65,
+          "description": "Select",
+          "code": "SEC"
+        }
+      ],
+      "schedule": {
+        "monday": true,
+        "tuesday": true,
+        "wednesday": true,
+        "thursday": true,
+        "friday": true,
+        "saturday": true,
+        "sunday": true,
+        "fullWeek": true
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 348,
+        "publicationId": 5962
+      },
+      "brand": {
+        "id": 348,
+        "name": "Mutsuhito Omakase"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2025-11-19T00:00:00",
+        "endDate": "2026-12-31T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Select"
+      },
+      "conditions": {
+        "additionalText": "<p>Exclusivo con <strong>Tarjetas Santander Visa Black y Platinum</strong>.</p>\n",
+        "specialCondition": null,
+        "legal": "<p>Válida todos los días, en los locales adheridos, abonando con Tarjetas Santander Visa Black y Platinum, incluidos los pagos realizados con MODO, Google Pay y Apple Pay. Se excluyen compras abonadas por transferencias, a través de billeteras virtuales o financiadas por programas Cuota Simple. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria de dicho titular. </p>\n<p></p>\n<p>El ahorro se hará efectivo vía reintegro dentro de los 60 días de efectuado el consumo en la cuenta bancaria titular del cliente. No aplica a tarjetas de débito vinculadas a cajas de ahorro en pesos gratuitas, ni pagos realizados con dinero en cuenta. Promoción sin tope de reintegro. Ejemplo: en una compra con tarjeta de crédito de $100.000, el cliente recibirá un reintegro de $25.000 en la cuenta bancaria titular. </p>\n"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 59,
+          "description": "Dining",
+          "code": "DIN"
+        },
+        {
+          "id": 65,
+          "description": "Select",
+          "code": "SEC"
+        }
+      ],
+      "schedule": {
+        "monday": true,
+        "tuesday": true,
+        "wednesday": true,
+        "thursday": true,
+        "friday": true,
+        "saturday": true,
+        "sunday": true,
+        "fullWeek": true
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 967,
+        "publicationId": 6374
+      },
+      "brand": {
+        "id": 967,
+        "name": "Piegari"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-02-05T00:00:00",
+        "endDate": "2026-12-31T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Select"
+      },
+      "conditions": {
+        "additionalText": "<p>Exclusivo con <strong>Tarjetas Santander Visa Black y Platinum</strong>.</p>\n",
+        "specialCondition": null,
+        "legal": "<p>Válida todos los días, en los locales adheridos, abonando con Tarjetas Santander Visa Black y Platinum, incluidos los pagos realizados con MODO, Google Pay y Apple Pay. Se excluyen compras abonadas por transferencias, a través de billeteras virtuales o financiadas por programas Cuota Simple. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria de dicho titular. </p>\n<p></p>\n<p>El ahorro se hará efectivo vía reintegro dentro de los 60 días de efectuado el consumo en la cuenta bancaria titular del cliente. No aplica a tarjetas de débito vinculadas a cajas de ahorro en pesos gratuitas, ni pagos realizados con dinero en cuenta. Promoción sin tope de reintegro. Ejemplo: en una compra con tarjeta de crédito de $100.000, el cliente recibirá un reintegro de $25.000 en la cuenta bancaria titular. </p>\n"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 59,
+          "description": "Dining",
+          "code": "DIN"
+        },
+        {
+          "id": 65,
+          "description": "Select",
+          "code": "SEC"
+        }
+      ],
+      "schedule": {
+        "monday": true,
+        "tuesday": true,
+        "wednesday": true,
+        "thursday": true,
+        "friday": true,
+        "saturday": true,
+        "sunday": true,
+        "fullWeek": true
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 2258,
+        "publicationId": 6319
+      },
+      "brand": {
+        "id": 2258,
+        "name": "Ribs al Río"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-02-01T00:00:00",
+        "endDate": "2026-12-31T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Select"
+      },
+      "conditions": {
+        "additionalText": "<p>Exclusivo con <strong>Tarjetas Santander Visa Black y Platinum</strong>.</p>\n",
+        "specialCondition": null,
+        "legal": "<p>Válida todos los días, en los locales adheridos, abonando con Tarjetas Santander Visa Black y Platinum, incluidos los pagos realizados con MODO, Google Pay y Apple Pay. Se excluyen compras abonadas por transferencias, a través de billeteras virtuales o financiadas por programas Cuota Simple. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria de dicho titular. </p>\n<p>El ahorro se hará efectivo vía reintegro dentro de los 60 días de efectuado el consumo en la cuenta bancaria titular del cliente. No aplica a tarjetas de débito vinculadas a cajas de ahorro en pesos gratuitas, ni pagos realizados con dinero en cuenta. Promoción sin tope de reintegro. Ejemplo: en una compra con tarjeta de crédito de $100.000, el cliente recibirá un reintegro de $25.000 en la cuenta bancaria titular. </p>\n"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 59,
+          "description": "Dining",
+          "code": "DIN"
+        },
+        {
+          "id": 65,
+          "description": "Select",
+          "code": "SEC"
+        }
+      ],
+      "schedule": {
+        "monday": true,
+        "tuesday": true,
+        "wednesday": true,
+        "thursday": true,
+        "friday": true,
+        "saturday": true,
+        "sunday": true,
+        "fullWeek": true
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 2243,
+        "publicationId": 6329
+      },
+      "brand": {
+        "id": 2243,
+        "name": "Rufino"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-02-01T00:00:00",
+        "endDate": "2026-12-31T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Select"
+      },
+      "conditions": {
+        "additionalText": "<p>Exclusivo con <strong>Tarjetas Santander Visa Black y Platinum</strong>.</p>\n",
+        "specialCondition": null,
+        "legal": "<p>Válida todos los días, en los locales adheridos, abonando con Tarjetas Santander Visa Black y Platinum, incluidos los pagos realizados con MODO, Google Pay y Apple Pay. Se excluyen compras abonadas por transferencias, a través de billeteras virtuales o financiadas por programas Cuota Simple. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria de dicho titular. </p>\n<p>El ahorro se hará efectivo vía reintegro dentro de los 60 días de efectuado el consumo en la cuenta bancaria titular del cliente. No aplica a tarjetas de débito vinculadas a cajas de ahorro en pesos gratuitas, ni pagos realizados con dinero en cuenta. Promoción sin tope de reintegro. Ejemplo: en una compra con tarjeta de crédito de $100.000, el cliente recibirá un reintegro de $25.000 en la cuenta bancaria titular. </p>\n"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 59,
+          "description": "Dining",
+          "code": "DIN"
+        },
+        {
+          "id": 65,
+          "description": "Select",
+          "code": "SEC"
+        }
+      ],
+      "schedule": {
+        "monday": true,
+        "tuesday": true,
+        "wednesday": true,
+        "thursday": true,
+        "friday": true,
+        "saturday": true,
+        "sunday": true,
+        "fullWeek": true
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 500,
+        "publicationId": 3844
+      },
+      "brand": {
+        "id": 500,
+        "name": "Tigre Morado"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2025-02-27T00:00:00",
+        "endDate": "2026-12-31T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Select"
+      },
+      "conditions": {
+        "additionalText": "<p>Exclusivo con <strong>Tarjetas Santander Visa Black y Platinum</strong>.<br><br><span style=\"font-size: 18px;\">Hacé tu reserva para disfrutar una noche de <strong>Piano Bar</strong> en <strong>Costanera</strong> el 21/05/2026 </span><a href=\"https://www.wokiapp.com/restaurante/tigre-morado-costanera?enterByLink=true&source=franchise&franchise=tigremorado&slug=tigre-morado-costanera&showDay=2026-05-19T21%3A00%3A00Z&isTimeFlexible=false&isSectorFlexible=false&id=ca3e923f-95f7-40d8-b90c-47e436504563\" target=\"_blank\"><span style=\"color: rgb(209,72,65);font-size: 18px;\">desde acá</span></a><span style=\"font-size: 18px;\">.</span></p>\n",
+        "specialCondition": null,
+        "legal": "<p><strong>DISPONIBLE PARA CARTERA DE CONSUMO Y COMERCIAL</strong></p>\n<p>Aplica sólo para compras efectuadas con las tarjetas Santander Visa débito y crédito Black y Platinum. Ejemplo: En una compra con tu tarjeta de débito de $10.000, verás reflejado en el resumen de tu cuenta un consumo de $10.000 y un reintegro de $ 2.500. El ahorro se hará efectivo vía reintegro: tarjeta de crédito en liquidación siguiente, tarjeta recargable vía crédito en la tarjeta que registra el consumo y tarjeta de débito en la cuenta, las dos últimas dentro de los quince días de efectuado el consumo.</p>\n"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        },
+        {
+          "id": 3,
+          "description": "VISA",
+          "code": "43",
+          "idType": 3,
+          "descriptionType": "RECARGABLE",
+          "codeType": "R",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_recargable.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 59,
+          "description": "Dining",
+          "code": "DIN"
+        },
+        {
+          "id": 65,
+          "description": "Select",
+          "code": "SEC"
+        },
+        {
+          "id": 315,
+          "description": "Fabric",
+          "code": "FBR"
+        }
+      ],
+      "schedule": {
+        "monday": true,
+        "tuesday": true,
+        "wednesday": true,
+        "thursday": true,
+        "friday": true,
+        "saturday": true,
+        "sunday": true,
+        "fullWeek": true
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 587,
+        "publicationId": 7795
+      },
+      "brand": {
+        "id": 587,
+        "name": "Tostado Café Club"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "description": "Tope de reintegro: $20.000 mensual",
+        "topAmount": 20000,
+        "startDate": "2026-09-12T00:00:00",
+        "endDate": "2026-12-31T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "Mensual",
+        "tag": "Sorpresa"
+      },
+      "conditions": {
+        "additionalText": "<p>Beneficio exclusivo para clientes suscriptos a <strong>Sorpresa Santander</strong>.</p>",
+        "specialCondition": null,
+        "legal": "<p><strong>PARA CLIENTES SUSCRIPTOS AL PROGRAMA SORPRESA SANTANDER. </strong></p><p>Válida Viernes y sábados, en locales adheridos, abonando con Tarjetas Santander Visa débito y crédito, incluidos los pagos realizados con MODO, Google Pay y Apple Pay. Se excluyen compras abonadas por transferencias, a través de billeteras virtuales. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria de dicho titular. El ahorro se hará efectivo vía reintegro dentro de los 60 días de efectuado el consumo en la cuenta bancaria titular del cliente. No aplica a tarjetas de débito vinculadas a cajas de ahorro en pesos gratuitas, ni pagos realizados con dinero en cuenta. tope de reintegro $20.000 mensual por cliente. Ejemplo: en una compra con tarjeta de crédito de $100.000, el cliente recibirá un reintegro de $20.000 (tope) en la cuenta bancaria titular.</p>"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 61,
+          "description": "Sorpresa",
+          "code": "SOR"
+        }
+      ],
+      "schedule": {
+        "monday": false,
+        "tuesday": false,
+        "wednesday": false,
+        "thursday": false,
+        "friday": true,
+        "saturday": true,
+        "sunday": false,
+        "fullWeek": false
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 713,
+        "publicationId": 6370
+      },
+      "brand": {
+        "id": 713,
+        "name": "Yatai Yatoi"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2025-12-03T00:00:00",
+        "endDate": "2026-11-30T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Select"
+      },
+      "conditions": {
+        "additionalText": "<p>Exclusivo con <strong>Tarjetas Santander Visa Black y Platinum</strong>.</p>\n",
+        "specialCondition": null,
+        "legal": "<p>Válida todos los días, en los locales adheridos, abonando con Tarjetas Santander Visa Black y Platinum, incluidos los pagos realizados con MODO, Google Pay y Apple Pay. Se excluyen compras abonadas por transferencias, a través de billeteras virtuales o financiadas por programas Cuota Simple. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria de dicho titular. </p>\n<p></p>\n<p>El ahorro se hará efectivo vía reintegro dentro de los 60 días de efectuado el consumo en la cuenta bancaria titular del cliente. No aplica a tarjetas de débito vinculadas a cajas de ahorro en pesos gratuitas, ni pagos realizados con dinero en cuenta. Promoción sin tope de reintegro. Ejemplo: en una compra con tarjeta de crédito de $100.000, el cliente recibirá un reintegro de $25.000 en la cuenta bancaria titular. </p>\n"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 59,
+          "description": "Dining",
+          "code": "DIN"
+        },
+        {
+          "id": 65,
+          "description": "Select",
+          "code": "SEC"
+        },
+        {
+          "id": 315,
+          "description": "Fabric",
+          "code": "FBR"
+        }
+      ],
+      "schedule": {
+        "monday": true,
+        "tuesday": true,
+        "wednesday": true,
+        "thursday": true,
+        "friday": true,
+        "saturday": true,
+        "sunday": true,
+        "fullWeek": true
+      }
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "441da791-e2fa-f011-8155-0ab6811d4821",
+        "crmId": "A05887534",
+        "benefitId": "fcb3aecb-493f-f111-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "441da791-e2fa-f011-8155-0ab6811d4821",
+        "name": "ALBUR"
+      },
+      "benefit": {
+        "type": "2x1",
+        "discount": null,
+        "title": "2x1 de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-albur-A05887534",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44899",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768628_e609951691.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "5f073c95-45a0-ef11-814d-0ab6811d4821",
+        "crmId": "A05742573",
+        "benefitId": "b4f48a2b-56dc-f011-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "5f073c95-45a0-ef11-814d-0ab6811d4821",
+        "name": "GENOVÉS"
+      },
+      "benefit": {
+        "type": "25%",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-genoves-A05742573",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44502",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768088_9b0b7feb7b.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "588b8642-9e9c-e711-812e-0ab6811d4821",
+        "crmId": "A01089807",
+        "benefitId": "c288533a-2e2b-42ba-9b55-c7f620e4b133"
+      },
+      "brand": {
+        "id": "588b8642-9e9c-e711-812e-0ab6811d4821",
+        "name": "ARMY"
+      },
+      "benefit": {
+        "type": "30%",
+        "discount": 30,
+        "title": "30% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-army-A01089807",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44127",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/B773090_8f82237b53.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "50cbf9f0-a711-f111-8155-0ab6811d4821",
+        "crmId": "A05892916",
+        "benefitId": "4a2d7748-7e12-f111-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "50cbf9f0-a711-f111-8155-0ab6811d4821",
+        "name": "KIMCHI GARDEN"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-kimchi-garden-A05892916",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44968",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768667_0b1cc2f421.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "3d388148-9e9c-e711-812e-0ab6811d4821",
+        "crmId": "A01390179",
+        "benefitId": "affe9b56-c8e0-f011-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "3d388148-9e9c-e711-812e-0ab6811d4821",
+        "name": "ALMACÉN DE PIZZAS"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-almacen-de-pizzas-A01390179",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43768",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A765638_f7f7d35d41.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "422aeda5-5a5b-f011-8153-0ab6811d4821",
+        "crmId": "A05837889",
+        "benefitId": "5517f050-7300-f111-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "422aeda5-5a5b-f011-8153-0ab6811d4821",
+        "name": "SAMPA"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-sampa-A05837889",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44647",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768384_1f33e94b71.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "6e57262e-c4cf-f011-8155-0ab6811d4821",
+        "crmId": "A05876994",
+        "benefitId": "31827c60-9ff0-f011-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "6e57262e-c4cf-f011-8155-0ab6811d4821",
+        "name": "LA PEBETA"
+      },
+      "benefit": {
+        "type": "15%",
+        "discount": 15,
+        "title": "15% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-la-pebeta-A05876994",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44861",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768617_193d7a5874.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "4e63a249-d878-e911-813f-0ab6811d4821",
+        "crmId": "A05167151",
+        "benefitId": "ac48bdcb-93cc-f011-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "4e63a249-d878-e911-813f-0ab6811d4821",
+        "name": "LA CABAÑA"
+      },
+      "benefit": {
+        "type": "30%",
+        "discount": 30,
+        "title": "30% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-la-cabana-A05167151",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43596",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A766608_10965b86f5.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "55a79d30-9e9c-e711-812e-0ab6811d4821",
+        "crmId": "A03121162",
+        "benefitId": "b41dcd63-d330-f011-8153-0ab6811d4821"
+      },
+      "brand": {
+        "id": "55a79d30-9e9c-e711-812e-0ab6811d4821",
+        "name": "GO BAR"
+      },
+      "benefit": {
+        "type": "25%",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "slug": "/gastronomia/vinotecas/descuentos-en-go-bar-A03121162",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44316",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768266_fa6723db7c.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "183c863b-12b4-e711-812f-0ab6811d4821",
+        "crmId": "A01465735",
+        "benefitId": "a1f7ded6-11e0-f011-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "183c863b-12b4-e711-812f-0ab6811d4821",
+        "name": "TOM - TORTUGAS OPEN MALL"
+      },
+      "benefit": {
+        "type": "2x1",
+        "discount": null,
+        "title": "2x1 de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-tom-tortugas-open-mall-A01465735",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43904",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767765_1ae054a114.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "0c4eb86c-16b4-e711-812f-0ab6811d4821",
+        "crmId": "A83550",
+        "benefitId": "d16c6400-33e0-f011-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "0c4eb86c-16b4-e711-812f-0ab6811d4821",
+        "name": "NOVECENTO"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-novecento-A83550",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43935",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A763870_db0a1ee9f5.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "4f388148-9e9c-e711-812e-0ab6811d4821",
+        "crmId": "A01390375",
+        "benefitId": "21891df0-f5a0-4de7-991b-2d2de4a4c0a3"
+      },
+      "brand": {
+        "id": "4f388148-9e9c-e711-812e-0ab6811d4821",
+        "name": "HAPPENING PUERTO MADERO"
+      },
+      "benefit": {
+        "type": "25%",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-happening-puerto-madero-A01390375",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43522",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767800_7e53644a9f.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "44e8a609-d105-f111-8155-0ab6811d4821",
+        "crmId": "A05890755",
+        "benefitId": "4e1664b7-d705-f111-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "44e8a609-d105-f111-8155-0ab6811d4821",
+        "name": "THE AVOCADO COMPANY"
+      },
+      "benefit": {
+        "type": "15%",
+        "discount": 15,
+        "title": "15% de ahorro",
+        "slug": "/gastronomia/cafeteria-dulceria/descuentos-en-the-avocado-company-A05890755",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44944",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768641_4f4407e17d.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "3d81794e-9e9c-e711-812e-0ab6811d4821",
+        "crmId": "A00731943",
+        "benefitId": "0faa1b53-c3a4-ee11-814b-0ab6811d4821"
+      },
+      "brand": {
+        "id": "3d81794e-9e9c-e711-812e-0ab6811d4821",
+        "name": "MOSTAZA"
+      },
+      "benefit": {
+        "type": "30%",
+        "discount": 30,
+        "title": "30% de ahorro",
+        "slug": "/gastronomia/comidas-rapidas/descuentos-en-mostaza-A00731943",
+        "ecommerce": false,
+        "virtualCard": false,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43681",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/B775123_566545cceb.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "3fcbf9f0-a711-f111-8155-0ab6811d4821",
+        "crmId": "A05892915",
+        "benefitId": "c09d2c8e-e717-f111-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "3fcbf9f0-a711-f111-8155-0ab6811d4821",
+        "name": "BAGELS & BAGELS"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-bagels-y-bagels-A05892915",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44964",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768676_919abc9533.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "36cd7154-9e9c-e711-812e-0ab6811d4821",
+        "crmId": "A01496498",
+        "benefitId": "9f9dd55f-7700-f111-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "36cd7154-9e9c-e711-812e-0ab6811d4821",
+        "name": "DON JULIO PARRILLA"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-don-julio-parrilla-A01496498",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43664",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/B775119_830495693b.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "4ba8ba12-9e9c-e711-812e-0ab6811d4821",
+        "crmId": "A01163102",
+        "benefitId": "c9006f29-d652-f011-8153-0ab6811d4821"
+      },
+      "brand": {
+        "id": "4ba8ba12-9e9c-e711-812e-0ab6811d4821",
+        "name": "ARTE DE MAFIA"
+      },
+      "benefit": {
+        "type": "30%",
+        "discount": 30,
+        "title": "30% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-arte-de-mafia-A01163102",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43754",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A766936_3e85213918.JPG",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "41dcb765-0bd7-e811-813a-0ab6811d4821",
+        "crmId": "A02122909",
+        "benefitId": "d14cd6d4-cae0-f011-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "41dcb765-0bd7-e811-813a-0ab6811d4821",
+        "name": "DON GIOVANNI"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-don-giovanni-A02122909",
+        "ecommerce": false,
+        "virtualCard": false,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43609",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767510_b22bf69514.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "3daa0615-cc34-f011-8153-0ab6811d4821",
+        "crmId": "A05827055",
+        "benefitId": "73c1359c-cf34-f011-8153-0ab6811d4821"
+      },
+      "brand": {
+        "id": "3daa0615-cc34-f011-8153-0ab6811d4821",
+        "name": "AMARETTI"
+      },
+      "benefit": {
+        "type": "25%",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-amaretti-A05827055",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44601",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768261_929c671dd8.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "3818ec4a-3e38-f111-8155-0ab6811d4821",
+        "crmId": "A05902359",
+        "benefitId": "06f1786d-6275-4354-80c3-a6e8be5b68bd"
+      },
+      "brand": {
+        "id": "3818ec4a-3e38-f111-8155-0ab6811d4821",
+        "name": "JULIA RESTAURANTE"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-julia-restaurante-A05902359",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "45545",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/julia_05_01_44e090a67b.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "85a6107b-de43-f111-8155-0ab6811d4821",
+        "crmId": "A05905271",
+        "benefitId": "3880e661-f343-f111-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "85a6107b-de43-f111-8155-0ab6811d4821",
+        "name": "MALVÓN"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/cafeteria-dulceria/descuentos-en-malvon-A05905271",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "45044",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768744_6589bdefb2.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "8967ec39-fe7d-ec11-8148-0ab6811d4821",
+        "crmId": "A05433433",
+        "benefitId": "55a2aea2-a11f-f011-8153-0ab6811d4821"
+      },
+      "brand": {
+        "id": "8967ec39-fe7d-ec11-8148-0ab6811d4821",
+        "name": "BURGER54"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-burger54-A05433433",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43756",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767036_674607d894.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "966173fc-4eb8-e811-8137-0ab6811d4821",
+        "crmId": "A04230697",
+        "benefitId": "4387ad93-99a3-f011-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "966173fc-4eb8-e811-8137-0ab6811d4821",
+        "name": "KANU SUSHI"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-kanu-sushi-A04230697",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44354",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768494_e72549d48e.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "8f0cb23e-0e9f-e711-812e-0ab6811d4821",
+        "crmId": "A00548156",
+        "benefitId": "2689ba74-74be-4a20-a05c-3ac60c1c72d5"
+      },
+      "brand": {
+        "id": "8f0cb23e-0e9f-e711-812e-0ab6811d4821",
+        "name": "SUSHICLUB"
+      },
+      "benefit": {
+        "type": "2x1",
+        "discount": null,
+        "title": "2x1 de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-sushiclub-A00548156",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43647",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767816_06c10c251a.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "63aacb33-7964-ea11-8145-0ab6811d4821",
+        "crmId": "A05287602",
+        "benefitId": "da1c20b3-1e6c-468a-b145-6ca8a29bab0e"
+      },
+      "brand": {
+        "id": "63aacb33-7964-ea11-8145-0ab6811d4821",
+        "name": "TARTARUGA"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-tartaruga-A05287602",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43668",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767620_371b37213e.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "6d5cf9d7-e4fa-f011-8155-0ab6811d4821",
+        "crmId": "A05887539",
+        "benefitId": "d830781b-bafb-f011-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "6d5cf9d7-e4fa-f011-8155-0ab6811d4821",
+        "name": "ELECTRIC CAFE"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-electric-cafe-A05887539",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44909",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768630_4cd2954ee5.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "5280794e-9e9c-e711-812e-0ab6811d4821",
+        "crmId": "A00485322",
+        "benefitId": "80d08833-1caf-ee11-814b-0ab6811d4821"
+      },
+      "brand": {
+        "id": "5280794e-9e9c-e711-812e-0ab6811d4821",
+        "name": "JUSTO BRANDZEN"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-justo-brandzen-A00485322",
+        "ecommerce": false,
+        "virtualCard": false,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44136",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A766992_5179f3198b.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "6f58ac44-9764-eb11-8146-0ab6811d4821",
+        "crmId": "A05000581",
+        "benefitId": "2ef8f799-39ae-ee11-814b-0ab6811d4821"
+      },
+      "brand": {
+        "id": "6f58ac44-9764-eb11-8146-0ab6811d4821",
+        "name": "VASALISSA CHOCOLATIER"
+      },
+      "benefit": {
+        "type": "15%",
+        "discount": 15,
+        "title": "15% de ahorro",
+        "slug": "/gastronomia/cafeteria-dulceria/descuentos-en-vasalissa-chocolatier-A05000581",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44154",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A766596_013681f199.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "5a064fde-a23f-eb11-8146-0ab6811d4821",
+        "crmId": "A05356705",
+        "benefitId": "3b003d0f-6850-f011-8153-0ab6811d4821"
+      },
+      "brand": {
+        "id": "5a064fde-a23f-eb11-8146-0ab6811d4821",
+        "name": "LA MALBEQUERÍA"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-la-malbequeria-A05356705",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43632",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A766514_b0b575d2e2.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "50f0f1de-503e-f111-8155-0ab6811d4821",
+        "crmId": "A05903860",
+        "benefitId": "fd001936-873e-f111-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "50f0f1de-503e-f111-8155-0ab6811d4821",
+        "name": "HARD ROCK PUERTO MADERO"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-hard-rock-puerto-madero-A05903860",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "45045",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768734_a6f9a34b7f.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "08772987-8c9c-e711-812e-0ab6811d4821",
+        "crmId": "A01593993",
+        "benefitId": "b993288e-ed9e-f011-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "08772987-8c9c-e711-812e-0ab6811d4821",
+        "name": "LA CABRERA"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-la-cabrera-A01593993",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44271",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768188_59ec90e230.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "0a5ca772-44a0-ef11-814d-0ab6811d4821",
+        "crmId": "A05742572",
+        "benefitId": "fb9e9698-a0a6-ef11-814d-0ab6811d4821"
+      },
+      "brand": {
+        "id": "0a5ca772-44a0-ef11-814d-0ab6811d4821",
+        "name": "PROSCIUTTO LANÚS"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-prosciutto-lanus-A05742572",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44499",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768099_fd800dc4fb.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "0b451aa2-6dc1-ef11-814d-0ab6811d4821",
+        "crmId": "A05767671",
+        "benefitId": "a73121c4-c0c3-ef11-814d-0ab6811d4821"
+      },
+      "brand": {
+        "id": "0b451aa2-6dc1-ef11-814d-0ab6811d4821",
+        "name": "TRECE CAFÉ"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/cafeteria-dulceria/descuentos-en-trece-cafe-A05767671",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44536",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768119_7deb98f3ae.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "141d650d-56ba-eb11-8146-0ab6811d4821",
+        "crmId": "A05385609",
+        "benefitId": "6607fa93-c837-ef11-814b-0ab6811d4821"
+      },
+      "brand": {
+        "id": "141d650d-56ba-eb11-8146-0ab6811d4821",
+        "name": "POLLO TRAK"
+      },
+      "benefit": {
+        "type": "25%",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "slug": "/gastronomia/delivery/descuentos-en-pollo-trak-A05385609",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43530",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767901_bb55c3859a.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "9fbb2aa9-46b0-e711-812e-0ab6811d4821",
+        "crmId": "A03958526",
+        "benefitId": "1279bf4d-6e69-ec11-8148-0ab6811d4821"
+      },
+      "brand": {
+        "id": "9fbb2aa9-46b0-e711-812e-0ab6811d4821",
+        "name": "RUSTICANA"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/bares/descuentos-en-rusticana-A03958526",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "46012",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/rusticana_01_01_8c729ca76a.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "d7038540-583a-e711-812b-0ab6811d4821",
+        "crmId": "A00104302",
+        "benefitId": "adf8ba90-3ab3-ef11-814d-0ab6811d4821"
+      },
+      "brand": {
+        "id": "d7038540-583a-e711-812b-0ab6811d4821",
+        "name": "SAVERIO HELADOS"
+      },
+      "benefit": {
+        "type": "15%",
+        "discount": 15,
+        "title": "15% de ahorro",
+        "slug": "/gastronomia/heladerias/descuentos-en-saverio-helados-A00104302",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43798",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767746_1d951b447a.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "113a7f70-e3b7-ea11-8145-0ab6811d4821",
+        "crmId": "A05315548",
+        "benefitId": "795f569b-6150-f011-8153-0ab6811d4821"
+      },
+      "brand": {
+        "id": "113a7f70-e3b7-ea11-8145-0ab6811d4821",
+        "name": "EL GATO NEGRO"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/cafeteria-dulceria/descuentos-en-el-gato-negro-A05315548",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43727",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A766232_5c57d1f10e.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "811b9fe9-1617-f011-8153-0ab6811d4821",
+        "crmId": "A05815313",
+        "benefitId": "d8de2262-281a-f011-8153-0ab6811d4821"
+      },
+      "brand": {
+        "id": "811b9fe9-1617-f011-8153-0ab6811d4821",
+        "name": "ANASAGASTI"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-anasagasti-A05815313",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44582",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768225_b6d5261ce1.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "a3e571d1-8fee-e811-813b-0ab6811d4821",
+        "crmId": "A04288192",
+        "benefitId": "3d21d1af-6850-f011-8153-0ab6811d4821"
+      },
+      "brand": {
+        "id": "a3e571d1-8fee-e811-813b-0ab6811d4821",
+        "name": "LO DE JESÚS"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-lo-de-jesus-A04288192",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "46011",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/lo_de_jesus_01_01_2ed98d3e6f.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "95adc89e-22d2-ed11-814a-0ab6811d4821",
+        "crmId": "800000005990",
+        "benefitId": "d504a0f7-7957-f011-8153-0ab6811d4821"
+      },
+      "brand": {
+        "id": "95adc89e-22d2-ed11-814a-0ab6811d4821",
+        "name": "LAS VASIJAS RESTAURANTE"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-las-vasijas-restaurante-800000005990",
+        "ecommerce": false,
+        "virtualCard": false,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43602",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767509_5bfe22729c.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "8b980025-de79-ef11-814d-0ab6811d4821",
+        "crmId": "A05654734",
+        "benefitId": "d386ecae-c780-ef11-814d-0ab6811d4821"
+      },
+      "brand": {
+        "id": "8b980025-de79-ef11-814d-0ab6811d4821",
+        "name": "BOU"
+      },
+      "benefit": {
+        "type": "30%",
+        "discount": 30,
+        "title": "30% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-bou-A05654734",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44487",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768029_78fa91815f.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "92432e8d-30db-ee11-814b-0ab6811d4821",
+        "crmId": "A05601982",
+        "benefitId": "35a4067c-3d2d-f111-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "92432e8d-30db-ee11-814b-0ab6811d4821",
+        "name": "ALDO'S WINE BAR"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/vinotecas/descuentos-en-aldos-wine-bar-A05601982",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43656",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767818_5bdf3703ee.JPG",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "7c0105b3-75d1-e811-813a-0ab6811d4821",
+        "crmId": "A04255628",
+        "benefitId": "0a297f4d-50d1-f011-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "7c0105b3-75d1-e811-813a-0ab6811d4821",
+        "name": "PAULINE BOULANGERIE"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/cafeteria-dulceria/descuentos-en-pauline-boulangerie-A04255628",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44364",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768583_d061f457fd.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "97d7f25f-6087-f011-8155-0ab6811d4821",
+        "crmId": "A05854281",
+        "benefitId": "18176a20-7b8a-f011-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "97d7f25f-6087-f011-8155-0ab6811d4821",
+        "name": "DEBARRICAS"
+      },
+      "benefit": {
+        "type": "25%",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "slug": "/gastronomia/vinotecas/descuentos-en-debarricas-A05854281",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44689",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768439_468a8226d3.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "865ea52a-9e9c-e711-812e-0ab6811d4821",
+        "crmId": "A03438302",
+        "benefitId": "4d3feb88-b5e1-ec11-8148-0ab6811d4821"
+      },
+      "brand": {
+        "id": "865ea52a-9e9c-e711-812e-0ab6811d4821",
+        "name": "COCU"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/cafeteria-dulceria/descuentos-en-cocu-A03438302",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43642",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767215_2eb61ebe6a.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "7de876f5-3b97-ed11-8149-0ab6811d4821",
+        "crmId": "A05506998",
+        "benefitId": "e9167f67-b08c-ef11-814d-0ab6811d4821"
+      },
+      "brand": {
+        "id": "7de876f5-3b97-ed11-8149-0ab6811d4821",
+        "name": "THAMES BAR"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/bares/descuentos-en-thames-bar-A05506998",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43810",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767449_96d03054b2.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "845fc1c0-0d1a-ef11-814b-0ab6811d4821",
+        "crmId": "A05625941",
+        "benefitId": "414082ed-2b1d-ef11-814b-0ab6811d4821"
+      },
+      "brand": {
+        "id": "845fc1c0-0d1a-ef11-814b-0ab6811d4821",
+        "name": "CAUCA"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/cafeteria-dulceria/descuentos-en-cauca-A05625941",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44126",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767890_2946c87f96.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "9dc81fd7-5b03-f111-8155-0ab6811d4821",
+        "crmId": "A05890335",
+        "benefitId": "a963f0a5-c505-f111-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "9dc81fd7-5b03-f111-8155-0ab6811d4821",
+        "name": "JOE'S GRILL"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-joes-grill-A05890335",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44929",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768643_b137ab5f75.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "eb36954b-aa94-f011-8155-0ab6811d4821",
+        "crmId": "A05859677",
+        "benefitId": "57ce3815-6e2c-f111-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "eb36954b-aa94-f011-8155-0ab6811d4821",
+        "name": "VICTOR AUDIO BAR"
+      },
+      "benefit": {
+        "type": "15%",
+        "discount": 15,
+        "title": "15% de ahorro",
+        "slug": "/gastronomia/bares/descuentos-en-victor-audio-bar-A05859677",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44719",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768480_0115f3e5e0.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "e676e306-77df-f011-8155-0ab6811d4821",
+        "crmId": "A05881281",
+        "benefitId": "7b4ccc9a-8b19-f111-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "e676e306-77df-f011-8155-0ab6811d4821",
+        "name": "ÁVITO BRISTÓ CAFÉ"
+      },
+      "benefit": {
+        "type": "15%",
+        "discount": 15,
+        "title": "15% de ahorro",
+        "slug": "/gastronomia/cafeteria-dulceria/descuentos-en-avito-bristo-cafe-A05881281",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44868",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768601_048b3a5b06.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "ede9c1ba-7ca0-f011-8155-0ab6811d4821",
+        "crmId": "A05863136",
+        "benefitId": "30b5f115-f6b8-f011-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "ede9c1ba-7ca0-f011-8155-0ab6811d4821",
+        "name": "ISABEL DELIVERY"
+      },
+      "benefit": {
+        "type": "30%",
+        "discount": 30,
+        "title": "30% de ahorro",
+        "slug": "/gastronomia/delivery/descuentos-en-isabel-delivery-A05863136",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44733",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768543_0e45b0690f.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "c5ba37af-3eed-4fda-ae8e-e34841e3bb84",
+        "crmId": "A05912906",
+        "benefitId": "e5783931-7cbb-4d43-8bab-7ede28c3a03b"
+      },
+      "brand": {
+        "id": "c5ba37af-3eed-4fda-ae8e-e34841e3bb84",
+        "name": "CAMPOBRAVO"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-campobravo-A05912906",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "45232",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/campo_bravo_39dfad9460.jpg",
+          "highlighted": false,
+          "thumb": false
+        },
+        {
+          "id": "45234",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/campo_bravo_1_01dd18f647.jpg",
+          "highlighted": false,
+          "thumb": false
+        },
+        {
+          "id": "45233",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/campo_bravo_2_bd780e2ba6.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "f799635d-ef1a-e811-8133-0ab6811d4821",
+        "crmId": "A01163109",
+        "benefitId": "833fd99a-e1af-ee11-814b-0ab6811d4821"
+      },
+      "brand": {
+        "id": "f799635d-ef1a-e811-8133-0ab6811d4821",
+        "name": "LA CASONA DEL NONNO"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-la-casona-del-nonno-A01163109",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43923",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A764268_e691dd54da.jpg",
+          "highlighted": false,
+          "thumb": false
+        },
+        {
+          "id": "43968",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A764175_df3fc26e33.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "f9c4ba38-0e9f-e711-812e-0ab6811d4821",
+        "crmId": "A00676264",
+        "benefitId": "e6d562b5-389c-454f-909e-9c1183852166"
+      },
+      "brand": {
+        "id": "f9c4ba38-0e9f-e711-812e-0ab6811d4821",
+        "name": "CHUNGO"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/heladerias/descuentos-en-chungo-A00676264",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "45581",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/chungo_022_31e19c0c48.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "98e81934-cfb1-eb11-8146-0ab6811d4821",
+        "crmId": "A05382242",
+        "benefitId": "279910db-eff3-ec11-8148-0ab6811d4821"
+      },
+      "brand": {
+        "id": "98e81934-cfb1-eb11-8146-0ab6811d4821",
+        "name": "BORJA SPECIALTY COFFEE"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/cafeteria-dulceria/descuentos-en-borja-specialty-coffee-A05382242",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43521",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A766700_87d8413c7b.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "9f360737-21cb-ec11-8148-0ab6811d4821",
+        "crmId": "A05454263",
+        "benefitId": "7265b120-5c00-f111-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "9f360737-21cb-ec11-8148-0ab6811d4821",
+        "name": "SENSU"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-sensu-A05454263",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44079",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767182_5231a4c7b7.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "a41de7a3-dd10-f111-8155-0ab6811d4821",
+        "crmId": "A05892715",
+        "benefitId": "b92c311e-f710-f111-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "a41de7a3-dd10-f111-8155-0ab6811d4821",
+        "name": "GLUTEN FREE POINT"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/cafeteria-dulceria/descuentos-en-gluten-free-point-A05892715",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44958",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768666_c4a761d416.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "a490bc82-1bef-e811-813b-0ab6811d4821",
+        "crmId": "A04288543",
+        "benefitId": "3d81b9fe-e634-4132-b528-bf93c6164531"
+      },
+      "brand": {
+        "id": "a490bc82-1bef-e811-813b-0ab6811d4821",
+        "name": "SUSHI OLAZABAL"
+      },
+      "benefit": {
+        "type": "30%",
+        "discount": 30,
+        "title": "30% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-sushi-olazabal-A04288543",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43922",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A766968_354d4fc351.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "4541d09f-712a-4b14-aba2-8e451319fe2e",
+        "crmId": "A05917545",
+        "benefitId": "ee714cf6-b822-4314-94b5-d94c912b8a69"
+      },
+      "brand": {
+        "id": "4541d09f-712a-4b14-aba2-8e451319fe2e",
+        "name": "CIELO AZUL LA MAISON"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/cafeteria-dulceria/descuentos-en-cielo-azul-la-maison-A05917545",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "45444",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/cielo_azul_01_01_2cb909bf62.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "870c73c4-2fb7-ef11-814d-0ab6811d4821",
+        "crmId": "A05764811",
+        "benefitId": "6646a15c-e3b7-ef11-814d-0ab6811d4821"
+      },
+      "brand": {
+        "id": "870c73c4-2fb7-ef11-814d-0ab6811d4821",
+        "name": "MERCADO DE LINIERS"
+      },
+      "benefit": {
+        "type": "25%",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-mercado-de-liniers-A05764811",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44534",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768105_bdd7ea7148.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "93cf11a8-9e9c-e711-812e-0ab6811d4821",
+        "crmId": "A02499463",
+        "benefitId": "2397be48-ddbb-ef11-814d-0ab6811d4821"
+      },
+      "brand": {
+        "id": "93cf11a8-9e9c-e711-812e-0ab6811d4821",
+        "name": "FRAPPÉ"
+      },
+      "benefit": {
+        "type": "30%",
+        "discount": 30,
+        "title": "30% de ahorro",
+        "slug": "/gastronomia/vinotecas/descuentos-en-frappe-A02499463",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43805",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767647_7f13ae0d35.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "86b17d7a-056f-e811-8135-0ab6811d4821",
+        "crmId": "A04150029",
+        "benefitId": "1f38da51-9515-f111-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "86b17d7a-056f-e811-8135-0ab6811d4821",
+        "name": "NININA"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/cafeteria-dulceria/descuentos-en-ninina-A04150029",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44350",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768156_04dbf12e69.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "df9735a1-6992-e711-812e-0ab6811d4821",
+        "crmId": "A03578086",
+        "benefitId": "9e1fbfda-c305-f111-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "df9735a1-6992-e711-812e-0ab6811d4821",
+        "name": "BIUTIFUL BAR"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-biutiful-bar-A03578086",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44328",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768644_c2349978f8.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "c31ffb3c-d513-f011-8153-0ab6811d4821",
+        "crmId": "A05807054",
+        "benefitId": "75a7fb39-39c6-f011-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "c31ffb3c-d513-f011-8153-0ab6811d4821",
+        "name": "CHECKPOINT CHARLIE"
+      },
+      "benefit": {
+        "type": "30%",
+        "discount": 30,
+        "title": "30% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-checkpoint-charlie-A05807054",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44576",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768221_90be3e6a49.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "be2e8337-a994-f011-8155-0ab6811d4821",
+        "crmId": "A05859675",
+        "benefitId": "34b3ccdd-6d2c-f111-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "be2e8337-a994-f011-8155-0ab6811d4821",
+        "name": "TRES MONOS BAR"
+      },
+      "benefit": {
+        "type": "15%",
+        "discount": 15,
+        "title": "15% de ahorro",
+        "slug": "/gastronomia/bares/descuentos-en-tres-monos-bar-A05859675",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44718",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768479_bd9ceac198.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "0d1bcf78-b45f-42e4-80e6-cb58cd4821eb",
+        "crmId": "A05909764",
+        "benefitId": "adf7287f-8fe8-451a-8e8c-5a544a583ce9"
+      },
+      "brand": {
+        "id": "0d1bcf78-b45f-42e4-80e6-cb58cd4821eb",
+        "name": "OVEJA NEGRA WINES"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/vinotecas/descuentos-en-oveja-negra-wines-A05909764",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "45166",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/oveja_negra_01_01_cf3f088d9b.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "ad646260-9e9c-e711-812e-0ab6811d4821",
+        "crmId": "A02642662",
+        "benefitId": "d68b969d-7295-f011-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "ad646260-9e9c-e711-812e-0ab6811d4821",
+        "name": "EMPANADAS MORITA"
+      },
+      "benefit": {
+        "type": "35%",
+        "discount": 35,
+        "title": "35% de ahorro",
+        "slug": "/gastronomia/delivery/descuentos-en-empanadas-morita-A02642662",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43906",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767665_3c3e205421.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "dcd5981d-c9f2-ef11-814d-0ab6811d4821",
+        "crmId": "A05789793",
+        "benefitId": "698b43c5-9215-f111-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "dcd5981d-c9f2-ef11-814d-0ab6811d4821",
+        "name": "EL PREFERIDO DE PALERMO"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-el-preferido-de-palermo-A05789793",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44549",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768163_413f20c58e.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "e77ff352-8bdb-e811-813a-0ab6811d4821",
+        "crmId": "A04267030",
+        "benefitId": "e98aaa75-6b4f-ef11-814c-0ab6811d4821"
+      },
+      "brand": {
+        "id": "e77ff352-8bdb-e811-813a-0ab6811d4821",
+        "name": "PARRILLA VORO CARNES"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-parrilla-voro-carnes-A04267030",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43891",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767963_24d54b3122.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "d7dfca39-81a0-f011-8155-0ab6811d4821",
+        "crmId": "A05863145",
+        "benefitId": "629ceeca-daa9-f011-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "d7dfca39-81a0-f011-8155-0ab6811d4821",
+        "name": "EMPERADOR MEIJI"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-emperador-meiji-A05863145",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44749",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768512_58874ced5d.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "d3ba47f9-66fb-ee11-814b-0ab6811d4821",
+        "crmId": "A05611555",
+        "benefitId": "b70c7ea6-3b3b-f011-8153-0ab6811d4821"
+      },
+      "brand": {
+        "id": "d3ba47f9-66fb-ee11-814b-0ab6811d4821",
+        "name": "ILO SUSHI"
+      },
+      "benefit": {
+        "type": "25%",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-ilo-sushi-A05611555",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43774",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767839_e4b6b0a5bf.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "b55cb1a9-13c5-e911-8143-0ab6811d4821",
+        "crmId": "A05211184",
+        "benefitId": "c0883669-5cfe-ee11-814b-0ab6811d4821"
+      },
+      "brand": {
+        "id": "b55cb1a9-13c5-e911-8143-0ab6811d4821",
+        "name": "NH COLLECTION"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-nh-collection-A05211184",
+        "ecommerce": false,
+        "virtualCard": false,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43819",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A765852_db9616fdd4.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "d790bf28-62c3-e911-8143-0ab6811d4821",
+        "crmId": "A02085211",
+        "benefitId": "4830b12d-c51b-4590-83c6-856b54114993"
+      },
+      "brand": {
+        "id": "d790bf28-62c3-e911-8143-0ab6811d4821",
+        "name": "OSAKA"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-osaka-A02085211",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44280",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768306_2766f87984.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "f48b66b0-51b2-ef11-814d-0ab6811d4821",
+        "crmId": "A05747424",
+        "benefitId": "739ac631-f1b7-ef11-814d-0ab6811d4821"
+      },
+      "brand": {
+        "id": "f48b66b0-51b2-ef11-814d-0ab6811d4821",
+        "name": "LA VACA LECHERA DE SAN TELMO"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/cafeteria-dulceria/descuentos-en-la-vaca-lechera-de-san-telmo-A05747424",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44528",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768107_85f4165673.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "d72a7273-a1b6-ec11-8148-0ab6811d4821",
+        "crmId": "A05448234",
+        "benefitId": "695a9a1d-acb6-ec11-8148-0ab6811d4821"
+      },
+      "brand": {
+        "id": "d72a7273-a1b6-ec11-8148-0ab6811d4821",
+        "name": "MONTI PASTAS"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/comidas-rapidas/descuentos-en-monti-pastas-A05448234",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43910",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767666_2e1f827242.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "f6c68394-a047-f011-8153-0ab6811d4821",
+        "crmId": "A05831856",
+        "benefitId": "f8e463f4-8a4b-f011-8153-0ab6811d4821"
+      },
+      "brand": {
+        "id": "f6c68394-a047-f011-8153-0ab6811d4821",
+        "name": "CHARQUI RESTAURANT"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-charqui-restaurant-A05831856",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44634",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768301_a9acd7dd8c.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "d7cc7154-9e9c-e711-812e-0ab6811d4821",
+        "crmId": "A26705",
+        "benefitId": "74afeb3e-0fe0-f011-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "d7cc7154-9e9c-e711-812e-0ab6811d4821",
+        "name": "FREDDO"
+      },
+      "benefit": {
+        "type": "2x1",
+        "discount": null,
+        "title": "2x1 de ahorro",
+        "slug": "/gastronomia/heladerias/descuentos-en-freddo-A26705",
+        "ecommerce": false,
+        "virtualCard": false,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44170",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767899_e3177fd433.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "cded5301-101a-f011-8153-0ab6811d4821",
+        "crmId": "A05819838",
+        "benefitId": "82e2c905-3d37-f011-8153-0ab6811d4821"
+      },
+      "brand": {
+        "id": "cded5301-101a-f011-8153-0ab6811d4821",
+        "name": "ZOMMA TAPAS"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/comidas-rapidas/descuentos-en-zomma-tapas-A05819838",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44590",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768268_e9ff810f89.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "e93a0b9a-fa0e-eb11-8146-0ab6811d4821",
+        "crmId": "A05344016",
+        "benefitId": "7b9a173c-e7a2-f011-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "e93a0b9a-fa0e-eb11-8146-0ab6811d4821",
+        "name": "LET IT V"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-let-it-v-A05344016",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44410",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768491_bfe4313a3e.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "8cc81fd7-5b03-f111-8155-0ab6811d4821",
+        "crmId": "A05890334",
+        "benefitId": "9877036f-ba05-f111-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "8cc81fd7-5b03-f111-8155-0ab6811d4821",
+        "name": "DISTRITO BS AS"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-distrito-bs-as-A05890334",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44926",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768642_d302c0c8a9.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "c405c7b5-e097-e711-812e-0ab6811d4821",
+        "crmId": "A03317393",
+        "benefitId": "61976a9c-962c-ee11-814b-0ab6811d4821"
+      },
+      "brand": {
+        "id": "c405c7b5-e097-e711-812e-0ab6811d4821",
+        "name": "CONVITE"
+      },
+      "benefit": {
+        "type": "15%",
+        "discount": 15,
+        "title": "15% de ahorro",
+        "slug": "/gastronomia/cafeteria-dulceria/descuentos-en-convite-A03317393",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43533",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A766202_744bfea3cd.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "35125f65-01e9-4607-990f-41722e3fd42a",
+        "crmId": "A05910305",
+        "benefitId": "dc98e797-cb73-4073-a6f2-2e491e097146"
+      },
+      "brand": {
+        "id": "35125f65-01e9-4607-990f-41722e3fd42a",
+        "name": "BAKANO"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-bakano-A05910305",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "45186",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/BAKANO_02_01_0de37b835c.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "b200c728-6e45-f011-8153-0ab6811d4821",
+        "crmId": "A05831364",
+        "benefitId": "263de0b7-534c-f011-8153-0ab6811d4821"
+      },
+      "brand": {
+        "id": "b200c728-6e45-f011-8153-0ab6811d4821",
+        "name": "GROWLER STORE"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/vinotecas/descuentos-en-growler-store-A05831364",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44627",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768305_5749b28a24.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "b6a83b25-e6a9-4e87-a2a0-c3b628f50c6b",
+        "crmId": "A05913851",
+        "benefitId": "7ce47a59-d6d8-41ea-8d3d-fa628d38c04f"
+      },
+      "brand": {
+        "id": "b6a83b25-e6a9-4e87-a2a0-c3b628f50c6b",
+        "name": "SODA CAFÉ"
+      },
+      "benefit": {
+        "type": "15%",
+        "discount": 15,
+        "title": "15% de ahorro",
+        "slug": "/gastronomia/cafeteria-dulceria/descuentos-en-soda-cafe-A05913851",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "45440",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/soda_cafe_03_01_4407346e4e.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "7f82c536-7500-e811-8132-0ab6811d4821",
+        "crmId": "A04062088",
+        "benefitId": "7452046e-1aaf-ee11-814b-0ab6811d4821"
+      },
+      "brand": {
+        "id": "7f82c536-7500-e811-8132-0ab6811d4821",
+        "name": "ICELAND"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/heladerias/descuentos-en-iceland-A04062088",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43882",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767462_eae8a99e30.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "384206af-a0af-4f94-aec0-cfd87649903a",
+        "crmId": "A05970383",
+        "benefitId": "3d391701-52f4-43e9-9474-e0c16503edee"
+      },
+      "brand": {
+        "id": "384206af-a0af-4f94-aec0-cfd87649903a",
+        "name": "MR. HO"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-mr-ho-A05970383",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "46324",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/MR_OH_01_01_ca717941e9.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "b0294872-ffab-ef11-814d-0ab6811d4821",
+        "crmId": "A05745354",
+        "benefitId": "03e8d384-45b2-ef11-814d-0ab6811d4821"
+      },
+      "brand": {
+        "id": "b0294872-ffab-ef11-814d-0ab6811d4821",
+        "name": "ALAMESA"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-alamesa-A05745354",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44516",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768098_cbc55cbdaa.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "cd65589a-a147-f011-8153-0ab6811d4821",
+        "crmId": "A05831857",
+        "benefitId": "30f03a24-9b4b-f011-8153-0ab6811d4821"
+      },
+      "brand": {
+        "id": "cd65589a-a147-f011-8153-0ab6811d4821",
+        "name": "LA FERNETERIA"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-la-ferneteria-A05831857",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44638",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768299_538f33a6eb.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "ccd211a8-9e9c-e711-812e-0ab6811d4821",
+        "crmId": "A03410910",
+        "benefitId": "3df58c4a-1c50-ef11-814c-0ab6811d4821"
+      },
+      "brand": {
+        "id": "ccd211a8-9e9c-e711-812e-0ab6811d4821",
+        "name": "MOOI"
+      },
+      "benefit": {
+        "type": "15%",
+        "discount": 15,
+        "title": "15% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-mooi-A03410910",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44172",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/B765699_25713a4c8d.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "d60e7060-f59c-e911-8141-0ab6811d4821",
+        "crmId": "A84257",
+        "benefitId": "70175b2d-a02a-f011-8153-0ab6811d4821"
+      },
+      "brand": {
+        "id": "d60e7060-f59c-e911-8141-0ab6811d4821",
+        "name": "MUNCHI´S"
+      },
+      "benefit": {
+        "type": "25%",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "slug": "/gastronomia/heladerias/descuentos-en-munchis-A84257",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43991",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A765779_0f1e5aaac4.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "aa8da703-810e-f111-8155-0ab6811d4821",
+        "crmId": "A05892342",
+        "benefitId": "3c0f98f3-840e-f111-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "aa8da703-810e-f111-8155-0ab6811d4821",
+        "name": "CASA MOCHA"
+      },
+      "benefit": {
+        "type": "15%",
+        "discount": 15,
+        "title": "15% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-casa-mocha-A05892342",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44947",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768663_6a5118b443.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "d576e306-77df-f011-8155-0ab6811d4821",
+        "crmId": "A05881280",
+        "benefitId": "b1f0e554-8719-f111-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "d576e306-77df-f011-8155-0ab6811d4821",
+        "name": "BUCHE SALUMERIA"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-buche-salumeria-A05881280",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44867",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768605_d773f7d466.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "7ed1cfe1-7803-f111-8155-0ab6811d4821",
+        "crmId": "A05890395",
+        "benefitId": "5e1b2a27-7b03-f111-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "7ed1cfe1-7803-f111-8155-0ab6811d4821",
+        "name": "SUDESTE RESTAURANT"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-sudeste-restaurant-A05890395",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44938",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768639_1739d71553.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "86e900e3-03ac-ef11-814d-0ab6811d4821",
+        "crmId": "A05745374",
+        "benefitId": "bc5ea85c-ee48-4a4e-8c4b-c152d57878e4"
+      },
+      "brand": {
+        "id": "86e900e3-03ac-ef11-814d-0ab6811d4821",
+        "name": "AVE CAESAR"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-ave-caesar-A05745374",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44517",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768094_4bd22cebb2.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "967e635a-2b3f-e811-8133-0ab6811d4821",
+        "crmId": "A03057159",
+        "benefitId": "7ab07d1a-d494-ec11-8148-0ab6811d4821"
+      },
+      "brand": {
+        "id": "967e635a-2b3f-e811-8133-0ab6811d4821",
+        "name": "COSI MI PIACE"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-cosi-mi-piace-A03057159",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "46010",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/cosi_mi_piace_01_01_8ffb29dc66.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "938f6799-0425-ef11-814b-0ab6811d4821",
+        "crmId": "A05629612",
+        "benefitId": "f7d63b29-6227-ef11-814b-0ab6811d4821"
+      },
+      "brand": {
+        "id": "938f6799-0425-ef11-814b-0ab6811d4821",
+        "name": "CLUB DE LA BIRRA"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/bares/descuentos-en-club-de-la-birra-A05629612",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43536",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767902_135e103534.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "7e97001b-80a0-f011-8155-0ab6811d4821",
+        "crmId": "A05863142",
+        "benefitId": "55916fbe-2fa9-f011-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "7e97001b-80a0-f011-8155-0ab6811d4821",
+        "name": "FABRIC"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-fabric-A05863142",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44742",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768511_2076c8f0c0.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "96e900e3-03ac-ef11-814d-0ab6811d4821",
+        "crmId": "A05745376",
+        "benefitId": "860432b5-f872-4a35-8acb-d9a42cb052d0"
+      },
+      "brand": {
+        "id": "96e900e3-03ac-ef11-814d-0ab6811d4821",
+        "name": "MAGIC DRAGON"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-magic-dragon-A05745376",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44521",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768095_7a9458e068.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "66a5147a-e917-ed11-8148-0ab6811d4821",
+        "crmId": "A05476431",
+        "benefitId": "0b84496c-dfba-ee11-814b-0ab6811d4821"
+      },
+      "brand": {
+        "id": "66a5147a-e917-ed11-8148-0ab6811d4821",
+        "name": "HISPANO RESTAURANTE"
+      },
+      "benefit": {
+        "type": "30%",
+        "discount": 30,
+        "title": "30% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-hispano-restaurante-A05476431",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43631",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767314_b20832f9ed.jpeg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "4b3eab1e-9e9c-e711-812e-0ab6811d4821",
+        "crmId": "A01328063",
+        "benefitId": "01f6f05a-7200-f111-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "4b3eab1e-9e9c-e711-812e-0ab6811d4821",
+        "name": "LA CASONA DE FLORES"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-la-casona-de-flores-A01328063",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43958",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A763974_846a136ce0.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "58bd169b-8dae-f011-8155-0ab6811d4821",
+        "crmId": "A05861018",
+        "benefitId": "f47a8a09-e9bb-f011-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "58bd169b-8dae-f011-8155-0ab6811d4821",
+        "name": "GUOLIS"
+      },
+      "benefit": {
+        "type": "15%",
+        "discount": 15,
+        "title": "15% de ahorro",
+        "slug": "/gastronomia/cafeteria-dulceria/descuentos-en-guolis-A05861018",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44730",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768559_a3b8f1cebf.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "819d78e0-40a9-f011-8155-0ab6811d4821",
+        "crmId": "A05865698",
+        "benefitId": "aff5dfee-96ab-f011-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "819d78e0-40a9-f011-8155-0ab6811d4821",
+        "name": "RAYUELA BEBIDAS"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/vinotecas/descuentos-en-rayuela-bebidas-A05865698",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44761",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768500_46b4089559.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "9760faa1-3ea9-f011-8155-0ab6811d4821",
+        "crmId": "A05863144",
+        "benefitId": "2211f969-dca9-f011-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "9760faa1-3ea9-f011-8155-0ab6811d4821",
+        "name": "TIGRE MORADO"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-tigre-morado-A05863144",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44746",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768513_b2013a0c2a.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "f21eb6cd-47a0-ef11-814d-0ab6811d4821",
+        "crmId": "A05742581",
+        "benefitId": "3a9b4aff-f4a1-ef11-814d-0ab6811d4821"
+      },
+      "brand": {
+        "id": "f21eb6cd-47a0-ef11-814d-0ab6811d4821",
+        "name": "MUSGO"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-musgo-A05742581",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44506",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768078_4c4ed128a5.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "c03f8e3c-9e9c-e711-812e-0ab6811d4821",
+        "crmId": "A02540675",
+        "benefitId": "285d0910-a579-ee11-814b-0ab6811d4821"
+      },
+      "brand": {
+        "id": "c03f8e3c-9e9c-e711-812e-0ab6811d4821",
+        "name": "IL MATTERELLO"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-il-matterello-A02540675",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43646",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A766916_187c468b8e.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "66413352-6e4e-4e8b-93de-d3ae5d09fd24",
+        "crmId": "A05917539",
+        "benefitId": "1cd3b5fa-8166-4d02-9a1e-35fdd13fc0e5"
+      },
+      "brand": {
+        "id": "66413352-6e4e-4e8b-93de-d3ae5d09fd24",
+        "name": "ARTINA CAFÉ"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/cafeteria-dulceria/descuentos-en-artina-cafe-A05917539",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "45747",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/artina_02_01_e33b889623.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "f1296c5f-610e-f011-8153-0ab6811d4821",
+        "crmId": "A05805351",
+        "benefitId": "85cb7b97-6a0e-f011-8153-0ab6811d4821"
+      },
+      "brand": {
+        "id": "f1296c5f-610e-f011-8153-0ab6811d4821",
+        "name": "BUKOWSKI WINE AND MORE"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/vinotecas/descuentos-en-bukowski-wine-and-more-A05805351",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44564",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768212_47e6585b94.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "ede4a83e-5efb-ef11-8153-0ab6811d4821",
+        "crmId": "A05791693",
+        "benefitId": "7d1cd61a-f116-f011-8153-0ab6811d4821"
+      },
+      "brand": {
+        "id": "ede4a83e-5efb-ef11-8153-0ab6811d4821",
+        "name": "ZORZAL WINES"
+      },
+      "benefit": {
+        "type": "2x1",
+        "discount": null,
+        "title": "2x1 de ahorro",
+        "slug": "/gastronomia/vinotecas/descuentos-en-zorzal-wines-A05791693",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44555",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/B775695_6ab72e2bf1.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "e8dfca39-81a0-f011-8155-0ab6811d4821",
+        "crmId": "A05863146",
+        "benefitId": "6fc015d7-d9a9-f011-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "e8dfca39-81a0-f011-8155-0ab6811d4821",
+        "name": "YATAI YATOI"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-yatai-yatoi-A05863146",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44751",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768514_51fd508a18.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "dac13df6-e600-ef11-814b-0ab6811d4821",
+        "crmId": "800000007109",
+        "benefitId": "f572c4fb-7400-f111-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "dac13df6-e600-ef11-814b-0ab6811d4821",
+        "name": "BLINDCAFÉ"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/cafeteria-dulceria/descuentos-en-blindcafe-800000007109",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43812",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767850_68eca6363b.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "adfc0fba-c4b1-eb11-8146-0ab6811d4821",
+        "crmId": "A05382216",
+        "benefitId": "57bd6d48-f719-f011-8153-0ab6811d4821"
+      },
+      "brand": {
+        "id": "adfc0fba-c4b1-eb11-8146-0ab6811d4821",
+        "name": "GONTRAN CHERRIER"
+      },
+      "benefit": {
+        "type": "30%",
+        "discount": 30,
+        "title": "30% de ahorro",
+        "slug": "/gastronomia/cafeteria-dulceria/descuentos-en-gontran-cherrier-A05382216",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44422",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768224_1995105770.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "a777e571-805e-f011-8153-0ab6811d4821",
+        "crmId": "A05838862",
+        "benefitId": "352168f0-815e-f011-8153-0ab6811d4821"
+      },
+      "brand": {
+        "id": "a777e571-805e-f011-8153-0ab6811d4821",
+        "name": "EL PALACIO DE SAN TELMO"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/vinotecas/descuentos-en-el-palacio-de-san-telmo-A05838862",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44659",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768372_2553215b54.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "5882f907-bf39-4ff6-a7bd-bf98300331a8",
+        "crmId": "A05917540",
+        "benefitId": "60eb8d53-a581-4e58-9cfe-b00c4af42acf"
+      },
+      "brand": {
+        "id": "5882f907-bf39-4ff6-a7bd-bf98300331a8",
+        "name": "KAYLA CAFÉ BAR"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/cafeteria-dulceria/descuentos-en-kayla-cafe-bar-A05917540",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "45724",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/kaya_01_01_c70b824452.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "fde494dd-998a-e811-8137-0ab6811d4821",
+        "crmId": "A04180140",
+        "benefitId": "a8ef971f-6950-f011-8153-0ab6811d4821"
+      },
+      "brand": {
+        "id": "fde494dd-998a-e811-8137-0ab6811d4821",
+        "name": "MAGNOLIAS GOURMET"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-magnolias-gourmet-A04180140",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44067",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767381_45652d9221.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "cbf5a150-0e9f-e711-812e-0ab6811d4821",
+        "crmId": "A02519437",
+        "benefitId": "11d073b4-7395-f011-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "cbf5a150-0e9f-e711-812e-0ab6811d4821",
+        "name": "DEAN & DENNYS"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/comidas-rapidas/descuentos-en-dean-y-dennys-A02519437",
+        "ecommerce": false,
+        "virtualCard": false,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43661",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767619_777c10285b.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "38d857a0-8c92-4657-9539-20ed9b9b425e",
+        "crmId": "A05919552",
+        "benefitId": "8e2ca072-983e-415d-95d3-92f9ff3159ed"
+      },
+      "brand": {
+        "id": "38d857a0-8c92-4657-9539-20ed9b9b425e",
+        "name": "DONUT MAKERS BAKERY MICROCENTRO"
+      },
+      "benefit": {
+        "type": "15%",
+        "discount": 15,
+        "title": "15% de ahorro",
+        "slug": "/gastronomia/cafeteria-dulceria/descuentos-en-donut-makers-bakery-microcentro-A05919552",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "45565",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/donuts_cee2e5b37c.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "ad2e8337-a994-f011-8155-0ab6811d4821",
+        "crmId": "A05859664",
+        "benefitId": "e8b4b99d-6d2c-f111-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "ad2e8337-a994-f011-8155-0ab6811d4821",
+        "name": "LA UAT BAR"
+      },
+      "benefit": {
+        "type": "15%",
+        "discount": 15,
+        "title": "15% de ahorro",
+        "slug": "/gastronomia/bares/descuentos-en-la-uat-bar-A05859664",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44716",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768478_c25205aaae.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "ad667931-936a-e911-813f-0ab6811d4821",
+        "crmId": "A00397930",
+        "benefitId": "18c953d3-773b-ed11-8149-0ab6811d4821"
+      },
+      "brand": {
+        "id": "ad667931-936a-e911-813f-0ab6811d4821",
+        "name": "BULLER"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/bares/descuentos-en-buller-A00397930",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43741",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A765634_e43183ded4.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "ca16aa8e-cc49-ef11-814c-0ab6811d4821",
+        "crmId": "A05640037",
+        "benefitId": "bffbbc84-8b4e-ef11-814c-0ab6811d4821"
+      },
+      "brand": {
+        "id": "ca16aa8e-cc49-ef11-814c-0ab6811d4821",
+        "name": "GUNDY´S"
+      },
+      "benefit": {
+        "type": "15%",
+        "discount": 15,
+        "title": "15% de ahorro",
+        "slug": "/gastronomia/cafeteria-dulceria/descuentos-en-gundys-A05640037",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44479",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768111_5b5e11cf72.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "b1359bbc-e4f1-ee11-814b-0ab6811d4821",
+        "crmId": "A05608282",
+        "benefitId": "24040a5c-b7e8-ef11-814d-0ab6811d4821"
+      },
+      "brand": {
+        "id": "b1359bbc-e4f1-ee11-814b-0ab6811d4821",
+        "name": "TOMATE"
+      },
+      "benefit": {
+        "type": "15%",
+        "discount": 15,
+        "title": "15% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-tomate-A05608282",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43706",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767828_27eea77e9c.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "598bd1cc-d422-e811-8133-0ab6811d4821",
+        "crmId": "A02550699",
+        "benefitId": "823e97aa-7700-f111-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "598bd1cc-d422-e811-8133-0ab6811d4821",
+        "name": "CUMEN CUMEN"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/comidas-rapidas/descuentos-en-cumen-cumen-A02550699",
+        "ecommerce": false,
+        "virtualCard": false,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43518",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A765000_e4a0fca1fc.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    }
+  ]
+}

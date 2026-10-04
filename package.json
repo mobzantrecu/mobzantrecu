@@ -1,0 +1,13 @@
+{
+    "name": "benefits-collector",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "start": "node src/index.js",
+        "filter-active": "node src/filter-active.js",
+        "build-html": "node src/generate-html.js"
+    },
+    "engines": {
+        "node": ">=20"
+    }
+}
