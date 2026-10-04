@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-04T05:22:53.045Z",
+  "generatedAt": "2026-10-04T05:23:43.333Z",
   "sources": {
-    "santander": 15,
+    "santander": 25,
     "lanacion": 121
   },
-  "total": 136,
+  "total": 146,
   "benefits": [
     {
       "source": "santander",
@@ -1198,6 +1198,825 @@
           "descriptionType": "RECARGABLE",
           "codeType": "R",
           "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_recargable.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 59,
+          "description": "Dining",
+          "code": "DIN"
+        },
+        {
+          "id": 65,
+          "description": "Select",
+          "code": "SEC"
+        },
+        {
+          "id": 315,
+          "description": "Fabric",
+          "code": "FBR"
+        }
+      ],
+      "schedule": {
+        "monday": true,
+        "tuesday": true,
+        "wednesday": true,
+        "thursday": true,
+        "friday": true,
+        "saturday": true,
+        "sunday": true,
+        "fullWeek": true
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 2253,
+        "publicationId": 6323
+      },
+      "brand": {
+        "id": 2253,
+        "name": "Hierro Bodegón"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-02-01T00:00:00",
+        "endDate": "2026-12-31T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Select"
+      },
+      "conditions": {
+        "additionalText": "<p>Exclusivo con <strong>Tarjetas Santander Visa Black y Platinum</strong>.</p>\n",
+        "specialCondition": null,
+        "legal": "<p>Válida todos los días, en los locales adheridos, abonando con Tarjetas Santander Visa Black y Platinum, incluidos los pagos realizados con MODO, Google Pay y Apple Pay. Se excluyen compras abonadas por transferencias, a través de billeteras virtuales o financiadas por programas Cuota Simple. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria de dicho titular. </p>\n<p></p>\n<p>El ahorro se hará efectivo vía reintegro dentro de los 60 días de efectuado el consumo en la cuenta bancaria titular del cliente. No aplica a tarjetas de débito vinculadas a cajas de ahorro en pesos gratuitas, ni pagos realizados con dinero en cuenta. Promoción sin tope de reintegro. Ejemplo: en una compra con tarjeta de crédito de $100.000, el cliente recibirá un reintegro de $25.000 en la cuenta bancaria titular. </p>\n"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 59,
+          "description": "Dining",
+          "code": "DIN"
+        },
+        {
+          "id": 65,
+          "description": "Select",
+          "code": "SEC"
+        }
+      ],
+      "schedule": {
+        "monday": true,
+        "tuesday": true,
+        "wednesday": true,
+        "thursday": true,
+        "friday": true,
+        "saturday": true,
+        "sunday": true,
+        "fullWeek": true
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 193,
+        "publicationId": 7355
+      },
+      "brand": {
+        "id": 193,
+        "name": "Kansas"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-07-01T00:00:00",
+        "endDate": "2026-12-31T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Select"
+      },
+      "conditions": {
+        "additionalText": "<p>Exclusivo con <strong>Tarjetas Santander Visa Black y Platinum</strong>.</p>",
+        "specialCondition": null,
+        "legal": "<p>Válido en los locales adheridos, abonando con Tarjetas Santander Crédito y/o Débito Visa, incluidos los pagos realizados con MODO, Google Pay y Apple Pay. Se excluyen compras abonadas por transferencias, a través de billeteras virtuales o financiadas por programas Cuota Simple. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria de dicho titular.</p><p>El ahorro se hará efectivo vía reintegro dentro de los 60 días de efectuado el consumo en la cuenta bancaria titular del cliente. No aplica a tarjetas de débito vinculadas a cajas de ahorro en pesos gratuitas, ni pagos realizados con dinero en cuenta. Promoción sin tope de reintegro. Ejemplo: en una compra con tarjeta de crédito de $100.000, el cliente recibirá un reintegro de $25.000 en la cuenta bancaria titular.</p>"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 59,
+          "description": "Dining",
+          "code": "DIN"
+        },
+        {
+          "id": 65,
+          "description": "Select",
+          "code": "SEC"
+        }
+      ],
+      "schedule": {
+        "monday": false,
+        "tuesday": true,
+        "wednesday": true,
+        "thursday": false,
+        "friday": false,
+        "saturday": false,
+        "sunday": false,
+        "fullWeek": false
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 812,
+        "publicationId": 6336
+      },
+      "brand": {
+        "id": 812,
+        "name": "La Stampa"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-02-01T00:00:00",
+        "endDate": "2026-12-31T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Select"
+      },
+      "conditions": {
+        "additionalText": "<p>Exclusivo con <strong>Tarjetas Santander Visa Black y Platinum</strong>.</p>\n",
+        "specialCondition": null,
+        "legal": "<p>Válida todos los días, en los locales adheridos, abonando con Tarjetas Santander Visa Black y Platinum, incluidos los pagos realizados con MODO, Google Pay y Apple Pay. Se excluyen compras abonadas por transferencias, a través de billeteras virtuales o financiadas por programas Cuota Simple. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria de dicho titular. </p>\n<p></p>\n<p>El ahorro se hará efectivo vía reintegro dentro de los 60 días de efectuado el consumo en la cuenta bancaria titular del cliente. No aplica a tarjetas de débito vinculadas a cajas de ahorro en pesos gratuitas, ni pagos realizados con dinero en cuenta. Promoción sin tope de reintegro. Ejemplo: en una compra con tarjeta de crédito de $100.000, el cliente recibirá un reintegro de $25.000 en la cuenta bancaria titular. </p>\n"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 59,
+          "description": "Dining",
+          "code": "DIN"
+        },
+        {
+          "id": 65,
+          "description": "Select",
+          "code": "SEC"
+        }
+      ],
+      "schedule": {
+        "monday": true,
+        "tuesday": true,
+        "wednesday": true,
+        "thursday": true,
+        "friday": true,
+        "saturday": true,
+        "sunday": true,
+        "fullWeek": true
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 348,
+        "publicationId": 5962
+      },
+      "brand": {
+        "id": 348,
+        "name": "Mutsuhito Omakase"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2025-11-19T00:00:00",
+        "endDate": "2026-12-31T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Select"
+      },
+      "conditions": {
+        "additionalText": "<p>Exclusivo con <strong>Tarjetas Santander Visa Black y Platinum</strong>.</p>\n",
+        "specialCondition": null,
+        "legal": "<p>Válida todos los días, en los locales adheridos, abonando con Tarjetas Santander Visa Black y Platinum, incluidos los pagos realizados con MODO, Google Pay y Apple Pay. Se excluyen compras abonadas por transferencias, a través de billeteras virtuales o financiadas por programas Cuota Simple. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria de dicho titular. </p>\n<p></p>\n<p>El ahorro se hará efectivo vía reintegro dentro de los 60 días de efectuado el consumo en la cuenta bancaria titular del cliente. No aplica a tarjetas de débito vinculadas a cajas de ahorro en pesos gratuitas, ni pagos realizados con dinero en cuenta. Promoción sin tope de reintegro. Ejemplo: en una compra con tarjeta de crédito de $100.000, el cliente recibirá un reintegro de $25.000 en la cuenta bancaria titular. </p>\n"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 59,
+          "description": "Dining",
+          "code": "DIN"
+        },
+        {
+          "id": 65,
+          "description": "Select",
+          "code": "SEC"
+        }
+      ],
+      "schedule": {
+        "monday": true,
+        "tuesday": true,
+        "wednesday": true,
+        "thursday": true,
+        "friday": true,
+        "saturday": true,
+        "sunday": true,
+        "fullWeek": true
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 967,
+        "publicationId": 6374
+      },
+      "brand": {
+        "id": 967,
+        "name": "Piegari"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-02-05T00:00:00",
+        "endDate": "2026-12-31T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Select"
+      },
+      "conditions": {
+        "additionalText": "<p>Exclusivo con <strong>Tarjetas Santander Visa Black y Platinum</strong>.</p>\n",
+        "specialCondition": null,
+        "legal": "<p>Válida todos los días, en los locales adheridos, abonando con Tarjetas Santander Visa Black y Platinum, incluidos los pagos realizados con MODO, Google Pay y Apple Pay. Se excluyen compras abonadas por transferencias, a través de billeteras virtuales o financiadas por programas Cuota Simple. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria de dicho titular. </p>\n<p></p>\n<p>El ahorro se hará efectivo vía reintegro dentro de los 60 días de efectuado el consumo en la cuenta bancaria titular del cliente. No aplica a tarjetas de débito vinculadas a cajas de ahorro en pesos gratuitas, ni pagos realizados con dinero en cuenta. Promoción sin tope de reintegro. Ejemplo: en una compra con tarjeta de crédito de $100.000, el cliente recibirá un reintegro de $25.000 en la cuenta bancaria titular. </p>\n"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 59,
+          "description": "Dining",
+          "code": "DIN"
+        },
+        {
+          "id": 65,
+          "description": "Select",
+          "code": "SEC"
+        }
+      ],
+      "schedule": {
+        "monday": true,
+        "tuesday": true,
+        "wednesday": true,
+        "thursday": true,
+        "friday": true,
+        "saturday": true,
+        "sunday": true,
+        "fullWeek": true
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 2258,
+        "publicationId": 6319
+      },
+      "brand": {
+        "id": 2258,
+        "name": "Ribs al Río"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-02-01T00:00:00",
+        "endDate": "2026-12-31T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Select"
+      },
+      "conditions": {
+        "additionalText": "<p>Exclusivo con <strong>Tarjetas Santander Visa Black y Platinum</strong>.</p>\n",
+        "specialCondition": null,
+        "legal": "<p>Válida todos los días, en los locales adheridos, abonando con Tarjetas Santander Visa Black y Platinum, incluidos los pagos realizados con MODO, Google Pay y Apple Pay. Se excluyen compras abonadas por transferencias, a través de billeteras virtuales o financiadas por programas Cuota Simple. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria de dicho titular. </p>\n<p>El ahorro se hará efectivo vía reintegro dentro de los 60 días de efectuado el consumo en la cuenta bancaria titular del cliente. No aplica a tarjetas de débito vinculadas a cajas de ahorro en pesos gratuitas, ni pagos realizados con dinero en cuenta. Promoción sin tope de reintegro. Ejemplo: en una compra con tarjeta de crédito de $100.000, el cliente recibirá un reintegro de $25.000 en la cuenta bancaria titular. </p>\n"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 59,
+          "description": "Dining",
+          "code": "DIN"
+        },
+        {
+          "id": 65,
+          "description": "Select",
+          "code": "SEC"
+        }
+      ],
+      "schedule": {
+        "monday": true,
+        "tuesday": true,
+        "wednesday": true,
+        "thursday": true,
+        "friday": true,
+        "saturday": true,
+        "sunday": true,
+        "fullWeek": true
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 2243,
+        "publicationId": 6329
+      },
+      "brand": {
+        "id": 2243,
+        "name": "Rufino"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-02-01T00:00:00",
+        "endDate": "2026-12-31T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Select"
+      },
+      "conditions": {
+        "additionalText": "<p>Exclusivo con <strong>Tarjetas Santander Visa Black y Platinum</strong>.</p>\n",
+        "specialCondition": null,
+        "legal": "<p>Válida todos los días, en los locales adheridos, abonando con Tarjetas Santander Visa Black y Platinum, incluidos los pagos realizados con MODO, Google Pay y Apple Pay. Se excluyen compras abonadas por transferencias, a través de billeteras virtuales o financiadas por programas Cuota Simple. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria de dicho titular. </p>\n<p>El ahorro se hará efectivo vía reintegro dentro de los 60 días de efectuado el consumo en la cuenta bancaria titular del cliente. No aplica a tarjetas de débito vinculadas a cajas de ahorro en pesos gratuitas, ni pagos realizados con dinero en cuenta. Promoción sin tope de reintegro. Ejemplo: en una compra con tarjeta de crédito de $100.000, el cliente recibirá un reintegro de $25.000 en la cuenta bancaria titular. </p>\n"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 59,
+          "description": "Dining",
+          "code": "DIN"
+        },
+        {
+          "id": 65,
+          "description": "Select",
+          "code": "SEC"
+        }
+      ],
+      "schedule": {
+        "monday": true,
+        "tuesday": true,
+        "wednesday": true,
+        "thursday": true,
+        "friday": true,
+        "saturday": true,
+        "sunday": true,
+        "fullWeek": true
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 500,
+        "publicationId": 3844
+      },
+      "brand": {
+        "id": 500,
+        "name": "Tigre Morado"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2025-02-27T00:00:00",
+        "endDate": "2026-12-31T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Select"
+      },
+      "conditions": {
+        "additionalText": "<p>Exclusivo con <strong>Tarjetas Santander Visa Black y Platinum</strong>.<br><br><span style=\"font-size: 18px;\">Hacé tu reserva para disfrutar una noche de <strong>Piano Bar</strong> en <strong>Costanera</strong> el 21/05/2026 </span><a href=\"https://www.wokiapp.com/restaurante/tigre-morado-costanera?enterByLink=true&source=franchise&franchise=tigremorado&slug=tigre-morado-costanera&showDay=2026-05-19T21%3A00%3A00Z&isTimeFlexible=false&isSectorFlexible=false&id=ca3e923f-95f7-40d8-b90c-47e436504563\" target=\"_blank\"><span style=\"color: rgb(209,72,65);font-size: 18px;\">desde acá</span></a><span style=\"font-size: 18px;\">.</span></p>\n",
+        "specialCondition": null,
+        "legal": "<p><strong>DISPONIBLE PARA CARTERA DE CONSUMO Y COMERCIAL</strong></p>\n<p>Aplica sólo para compras efectuadas con las tarjetas Santander Visa débito y crédito Black y Platinum. Ejemplo: En una compra con tu tarjeta de débito de $10.000, verás reflejado en el resumen de tu cuenta un consumo de $10.000 y un reintegro de $ 2.500. El ahorro se hará efectivo vía reintegro: tarjeta de crédito en liquidación siguiente, tarjeta recargable vía crédito en la tarjeta que registra el consumo y tarjeta de débito en la cuenta, las dos últimas dentro de los quince días de efectuado el consumo.</p>\n"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        },
+        {
+          "id": 3,
+          "description": "VISA",
+          "code": "43",
+          "idType": 3,
+          "descriptionType": "RECARGABLE",
+          "codeType": "R",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_recargable.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 59,
+          "description": "Dining",
+          "code": "DIN"
+        },
+        {
+          "id": 65,
+          "description": "Select",
+          "code": "SEC"
+        },
+        {
+          "id": 315,
+          "description": "Fabric",
+          "code": "FBR"
+        }
+      ],
+      "schedule": {
+        "monday": true,
+        "tuesday": true,
+        "wednesday": true,
+        "thursday": true,
+        "friday": true,
+        "saturday": true,
+        "sunday": true,
+        "fullWeek": true
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 587,
+        "publicationId": 7795
+      },
+      "brand": {
+        "id": 587,
+        "name": "Tostado Café Club"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "description": "Tope de reintegro: $20.000 mensual",
+        "topAmount": 20000,
+        "startDate": "2026-09-12T00:00:00",
+        "endDate": "2026-12-31T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "Mensual",
+        "tag": "Sorpresa"
+      },
+      "conditions": {
+        "additionalText": "<p>Beneficio exclusivo para clientes suscriptos a <strong>Sorpresa Santander</strong>.</p>",
+        "specialCondition": null,
+        "legal": "<p><strong>PARA CLIENTES SUSCRIPTOS AL PROGRAMA SORPRESA SANTANDER. </strong></p><p>Válida Viernes y sábados, en locales adheridos, abonando con Tarjetas Santander Visa débito y crédito, incluidos los pagos realizados con MODO, Google Pay y Apple Pay. Se excluyen compras abonadas por transferencias, a través de billeteras virtuales. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria de dicho titular. El ahorro se hará efectivo vía reintegro dentro de los 60 días de efectuado el consumo en la cuenta bancaria titular del cliente. No aplica a tarjetas de débito vinculadas a cajas de ahorro en pesos gratuitas, ni pagos realizados con dinero en cuenta. tope de reintegro $20.000 mensual por cliente. Ejemplo: en una compra con tarjeta de crédito de $100.000, el cliente recibirá un reintegro de $20.000 (tope) en la cuenta bancaria titular.</p>"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 61,
+          "description": "Sorpresa",
+          "code": "SOR"
+        }
+      ],
+      "schedule": {
+        "monday": false,
+        "tuesday": false,
+        "wednesday": false,
+        "thursday": false,
+        "friday": true,
+        "saturday": true,
+        "sunday": false,
+        "fullWeek": false
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 713,
+        "publicationId": 6370
+      },
+      "brand": {
+        "id": 713,
+        "name": "Yatai Yatoi"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2025-12-03T00:00:00",
+        "endDate": "2026-11-30T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Select"
+      },
+      "conditions": {
+        "additionalText": "<p>Exclusivo con <strong>Tarjetas Santander Visa Black y Platinum</strong>.</p>\n",
+        "specialCondition": null,
+        "legal": "<p>Válida todos los días, en los locales adheridos, abonando con Tarjetas Santander Visa Black y Platinum, incluidos los pagos realizados con MODO, Google Pay y Apple Pay. Se excluyen compras abonadas por transferencias, a través de billeteras virtuales o financiadas por programas Cuota Simple. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria de dicho titular. </p>\n<p></p>\n<p>El ahorro se hará efectivo vía reintegro dentro de los 60 días de efectuado el consumo en la cuenta bancaria titular del cliente. No aplica a tarjetas de débito vinculadas a cajas de ahorro en pesos gratuitas, ni pagos realizados con dinero en cuenta. Promoción sin tope de reintegro. Ejemplo: en una compra con tarjeta de crédito de $100.000, el cliente recibirá un reintegro de $25.000 en la cuenta bancaria titular. </p>\n"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
         }
       ],
       "categories": [
