@@ -274,7 +274,7 @@ async function getSantanderBrands() {
   console.log("\n[SANTANDER]");
   console.log(`Getting brands: ${url}`);
 
-  const response = await fetchJsonSantander(url);
+  const response = await fetchJson(url);
 
   console.log(
     `Found ${response.items?.length ?? 0} brands`
