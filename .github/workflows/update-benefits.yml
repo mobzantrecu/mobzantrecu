@@ -25,39 +25,50 @@ jobs:
         with:
           node-version: 20
 
-      - name: Diagnose Santander DNS
+      - name: Test Santander every IPv4
         run: |
-          echo "=== DNS ==="
-          getent ahostsv4 www.santander.com.ar || true
+          set -e
+
+          URL="https://www.santander.com.ar/bff-benefits/brands?categories=GAS&days=&exclusive=&pay_with=&location=caba&limit=12"
+          HOST="www.santander.com.ar"
+
+          IPS=$(getent ahostsv4 "$HOST" | awk '{print $1}' | sort -u)
+
+          echo "IPs encontradas:"
+          echo "$IPS"
+
+          for IP in $IPS; do
+            echo ""
+            echo "========================================"
+            echo "Probando $IP"
+            echo "========================================"
+
+            if curl \
+              --resolve "$HOST:443:$IP" \
+              --http1.1 \
+              --fail-with-body \
+              --silent \
+              --show-error \
+              --max-time 10 \
+              -H "Accept: application/json" \
+              -H "User-Agent: Mozilla/5.0" \
+              -o /tmp/santander.json \
+              "$URL"
+            then
+              echo ""
+              echo "✅ FUNCIONÓ: $IP"
+              echo "Body:"
+              head -c 200 /tmp/santander.json
+              echo ""
+              exit 0
+            else
+              echo "❌ FALLÓ: $IP"
+            fi
+          done
 
           echo ""
-          echo "=== curl -4 ==="
-          curl -4 -v \
-            --http1.1 \
-            --max-time 15 \
-            -o /tmp/santander.json \
-            -w "\nHTTP: %{http_code}\nIP: %{remote_ip}\nTime: %{time_total}\n" \
-            "https://www.santander.com.ar/bff-benefits/brands?categories=GAS&days=&exclusive=&pay_with=&location=caba&page=1&limit=12"
-
-          echo ""
-          echo "=== Body ==="
-          head -c 200 /tmp/santander.json || true
-
-          echo ""
-          echo "=== IP exitosa hardcodeada ==="
-
-          curl \
-            --http1.1 \
-            --max-time 15 \
-            --resolve www.santander.com.ar:443:23.205.106.89 \
-            -o /tmp/santander-ip.json \
-            -w "\nHTTP: %{http_code}\nIP: %{remote_ip}\nTime: %{time_total}\n" \
-            "https://www.santander.com.ar/bff-benefits/brands?categories=GAS&days=&exclusive=&pay_with=&location=caba&page=1&limit=12"
-
-          echo ""
-          echo "=== Body ==="
-          head -c 200 /tmp/santander-ip.json || true
-
+          echo "❌ Ningún IP de Santander respondió"
+          exit 1
 
       - name: Collect benefits
         run: npm start
