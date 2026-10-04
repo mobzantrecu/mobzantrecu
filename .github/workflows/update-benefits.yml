@@ -25,78 +25,39 @@ jobs:
         with:
           node-version: 20
 
-      - name: Test Santander IPv4 por IP
+      - name: Diagnose Santander DNS
         run: |
-          node --input-type=module <<'EOF'
-          import https from "node:https";
-          import dns from "node:dns/promises";
+          echo "=== DNS ==="
+          getent ahostsv4 www.santander.com.ar || true
 
-          const hostname = "www.santander.com.ar";
-          const path =
-            "/bff-benefits/brands?categories=GAS&days=&exclusive=&pay_with=&location=caba&page=1&limit=12";
+          echo ""
+          echo "=== curl -4 ==="
+          curl -4 -v \
+            --http1.1 \
+            --max-time 15 \
+            -o /tmp/santander.json \
+            -w "\nHTTP: %{http_code}\nIP: %{remote_ip}\nTime: %{time_total}\n" \
+            "https://www.santander.com.ar/bff-benefits/brands?categories=GAS&days=&exclusive=&pay_with=&location=caba&page=1&limit=12"
 
-          const ips = await dns.resolve4(hostname);
+          echo ""
+          echo "=== Body ==="
+          head -c 200 /tmp/santander.json || true
 
-          console.log("IPv4 encontrados:", ips);
+          echo ""
+          echo "=== IP exitosa hardcodeada ==="
 
-          for (const ip of ips) {
-            console.log(`\n=== Probando ${ip} ===`);
+          curl \
+            --http1.1 \
+            --max-time 15 \
+            --resolve www.santander.com.ar:443:23.205.106.89 \
+            -o /tmp/santander-ip.json \
+            -w "\nHTTP: %{http_code}\nIP: %{remote_ip}\nTime: %{time_total}\n" \
+            "https://www.santander.com.ar/bff-benefits/brands?categories=GAS&days=&exclusive=&pay_with=&location=caba&page=1&limit=12"
 
-            try {
-              const result = await new Promise((resolve, reject) => {
-                const req = https.get(
-                  {
-                    hostname: ip,
-                    path,
-                    family: 4,
+          echo ""
+          echo "=== Body ==="
+          head -c 200 /tmp/santander-ip.json || true
 
-                    // Muy importante:
-                    servername: hostname,
-
-                    headers: {
-                      Host: hostname,
-                      Accept: "application/json",
-                      "User-Agent": "Mozilla/5.0",
-                    },
-                  },
-                  (res) => {
-                    let body = "";
-
-                    res.setEncoding("utf8");
-
-                    res.on("data", (chunk) => {
-                      body += chunk;
-                    });
-
-                    res.on("end", () => {
-                      resolve({
-                        statusCode: res.statusCode,
-                        body,
-                      });
-                    });
-                  }
-                );
-
-                req.setTimeout(10000, () => {
-                  req.destroy(new Error("Request timeout"));
-                });
-
-                req.on("error", reject);
-              });
-
-              console.log("Status:", result.statusCode);
-              console.log("Body length:", result.body.length);
-              console.log("Body:", result.body.slice(0, 150));
-
-              if (result.statusCode >= 200 && result.statusCode < 300) {
-                console.log(`\n✅ IP FUNCIONAL: ${ip}`);
-                break;
-              }
-            } catch (error) {
-              console.log(`❌ ${ip}: ${error.message}`);
-            }
-          }
-          EOF
 
       - name: Collect benefits
         run: npm start
