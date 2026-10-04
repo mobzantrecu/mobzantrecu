@@ -25,56 +25,77 @@ jobs:
         with:
           node-version: 20
 
-      - name: Test Santander with Node IPv4
+      - name: Test Santander IPv4 por IP
         run: |
           node --input-type=module <<'EOF'
           import https from "node:https";
+          import dns from "node:dns/promises";
 
-          const url = new URL(
-            "https://www.santander.com.ar/bff-benefits/brands?categories=GAS&days=&exclusive=&pay_with=&location=caba&page=1&limit=12"
-          );
+          const hostname = "www.santander.com.ar";
+          const path =
+            "/bff-benefits/brands?categories=GAS&days=&exclusive=&pay_with=&location=caba&page=1&limit=12";
 
-          const response = await new Promise((resolve, reject) => {
-            const request = https.get(
-              {
-                hostname: url.hostname,
-                path: url.pathname + url.search,
-                family: 4,
-                headers: {
-                  Accept: "application/json",
-                  "User-Agent": "Mozilla/5.0",
-                },
-              },
-              (response) => {
-                let body = "";
+          const ips = await dns.resolve4(hostname);
 
-                response.setEncoding("utf8");
+          console.log("IPv4 encontrados:", ips);
 
-                response.on("data", (chunk) => {
-                  body += chunk;
+          for (const ip of ips) {
+            console.log(`\n=== Probando ${ip} ===`);
+
+            try {
+              const result = await new Promise((resolve, reject) => {
+                const req = https.get(
+                  {
+                    hostname: ip,
+                    path,
+                    family: 4,
+
+                    // Muy importante:
+                    servername: hostname,
+
+                    headers: {
+                      Host: hostname,
+                      Accept: "application/json",
+                      "User-Agent": "Mozilla/5.0",
+                    },
+                  },
+                  (res) => {
+                    let body = "";
+
+                    res.setEncoding("utf8");
+
+                    res.on("data", (chunk) => {
+                      body += chunk;
+                    });
+
+                    res.on("end", () => {
+                      resolve({
+                        statusCode: res.statusCode,
+                        body,
+                      });
+                    });
+                  }
+                );
+
+                req.setTimeout(10000, () => {
+                  req.destroy(new Error("Request timeout"));
                 });
 
-                response.on("end", () => {
-                  resolve({
-                    statusCode: response.statusCode,
-                    body,
-                  });
-                });
+                req.on("error", reject);
+              });
+
+              console.log("Status:", result.statusCode);
+              console.log("Body length:", result.body.length);
+              console.log("Body:", result.body.slice(0, 150));
+
+              if (result.statusCode >= 200 && result.statusCode < 300) {
+                console.log(`\n✅ IP FUNCIONAL: ${ip}`);
+                break;
               }
-            );
-
-            request.setTimeout(20000, () => {
-              request.destroy(
-                new Error("Request timeout")
-              );
-            });
-
-            request.on("error", reject);
-          });
-
-          console.log("Status:", response.statusCode);
-          console.log("Body length:", response.body.length);
-          console.log(response.body.slice(0, 500));
+            } catch (error) {
+              console.log(`❌ ${ip}: ${error.message}`);
+            }
+          }
           EOF
 
       - name: Collect benefits
