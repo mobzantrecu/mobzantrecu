@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-05T06:09:47.536Z",
+  "generatedAt": "2026-10-06T06:05:20.214Z",
   "sources": {
-    "santander": 25,
+    "santander": 26,
     "lanacion": 121
   },
-  "total": 146,
+  "total": 147,
   "benefits": [
     {
       "source": "santander",
@@ -1398,6 +1398,87 @@
         "saturday": false,
         "sunday": false,
         "fullWeek": false
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 3458,
+        "publicationId": 7988
+      },
+      "brand": {
+        "id": 3458,
+        "name": "La Cantina - UADE"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "description": "Tope de reintegro: $1.000 por compra",
+        "topAmount": 1000,
+        "startDate": "2026-10-01T00:00:00",
+        "endDate": "2026-10-25T00:00:00",
+        "paymentType": "QR - Modo",
+        "frequency": "Tope Transaccion",
+        "tag": "Pagando con QR"
+      },
+      "conditions": {
+        "additionalText": "<p>En comedores y kioskos de la UADE.</p><p></p><p>Pagando con <strong>QR</strong> a través de la <strong>App Santander</strong>.</p><p></p><p>Válido por hasta 10 transacciones mensuales.</p>",
+        "specialCondition": null,
+        "legal": "<p>Válido abonando con QR a través de la App Santander o App MODO con Tarjeta Santander Visa crédito y/o débito, todos los días. Aplica a comercios adheridos. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta asociada del cliente. Es necesario que previo a realizarse el reintegro tengas asociada a MODO la cuenta que sea del mismo banco que la tarjeta con la que realizaste la compra. No aplica a tarjetas de débito vinculadas a cajas de ahorro pesos gratuitas. No acumulable con otras promociones. El tope de ahorro se calcula considerando la suma de las compras realizadas por el titular de tarjeta y sus adicionales. El tope será de $1.000 por transacción y hasta 10 transacciones por mes. EJEMPLO CARTERA DE CONSUMO: EN UNA COMPRA CON TARJETA DE CRÉDITO DE $ 15.000 REGISTRARÁ UN CONSUMO DE $15.000 Y UN REINTEGRO DE $1.000 (tope por compra) Tope mensual $10.000.</p>"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 6,
+          "description": "Formación",
+          "code": "EDU"
+        },
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 18,
+          "description": "Varios",
+          "code": "VAR"
+        },
+        {
+          "id": 36,
+          "description": "Modo",
+          "code": "MOD"
+        }
+      ],
+      "schedule": {
+        "monday": true,
+        "tuesday": true,
+        "wednesday": true,
+        "thursday": true,
+        "friday": true,
+        "saturday": true,
+        "sunday": true,
+        "fullWeek": true
       }
     },
     {
@@ -2870,36 +2951,6 @@
     {
       "source": "lanacion",
       "sourceIds": {
-        "accountId": "6f58ac44-9764-eb11-8146-0ab6811d4821",
-        "crmId": "A05000581",
-        "benefitId": "2ef8f799-39ae-ee11-814b-0ab6811d4821"
-      },
-      "brand": {
-        "id": "6f58ac44-9764-eb11-8146-0ab6811d4821",
-        "name": "VASALISSA CHOCOLATIER"
-      },
-      "benefit": {
-        "type": "15%",
-        "discount": 15,
-        "title": "15% de ahorro",
-        "slug": "/gastronomia/cafeteria-dulceria/descuentos-en-vasalissa-chocolatier-A05000581",
-        "ecommerce": false,
-        "virtualCard": true,
-        "exclusiveBlack": false
-      },
-      "images": [
-        {
-          "id": "44154",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A766596_013681f199.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ]
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
         "accountId": "5a064fde-a23f-eb11-8146-0ab6811d4821",
         "crmId": "A05356705",
         "benefitId": "3b003d0f-6850-f011-8153-0ab6811d4821"
@@ -3693,36 +3744,6 @@
           "id": "45581",
           "type": "",
           "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/chungo_022_31e19c0c48.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ]
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
-        "accountId": "98e81934-cfb1-eb11-8146-0ab6811d4821",
-        "crmId": "A05382242",
-        "benefitId": "279910db-eff3-ec11-8148-0ab6811d4821"
-      },
-      "brand": {
-        "id": "98e81934-cfb1-eb11-8146-0ab6811d4821",
-        "name": "BORJA SPECIALTY COFFEE"
-      },
-      "benefit": {
-        "type": "20%",
-        "discount": 20,
-        "title": "20% de ahorro",
-        "slug": "/gastronomia/cafeteria-dulceria/descuentos-en-borja-specialty-coffee-A05382242",
-        "ecommerce": false,
-        "virtualCard": true,
-        "exclusiveBlack": false
-      },
-      "images": [
-        {
-          "id": "43521",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A766700_87d8413c7b.jpg",
           "highlighted": false,
           "thumb": false
         }
@@ -5703,6 +5724,66 @@
           "id": "43518",
           "type": "",
           "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A765000_e4a0fca1fc.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "6f58ac44-9764-eb11-8146-0ab6811d4821",
+        "crmId": "A05000581",
+        "benefitId": "2ef8f799-39ae-ee11-814b-0ab6811d4821"
+      },
+      "brand": {
+        "id": "6f58ac44-9764-eb11-8146-0ab6811d4821",
+        "name": "VASALISSA CHOCOLATIER"
+      },
+      "benefit": {
+        "type": "15%",
+        "discount": 15,
+        "title": "15% de ahorro",
+        "slug": "/gastronomia/cafeteria-dulceria/descuentos-en-vasalissa-chocolatier-A05000581",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44154",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A766596_013681f199.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "98e81934-cfb1-eb11-8146-0ab6811d4821",
+        "crmId": "A05382242",
+        "benefitId": "279910db-eff3-ec11-8148-0ab6811d4821"
+      },
+      "brand": {
+        "id": "98e81934-cfb1-eb11-8146-0ab6811d4821",
+        "name": "BORJA SPECIALTY COFFEE"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/cafeteria-dulceria/descuentos-en-borja-specialty-coffee-A05382242",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43521",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A766700_87d8413c7b.jpg",
           "highlighted": false,
           "thumb": false
         }
