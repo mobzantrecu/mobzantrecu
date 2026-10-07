@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-06T06:05:20.214Z",
+  "generatedAt": "2026-10-07T06:04:53.583Z",
   "sources": {
     "santander": 26,
-    "lanacion": 121
+    "lanacion": 122
   },
-  "total": 147,
+  "total": 148,
   "benefits": [
     {
       "source": "santander",
@@ -5784,6 +5784,36 @@
           "id": "43521",
           "type": "",
           "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A766700_87d8413c7b.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "3f924bc1-8238-4c93-98d0-57abb83c620b",
+        "crmId": "A05969529",
+        "benefitId": "c8c185ef-1da1-4282-9472-bc16323b2cbf"
+      },
+      "brand": {
+        "id": "3f924bc1-8238-4c93-98d0-57abb83c620b",
+        "name": "FARDA FUEGO"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-farda-fuego-A05969529",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "46323",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/farda_01_01_e228084b34.jpg",
           "highlighted": false,
           "thumb": false
         }
