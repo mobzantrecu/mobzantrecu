@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-09T07:11:27.146Z",
+  "generatedAt": "2026-10-10T06:10:26.190Z",
   "sources": {
-    "santander": 26,
+    "santander": 27,
     "lanacion": 122
   },
-  "total": 148,
+  "total": 149,
   "benefits": [
     {
       "source": "santander",
@@ -234,6 +234,83 @@
         "wednesday": true,
         "thursday": false,
         "friday": false,
+        "saturday": false,
+        "sunday": false,
+        "fullWeek": false
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 495,
+        "publicationId": 7720
+      },
+      "brand": {
+        "id": 495,
+        "name": "The Food Market"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 35,
+        "title": "35% de ahorro + hasta 3 cuotas fijas",
+        "description": "Tope de reintegro: $25.000 durante la vigencia de la promoción",
+        "topAmount": 25000,
+        "startDate": "2026-10-16T00:00:00",
+        "endDate": "2026-10-16T00:00:00",
+        "paymentType": "QR - Modo",
+        "frequency": "Vigencia de la campania",
+        "tag": "Sorpresa"
+      },
+      "conditions": {
+        "additionalText": "<p>Pagando con <strong>MODO</strong> a través de la <strong>App Santander</strong>.<br><br>Beneficio exclusivo para clientes suscriptos a <strong>Sorpresa Santander</strong>.</p>\n",
+        "specialCondition": null,
+        "legal": "<p><strong>PARA CLIENTES SUSCRIPTOS AL PROGRAMA SORPRESA SANTANDER.</strong></p><p>CFTNA: COSTO FINANCIERO TOTAL NOMINAL ANUAL</p><p><span style=\"font-size: 48px;\">CFTNA: 0% 1,50% </span>CARTERA DE CONSUMO.</p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p>Válido todos el Viernes 16 Octubre abonando con QR a través de la App Santander o App MODO con Tarjeta Santander crédito American Express en todos los locales adheridos. No acumulable con otras promociones. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular.</p><p>El ahorro es exclusivo para clientes suscriptos al programa Sorpresa Santander. La comisión por membresía mensual Sorpresa Santander será debitada de la cuenta o tarjeta de crédito del cliente, el quinto día hábil del mes, conocer precio vigente en: www.santander.com.ar/personas/beneficios/sorpresa. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta asociada del cliente. Tope: suma de las compras realizadas por el titular de tarjeta de crédito y sus adicionales y las efectuadas con todas las tarjetas de débito asociadas a la cuenta del titular de la misma. Es necesario que previo a realizarse el reintegro tengas asociada a MODO la cuenta que sea del mismo banco que la tarjeta con la que realizaste la compra. Ejemplo: $120.000, en 3 cuotas, registrará en el resumen un consumo de $40.000 y un reintegro de $25.000 (tope). Del segundo al tercer resumen registrará un consumo de $40.000 en cada uno. Los accionistas de Banco Santander Argentina S.A. no responden en exceso de su integración accionaria</p>"
+      },
+      "cards": [
+        {
+          "id": 5,
+          "description": "AMEX",
+          "code": "42",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/amex_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 4,
+          "description": "Cuidado personal",
+          "code": "CPE"
+        },
+        {
+          "id": 18,
+          "description": "Varios",
+          "code": "VAR"
+        },
+        {
+          "id": 36,
+          "description": "Modo",
+          "code": "MOD"
+        },
+        {
+          "id": 61,
+          "description": "Sorpresa",
+          "code": "SOR"
+        },
+        {
+          "id": 66,
+          "description": "Exclusiva Amex",
+          "code": "EXA"
+        }
+      ],
+      "schedule": {
+        "monday": false,
+        "tuesday": false,
+        "wednesday": false,
+        "thursday": false,
+        "friday": true,
         "saturday": false,
         "sunday": false,
         "fullWeek": false
@@ -3011,36 +3088,6 @@
     {
       "source": "lanacion",
       "sourceIds": {
-        "accountId": "08772987-8c9c-e711-812e-0ab6811d4821",
-        "crmId": "A01593993",
-        "benefitId": "b993288e-ed9e-f011-8155-0ab6811d4821"
-      },
-      "brand": {
-        "id": "08772987-8c9c-e711-812e-0ab6811d4821",
-        "name": "LA CABRERA"
-      },
-      "benefit": {
-        "type": "20%",
-        "discount": 20,
-        "title": "20% de ahorro",
-        "slug": "/gastronomia/restaurantes/descuentos-en-la-cabrera-A01593993",
-        "ecommerce": false,
-        "virtualCard": true,
-        "exclusiveBlack": false
-      },
-      "images": [
-        {
-          "id": "44271",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768188_59ec90e230.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ]
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
         "accountId": "0a5ca772-44a0-ef11-814d-0ab6811d4821",
         "crmId": "A05742572",
         "benefitId": "fb9e9698-a0a6-ef11-814d-0ab6811d4821"
@@ -4052,36 +4099,6 @@
     {
       "source": "lanacion",
       "sourceIds": {
-        "accountId": "0d1bcf78-b45f-42e4-80e6-cb58cd4821eb",
-        "crmId": "A05909764",
-        "benefitId": "adf7287f-8fe8-451a-8e8c-5a544a583ce9"
-      },
-      "brand": {
-        "id": "0d1bcf78-b45f-42e4-80e6-cb58cd4821eb",
-        "name": "OVEJA NEGRA WINES"
-      },
-      "benefit": {
-        "type": "20%",
-        "discount": 20,
-        "title": "20% de ahorro",
-        "slug": "/gastronomia/vinotecas/descuentos-en-oveja-negra-wines-A05909764",
-        "ecommerce": false,
-        "virtualCard": true,
-        "exclusiveBlack": false
-      },
-      "images": [
-        {
-          "id": "45166",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/oveja_negra_01_01_cf3f088d9b.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ]
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
         "accountId": "ad646260-9e9c-e711-812e-0ab6811d4821",
         "crmId": "A02642662",
         "benefitId": "d68b969d-7295-f011-8155-0ab6811d4821"
@@ -4314,36 +4331,6 @@
           "id": "44528",
           "type": "",
           "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768107_85f4165673.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ]
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
-        "accountId": "d72a7273-a1b6-ec11-8148-0ab6811d4821",
-        "crmId": "A05448234",
-        "benefitId": "695a9a1d-acb6-ec11-8148-0ab6811d4821"
-      },
-      "brand": {
-        "id": "d72a7273-a1b6-ec11-8148-0ab6811d4821",
-        "name": "MONTI PASTAS"
-      },
-      "benefit": {
-        "type": "20%",
-        "discount": 20,
-        "title": "20% de ahorro",
-        "slug": "/gastronomia/comidas-rapidas/descuentos-en-monti-pastas-A05448234",
-        "ecommerce": false,
-        "virtualCard": true,
-        "exclusiveBlack": false
-      },
-      "images": [
-        {
-          "id": "43910",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767666_2e1f827242.jpg",
           "highlighted": false,
           "thumb": false
         }
@@ -5814,6 +5801,96 @@
           "id": "46323",
           "type": "",
           "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/farda_01_01_e228084b34.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "d72a7273-a1b6-ec11-8148-0ab6811d4821",
+        "crmId": "A05448234",
+        "benefitId": "695a9a1d-acb6-ec11-8148-0ab6811d4821"
+      },
+      "brand": {
+        "id": "d72a7273-a1b6-ec11-8148-0ab6811d4821",
+        "name": "MONTI PASTAS"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/comidas-rapidas/descuentos-en-monti-pastas-A05448234",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43910",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767666_2e1f827242.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "08772987-8c9c-e711-812e-0ab6811d4821",
+        "crmId": "A01593993",
+        "benefitId": "b993288e-ed9e-f011-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "08772987-8c9c-e711-812e-0ab6811d4821",
+        "name": "LA CABRERA"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-la-cabrera-A01593993",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44271",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768188_59ec90e230.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "0d1bcf78-b45f-42e4-80e6-cb58cd4821eb",
+        "crmId": "A05909764",
+        "benefitId": "a9e68dfd-ba15-4572-8061-2748c9620997"
+      },
+      "brand": {
+        "id": "0d1bcf78-b45f-42e4-80e6-cb58cd4821eb",
+        "name": "OVEJA NEGRA WINES"
+      },
+      "benefit": {
+        "type": "2x1",
+        "discount": null,
+        "title": "2x1 de ahorro",
+        "slug": "/gastronomia/vinotecas/descuentos-en-oveja-negra-wines-A05909764",
+        "ecommerce": true,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "45166",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/oveja_negra_01_01_cf3f088d9b.jpg",
           "highlighted": false,
           "thumb": false
         }
