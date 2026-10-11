@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T06:10:26.190Z",
+  "generatedAt": "2026-10-11T06:00:35.286Z",
   "sources": {
     "santander": 27,
     "lanacion": 122
@@ -5871,16 +5871,16 @@
       "sourceIds": {
         "accountId": "0d1bcf78-b45f-42e4-80e6-cb58cd4821eb",
         "crmId": "A05909764",
-        "benefitId": "a9e68dfd-ba15-4572-8061-2748c9620997"
+        "benefitId": "adf7287f-8fe8-451a-8e8c-5a544a583ce9"
       },
       "brand": {
         "id": "0d1bcf78-b45f-42e4-80e6-cb58cd4821eb",
         "name": "OVEJA NEGRA WINES"
       },
       "benefit": {
-        "type": "2x1",
-        "discount": null,
-        "title": "2x1 de ahorro",
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
         "slug": "/gastronomia/vinotecas/descuentos-en-oveja-negra-wines-A05909764",
         "ecommerce": true,
         "virtualCard": true,
