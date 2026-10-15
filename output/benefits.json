@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-14T06:38:13.564Z",
+  "generatedAt": "2026-10-15T06:47:04.421Z",
   "sources": {
-    "santander": 78,
-    "lanacion": 406
+    "santander": 88,
+    "lanacion": 405
   },
-  "total": 484,
+  "total": 493,
   "benefits": [
     {
       "source": "santander",
@@ -1520,351 +1520,12 @@
     {
       "source": "santander",
       "sourceIds": {
-        "brandId": 2,
-        "publicationId": 8073
-      },
-      "brand": {
-        "id": 2,
-        "name": "47 Street"
-      },
-      "benefit": {
-        "type": "Ahorro",
-        "typeCode": "A",
-        "discount": 30,
-        "title": "30% de ahorro + hasta 9 cuotas sin interés",
-        "description": "Sin tope de reintegro",
-        "topAmount": null,
-        "startDate": "2026-10-14T00:00:00",
-        "endDate": "2026-10-14T00:00:00",
-        "paymentType": "No Aplica",
-        "frequency": "No Aplica",
-        "tag": "Súper Miércoles - Sorpresa"
-      },
-      "conditions": {
-        "additionalText": "<p>Pagando con <strong>QR</strong> a través de la <strong>App Santander</strong>.</p><p></p><p>Beneficio exclusivo para clientes suscriptos a <strong>Sorpresa Santander</strong>.</p>",
-        "specialCondition": null,
-        "legal": "<p>Cartera de Consumo y Comercial</p><p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL.</p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p><span style=\"font-size: 48px;\">CFTNA: 2,20%</span> (CARTERA COMERCIAL)</p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p>Promoción válida el miércoles 14/10/2026, en locales y sitios web adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Visa Crédito y/o Débito. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso de que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo para cliente adherido a Sorpresa Santander: en una compra con tarjeta de crédito de $180.000, en 9 cuotas, el cliente recibirá un reintegro de $54.000 en la cuenta bancaria titular. Del primer al noveno resumen de la tarjeta de crédito un consumo de $20.000 en cada uno. Comisión por membresía mensual Sorpresa Santander $5.289,26 + impuestos, importe final: $6.400 (Consumidor final), el que será debitado de la cuenta o tarjeta de crédito del cliente, el quinto día hábil del mes.</p>"
-      },
-      "cards": [
-        {
-          "id": 1,
-          "description": "VISA",
-          "code": "81",
-          "idType": 1,
-          "descriptionType": "DEBITO",
-          "codeType": "D",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
-        },
-        {
-          "id": 2,
-          "description": "VISA",
-          "code": "40",
-          "idType": 2,
-          "descriptionType": "CREDITO",
-          "codeType": "C",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
-        }
-      ],
-      "categories": [
-        {
-          "id": 13,
-          "description": "Indumentaria",
-          "code": "IND"
-        },
-        {
-          "id": 36,
-          "description": "Modo",
-          "code": "MOD"
-        },
-        {
-          "id": 50,
-          "description": "Día de la Madre",
-          "code": "DMA"
-        },
-        {
-          "id": 58,
-          "description": "Exclusiva Visa",
-          "code": "EXV"
-        },
-        {
-          "id": 61,
-          "description": "Sorpresa",
-          "code": "SOR"
-        },
-        {
-          "id": 69,
-          "description": "Súper Miércoles",
-          "code": "SMI"
-        }
-      ],
-      "schedule": {
-        "monday": false,
-        "tuesday": false,
-        "wednesday": true,
-        "thursday": false,
-        "friday": false,
-        "saturday": false,
-        "sunday": false,
-        "fullWeek": false
-      }
-    },
-    {
-      "source": "santander",
-      "sourceIds": {
-        "brandId": 2,
-        "publicationId": 8074
-      },
-      "brand": {
-        "id": 2,
-        "name": "47 Street"
-      },
-      "benefit": {
-        "type": "Ahorro",
-        "typeCode": "A",
-        "discount": 20,
-        "title": "20% de ahorro + hasta 9 cuotas sin interés",
-        "description": "Sin tope de reintegro",
-        "topAmount": null,
-        "startDate": "2026-10-14T00:00:00",
-        "endDate": "2026-10-14T00:00:00",
-        "paymentType": "No Aplica",
-        "frequency": "No Aplica",
-        "tag": "Súper Miércoles"
-      },
-      "conditions": {
-        "additionalText": "<p>Pagando con <strong>QR</strong> a través de la <strong>App Santander</strong>.</p>",
-        "specialCondition": null,
-        "legal": "<p>Cartera de Consumo y Comercial</p><p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL.</p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p><span style=\"font-size: 48px;\">CFTNA: 2,20%</span> (CARTERA COMERCIAL)</p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p>Promoción válida el miércoles 14/10/2026, en locales y sitios web adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Visa Crédito y/o Débito. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso de que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo para cliente adherido a Sorpresa Santander: en una compra con tarjeta de crédito de $180.000, en 9 cuotas, el cliente recibirá un reintegro de $54.000 en la cuenta bancaria titular. Del primer al noveno resumen de la tarjeta de crédito un consumo de $20.000 en cada uno. Comisión por membresía mensual Sorpresa Santander $5.289,26 + impuestos, importe final: $6.400 (Consumidor final), el que será debitado de la cuenta o tarjeta de crédito del cliente, el quinto día hábil del mes.</p>"
-      },
-      "cards": [
-        {
-          "id": 1,
-          "description": "VISA",
-          "code": "81",
-          "idType": 1,
-          "descriptionType": "DEBITO",
-          "codeType": "D",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
-        },
-        {
-          "id": 2,
-          "description": "VISA",
-          "code": "40",
-          "idType": 2,
-          "descriptionType": "CREDITO",
-          "codeType": "C",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
-        }
-      ],
-      "categories": [
-        {
-          "id": 69,
-          "description": "Súper Miércoles",
-          "code": "SMI"
-        },
-        {
-          "id": 13,
-          "description": "Indumentaria",
-          "code": "IND"
-        },
-        {
-          "id": 36,
-          "description": "Modo",
-          "code": "MOD"
-        },
-        {
-          "id": 50,
-          "description": "Día de la Madre",
-          "code": "DMA"
-        },
-        {
-          "id": 58,
-          "description": "Exclusiva Visa",
-          "code": "EXV"
-        }
-      ],
-      "schedule": {
-        "monday": false,
-        "tuesday": false,
-        "wednesday": true,
-        "thursday": false,
-        "friday": false,
-        "saturday": false,
-        "sunday": false,
-        "fullWeek": false
-      }
-    },
-    {
-      "source": "santander",
-      "sourceIds": {
-        "brandId": 2,
-        "publicationId": 8072
-      },
-      "brand": {
-        "id": 2,
-        "name": "47 Street"
-      },
-      "benefit": {
-        "type": "Ahorro",
-        "typeCode": "A",
-        "discount": 30,
-        "title": "30% de ahorro + hasta 9 cuotas sin interés",
-        "description": "Sin tope de reintegro",
-        "topAmount": null,
-        "startDate": "2026-10-16T00:00:00",
-        "endDate": "2026-10-16T00:00:00",
-        "paymentType": "No Aplica",
-        "frequency": "No Aplica",
-        "tag": "Especial Cuenta Sueldo y Jubilados"
-      },
-      "conditions": {
-        "additionalText": "<p>Pagando con <strong>QR</strong> a través de la <strong>App Santander</strong>.</p><p></p><p>Exclusivo para clientes que cobren su sueldo o jubilación en Santander.</p>",
-        "specialCondition": null,
-        "legal": "<p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL</p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p><span style=\"font-size: 48px;\">CFTNA: 2,40%</span> (CARTERA COMERCIAL)</p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p>Válido el viernes 16/10, en los locales adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Visa Crédito y/o Débito. Exclusivo para clientes que cobren su sueldo o jubilación en Santander. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. No acumulable con otras promociones. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo: en una compra con tarjeta de crédito de $180.000, en 9 cuotas: registrará un reintegro de $54.000 en la cuenta bancaria titular, y del primer al noveno resumen de la tarjeta de crédito un consumo de $20.000 en cada uno.</p>"
-      },
-      "cards": [
-        {
-          "id": 1,
-          "description": "VISA",
-          "code": "81",
-          "idType": 1,
-          "descriptionType": "DEBITO",
-          "codeType": "D",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
-        },
-        {
-          "id": 2,
-          "description": "VISA",
-          "code": "40",
-          "idType": 2,
-          "descriptionType": "CREDITO",
-          "codeType": "C",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
-        }
-      ],
-      "categories": [
-        {
-          "id": 13,
-          "description": "Indumentaria",
-          "code": "IND"
-        },
-        {
-          "id": 34,
-          "description": "Especial Plan Sueldo",
-          "code": "EPS"
-        },
-        {
-          "id": 36,
-          "description": "Modo",
-          "code": "MOD"
-        },
-        {
-          "id": 58,
-          "description": "Exclusiva Visa",
-          "code": "EXV"
-        },
-        {
-          "id": 64,
-          "description": "Plan Sueldo",
-          "code": "PSU"
-        }
-      ],
-      "schedule": {
-        "monday": false,
-        "tuesday": false,
-        "wednesday": false,
-        "thursday": false,
-        "friday": true,
-        "saturday": false,
-        "sunday": false,
-        "fullWeek": false
-      }
-    },
-    {
-      "source": "santander",
-      "sourceIds": {
-        "brandId": 2,
-        "publicationId": 7955
-      },
-      "brand": {
-        "id": 2,
-        "name": "47 Street"
-      },
-      "benefit": {
-        "type": "Ahorro",
-        "typeCode": "A",
-        "discount": 10,
-        "title": "10% de ahorro",
-        "description": "Sin tope de reintegro",
-        "topAmount": null,
-        "startDate": "2026-10-07T00:00:00",
-        "endDate": "2027-03-31T00:00:00",
-        "paymentType": "No Aplica",
-        "frequency": "No Aplica",
-        "tag": "Exclusivo Visa"
-      },
-      "conditions": {
-        "additionalText": "",
-        "specialCondition": null,
-        "legal": "<p>Válida en los locales adheridos, abonando con Tarjetas Santander Visa débito y crédito, incluidos los pagos realizados con App Santander, MODO, Google Pay y Apple Pay. Se excluyen compras abonadas por transferencias, a través de billeteras virtuales o financiadas por programas Cuota Simple. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria de dicho titular.</p><p>El ahorro se hará efectivo vía reintegro dentro de los 60 días de efectuado el consumo en la cuenta bancaria titular del cliente. No aplica a tarjetas de débito vinculadas a cajas de ahorro en pesos gratuitas, ni pagos realizados con dinero en cuenta. Promoción sin tope de reintegro. Ejemplo: en una compra con tarjeta de crédito de $100.000, el cliente recibirá un reintegro de $10.000 en la cuenta bancaria titular.</p>"
-      },
-      "cards": [
-        {
-          "id": 1,
-          "description": "VISA",
-          "code": "81",
-          "idType": 1,
-          "descriptionType": "DEBITO",
-          "codeType": "D",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
-        },
-        {
-          "id": 2,
-          "description": "VISA",
-          "code": "40",
-          "idType": 2,
-          "descriptionType": "CREDITO",
-          "codeType": "C",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
-        }
-      ],
-      "categories": [
-        {
-          "id": 18,
-          "description": "Varios",
-          "code": "VAR"
-        },
-        {
-          "id": 41,
-          "description": "Getnet",
-          "code": "GET"
-        },
-        {
-          "id": 58,
-          "description": "Exclusiva Visa",
-          "code": "EXV"
-        }
-      ],
-      "schedule": {
-        "monday": false,
-        "tuesday": false,
-        "wednesday": true,
-        "thursday": false,
-        "friday": false,
-        "saturday": false,
-        "sunday": false,
-        "fullWeek": false
-      }
-    },
-    {
-      "source": "santander",
-      "sourceIds": {
-        "brandId": 14,
+        "brandId": 4,
         "publicationId": 8070
       },
       "brand": {
-        "id": 14,
-        "name": "Alcorta Shopping"
+        "id": 4,
+        "name": "Abasto"
       },
       "benefit": {
         "type": "Ahorro",
@@ -1945,12 +1606,12 @@
     {
       "source": "santander",
       "sourceIds": {
-        "brandId": 14,
+        "brandId": 4,
         "publicationId": 8071
       },
       "brand": {
-        "id": 14,
-        "name": "Alcorta Shopping"
+        "id": 4,
+        "name": "Abasto"
       },
       "benefit": {
         "type": "Ahorro",
@@ -2031,30 +1692,30 @@
     {
       "source": "santander",
       "sourceIds": {
-        "brandId": 14,
-        "publicationId": 8045
+        "brandId": 4,
+        "publicationId": 7754
       },
       "brand": {
-        "id": 14,
-        "name": "Alcorta Shopping"
+        "id": 4,
+        "name": "Abasto"
       },
       "benefit": {
         "type": "Ahorro",
         "typeCode": "A",
-        "discount": 30,
-        "title": "30% de ahorro + hasta 9 cuotas sin interés",
+        "discount": 25,
+        "title": "25% de ahorro + hasta 6 cuotas sin interés",
         "description": "Sin tope de reintegro",
         "topAmount": null,
-        "startDate": "2026-10-14T00:00:00",
-        "endDate": "2026-10-14T00:00:00",
+        "startDate": "2026-09-02T00:00:00",
+        "endDate": "2026-12-30T00:00:00",
         "paymentType": "No Aplica",
         "frequency": "No Aplica",
         "tag": "Súper Miércoles - Sorpresa"
       },
       "conditions": {
-        "additionalText": "<p>Beneficio exclusivo para clientes suscriptos a <strong>Sorpresa Santander</strong>.</p><p></p><p>Pagando con <strong>QR</strong> a través de la <strong>App Santander</strong>.</p>",
+        "additionalText": "<p>Pagando con <strong>QR</strong> a través de la App Santander.</p><p></p><p>Beneficio exclusivo para clientes suscriptos a <strong>Sorpresa Santander</strong>.</p>",
         "specialCondition": null,
-        "legal": "<p>Cartera de Consumo y Comercial</p><p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL.</p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p><span style=\"font-size: 48px;\">CFTNA: 2,20%</span> (CARTERA COMERCIAL)</p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p>Promoción válida el miércoles 14/10/2026, en locales y sitios web adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Visa Crédito y/o Débito. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso de que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo para cliente adherido a Sorpresa Santander: en una compra con tarjeta de crédito de $180.000, en 9 cuotas, el cliente recibirá un reintegro de $54.000 en la cuenta bancaria titular. Del primer al noveno resumen de la tarjeta de crédito un consumo de $20.000 en cada uno. Comisión por membresía mensual Sorpresa Santander $5.289,26 + impuestos, importe final: $6.400 (Consumidor final), el que será debitado de la cuenta o tarjeta de crédito del cliente, el quinto día hábil del mes.</p>"
+        "legal": "<p></p><p>Cartera de Consumo y Comercial</p><p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL.</p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p><span style=\"font-size: 48px;\">CFTNA: 2,14%</span> (CARTERA COMERCIAL)</p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p>Promoción válida los días miércoles, desde el 02/09/2026 hasta el 30/12/2026 (con excepción del 14/10/2026 y del 23/12/2026), en los locales adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Visa Crédito y/o Débito. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso de que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo: en una compra con tarjeta de crédito de $120.000, en 6 cuotas, el cliente recibirá un reintegro de $30.000 en la cuenta bancaria titular. Del primer al sexto resumen de la tarjeta de crédito un consumo de $20.000 en cada uno. Comisión por membresía mensual Sorpresa Santander $5.289,26 + impuestos, importe final: $6.400 (Consumidor final), el que será debitado de la cuenta o tarjeta de crédito del cliente, el quinto día hábil del mes.</p>"
       },
       "cards": [
         {
@@ -2088,9 +1749,90 @@
           "code": "MOD"
         },
         {
-          "id": 50,
-          "description": "Día de la Madre",
-          "code": "DMA"
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 61,
+          "description": "Sorpresa",
+          "code": "SOR"
+        },
+        {
+          "id": 69,
+          "description": "Súper Miércoles",
+          "code": "SMI"
+        }
+      ],
+      "schedule": {
+        "monday": false,
+        "tuesday": false,
+        "wednesday": true,
+        "thursday": false,
+        "friday": false,
+        "saturday": false,
+        "sunday": false,
+        "fullWeek": false
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 4,
+        "publicationId": 7755
+      },
+      "brand": {
+        "id": 4,
+        "name": "Abasto"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 15,
+        "title": "15% de ahorro + hasta 6 cuotas sin interés",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-09-02T00:00:00",
+        "endDate": "2026-12-30T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Súper Miércoles"
+      },
+      "conditions": {
+        "additionalText": "<p>Pagando con <strong>QR</strong> a través de la <strong>App Santander</strong>.</p>",
+        "specialCondition": null,
+        "legal": "<p>Cartera de Consumo y Comercial</p><p></p><p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL.</p><p></p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p></p><p><span style=\"font-size: 48px;\">CFTNA: 2,14%</span> (CARTERA COMERCIAL)</p><p></p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p></p><p>Promoción válida los días miércoles, desde el 02/09/2026 hasta el 30/12/2026 (con excepción del 14/10/2026 y del 23/12/2026), en los locales adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Visa Crédito y/o Débito. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso de que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo: en una compra con tarjeta de crédito de $120.000, en 6 cuotas, el cliente recibirá un reintegro de $18.000 en la cuenta bancaria titular. Del primer al sexto resumen de la tarjeta de crédito un consumo de $20.000 en cada uno.</p>"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 13,
+          "description": "Indumentaria",
+          "code": "IND"
+        },
+        {
+          "id": 36,
+          "description": "Modo",
+          "code": "MOD"
         },
         {
           "id": 58,
@@ -2117,30 +1859,283 @@
     {
       "source": "santander",
       "sourceIds": {
-        "brandId": 14,
-        "publicationId": 8046
+        "brandId": 4,
+        "publicationId": 7757
       },
       "brand": {
-        "id": 14,
-        "name": "Alcorta Shopping"
+        "id": 4,
+        "name": "Abasto"
       },
       "benefit": {
         "type": "Ahorro",
         "typeCode": "A",
-        "discount": 20,
-        "title": "20% de ahorro + hasta 9 cuotas sin interés",
+        "discount": 15,
+        "title": "15% de ahorro + hasta 6 cuotas sin interés",
         "description": "Sin tope de reintegro",
         "topAmount": null,
-        "startDate": "2026-10-14T00:00:00",
-        "endDate": "2026-10-14T00:00:00",
+        "startDate": "2026-09-02T00:00:00",
+        "endDate": "2026-12-30T00:00:00",
         "paymentType": "No Aplica",
         "frequency": "No Aplica",
-        "tag": "Súper Miércoles"
+        "tag": "Súper Miércoles Perfumerías - Sorpresa"
       },
       "conditions": {
-        "additionalText": "<p>Pagando con <strong>QR</strong> a través de la <strong>App Santander</strong>.</p>",
+        "additionalText": "<p>En perfumerías adheridas.</p><p></p><p>Pagando con <strong>QR</strong> a través de la <strong>App Santander</strong>.</p><p></p><p>Beneficio exclusivo para clientes suscriptos a <strong>Sorpresa Santander</strong>.</p>",
         "specialCondition": null,
-        "legal": "<p>Cartera de Consumo y Comercial</p><p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL.</p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p><span style=\"font-size: 48px;\">CFTNA: 2,20%</span> (CARTERA COMERCIAL)</p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p>Promoción válida el miércoles 14/10/2026, en locales y sitios web adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Visa Crédito y/o Débito. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso de que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo para cliente adherido a Sorpresa Santander: en una compra con tarjeta de crédito de $180.000, en 9 cuotas, el cliente recibirá un reintegro de $54.000 en la cuenta bancaria titular. Del primer al noveno resumen de la tarjeta de crédito un consumo de $20.000 en cada uno. Comisión por membresía mensual Sorpresa Santander $5.289,26 + impuestos, importe final: $6.400 (Consumidor final), el que será debitado de la cuenta o tarjeta de crédito del cliente, el quinto día hábil del mes.</p>"
+        "legal": "<p>Cartera de Consumo y Comercial</p><p></p><p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL.</p><p></p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p></p><p><span style=\"font-size: 48px;\">CFTNA: 2,14%</span> (CARTERA COMERCIAL)</p><p></p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p></p><p>Promoción válida los días miércoles, desde el 02/09/2026 hasta el 30/12/2026 (con excepción del 14/10/2026 y del 23/12/2026), en los locales adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Visa Crédito y/o Débito. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso de que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo: en una compra con tarjeta de crédito de $120.000, en 6 cuotas, el cliente recibirá un reintegro de $18.000 en la cuenta bancaria titular. Del primer al sexto resumen de la tarjeta de crédito un consumo de $20.000 en cada uno. Comisión por membresía mensual Sorpresa Santander $5.289,26 + impuestos, importe final: $6.400 (Consumidor final), el que será debitado de la cuenta o tarjeta de crédito del cliente, el quinto día hábil del mes.</p><p></p><p></p>"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 36,
+          "description": "Modo",
+          "code": "MOD"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 61,
+          "description": "Sorpresa",
+          "code": "SOR"
+        },
+        {
+          "id": 69,
+          "description": "Súper Miércoles",
+          "code": "SMI"
+        },
+        {
+          "id": 109,
+          "description": "Perfumerías",
+          "code": "PER"
+        }
+      ],
+      "schedule": {
+        "monday": false,
+        "tuesday": false,
+        "wednesday": true,
+        "thursday": false,
+        "friday": false,
+        "saturday": false,
+        "sunday": false,
+        "fullWeek": false
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 4,
+        "publicationId": 7756
+      },
+      "brand": {
+        "id": 4,
+        "name": "Abasto"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 10,
+        "title": "10% de ahorro + hasta 6 cuotas sin interés",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-09-02T00:00:00",
+        "endDate": "2026-12-30T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Súper Miércoles Perfumerías"
+      },
+      "conditions": {
+        "additionalText": "<p>En perfumerías adheridas.</p><p></p><p>Pagando con <strong>QR </strong>a través de la <strong>App Santander</strong>.</p>",
+        "specialCondition": null,
+        "legal": "<p>Cartera de Consumo y Comercial</p><p></p><p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL.</p><p></p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p></p><p><span style=\"font-size: 48px;\">CFTNA: 2,14%</span> (CARTERA COMERCIAL)</p><p></p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p></p><p>Promoción válida los días miércoles, desde el 02/09/2026 hasta el 30/12/2026 (con excepción del 14/10/2026 y del 23/12/2026), en los locales adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Visa Crédito y/o Débito. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso de que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo: en una compra con tarjeta de crédito de $120.000, en 6 cuotas, el cliente recibirá un reintegro de $12.000 en la cuenta bancaria titular. Del primer al sexto resumen de la tarjeta de crédito un consumo de $20.000 en cada uno.</p>"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 36,
+          "description": "Modo",
+          "code": "MOD"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 69,
+          "description": "Súper Miércoles",
+          "code": "SMI"
+        },
+        {
+          "id": 109,
+          "description": "Perfumerías",
+          "code": "PER"
+        }
+      ],
+      "schedule": {
+        "monday": false,
+        "tuesday": false,
+        "wednesday": true,
+        "thursday": false,
+        "friday": false,
+        "saturday": false,
+        "sunday": false,
+        "fullWeek": false
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 8,
+        "publicationId": 8072
+      },
+      "brand": {
+        "id": 8,
+        "name": "Adriana Costantini"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 30,
+        "title": "30% de ahorro + hasta 9 cuotas sin interés",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-10-16T00:00:00",
+        "endDate": "2026-10-16T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Especial Cuenta Sueldo y Jubilados"
+      },
+      "conditions": {
+        "additionalText": "<p>Pagando con <strong>QR</strong> a través de la <strong>App Santander</strong>.</p><p></p><p>Exclusivo para clientes que cobren su sueldo o jubilación en Santander.</p>",
+        "specialCondition": null,
+        "legal": "<p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL</p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p><span style=\"font-size: 48px;\">CFTNA: 2,40%</span> (CARTERA COMERCIAL)</p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p>Válido el viernes 16/10, en los locales adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Visa Crédito y/o Débito. Exclusivo para clientes que cobren su sueldo o jubilación en Santander. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. No acumulable con otras promociones. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo: en una compra con tarjeta de crédito de $180.000, en 9 cuotas: registrará un reintegro de $54.000 en la cuenta bancaria titular, y del primer al noveno resumen de la tarjeta de crédito un consumo de $20.000 en cada uno.</p>"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 13,
+          "description": "Indumentaria",
+          "code": "IND"
+        },
+        {
+          "id": 34,
+          "description": "Especial Plan Sueldo",
+          "code": "EPS"
+        },
+        {
+          "id": 36,
+          "description": "Modo",
+          "code": "MOD"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 64,
+          "description": "Plan Sueldo",
+          "code": "PSU"
+        }
+      ],
+      "schedule": {
+        "monday": false,
+        "tuesday": false,
+        "wednesday": false,
+        "thursday": false,
+        "friday": true,
+        "saturday": false,
+        "sunday": false,
+        "fullWeek": false
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 8,
+        "publicationId": 7783
+      },
+      "brand": {
+        "id": 8,
+        "name": "Adriana Costantini"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 25,
+        "title": "25% de ahorro + hasta 6 cuotas sin interés",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-09-02T00:00:00",
+        "endDate": "2026-12-30T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Súper Miércoles - Sorpresa"
+      },
+      "conditions": {
+        "additionalText": "<p>Beneficio exclusivo para clientes suscriptos a <strong>Sorpresa Santander</strong>.</p><p></p><p>Pagando con <strong>QR</strong> a través de la <strong>App Santander</strong>.</p>",
+        "specialCondition": null,
+        "legal": "<p>Cartera de Consumo y Comercial</p><p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL.</p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p><span style=\"font-size: 48px;\">CFTNA: 2,14%</span> (CARTERA COMERCIAL)</p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p>Promoción válida los días miércoles, desde el 02/09/2026 hasta el 30/12/2026 (con excepción del 14/10/2026 y del 23/12/2026), en los locales adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Visa Crédito y/o Débito. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso de que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo: en una compra con tarjeta de crédito de $120.000, en 6 cuotas, el cliente recibirá un reintegro de $30.000 en la cuenta bancaria titular. Del primer al sexto resumen de la tarjeta de crédito un consumo de $20.000 en cada uno. Comisión por membresía mensual Sorpresa Santander $5.289,26 + impuestos, importe final: $6.400 (Consumidor final), el que será debitado de la cuenta o tarjeta de crédito del cliente, el quinto día hábil del mes.</p>"
       },
       "cards": [
         {
@@ -2174,9 +2169,90 @@
           "code": "MOD"
         },
         {
-          "id": 50,
-          "description": "Día de la Madre",
-          "code": "DMA"
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 61,
+          "description": "Sorpresa",
+          "code": "SOR"
+        },
+        {
+          "id": 69,
+          "description": "Súper Miércoles",
+          "code": "SMI"
+        }
+      ],
+      "schedule": {
+        "monday": false,
+        "tuesday": false,
+        "wednesday": true,
+        "thursday": false,
+        "friday": false,
+        "saturday": false,
+        "sunday": false,
+        "fullWeek": false
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 8,
+        "publicationId": 7784
+      },
+      "brand": {
+        "id": 8,
+        "name": "Adriana Costantini"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 15,
+        "title": "15% de ahorro + hasta 6 cuotas sin interés",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-09-02T00:00:00",
+        "endDate": "2026-12-30T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Súper Miércoles"
+      },
+      "conditions": {
+        "additionalText": "<p>Pagando con <strong>QR</strong> a través de la <strong>App Santander</strong>.</p>",
+        "specialCondition": null,
+        "legal": "<p>Cartera de Consumo y Comercial</p><p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL.</p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p><span style=\"font-size: 48px;\">CFTNA: 2,14%</span> (CARTERA COMERCIAL)</p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p>Promoción válida los días miércoles, desde el 02/09/2026 hasta el 30/12/2026 (con excepción del 14/10/2026 y del 23/12/2026), en los locales adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Visa Crédito y/o Débito. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso de que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo: en una compra con tarjeta de crédito de $120.000, en 6 cuotas, el cliente recibirá un reintegro de $18.000 en la cuenta bancaria titular. Del primer al sexto resumen de la tarjeta de crédito un consumo de $20.000 en cada uno.</p>"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 13,
+          "description": "Indumentaria",
+          "code": "IND"
+        },
+        {
+          "id": 36,
+          "description": "Modo",
+          "code": "MOD"
         },
         {
           "id": 58,
@@ -2502,6 +2578,173 @@
         "saturday": true,
         "sunday": true,
         "fullWeek": true
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 2330,
+        "publicationId": 7786
+      },
+      "brand": {
+        "id": 2330,
+        "name": "Bolivia"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 25,
+        "title": "25% de ahorro + hasta 6 cuotas sin interés",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-09-02T00:00:00",
+        "endDate": "2026-12-30T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Súper Miércoles - Sorpresa"
+      },
+      "conditions": {
+        "additionalText": "<p><span style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\">Beneficio exclusivo para clientes suscriptos a </span><strong style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\">Sorpresa Santander</strong><span style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\">.</span></p><p></p><p><span style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\">Pagando con </span><strong style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\">QR</strong><span style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\"> a través de la </span><strong style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\">App Santander</strong><span style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\">.</span></p>",
+        "specialCondition": null,
+        "legal": "<p><strong>Cartera de Consumo y Comercial</strong></p><p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL.</p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p><span style=\"font-size: 48px;\">CFTNA: 2,14%</span> (CARTERA COMERCIAL)</p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p>Promoción válida los días miércoles, desde el 02/09/2026 hasta el 30/12/2026 (con excepción del 14/10/2026 y del 23/12/2026), en los locales adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Visa Crédito y/o Débito. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso de que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo: en una compra con tarjeta de crédito de $120.000, en 6 cuotas, el cliente recibirá un reintegro de $30.000 en la cuenta bancaria titular. Del primer al sexto resumen de la tarjeta de crédito un consumo de $20.000 en cada uno. Comisión por membresía mensual Sorpresa Santander $5.289,26 + impuestos, importe final: $6.400 (Consumidor final), el que será debitado de la cuenta o tarjeta de crédito del cliente, el quinto día hábil del mes.</p>"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 13,
+          "description": "Indumentaria",
+          "code": "IND"
+        },
+        {
+          "id": 36,
+          "description": "Modo",
+          "code": "MOD"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 61,
+          "description": "Sorpresa",
+          "code": "SOR"
+        },
+        {
+          "id": 69,
+          "description": "Súper Miércoles",
+          "code": "SMI"
+        }
+      ],
+      "schedule": {
+        "monday": false,
+        "tuesday": false,
+        "wednesday": true,
+        "thursday": false,
+        "friday": false,
+        "saturday": false,
+        "sunday": false,
+        "fullWeek": false
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 2330,
+        "publicationId": 7785
+      },
+      "brand": {
+        "id": 2330,
+        "name": "Bolivia"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 15,
+        "title": "15% de ahorro + hasta 6 cuotas sin interés",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-09-02T00:00:00",
+        "endDate": "2026-12-30T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Súper Miércoles"
+      },
+      "conditions": {
+        "additionalText": "<p>Pagando con <strong>QR</strong> a través de la <strong>App Santander</strong>.</p>",
+        "specialCondition": null,
+        "legal": "<p><strong>Cartera de Consumo y Comercial</strong></p><p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL.</p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p><span style=\"font-size: 48px;\">CFTNA: 2,14%</span> (CARTERA COMERCIAL)</p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p>Promoción válida los días miércoles, desde el 02/09/2026 hasta el 30/12/2026 (con excepción del 14/10/2026 y del 23/12/2026), en los locales adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Visa Crédito y/o Débito. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso de que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo: en una compra con tarjeta de crédito de $120.000, en 6 cuotas, el cliente recibirá un reintegro de $18.000 en la cuenta bancaria titular. Del primer al sexto resumen de la tarjeta de crédito un consumo de $20.000 en cada uno.</p>"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 13,
+          "description": "Indumentaria",
+          "code": "IND"
+        },
+        {
+          "id": 36,
+          "description": "Modo",
+          "code": "MOD"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 69,
+          "description": "Súper Miércoles",
+          "code": "SMI"
+        }
+      ],
+      "schedule": {
+        "monday": false,
+        "tuesday": false,
+        "wednesday": true,
+        "thursday": false,
+        "friday": false,
+        "saturday": false,
+        "sunday": false,
+        "fullWeek": false
       }
     },
     {
@@ -3012,183 +3255,6 @@
     {
       "source": "santander",
       "sourceIds": {
-        "brandId": 1108,
-        "publicationId": 8077
-      },
-      "brand": {
-        "id": 1108,
-        "name": "Dash"
-      },
-      "benefit": {
-        "type": "Ahorro",
-        "typeCode": "A",
-        "discount": 30,
-        "title": "30% de ahorro + hasta 9 cuotas sin interés",
-        "description": "Sin tope de reintegro",
-        "topAmount": null,
-        "startDate": "2026-10-14T00:00:00",
-        "endDate": "2026-10-14T00:00:00",
-        "paymentType": "No Aplica",
-        "frequency": "No Aplica",
-        "tag": "Súper Miércoles - Sorpresa"
-      },
-      "conditions": {
-        "additionalText": "<p>Pagando con <strong>QR</strong> a través de la <strong>App Santander</strong>.</p><p></p><p>Beneficio exclusivo para clientes suscriptos a <strong>Sorpresa Santander</strong>.</p>",
-        "specialCondition": null,
-        "legal": "<p>Cartera de Consumo y Comercial</p><p></p><p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL.</p><p></p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p></p><p><span style=\"font-size: 48px;\">CFTNA: 2,20%</span> (CARTERA COMERCIAL)</p><p></p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p></p><p>Promoción válida el miércoles 14/10/2026, en locales y sitios web adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Visa Crédito y/o Débito. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso de que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo para cliente adherido a Sorpresa Santander: en una compra con tarjeta de crédito de $180.000, en 9 cuotas, el cliente recibirá un reintegro de $54.000 en la cuenta bancaria titular. Del primer al noveno resumen de la tarjeta de crédito un consumo de $20.000 en cada uno. Comisión por membresía mensual Sorpresa Santander $5.289,26 + impuestos, importe final: $6.400 (Consumidor final), el que será debitado de la cuenta o tarjeta de crédito del cliente, el quinto día hábil del mes.</p>"
-      },
-      "cards": [
-        {
-          "id": 1,
-          "description": "VISA",
-          "code": "81",
-          "idType": 1,
-          "descriptionType": "DEBITO",
-          "codeType": "D",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
-        },
-        {
-          "id": 2,
-          "description": "VISA",
-          "code": "40",
-          "idType": 2,
-          "descriptionType": "CREDITO",
-          "codeType": "C",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
-        }
-      ],
-      "categories": [
-        {
-          "id": 13,
-          "description": "Indumentaria",
-          "code": "IND"
-        },
-        {
-          "id": 36,
-          "description": "Modo",
-          "code": "MOD"
-        },
-        {
-          "id": 50,
-          "description": "Día de la Madre",
-          "code": "DMA"
-        },
-        {
-          "id": 58,
-          "description": "Exclusiva Visa",
-          "code": "EXV"
-        },
-        {
-          "id": 61,
-          "description": "Sorpresa",
-          "code": "SOR"
-        },
-        {
-          "id": 69,
-          "description": "Súper Miércoles",
-          "code": "SMI"
-        }
-      ],
-      "schedule": {
-        "monday": false,
-        "tuesday": false,
-        "wednesday": true,
-        "thursday": false,
-        "friday": false,
-        "saturday": false,
-        "sunday": false,
-        "fullWeek": false
-      }
-    },
-    {
-      "source": "santander",
-      "sourceIds": {
-        "brandId": 1108,
-        "publicationId": 8078
-      },
-      "brand": {
-        "id": 1108,
-        "name": "Dash"
-      },
-      "benefit": {
-        "type": "Ahorro",
-        "typeCode": "A",
-        "discount": 20,
-        "title": "20% de ahorro + hasta 9 cuotas sin interés",
-        "description": "Sin tope de reintegro",
-        "topAmount": null,
-        "startDate": "2026-10-14T00:00:00",
-        "endDate": "2026-10-14T00:00:00",
-        "paymentType": "No Aplica",
-        "frequency": "No Aplica",
-        "tag": "Súper Miércoles"
-      },
-      "conditions": {
-        "additionalText": "<p>Pagando con <strong>QR</strong> a través de la <strong>App Santander</strong>.</p>",
-        "specialCondition": null,
-        "legal": "<p>Cartera de Consumo y Comercial</p><p></p><p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL.</p><p></p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p></p><p><span style=\"font-size: 48px;\">CFTNA: 2,20%</span> (CARTERA COMERCIAL)</p><p></p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p></p><p>Promoción válida el miércoles 14/10/2026, en locales y sitios web adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Visa Crédito y/o Débito. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso de que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo para cliente adherido a Sorpresa Santander: en una compra con tarjeta de crédito de $180.000, en 9 cuotas, el cliente recibirá un reintegro de $54.000 en la cuenta bancaria titular. Del primer al noveno resumen de la tarjeta de crédito un consumo de $20.000 en cada uno. Comisión por membresía mensual Sorpresa Santander $5.289,26 + impuestos, importe final: $6.400 (Consumidor final), el que será debitado de la cuenta o tarjeta de crédito del cliente, el quinto día hábil del mes.</p>"
-      },
-      "cards": [
-        {
-          "id": 1,
-          "description": "VISA",
-          "code": "81",
-          "idType": 1,
-          "descriptionType": "DEBITO",
-          "codeType": "D",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
-        },
-        {
-          "id": 2,
-          "description": "VISA",
-          "code": "40",
-          "idType": 2,
-          "descriptionType": "CREDITO",
-          "codeType": "C",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
-        }
-      ],
-      "categories": [
-        {
-          "id": 13,
-          "description": "Indumentaria",
-          "code": "IND"
-        },
-        {
-          "id": 36,
-          "description": "Modo",
-          "code": "MOD"
-        },
-        {
-          "id": 50,
-          "description": "Día de la Madre",
-          "code": "DMA"
-        },
-        {
-          "id": 58,
-          "description": "Exclusiva Visa",
-          "code": "EXV"
-        },
-        {
-          "id": 69,
-          "description": "Súper Miércoles",
-          "code": "SMI"
-        }
-      ],
-      "schedule": {
-        "monday": false,
-        "tuesday": false,
-        "wednesday": true,
-        "thursday": false,
-        "friday": false,
-        "saturday": false,
-        "sunday": false,
-        "fullWeek": false
-      }
-    },
-    {
-      "source": "santander",
-      "sourceIds": {
         "brandId": 142,
         "publicationId": 7125
       },
@@ -3613,6 +3679,82 @@
     {
       "source": "santander",
       "sourceIds": {
+        "brandId": 3538,
+        "publicationId": 7955
+      },
+      "brand": {
+        "id": 3538,
+        "name": "Dreamo"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 10,
+        "title": "10% de ahorro",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-10-07T00:00:00",
+        "endDate": "2027-03-31T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Exclusivo Visa"
+      },
+      "conditions": {
+        "additionalText": "",
+        "specialCondition": null,
+        "legal": "<p>Válida en los locales adheridos, abonando con Tarjetas Santander Visa débito y crédito, incluidos los pagos realizados con App Santander, MODO, Google Pay y Apple Pay. Se excluyen compras abonadas por transferencias, a través de billeteras virtuales o financiadas por programas Cuota Simple. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria de dicho titular.</p><p>El ahorro se hará efectivo vía reintegro dentro de los 60 días de efectuado el consumo en la cuenta bancaria titular del cliente. No aplica a tarjetas de débito vinculadas a cajas de ahorro en pesos gratuitas, ni pagos realizados con dinero en cuenta. Promoción sin tope de reintegro. Ejemplo: en una compra con tarjeta de crédito de $100.000, el cliente recibirá un reintegro de $10.000 en la cuenta bancaria titular.</p>"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 18,
+          "description": "Varios",
+          "code": "VAR"
+        },
+        {
+          "id": 41,
+          "description": "Getnet",
+          "code": "GET"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        }
+      ],
+      "schedule": {
+        "monday": false,
+        "tuesday": false,
+        "wednesday": true,
+        "thursday": false,
+        "friday": false,
+        "saturday": false,
+        "sunday": false,
+        "fullWeek": false
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
         "brandId": 3581,
         "publicationId": 7716
       },
@@ -3680,6 +3822,340 @@
         "tuesday": false,
         "wednesday": false,
         "thursday": true,
+        "friday": false,
+        "saturday": false,
+        "sunday": false,
+        "fullWeek": false
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 165,
+        "publicationId": 7788
+      },
+      "brand": {
+        "id": 165,
+        "name": "El Solar"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 25,
+        "title": "25% de ahorro + hasta 6 cuotas sin interés",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-09-02T00:00:00",
+        "endDate": "2026-12-30T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Súper Miércoles - Sorpresa"
+      },
+      "conditions": {
+        "additionalText": "<p><span style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\">Pagando con </span><strong style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\">QR</strong><span style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\"> a través de la App Santander.</span></p><p></p><p><span style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\">Beneficio exclusivo para clientes suscriptos a </span><strong style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\">Sorpresa Santander</strong><span style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\">.</span></p>",
+        "specialCondition": null,
+        "legal": "<p>Cartera de Consumo y Comercial</p><p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL.</p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p><span style=\"font-size: 48px;\">CFTNA: 2,14%</span> (CARTERA COMERCIAL)</p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p>Promoción válida los días miércoles, desde el 02/09/2026 hasta el 30/12/2026 (con excepción del 14/10/2026 y del 23/12/2026), en los locales adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Visa Crédito y/o Débito. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso de que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo: en una compra con tarjeta de crédito de $120.000, en 6 cuotas, el cliente recibirá un reintegro de $18.000 en la cuenta bancaria titular. Del primer al sexto resumen de la tarjeta de crédito un consumo de $20.000 en cada uno.</p>"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 61,
+          "description": "Sorpresa",
+          "code": "SOR"
+        },
+        {
+          "id": 13,
+          "description": "Indumentaria",
+          "code": "IND"
+        },
+        {
+          "id": 36,
+          "description": "Modo",
+          "code": "MOD"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 69,
+          "description": "Súper Miércoles",
+          "code": "SMI"
+        }
+      ],
+      "schedule": {
+        "monday": false,
+        "tuesday": false,
+        "wednesday": true,
+        "thursday": false,
+        "friday": false,
+        "saturday": false,
+        "sunday": false,
+        "fullWeek": false
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 165,
+        "publicationId": 7789
+      },
+      "brand": {
+        "id": 165,
+        "name": "El Solar"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 15,
+        "title": "15% de ahorro + hasta 6 cuotas sin interés",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-09-02T00:00:00",
+        "endDate": "2026-12-30T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Súper Miércoles"
+      },
+      "conditions": {
+        "additionalText": "<p>Pagando con <strong>QR</strong> a través de la <strong>App Santander</strong>.</p>",
+        "specialCondition": null,
+        "legal": "<p>Cartera de Consumo y Comercial</p><p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL.</p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p><span style=\"font-size: 48px;\">CFTNA: 2,14%</span> (CARTERA COMERCIAL)</p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p>Promoción válida los días miércoles, desde el 02/09/2026 hasta el 30/12/2026 (con excepción del 14/10/2026 y del 23/12/2026), en los locales adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Visa Crédito y/o Débito. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso de que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo: en una compra con tarjeta de crédito de $120.000, en 6 cuotas, el cliente recibirá un reintegro de $18.000 en la cuenta bancaria titular. Del primer al sexto resumen de la tarjeta de crédito un consumo de $20.000 en cada uno.</p>"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 69,
+          "description": "Súper Miércoles",
+          "code": "SMI"
+        },
+        {
+          "id": 13,
+          "description": "Indumentaria",
+          "code": "IND"
+        },
+        {
+          "id": 36,
+          "description": "Modo",
+          "code": "MOD"
+        }
+      ],
+      "schedule": {
+        "monday": false,
+        "tuesday": false,
+        "wednesday": true,
+        "thursday": false,
+        "friday": false,
+        "saturday": false,
+        "sunday": false,
+        "fullWeek": false
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 165,
+        "publicationId": 7747
+      },
+      "brand": {
+        "id": 165,
+        "name": "El Solar"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 15,
+        "title": "15% de ahorro + hasta 6 cuotas sin interés",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-09-02T00:00:00",
+        "endDate": "2026-12-30T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Súper Miércoles Perfumerías - Sorpresa"
+      },
+      "conditions": {
+        "additionalText": "<p>En perfumerías adheridas.</p><p></p><p><span style=\"font-size: 14px; color: rgb(79, 84, 87); background-color: rgb(255, 255, 255);\">Pagando con </span><strong style=\"font-size: 14px; color: rgb(79, 84, 87); background-color: rgb(255, 255, 255);\">QR</strong><span style=\"font-size: 14px; color: rgb(79, 84, 87); background-color: rgb(255, 255, 255);\"> a través de la </span><strong style=\"font-size: 14px; color: rgb(79, 84, 87); background-color: rgb(255, 255, 255);\">App Santander</strong><span style=\"font-size: 14px; color: rgb(79, 84, 87); background-color: rgb(255, 255, 255);\">.</span></p><p></p><p><span style=\"font-size: 14px; color: rgb(79, 84, 87); background-color: rgb(255, 255, 255);\">Beneficio exclusivo para clientes suscriptos a </span><strong style=\"font-size: 14px; color: rgb(79, 84, 87); background-color: rgb(255, 255, 255);\">Sorpresa Santander</strong><span style=\"font-size: 14px; color: rgb(79, 84, 87); background-color: rgb(255, 255, 255);\">.</span></p>",
+        "specialCondition": null,
+        "legal": "<p>Cartera de Consumo y Comercial</p><p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL.</p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p><span style=\"font-size: 48px;\">CFTNA: 2,14%</span> (CARTERA COMERCIAL)</p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p>Promoción válida los días miércoles, desde el 02/09/2026 hasta el 30/12/2026 (con excepción del 14/10/2026 y del 23/12/2026), en los locales adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Visa Crédito y/o Débito. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso de que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo: en una compra con tarjeta de crédito de $120.000, en 6 cuotas, el cliente recibirá un reintegro de $18.000 en la cuenta bancaria titular. Del primer al sexto resumen de la tarjeta de crédito un consumo de $20.000 en cada uno. Comisión por membresía mensual Sorpresa Santander $5.289,26 + impuestos, importe final: $6.400 (Consumidor final), el que será debitado de la cuenta o tarjeta de crédito del cliente, el quinto día hábil del mes.</p>"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 36,
+          "description": "Modo",
+          "code": "MOD"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 61,
+          "description": "Sorpresa",
+          "code": "SOR"
+        },
+        {
+          "id": 69,
+          "description": "Súper Miércoles",
+          "code": "SMI"
+        },
+        {
+          "id": 109,
+          "description": "Perfumerías",
+          "code": "PER"
+        }
+      ],
+      "schedule": {
+        "monday": false,
+        "tuesday": false,
+        "wednesday": true,
+        "thursday": false,
+        "friday": false,
+        "saturday": false,
+        "sunday": false,
+        "fullWeek": false
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 165,
+        "publicationId": 7748
+      },
+      "brand": {
+        "id": 165,
+        "name": "El Solar"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 10,
+        "title": "10% de ahorro + hasta 6 cuotas sin interés",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-09-02T00:00:00",
+        "endDate": "2026-12-30T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Súper Miércoles Perfumerías"
+      },
+      "conditions": {
+        "additionalText": "<p>En perfumerías adheridas.</p><p></p><p>Pagando con <strong>QR</strong> a través de la <strong>App Santander</strong>.</p>",
+        "specialCondition": null,
+        "legal": "<p>Cartera de Consumo y Comercial</p><p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL.</p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p><span style=\"font-size: 48px;\">CFTNA: 2,14%</span> (CARTERA COMERCIAL)</p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p>Promoción válida los días miércoles, desde el 02/09/2026 hasta el 30/12/2026 (con excepción del 14/10/2026 y del 23/12/2026), en los locales adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Visa Crédito y/o Débito. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso de que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo: en una compra con tarjeta de crédito de $120.000, en 6 cuotas, el cliente recibirá un reintegro de $12.000 en la cuenta bancaria titular. Del primer al sexto resumen de la tarjeta de crédito un consumo de $20.000 en cada uno.</p>"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 36,
+          "description": "Modo",
+          "code": "MOD"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 69,
+          "description": "Súper Miércoles",
+          "code": "SMI"
+        },
+        {
+          "id": 109,
+          "description": "Perfumerías",
+          "code": "PER"
+        }
+      ],
+      "schedule": {
+        "monday": false,
+        "tuesday": false,
+        "wednesday": true,
+        "thursday": false,
         "friday": false,
         "saturday": false,
         "sunday": false,
@@ -3962,7 +4438,7 @@
       "source": "santander",
       "sourceIds": {
         "brandId": 178,
-        "publicationId": 8048
+        "publicationId": 7712
       },
       "brand": {
         "id": 178,
@@ -3972,19 +4448,19 @@
         "type": "Ahorro",
         "typeCode": "A",
         "discount": 15,
-        "title": "15% de ahorro + hasta 9 cuotas sin interés",
+        "title": "15% de ahorro + hasta 6 cuotas sin interés",
         "description": "Sin tope de reintegro",
         "topAmount": null,
-        "startDate": "2026-10-14T00:00:00",
-        "endDate": "2026-10-14T00:00:00",
+        "startDate": "2026-09-02T00:00:00",
+        "endDate": "2026-12-30T00:00:00",
         "paymentType": "No Aplica",
         "frequency": "No Aplica",
         "tag": "Súper Miércoles Perfumerías - Sorpresa"
       },
       "conditions": {
-        "additionalText": "<p><span style=\"font-size: 14px; color: rgb(79, 84, 87); background-color: rgb(255, 255, 255);\">Pagando con </span><strong style=\"font-size: 14px; color: rgb(79, 84, 87); background-color: rgb(255, 255, 255);\">QR</strong><span style=\"font-size: 14px; color: rgb(79, 84, 87); background-color: rgb(255, 255, 255);\"> a través de la </span><strong style=\"font-size: 14px; color: rgb(79, 84, 87); background-color: rgb(255, 255, 255);\">App Santander</strong><span style=\"font-size: 14px; color: rgb(79, 84, 87); background-color: rgb(255, 255, 255);\">.</span></p><p></p><p><span style=\"font-size: 14px; color: rgb(79, 84, 87); background-color: rgb(255, 255, 255);\">Beneficio exclusivo para clientes suscriptos a </span><strong style=\"font-size: 14px; color: rgb(79, 84, 87); background-color: rgb(255, 255, 255);\">Sorpresa Santander</strong><span style=\"font-size: 14px; color: rgb(79, 84, 87); background-color: rgb(255, 255, 255);\">.</span></p>",
+        "additionalText": "<p>Pagando con <strong>QR</strong> a través de la <strong>App Santander</strong>.</p><p></p><p>Beneficio exclusivo para clientes suscriptos a <strong>Sorpresa Santander</strong>.</p>",
         "specialCondition": null,
-        "legal": "<p>Cartera de Consumo y Comercial</p><p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL.</p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p><span style=\"font-size: 48px;\">CFTNA: 2,20%</span> (CARTERA COMERCIAL)</p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p>Promoción válida el miércoles 14/10/2026, en locales y sitios web adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Visa Crédito y/o Débito. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso de que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo para cliente adherido a Sorpresa Santander: en una compra con tarjeta de crédito de $180.000, en 9 cuotas, el cliente recibirá un reintegro de $27.000 en la cuenta bancaria titular. Del primer al noveno resumen de la tarjeta de crédito un consumo de $20.000 en cada uno. Comisión por membresía mensual Sorpresa Santander $5.289,26 + impuestos, importe final: $6.400 (Consumidor final), el que será debitado de la cuenta o tarjeta de crédito del cliente, el quinto día hábil del mes.</p>"
+        "legal": "<p><strong>Disponible para Cartera de Consumo y Comercial</strong></p><p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL.</p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p><span style=\"font-size: 48px;\">CFTNA: 2,14%</span> (CARTERA COMERCIAL)</p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p>Promoción válida los días miércoles, desde el 02/09/2026 hasta el 30/12/2026 (con excepción del 14/10/2026 y del 23/12/2026), en los locales adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Visa Crédito y/o Débito. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso de que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo: en una compra con tarjeta de crédito de $120.000, en 6 cuotas, el cliente recibirá un reintegro de $12.000 en la cuenta bancaria titular o un reintegro de $18.000 si está adherido a Sorpresa Santander y, en ambos casos, del primer al sexto resumen de la tarjeta de crédito un consumo de $20.000 en cada uno. Comisión por membresía mensual Sorpresa Santander $5.289,26 + impuestos, importe final: $6.400 (Consumidor final), el que será debitado de la cuenta o tarjeta de crédito del cliente, el quinto día hábil del mes.v jd</p>"
       },
       "cards": [
         {
@@ -4013,11 +4489,6 @@
           "code": "MOD"
         },
         {
-          "id": 50,
-          "description": "Día de la Madre",
-          "code": "DMA"
-        },
-        {
           "id": 58,
           "description": "Exclusiva Visa",
           "code": "EXV"
@@ -4026,6 +4497,11 @@
           "id": 61,
           "description": "Sorpresa",
           "code": "SOR"
+        },
+        {
+          "id": 69,
+          "description": "Súper Miércoles",
+          "code": "SMI"
         },
         {
           "id": 109,
@@ -4048,7 +4524,7 @@
       "source": "santander",
       "sourceIds": {
         "brandId": 178,
-        "publicationId": 8047
+        "publicationId": 7724
       },
       "brand": {
         "id": 178,
@@ -4058,19 +4534,19 @@
         "type": "Ahorro",
         "typeCode": "A",
         "discount": 10,
-        "title": "10% de ahorro + hasta 9 cuotas sin interés",
+        "title": "10% de ahorro + hasta 6 cuotas sin interés",
         "description": "Sin tope de reintegro",
         "topAmount": null,
-        "startDate": "2026-10-14T00:00:00",
-        "endDate": "2026-10-14T00:00:00",
+        "startDate": "2026-09-02T00:00:00",
+        "endDate": "2026-12-30T00:00:00",
         "paymentType": "No Aplica",
         "frequency": "No Aplica",
         "tag": "Súper Miércoles Perfumerías"
       },
       "conditions": {
-        "additionalText": "<p><span style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(79, 84, 87);\">Pagando con </span><strong style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(79, 84, 87);\">QR</strong><span style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(79, 84, 87);\"> a través de la </span><strong style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(79, 84, 87);\">App Santander</strong><span style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(79, 84, 87);\">.</span></p>",
+        "additionalText": "<p>Pagando con <strong>QR</strong> a través de la <strong>App Santander</strong>.</p>",
         "specialCondition": null,
-        "legal": "<p>Cartera de Consumo y Comercial</p><p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL.</p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p><span style=\"font-size: 48px;\">CFTNA: 2,20%</span> (CARTERA COMERCIAL)</p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p>Promoción válida el miércoles 14/10/2026, en locales y sitios web adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Visa Crédito y/o Débito. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso de que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo para cliente adherido a Sorpresa Santander: en una compra con tarjeta de crédito de $180.000, en 9 cuotas, el cliente recibirá un reintegro de $27.000 en la cuenta bancaria titular. Del primer al noveno resumen de la tarjeta de crédito un consumo de $20.000 en cada uno. Comisión por membresía mensual Sorpresa Santander $5.289,26 + impuestos, importe final: $6.400 (Consumidor final), el que será debitado de la cuenta o tarjeta de crédito del cliente, el quinto día hábil del mes.</p>"
+        "legal": "<p><strong>Disponible para Cartera de Consumo y Comercial</strong></p><p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL.</p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p><span style=\"font-size: 48px;\">CFTNA: 2,14%</span> (CARTERA COMERCIAL)</p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p>Promoción válida los días miércoles, desde el 02/09/2026 hasta el 30/12/2026 (con excepción del 14/10/2026 y del 23/12/2026), en los locales adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Visa Crédito y/o Débito. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso de que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo: en una compra con tarjeta de crédito de $120.000, en 6 cuotas, el cliente recibirá un reintegro de $12.000 en la cuenta bancaria titular o un reintegro de $18.000 si está adherido a Sorpresa Santander y, en ambos casos, del primer al sexto resumen de la tarjeta de crédito un consumo de $20.000 en cada uno. Comisión por membresía mensual Sorpresa Santander $5.289,26 + impuestos, importe final: $6.400 (Consumidor final), el que será debitado de la cuenta o tarjeta de crédito del cliente, el quinto día hábil del mes.v jd</p>"
       },
       "cards": [
         {
@@ -5352,6 +5828,130 @@
     {
       "source": "santander",
       "sourceIds": {
+        "brandId": 391,
+        "publicationId": 8087
+      },
+      "brand": {
+        "id": 391,
+        "name": "Patio Bullrich"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 35,
+        "title": "35% de ahorro + hasta 6 cuotas fijas",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-10-15T00:00:00",
+        "endDate": "2026-10-15T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Exclusivo Amex"
+      },
+      "conditions": {
+        "additionalText": "",
+        "specialCondition": null,
+        "legal": "<p><strong>DISPONIBLE PARA CARTERA DE CONSUMO</strong></p><p>COSTO FINANCIERO TOTAL NOMINAL ANUAL</p><p><span style=\"font-size: 48px;\">C.F.T.N.A: 0%</span> (para cartera de consumo)</p><p>TASA FIJA NOMINAL ANUAL: 0% TASA EFECTIVA ANUAL: 0%</p><p>Sin tope de reintegro. Promoción no acumulable con otras promociones. Abonando con Tarjeta Santander American Express el ahorro se hará efectivo vía crédito en la tarjeta que registra el consumo dentro de los 30 días de efectuado el mismo. Ejemplo: En una compra de $90.000 con su Tarjeta Santander American Express financiada en 6 cuotas, usted recibirá en el primer resumen, un consumo de $15.000 y un reintegro de $31.500. Del segundo hasta el sexto resumen posterior a la compra, recibirá un consumo de $15.000 en cada uno de ellos. Con excepción de MODO, la promoción no aplica a pagos a través de billeteras virtuales y/o plataformas de pago online.</p>"
+      },
+      "cards": [
+        {
+          "id": 5,
+          "description": "AMEX",
+          "code": "42",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/amex_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 13,
+          "description": "Indumentaria",
+          "code": "IND"
+        },
+        {
+          "id": 66,
+          "description": "Exclusiva Amex",
+          "code": "EXA"
+        }
+      ],
+      "schedule": {
+        "monday": false,
+        "tuesday": false,
+        "wednesday": false,
+        "thursday": true,
+        "friday": false,
+        "saturday": false,
+        "sunday": false,
+        "fullWeek": false
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 391,
+        "publicationId": 8088
+      },
+      "brand": {
+        "id": 391,
+        "name": "Patio Bullrich"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 10,
+        "title": "10% de ahorro + hasta 6 cuotas fijas",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-10-15T00:00:00",
+        "endDate": "2026-10-16T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Exclusivo Amex"
+      },
+      "conditions": {
+        "additionalText": "",
+        "specialCondition": null,
+        "legal": "<p><strong>DISPONIBLE PARA CARTERA DE CONSUMO</strong></p><p>COSTO FINANCIERO TOTAL NOMINAL ANUAL</p><p><span style=\"font-size: 48px;\">C.F.T.N.A: 0%</span> (para cartera de consumo)</p><p>TASA FIJA NOMINAL ANUAL: 0% TASA EFECTIVA ANUAL: 0%</p><p>Sin tope de reintegro. Promoción no acumulable con otras promociones. Abonando con Tarjeta Santander American Express el ahorro se hará efectivo vía crédito en la tarjeta que registra el consumo dentro de los 30 días de efectuado el mismo. Ejemplo: En una compra de $90.000 con su Tarjeta Santander American Express financiada en 6 cuotas, usted recibirá en el primer resumen, un consumo de $15.000 y un reintegro de $9.000. Del segundo hasta el sexto resumen posterior a la compra, recibirá un consumo de $15.000 en cada uno de ellos. Con excepción de MODO, la promoción no aplica a pagos a través de billeteras virtuales y/o plataformas de pago online.</p>"
+      },
+      "cards": [
+        {
+          "id": 5,
+          "description": "AMEX",
+          "code": "42",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/amex_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 66,
+          "description": "Exclusiva Amex",
+          "code": "EXA"
+        },
+        {
+          "id": 109,
+          "description": "Perfumerías",
+          "code": "PER"
+        }
+      ],
+      "schedule": {
+        "monday": false,
+        "tuesday": false,
+        "wednesday": false,
+        "thursday": true,
+        "friday": false,
+        "saturday": false,
+        "sunday": false,
+        "fullWeek": false
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
         "brandId": 967,
         "publicationId": 6374
       },
@@ -6306,6 +6906,163 @@
         "saturday": true,
         "sunday": true,
         "fullWeek": true
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 506,
+        "publicationId": 7947
+      },
+      "brand": {
+        "id": 506,
+        "name": "Tomassa"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 15,
+        "title": "15% de ahorro + hasta 6 cuotas sin interés",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-10-01T00:00:00",
+        "endDate": "2026-12-31T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Súper Miércoles Perfumerías - Sorpresa"
+      },
+      "conditions": {
+        "additionalText": "<p><span style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\">Pagando con </span><strong style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\">QR</strong><span style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\"> a través de la </span><strong style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\">App Santander</strong><span style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\">.</span></p><p></p><p><span style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\">Beneficio exclusivo para clientes suscriptos a </span><strong style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\">Sorpresa Santander</strong><span style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\">.</span></p><p></p>",
+        "specialCondition": null,
+        "legal": "<p>Disponible para Cartera de Consumo y Comercial</p><p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL.</p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p><span style=\"font-size: 48px;\">CFTNA: 2,14%</span> (CARTERA COMERCIAL)</p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p></p><p>Promoción válida los días miércoles, desde el 01/10/2026 hasta el 30/12/2026 (con excepción del 14/10/2026 y del 23/12/2026), en los locales adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Visa Crédito y/o Débito. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso de que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo: en una compra con tarjeta de crédito de $120.000, en 6 cuotas, el cliente recibirá un reintegro de $12.000 en la cuenta bancaria titular o un reintegro de $18.000 si está adherido a Sorpresa Santander y, en ambos casos, del primer al sexto resumen de la tarjeta de crédito un consumo de $20.000 en cada uno. Comisión por membresía mensual Sorpresa Santander $5.289,26 + impuestos, importe final: $6.400 (Consumidor final), el que será debitado de la cuenta o tarjeta de crédito del cliente, el quinto día hábil del mes.</p>"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 36,
+          "description": "Modo",
+          "code": "MOD"
+        },
+        {
+          "id": 61,
+          "description": "Sorpresa",
+          "code": "SOR"
+        },
+        {
+          "id": 69,
+          "description": "Súper Miércoles",
+          "code": "SMI"
+        },
+        {
+          "id": 109,
+          "description": "Perfumerías",
+          "code": "PER"
+        }
+      ],
+      "schedule": {
+        "monday": false,
+        "tuesday": false,
+        "wednesday": true,
+        "thursday": false,
+        "friday": false,
+        "saturday": false,
+        "sunday": false,
+        "fullWeek": false
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 506,
+        "publicationId": 7948
+      },
+      "brand": {
+        "id": 506,
+        "name": "Tomassa"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 10,
+        "title": "10% de ahorro + hasta 6 cuotas sin interés",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-10-01T00:00:00",
+        "endDate": "2026-12-31T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Súper Miércoles Perfumerías"
+      },
+      "conditions": {
+        "additionalText": "<p><span style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(79, 84, 87);\">Pagando con </span><strong style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(79, 84, 87);\">QR</strong><span style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(79, 84, 87);\"> a través de la </span><strong style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(79, 84, 87);\">App Santander</strong><span style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(79, 84, 87);\">.</span></p>",
+        "specialCondition": null,
+        "legal": "<p>Disponible para Cartera de Consumo y Comercial</p><p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL.</p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p><span style=\"font-size: 48px;\">CFTNA: 2,14%</span> (CARTERA COMERCIAL)</p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p></p><p>Promoción válida los días miércoles, desde el 01/10/2026 hasta el 30/12/2026 (con excepción del 14/10/2026 y del 23/12/2026), en los locales adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Visa Crédito y/o Débito. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso de que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo: en una compra con tarjeta de crédito de $120.000, en 6 cuotas, el cliente recibirá un reintegro de $12.000 en la cuenta bancaria titular o un reintegro de $18.000 si está adherido a Sorpresa Santander y, en ambos casos, del primer al sexto resumen de la tarjeta de crédito un consumo de $20.000 en cada uno. Comisión por membresía mensual Sorpresa Santander $5.289,26 + impuestos, importe final: $6.400 (Consumidor final), el que será debitado de la cuenta o tarjeta de crédito del cliente, el quinto día hábil del mes.</p>"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 36,
+          "description": "Modo",
+          "code": "MOD"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 109,
+          "description": "Perfumerías",
+          "code": "PER"
+        }
+      ],
+      "schedule": {
+        "monday": false,
+        "tuesday": false,
+        "wednesday": true,
+        "thursday": false,
+        "friday": false,
+        "saturday": false,
+        "sunday": false,
+        "fullWeek": false
       }
     },
     {
@@ -9269,36 +10026,6 @@
           "id": "43935",
           "type": "",
           "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A763870_db0a1ee9f5.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ]
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
-        "accountId": "03ec5a52-91c4-e711-812f-0ab6811d4821",
-        "crmId": "A03993180",
-        "benefitId": "a48b0f4d-ba37-ef11-814b-0ab6811d4821"
-      },
-      "brand": {
-        "id": "03ec5a52-91c4-e711-812f-0ab6811d4821",
-        "name": "CATAMARANES TIGRE"
-      },
-      "benefit": {
-        "type": "10%",
-        "discount": 10,
-        "title": "10% de ahorro",
-        "slug": "/entretenimiento/familia/descuentos-en-catamaranes-tigre-A03993180",
-        "ecommerce": false,
-        "virtualCard": false,
-        "exclusiveBlack": false
-      },
-      "images": [
-        {
-          "id": "43686",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767924_fa561c8ad5.jpg",
           "highlighted": false,
           "thumb": false
         }
