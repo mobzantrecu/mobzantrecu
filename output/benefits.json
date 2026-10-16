@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-15T06:47:04.421Z",
+  "generatedAt": "2026-10-16T06:34:29.842Z",
   "sources": {
-    "santander": 88,
-    "lanacion": 405
+    "santander": 83,
+    "lanacion": 406
   },
-  "total": 493,
+  "total": 489,
   "benefits": [
     {
       "source": "santander",
@@ -525,78 +525,6 @@
         "tuesday": false,
         "wednesday": true,
         "thursday": false,
-        "friday": false,
-        "saturday": false,
-        "sunday": false,
-        "fullWeek": false
-      }
-    },
-    {
-      "source": "santander",
-      "sourceIds": {
-        "brandId": 131,
-        "publicationId": 8075
-      },
-      "brand": {
-        "id": 131,
-        "name": "Coto"
-      },
-      "benefit": {
-        "type": "Ahorro",
-        "typeCode": "A",
-        "discount": 30,
-        "title": "30% de ahorro",
-        "description": "Sin tope de reintegro",
-        "topAmount": null,
-        "startDate": "2026-10-15T00:00:00",
-        "endDate": "2026-10-15T00:00:00",
-        "paymentType": "Contactless",
-        "frequency": "No Aplica",
-        "tag": "Exclusivo Visa"
-      },
-      "conditions": {
-        "additionalText": "<p>Exclusivo pagando sin contacto desde el celu con <strong>NFC</strong>, a través de <strong>Apple Pay</strong> y <strong>Google Pay</strong>.</p><p></p><p>Exclusivo para locales físicos. No válido para venta online y/o Coto Digital.</p><p></p><p>El descuento se aplicará en línea de caja, al momento de realizar el pago.</p>",
-        "specialCondition": null,
-        "legal": "<p>Promoción vigente en la Ciudad Autónoma de Buenos Aires, Gran Buenos Aires, Neuquén, Mendoza, Entre Rios y Santa Fe, exclusivamente en todas las Sucursales Físicas de Coto ( “Coto”) (el “Territorio”) todos los días jueves, desde el 26 de febrero de 2026 hasta el 15 de octubre de 2026 (la “Vigencia”). </p><p>Promoción vigente para pagos NFC utilizando la Tarjeta Santander Visa débito a través de alguna de las siguientes billeteras digitales (las “Billeteras NFC”):</p><p>• Apple Pay (en caso de tener un dispositivo iOS)</p><p>• Google Pay, MODO Contactless (en caso de tener un dispositivo Android).</p><p>LA PROMOCIÓN NO APLICA PARA PAGOS QR.</p><p>Durante la Vigencia de la Promoción, el Participante que realice exitosamente un pago sin contacto con una Tarjeta Visa a través de las Billeteras NFC en Coto, recibirá un descuento del 30%. El descuento se aplicará en línea de caja, al momento de realizar el pago.</p><p>Participan de la Promoción únicamente las tiendas presenciales de Coto.</p><p>No válido para venta online y/o Coto Digital (WWW.COTODIGITAL.COM.AR).</p><p>No acumulable con otras promociones vigentes.</p><p>DESCUENTOS NO APLICABLES SOBRE PRODUCTOS INCLUIDOS EN PROGRAMAS DE PRECIOS DEL GOBIERNO Y/O APLICABLES POR NORMATIVA VIGENTE. DESCUENTOS NO VÁLIDOS PARA COMPRAS EN LOS PATIOS DE COMIDAS, COTO EXPRESSO, COTO BAR, ZONA JUEGOS Y ESTACIONAMIENTO PROPIO. NO INCLUYE ELECTRODOMÉSTICOS, NEUMÁTICOS NI RODADOS. NO INCLUYE PRODUCTOS DE BODEGAS CATENA ZAPATA, NICOLA CATENA, BODEGA ERNESTO CATENA (ALMA NEGRA, PADRILLOS, ANIMAL, ENEMIGO Y GRAN ENEMIGO), MALBEC DV CATENA BOT X 1,5LT, MALBEC LA RIOJA DV CATENA, MALBEC SALTA DV CATENA, SAINT FELICIEN, NICASIA, TILIA, BODEGA LA RURAL (RUTINI, TRUMPETER, SAN FELIPE Y CEPA TRADICIONAL SEMILLON/MALBEC- MALBEC/TINTO BLEND), CHANDON Y TERRAZAS DE LOS ANDES (LATITUD 33°, CASTEL, ALTOS DEL PLATA, VALMONT, BELTOUR, CHEVAL Y CLOS DU MOULIN), BODEGA NORTON (LOTE NEGRO, QUORUM VI, PRIVADA FAMILY BLEND), BODEGA CADUS WINES (CADUS), CASA PIRQUE (ALTALAND, LA POSTA, LUCA, ARUMA, PETIT CARO, MALBEC/CABERNET FRANC CASA DE HERRERO, MALBEC OJO DE BUEN CUBERO, MALBEC/CABERNET FRANC/PINOT NOIR CUCHILLO DE PALO, MALBEC RÍO DE LOS CIERVOS ARAUCANA, MALBEC NICO Y BLEND BESO DE DANTE LUCA), BODEGA BIANCHI</p><p>(VINO CHARDONNAY RESERVADO MARÍA CARMEN, VINO GRAN CORTE ENZO BIANCHI, VINOS MALBEC Y CABERNET SAUVIGNON PARTICULAR BIANCHI), BODEGA VALENTÍN BIANCHI (VINO TINTO CORTE Y MALBEC IV GENERACIÓN) BODEGA MONTEVIEJO (FESTIVO Y PETITE FLEUR) NI VINOS EN TETRABRIK NI GENEROSOS. EL DESCUENTO EN CHAMPAÑAS Y ESPUMANTES NO INCLUYE PRODUCTOS DE BODEGAS CHANDON, MERCIER, CATENA ZAPATA, BARÓN B, DOM PERIGNON, POMMERY, MÖET CHANDON, LA GRANDE DAME NI KRUG. NO INCLUYE CORTES DE CARNES DE NOVILLO, NOVILLITO, TERNERA, MENUDENCIAS NI CARNES ELABORADAS. NO INCLUYE POLLO ENTERO NI TROZADO, FRESCO NI CONGELADO, PORCINOS, EMBUTIDOS. NO INCLUYE LECHES INFANTILES ETAPAS 1 Y 2 (FLUÍDAS NI EN POLVO), NI HARINAS EN TODAS SUS PRESENTACIONES, NI AZÚCAR EN TODAS SUS PRESENTACIONES, NI ACEITE DE GIRASOL Y MEZCLA GIRASOL-SOJA EN TODAS SUS PRESENTACIONES. NO INCLUYE TODAS LAS PRESENTACIONES DE LAS SIGUIENTES MARCAS: COCA COLA, COCA COLA LIGHT, COCA COLA SIN AZÚCAR, CRUSH, FANTA, FANTA SIN AZÚCAR, SCHWEPPES, SPRITE, SPRITE SIN AZÚCAR, AQUARIUS, SMARTWATER, CEPITA, BENEDICTINO, POWERADE, ADES, HI-C NI MONSTER.</p><p>El Organizador y el Auspiciante podrán ampliar el tope de la bonificación o el plazo de vigencia de la Promoción. A su vez, cuando circunstancias no imputables al Organizador o no previstas en estos Términos que constituyan caso fortuito o fuerza mayor lo justifiquen, el Organizador podrá suspender, cancelar o modificar la Promoción.</p><p>Ver TYC: Supermercados COTO | Promociones | Visa</p>"
-      },
-      "cards": [
-        {
-          "id": 1,
-          "description": "VISA",
-          "code": "81",
-          "idType": 1,
-          "descriptionType": "DEBITO",
-          "codeType": "D",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
-        }
-      ],
-      "categories": [
-        {
-          "id": 16,
-          "description": "Supermercados",
-          "code": "SUP"
-        },
-        {
-          "id": 56,
-          "description": "Destacado",
-          "code": "DES"
-        },
-        {
-          "id": 58,
-          "description": "Exclusiva Visa",
-          "code": "EXV"
-        },
-        {
-          "id": 417,
-          "description": "Everyday",
-          "code": "DAY"
-        }
-      ],
-      "schedule": {
-        "monday": false,
-        "tuesday": false,
-        "wednesday": false,
-        "thursday": true,
         "friday": false,
         "saturday": false,
         "sunday": false,
@@ -1521,92 +1449,6 @@
       "source": "santander",
       "sourceIds": {
         "brandId": 4,
-        "publicationId": 8070
-      },
-      "brand": {
-        "id": 4,
-        "name": "Abasto"
-      },
-      "benefit": {
-        "type": "Ahorro",
-        "typeCode": "A",
-        "discount": 15,
-        "title": "15% de ahorro + hasta 9 cuotas sin interés",
-        "description": "Sin tope de reintegro",
-        "topAmount": null,
-        "startDate": "2026-10-16T00:00:00",
-        "endDate": "2026-10-16T00:00:00",
-        "paymentType": "No Aplica",
-        "frequency": "No Aplica",
-        "tag": "Especial Cuenta Sueldo Perfumerías"
-      },
-      "conditions": {
-        "additionalText": "<p>Pagando con <strong>QR</strong> a través de la <strong>App Santander</strong>.</p><p></p><p>Exclusivo para clientes que cobren su sueldo o jubilación en Santander.</p>",
-        "specialCondition": null,
-        "legal": "<p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL</p><p></p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p></p><p><span style=\"font-size: 48px;\">CFTNA: 2,40%</span> (CARTERA COMERCIAL)</p><p></p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p></p><p>Válido el viernes 16/10, en los locales adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Visa Crédito y/o Débito. Exclusivo para clientes que cobren su sueldo o jubilación en Santander. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. No acumulable con otras promociones. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo: en una compra con tarjeta de crédito de $180.000, en 9 cuotas: registrará un reintegro de $27.000 en la cuenta bancaria titular, y del primer al noveno resumen de la tarjeta de crédito un consumo de $20.000 en cada uno.</p>"
-      },
-      "cards": [
-        {
-          "id": 1,
-          "description": "VISA",
-          "code": "81",
-          "idType": 1,
-          "descriptionType": "DEBITO",
-          "codeType": "D",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
-        },
-        {
-          "id": 2,
-          "description": "VISA",
-          "code": "40",
-          "idType": 2,
-          "descriptionType": "CREDITO",
-          "codeType": "C",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
-        }
-      ],
-      "categories": [
-        {
-          "id": 34,
-          "description": "Especial Plan Sueldo",
-          "code": "EPS"
-        },
-        {
-          "id": 36,
-          "description": "Modo",
-          "code": "MOD"
-        },
-        {
-          "id": 58,
-          "description": "Exclusiva Visa",
-          "code": "EXV"
-        },
-        {
-          "id": 64,
-          "description": "Plan Sueldo",
-          "code": "PSU"
-        },
-        {
-          "id": 109,
-          "description": "Perfumerías",
-          "code": "PER"
-        }
-      ],
-      "schedule": {
-        "monday": false,
-        "tuesday": false,
-        "wednesday": false,
-        "thursday": false,
-        "friday": true,
-        "saturday": false,
-        "sunday": false,
-        "fullWeek": false
-      }
-    },
-    {
-      "source": "santander",
-      "sourceIds": {
-        "brandId": 4,
         "publicationId": 8071
       },
       "brand": {
@@ -1851,6 +1693,92 @@
         "wednesday": true,
         "thursday": false,
         "friday": false,
+        "saturday": false,
+        "sunday": false,
+        "fullWeek": false
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 4,
+        "publicationId": 8070
+      },
+      "brand": {
+        "id": 4,
+        "name": "Abasto"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 15,
+        "title": "15% de ahorro + hasta 9 cuotas sin interés",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-10-16T00:00:00",
+        "endDate": "2026-10-16T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Especial Cuenta Sueldo Perfumerías"
+      },
+      "conditions": {
+        "additionalText": "<p>Pagando con <strong>QR</strong> a través de la <strong>App Santander</strong>.</p><p></p><p>Exclusivo para clientes que cobren su sueldo o jubilación en Santander.</p>",
+        "specialCondition": null,
+        "legal": "<p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL</p><p></p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p></p><p><span style=\"font-size: 48px;\">CFTNA: 2,40%</span> (CARTERA COMERCIAL)</p><p></p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p></p><p>Válido el viernes 16/10, en los locales adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Visa Crédito y/o Débito. Exclusivo para clientes que cobren su sueldo o jubilación en Santander. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. No acumulable con otras promociones. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo: en una compra con tarjeta de crédito de $180.000, en 9 cuotas: registrará un reintegro de $27.000 en la cuenta bancaria titular, y del primer al noveno resumen de la tarjeta de crédito un consumo de $20.000 en cada uno.</p>"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 34,
+          "description": "Especial Plan Sueldo",
+          "code": "EPS"
+        },
+        {
+          "id": 36,
+          "description": "Modo",
+          "code": "MOD"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 64,
+          "description": "Plan Sueldo",
+          "code": "PSU"
+        },
+        {
+          "id": 109,
+          "description": "Perfumerías",
+          "code": "PER"
+        }
+      ],
+      "schedule": {
+        "monday": false,
+        "tuesday": false,
+        "wednesday": false,
+        "thursday": false,
+        "friday": true,
         "saturday": false,
         "sunday": false,
         "fullWeek": false
@@ -2653,6 +2581,11 @@
           "id": 69,
           "description": "Súper Miércoles",
           "code": "SMI"
+        },
+        {
+          "id": 41,
+          "description": "Getnet",
+          "code": "GET"
         }
       ],
       "schedule": {
@@ -2734,6 +2667,11 @@
           "id": 69,
           "description": "Súper Miércoles",
           "code": "SMI"
+        },
+        {
+          "id": 41,
+          "description": "Getnet",
+          "code": "GET"
         }
       ],
       "schedule": {
@@ -4260,183 +4198,6 @@
     {
       "source": "santander",
       "sourceIds": {
-        "brandId": 170,
-        "publicationId": 8083
-      },
-      "brand": {
-        "id": 170,
-        "name": "Equus"
-      },
-      "benefit": {
-        "type": "Ahorro",
-        "typeCode": "A",
-        "discount": 30,
-        "title": "30% de ahorro + hasta 9 cuotas sin interés",
-        "description": "Sin tope de reintegro",
-        "topAmount": null,
-        "startDate": "2026-10-14T00:00:00",
-        "endDate": "2026-10-15T00:00:00",
-        "paymentType": "No Aplica",
-        "frequency": "No Aplica",
-        "tag": "Súper Miércoles - Sorpresa"
-      },
-      "conditions": {
-        "additionalText": "<p>Pagando con <strong>QR</strong> a través de la <strong>App Santander</strong>.</p><p></p><p>Beneficio exclusivo para clientes suscriptos a <strong>Sorpresa Santander</strong>.</p>",
-        "specialCondition": null,
-        "legal": "<p>Cartera de Consumo y Comercial</p><p></p><p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL.</p><p></p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p></p><p><span style=\"font-size: 48px;\">CFTNA: 2,20%</span> (CARTERA COMERCIAL)</p><p></p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p></p><p>Promoción válida el miércoles 14/10/2026, en locales y sitios web adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Visa Crédito y/o Débito. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso de que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo para cliente adherido a Sorpresa Santander: en una compra con tarjeta de crédito de $180.000, en 9 cuotas, el cliente recibirá un reintegro de $54.000 en la cuenta bancaria titular. Del primer al noveno resumen de la tarjeta de crédito un consumo de $20.000 en cada uno. Comisión por membresía mensual Sorpresa Santander $5.289,26 + impuestos, importe final: $6.400 (Consumidor final), el que será debitado de la cuenta o tarjeta de crédito del cliente, el quinto día hábil del mes.</p>"
-      },
-      "cards": [
-        {
-          "id": 1,
-          "description": "VISA",
-          "code": "81",
-          "idType": 1,
-          "descriptionType": "DEBITO",
-          "codeType": "D",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
-        },
-        {
-          "id": 2,
-          "description": "VISA",
-          "code": "40",
-          "idType": 2,
-          "descriptionType": "CREDITO",
-          "codeType": "C",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
-        }
-      ],
-      "categories": [
-        {
-          "id": 13,
-          "description": "Indumentaria",
-          "code": "IND"
-        },
-        {
-          "id": 36,
-          "description": "Modo",
-          "code": "MOD"
-        },
-        {
-          "id": 50,
-          "description": "Día de la Madre",
-          "code": "DMA"
-        },
-        {
-          "id": 58,
-          "description": "Exclusiva Visa",
-          "code": "EXV"
-        },
-        {
-          "id": 61,
-          "description": "Sorpresa",
-          "code": "SOR"
-        },
-        {
-          "id": 69,
-          "description": "Súper Miércoles",
-          "code": "SMI"
-        }
-      ],
-      "schedule": {
-        "monday": false,
-        "tuesday": false,
-        "wednesday": true,
-        "thursday": false,
-        "friday": false,
-        "saturday": false,
-        "sunday": false,
-        "fullWeek": false
-      }
-    },
-    {
-      "source": "santander",
-      "sourceIds": {
-        "brandId": 170,
-        "publicationId": 8084
-      },
-      "brand": {
-        "id": 170,
-        "name": "Equus"
-      },
-      "benefit": {
-        "type": "Ahorro",
-        "typeCode": "A",
-        "discount": 20,
-        "title": "20% de ahorro + hasta 9 cuotas sin interés",
-        "description": "Sin tope de reintegro",
-        "topAmount": null,
-        "startDate": "2026-10-14T00:00:00",
-        "endDate": "2026-10-15T00:00:00",
-        "paymentType": "No Aplica",
-        "frequency": "No Aplica",
-        "tag": "Súper Miércoles"
-      },
-      "conditions": {
-        "additionalText": "<p>Pagando con <strong>QR</strong> a través de la <strong>App Santander</strong>.</p>",
-        "specialCondition": null,
-        "legal": "<p>Cartera de Consumo y Comercial</p><p></p><p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL.</p><p></p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p></p><p><span style=\"font-size: 48px;\">CFTNA: 2,20%</span> (CARTERA COMERCIAL)</p><p></p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p></p><p>Promoción válida el miércoles 14/10/2026, en locales y sitios web adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Visa Crédito y/o Débito. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso de que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo para cliente adherido a Sorpresa Santander: en una compra con tarjeta de crédito de $180.000, en 9 cuotas, el cliente recibirá un reintegro de $54.000 en la cuenta bancaria titular. Del primer al noveno resumen de la tarjeta de crédito un consumo de $20.000 en cada uno. Comisión por membresía mensual Sorpresa Santander $5.289,26 + impuestos, importe final: $6.400 (Consumidor final), el que será debitado de la cuenta o tarjeta de crédito del cliente, el quinto día hábil del mes.</p>"
-      },
-      "cards": [
-        {
-          "id": 1,
-          "description": "VISA",
-          "code": "81",
-          "idType": 1,
-          "descriptionType": "DEBITO",
-          "codeType": "D",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
-        },
-        {
-          "id": 2,
-          "description": "VISA",
-          "code": "40",
-          "idType": 2,
-          "descriptionType": "CREDITO",
-          "codeType": "C",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
-        }
-      ],
-      "categories": [
-        {
-          "id": 13,
-          "description": "Indumentaria",
-          "code": "IND"
-        },
-        {
-          "id": 36,
-          "description": "Modo",
-          "code": "MOD"
-        },
-        {
-          "id": 50,
-          "description": "Día de la Madre",
-          "code": "DMA"
-        },
-        {
-          "id": 58,
-          "description": "Exclusiva Visa",
-          "code": "EXV"
-        },
-        {
-          "id": 69,
-          "description": "Súper Miércoles",
-          "code": "SMI"
-        }
-      ],
-      "schedule": {
-        "monday": false,
-        "tuesday": false,
-        "wednesday": true,
-        "thursday": false,
-        "friday": false,
-        "saturday": false,
-        "sunday": false,
-        "fullWeek": false
-      }
-    },
-    {
-      "source": "santander",
-      "sourceIds": {
         "brandId": 178,
         "publicationId": 7712
       },
@@ -5829,68 +5590,6 @@
       "source": "santander",
       "sourceIds": {
         "brandId": 391,
-        "publicationId": 8087
-      },
-      "brand": {
-        "id": 391,
-        "name": "Patio Bullrich"
-      },
-      "benefit": {
-        "type": "Ahorro",
-        "typeCode": "A",
-        "discount": 35,
-        "title": "35% de ahorro + hasta 6 cuotas fijas",
-        "description": "Sin tope de reintegro",
-        "topAmount": null,
-        "startDate": "2026-10-15T00:00:00",
-        "endDate": "2026-10-15T00:00:00",
-        "paymentType": "No Aplica",
-        "frequency": "No Aplica",
-        "tag": "Exclusivo Amex"
-      },
-      "conditions": {
-        "additionalText": "",
-        "specialCondition": null,
-        "legal": "<p><strong>DISPONIBLE PARA CARTERA DE CONSUMO</strong></p><p>COSTO FINANCIERO TOTAL NOMINAL ANUAL</p><p><span style=\"font-size: 48px;\">C.F.T.N.A: 0%</span> (para cartera de consumo)</p><p>TASA FIJA NOMINAL ANUAL: 0% TASA EFECTIVA ANUAL: 0%</p><p>Sin tope de reintegro. Promoción no acumulable con otras promociones. Abonando con Tarjeta Santander American Express el ahorro se hará efectivo vía crédito en la tarjeta que registra el consumo dentro de los 30 días de efectuado el mismo. Ejemplo: En una compra de $90.000 con su Tarjeta Santander American Express financiada en 6 cuotas, usted recibirá en el primer resumen, un consumo de $15.000 y un reintegro de $31.500. Del segundo hasta el sexto resumen posterior a la compra, recibirá un consumo de $15.000 en cada uno de ellos. Con excepción de MODO, la promoción no aplica a pagos a través de billeteras virtuales y/o plataformas de pago online.</p>"
-      },
-      "cards": [
-        {
-          "id": 5,
-          "description": "AMEX",
-          "code": "42",
-          "idType": 2,
-          "descriptionType": "CREDITO",
-          "codeType": "C",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/amex_tarjeta_credito.png"
-        }
-      ],
-      "categories": [
-        {
-          "id": 13,
-          "description": "Indumentaria",
-          "code": "IND"
-        },
-        {
-          "id": 66,
-          "description": "Exclusiva Amex",
-          "code": "EXA"
-        }
-      ],
-      "schedule": {
-        "monday": false,
-        "tuesday": false,
-        "wednesday": false,
-        "thursday": true,
-        "friday": false,
-        "saturday": false,
-        "sunday": false,
-        "fullWeek": false
-      }
-    },
-    {
-      "source": "santander",
-      "sourceIds": {
-        "brandId": 391,
         "publicationId": 8088
       },
       "brand": {
@@ -6360,73 +6059,6 @@
         "saturday": true,
         "sunday": true,
         "fullWeek": true
-      }
-    },
-    {
-      "source": "santander",
-      "sourceIds": {
-        "brandId": 425,
-        "publicationId": 7987
-      },
-      "brand": {
-        "id": 425,
-        "name": "Prune"
-      },
-      "benefit": {
-        "type": "Ahorro",
-        "typeCode": "A",
-        "discount": 35,
-        "title": "35% de ahorro + hasta 9 cuotas sin interés",
-        "description": "Sin tope de reintegro",
-        "topAmount": null,
-        "startDate": "2026-10-14T00:00:00",
-        "endDate": "2026-10-15T00:00:00",
-        "paymentType": "No Aplica",
-        "frequency": "No Aplica",
-        "tag": "Sorpresa"
-      },
-      "conditions": {
-        "additionalText": "<p><span style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\">Beneficio exclusivo para clientes suscriptos a </span><strong style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\">Sorpresa Santander</strong><span style=\"background-color: rgb(255, 255, 255); color: rgb(79, 84, 87); font-size: 14px;\">.</span></p>",
-        "specialCondition": null,
-        "legal": "<p>Válida el día 14/10/2026 y el dia 15/10/2026, en los locales adheridos, abonando con Tarjetas Santander American Express, incluidos los pagos realizados con MODO, Google Pay y Apple Pay. Se excluyen compras abonadas por transferencias, a través de billeteras virtuales o financiadas por programas Cuota Simple. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria de dicho titular.</p><p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL.</p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p><span style=\"font-size: 48px;\">CFTNA: 2,20%</span> (CARTERA COMERCIAL)</p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%</p><p>El ahorro se hará efectivo vía reintegro dentro de los 60 días de efectuado el consumo en el resumen de la tarjeta del cliente.</p><p>Ejemplo: en una compra de $180.000 realizada con su Tarjeta Santander American Express financiada en 9 cuotas, usted recibirá en el primer resumen, un consumo de $20.000 y un reintegro de $45.000 Del segundo hasta el noveno resumen posterior a la compra, recibirá un consumo de $20.000 en cada uno de ellos.</p>"
-      },
-      "cards": [
-        {
-          "id": 5,
-          "description": "AMEX",
-          "code": "42",
-          "idType": 2,
-          "descriptionType": "CREDITO",
-          "codeType": "C",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/amex_tarjeta_credito.png"
-        }
-      ],
-      "categories": [
-        {
-          "id": 13,
-          "description": "Indumentaria",
-          "code": "IND"
-        },
-        {
-          "id": 61,
-          "description": "Sorpresa",
-          "code": "SOR"
-        },
-        {
-          "id": 66,
-          "description": "Exclusiva Amex",
-          "code": "EXA"
-        }
-      ],
-      "schedule": {
-        "monday": false,
-        "tuesday": false,
-        "wednesday": true,
-        "thursday": true,
-        "friday": false,
-        "saturday": false,
-        "sunday": false,
-        "fullWeek": false
       }
     },
     {
@@ -14848,36 +14480,6 @@
     {
       "source": "lanacion",
       "sourceIds": {
-        "accountId": "7ed2d208-61e6-e711-8130-0ab6811d4821",
-        "crmId": "A04034506",
-        "benefitId": "df868111-8aed-4f26-ba5f-4824dacbf8d6"
-      },
-      "brand": {
-        "id": "7ed2d208-61e6-e711-8130-0ab6811d4821",
-        "name": "SAMSUNG STORE"
-      },
-      "benefit": {
-        "type": "10%",
-        "discount": 10,
-        "title": "10% de ahorro",
-        "slug": "/otros-beneficios/tecnologia/descuentos-en-samsung-store-A04034506",
-        "ecommerce": false,
-        "virtualCard": true,
-        "exclusiveBlack": false
-      },
-      "images": [
-        {
-          "id": "45927",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/Galaxy_S25_FE_01_9d5709cbc7.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ]
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
         "accountId": "81f5f81f-950e-f111-8155-0ab6811d4821",
         "crmId": "A05570244",
         "benefitId": "634d8c70-9a0e-f111-8155-0ab6811d4821"
@@ -19062,50 +18664,6 @@
     {
       "source": "lanacion",
       "sourceIds": {
-        "accountId": "c5ba37af-3eed-4fda-ae8e-e34841e3bb84",
-        "crmId": "A05912906",
-        "benefitId": "e5783931-7cbb-4d43-8bab-7ede28c3a03b"
-      },
-      "brand": {
-        "id": "c5ba37af-3eed-4fda-ae8e-e34841e3bb84",
-        "name": "CAMPOBRAVO"
-      },
-      "benefit": {
-        "type": "20%",
-        "discount": 20,
-        "title": "20% de ahorro",
-        "slug": "/gastronomia/restaurantes/descuentos-en-campobravo-A05912906",
-        "ecommerce": false,
-        "virtualCard": true,
-        "exclusiveBlack": false
-      },
-      "images": [
-        {
-          "id": "45232",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/campo_bravo_39dfad9460.jpg",
-          "highlighted": false,
-          "thumb": false
-        },
-        {
-          "id": "45234",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/campo_bravo_1_01dd18f647.jpg",
-          "highlighted": false,
-          "thumb": false
-        },
-        {
-          "id": "45233",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/campo_bravo_2_bd780e2ba6.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ]
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
         "accountId": "f696cad3-1aef-eb11-8146-0ab6811d4821",
         "crmId": "A12459",
         "benefitId": "837f93b2-2f07-ef11-814b-0ab6811d4821"
@@ -19316,36 +18874,6 @@
     {
       "source": "lanacion",
       "sourceIds": {
-        "accountId": "92945d00-9fef-4cbb-842d-84d5400c0847",
-        "crmId": "A05965382",
-        "benefitId": "64019d84-0f79-4860-9259-3933deb76d98"
-      },
-      "brand": {
-        "id": "92945d00-9fef-4cbb-842d-84d5400c0847",
-        "name": "VILLA OCAMPO"
-      },
-      "benefit": {
-        "type": "2x1",
-        "discount": null,
-        "title": "2x1 de ahorro",
-        "slug": "/entretenimiento/familia/descuentos-en-villa-ocampo-A05965382",
-        "ecommerce": false,
-        "virtualCard": true,
-        "exclusiveBlack": false
-      },
-      "images": [
-        {
-          "id": "46500",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/Villa_Ocampo_e94c6ba79c.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ]
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
         "accountId": "ecab5a66-9e9c-e711-812e-0ab6811d4821",
         "crmId": "A03426704",
         "benefitId": "8316f41b-eb8d-ee11-814b-0ab6811d4821"
@@ -19406,6 +18934,66 @@
     {
       "source": "lanacion",
       "sourceIds": {
+        "accountId": "7ed2d208-61e6-e711-8130-0ab6811d4821",
+        "crmId": "A04034506",
+        "benefitId": "df868111-8aed-4f26-ba5f-4824dacbf8d6"
+      },
+      "brand": {
+        "id": "7ed2d208-61e6-e711-8130-0ab6811d4821",
+        "name": "SAMSUNG STORE"
+      },
+      "benefit": {
+        "type": "10%",
+        "discount": 10,
+        "title": "10% de ahorro",
+        "slug": "/otros-beneficios/tecnologia/descuentos-en-samsung-store-A04034506",
+        "ecommerce": true,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "45927",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/Galaxy_S25_FE_01_9d5709cbc7.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "dfd5dfff-e8a2-f011-8155-0ab6811d4821",
+        "crmId": "A05863625",
+        "benefitId": "cc895165-d5db-42fe-9cbc-1d71915db325"
+      },
+      "brand": {
+        "id": "dfd5dfff-e8a2-f011-8155-0ab6811d4821",
+        "name": "MAGHER"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/moda/indumentaria/descuentos-en-magher-A05863625",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44759",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768492_a9bdd48a16.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
         "accountId": "c47f4428-9577-4de7-bb64-c7530aea12ec",
         "crmId": "A05970587",
         "benefitId": "ab2441f3-b6a9-4a57-bf66-905168892fdf"
@@ -19428,6 +19016,80 @@
           "id": "46339",
           "type": "",
           "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/Imagen_Beneficio_800x600_f698727912.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "92945d00-9fef-4cbb-842d-84d5400c0847",
+        "crmId": "A05965382",
+        "benefitId": "64019d84-0f79-4860-9259-3933deb76d98"
+      },
+      "brand": {
+        "id": "92945d00-9fef-4cbb-842d-84d5400c0847",
+        "name": "VILLA OCAMPO"
+      },
+      "benefit": {
+        "type": "2x1",
+        "discount": null,
+        "title": "2x1 de ahorro",
+        "slug": "/entretenimiento/familia/descuentos-en-villa-ocampo-A05965382",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "46500",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/Villa_Ocampo_e94c6ba79c.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "c5ba37af-3eed-4fda-ae8e-e34841e3bb84",
+        "crmId": "A05912906",
+        "benefitId": "e5783931-7cbb-4d43-8bab-7ede28c3a03b"
+      },
+      "brand": {
+        "id": "c5ba37af-3eed-4fda-ae8e-e34841e3bb84",
+        "name": "CAMPOBRAVO"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-campobravo-A05912906",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "45232",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/campo_bravo_39dfad9460.jpg",
+          "highlighted": false,
+          "thumb": false
+        },
+        {
+          "id": "45234",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/campo_bravo_1_01dd18f647.jpg",
+          "highlighted": false,
+          "thumb": false
+        },
+        {
+          "id": "45233",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/campo_bravo_2_bd780e2ba6.jpg",
           "highlighted": false,
           "thumb": false
         }
