@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-16T06:34:29.842Z",
+  "generatedAt": "2026-10-17T06:10:31.647Z",
   "sources": {
-    "santander": 83,
-    "lanacion": 406
+    "santander": 77,
+    "lanacion": 405
   },
-  "total": 489,
+  "total": 482,
   "benefits": [
     {
       "source": "santander",
@@ -611,83 +611,6 @@
         "wednesday": false,
         "thursday": false,
         "friday": false,
-        "saturday": false,
-        "sunday": false,
-        "fullWeek": false
-      }
-    },
-    {
-      "source": "santander",
-      "sourceIds": {
-        "brandId": 184,
-        "publicationId": 7720
-      },
-      "brand": {
-        "id": 184,
-        "name": "Farmacity"
-      },
-      "benefit": {
-        "type": "Ahorro",
-        "typeCode": "A",
-        "discount": 35,
-        "title": "35% de ahorro + hasta 3 cuotas fijas",
-        "description": "Tope de reintegro: $25.000 durante la vigencia de la promoción",
-        "topAmount": 25000,
-        "startDate": "2026-10-16T00:00:00",
-        "endDate": "2026-10-16T00:00:00",
-        "paymentType": "QR - Modo",
-        "frequency": "Vigencia de la campania",
-        "tag": "Sorpresa"
-      },
-      "conditions": {
-        "additionalText": "<p>Pagando con <strong>MODO</strong> a través de la <strong>App Santander</strong>.<br><br>Beneficio exclusivo para clientes suscriptos a <strong>Sorpresa Santander</strong>.</p>\n",
-        "specialCondition": null,
-        "legal": "<p><strong>PARA CLIENTES SUSCRIPTOS AL PROGRAMA SORPRESA SANTANDER.</strong></p><p>CFTNA: COSTO FINANCIERO TOTAL NOMINAL ANUAL</p><p><span style=\"font-size: 48px;\">CFTNA: 0% 1,50% </span>CARTERA DE CONSUMO.</p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p>Válido todos el Viernes 16 Octubre abonando con QR a través de la App Santander o App MODO con Tarjeta Santander crédito American Express en todos los locales adheridos. No acumulable con otras promociones. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular.</p><p>El ahorro es exclusivo para clientes suscriptos al programa Sorpresa Santander. La comisión por membresía mensual Sorpresa Santander será debitada de la cuenta o tarjeta de crédito del cliente, el quinto día hábil del mes, conocer precio vigente en: www.santander.com.ar/personas/beneficios/sorpresa. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta asociada del cliente. Tope: suma de las compras realizadas por el titular de tarjeta de crédito y sus adicionales y las efectuadas con todas las tarjetas de débito asociadas a la cuenta del titular de la misma. Es necesario que previo a realizarse el reintegro tengas asociada a MODO la cuenta que sea del mismo banco que la tarjeta con la que realizaste la compra. Ejemplo: $120.000, en 3 cuotas, registrará en el resumen un consumo de $40.000 y un reintegro de $25.000 (tope). Del segundo al tercer resumen registrará un consumo de $40.000 en cada uno. Los accionistas de Banco Santander Argentina S.A. no responden en exceso de su integración accionaria</p>"
-      },
-      "cards": [
-        {
-          "id": 5,
-          "description": "AMEX",
-          "code": "42",
-          "idType": 2,
-          "descriptionType": "CREDITO",
-          "codeType": "C",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/amex_tarjeta_credito.png"
-        }
-      ],
-      "categories": [
-        {
-          "id": 4,
-          "description": "Cuidado personal",
-          "code": "CPE"
-        },
-        {
-          "id": 18,
-          "description": "Varios",
-          "code": "VAR"
-        },
-        {
-          "id": 36,
-          "description": "Modo",
-          "code": "MOD"
-        },
-        {
-          "id": 61,
-          "description": "Sorpresa",
-          "code": "SOR"
-        },
-        {
-          "id": 66,
-          "description": "Exclusiva Amex",
-          "code": "EXA"
-        }
-      ],
-      "schedule": {
-        "monday": false,
-        "tuesday": false,
-        "wednesday": false,
-        "thursday": false,
-        "friday": true,
         "saturday": false,
         "sunday": false,
         "fullWeek": false
@@ -1449,92 +1372,6 @@
       "source": "santander",
       "sourceIds": {
         "brandId": 4,
-        "publicationId": 8071
-      },
-      "brand": {
-        "id": 4,
-        "name": "Abasto"
-      },
-      "benefit": {
-        "type": "Ahorro",
-        "typeCode": "A",
-        "discount": 30,
-        "title": "30% de ahorro + hasta 9 cuotas sin interés",
-        "description": "Sin tope de reintegro",
-        "topAmount": null,
-        "startDate": "2026-10-16T00:00:00",
-        "endDate": "2026-10-16T00:00:00",
-        "paymentType": "No Aplica",
-        "frequency": "No Aplica",
-        "tag": "Especial Cuenta Sueldo y Jubilados"
-      },
-      "conditions": {
-        "additionalText": "<p>Pagando con <strong>QR</strong> a través de la <strong>App Santander</strong>.</p><p></p><p>Exclusivo para clientes que cobren su sueldo o jubilación en Santander.</p>",
-        "specialCondition": null,
-        "legal": "<p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL</p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p><span style=\"font-size: 48px;\">CFTNA: 2,40%</span> (CARTERA COMERCIAL)</p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p>Válido el viernes 16/10, en los locales adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Visa Crédito y/o Débito. Exclusivo para clientes que cobren su sueldo o jubilación en Santander. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. No acumulable con otras promociones. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo: en una compra con tarjeta de crédito de $180.000, en 9 cuotas: registrará un reintegro de $54.000 en la cuenta bancaria titular, y del primer al noveno resumen de la tarjeta de crédito un consumo de $20.000 en cada uno.</p>"
-      },
-      "cards": [
-        {
-          "id": 1,
-          "description": "VISA",
-          "code": "81",
-          "idType": 1,
-          "descriptionType": "DEBITO",
-          "codeType": "D",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
-        },
-        {
-          "id": 2,
-          "description": "VISA",
-          "code": "40",
-          "idType": 2,
-          "descriptionType": "CREDITO",
-          "codeType": "C",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
-        }
-      ],
-      "categories": [
-        {
-          "id": 13,
-          "description": "Indumentaria",
-          "code": "IND"
-        },
-        {
-          "id": 34,
-          "description": "Especial Plan Sueldo",
-          "code": "EPS"
-        },
-        {
-          "id": 36,
-          "description": "Modo",
-          "code": "MOD"
-        },
-        {
-          "id": 58,
-          "description": "Exclusiva Visa",
-          "code": "EXV"
-        },
-        {
-          "id": 64,
-          "description": "Plan Sueldo",
-          "code": "PSU"
-        }
-      ],
-      "schedule": {
-        "monday": false,
-        "tuesday": false,
-        "wednesday": false,
-        "thursday": false,
-        "friday": true,
-        "saturday": false,
-        "sunday": false,
-        "fullWeek": false
-      }
-    },
-    {
-      "source": "santander",
-      "sourceIds": {
-        "brandId": 4,
         "publicationId": 7754
       },
       "brand": {
@@ -1702,92 +1539,6 @@
       "source": "santander",
       "sourceIds": {
         "brandId": 4,
-        "publicationId": 8070
-      },
-      "brand": {
-        "id": 4,
-        "name": "Abasto"
-      },
-      "benefit": {
-        "type": "Ahorro",
-        "typeCode": "A",
-        "discount": 15,
-        "title": "15% de ahorro + hasta 9 cuotas sin interés",
-        "description": "Sin tope de reintegro",
-        "topAmount": null,
-        "startDate": "2026-10-16T00:00:00",
-        "endDate": "2026-10-16T00:00:00",
-        "paymentType": "No Aplica",
-        "frequency": "No Aplica",
-        "tag": "Especial Cuenta Sueldo Perfumerías"
-      },
-      "conditions": {
-        "additionalText": "<p>Pagando con <strong>QR</strong> a través de la <strong>App Santander</strong>.</p><p></p><p>Exclusivo para clientes que cobren su sueldo o jubilación en Santander.</p>",
-        "specialCondition": null,
-        "legal": "<p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL</p><p></p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p></p><p><span style=\"font-size: 48px;\">CFTNA: 2,40%</span> (CARTERA COMERCIAL)</p><p></p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p></p><p>Válido el viernes 16/10, en los locales adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Visa Crédito y/o Débito. Exclusivo para clientes que cobren su sueldo o jubilación en Santander. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. No acumulable con otras promociones. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo: en una compra con tarjeta de crédito de $180.000, en 9 cuotas: registrará un reintegro de $27.000 en la cuenta bancaria titular, y del primer al noveno resumen de la tarjeta de crédito un consumo de $20.000 en cada uno.</p>"
-      },
-      "cards": [
-        {
-          "id": 1,
-          "description": "VISA",
-          "code": "81",
-          "idType": 1,
-          "descriptionType": "DEBITO",
-          "codeType": "D",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
-        },
-        {
-          "id": 2,
-          "description": "VISA",
-          "code": "40",
-          "idType": 2,
-          "descriptionType": "CREDITO",
-          "codeType": "C",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
-        }
-      ],
-      "categories": [
-        {
-          "id": 34,
-          "description": "Especial Plan Sueldo",
-          "code": "EPS"
-        },
-        {
-          "id": 36,
-          "description": "Modo",
-          "code": "MOD"
-        },
-        {
-          "id": 58,
-          "description": "Exclusiva Visa",
-          "code": "EXV"
-        },
-        {
-          "id": 64,
-          "description": "Plan Sueldo",
-          "code": "PSU"
-        },
-        {
-          "id": 109,
-          "description": "Perfumerías",
-          "code": "PER"
-        }
-      ],
-      "schedule": {
-        "monday": false,
-        "tuesday": false,
-        "wednesday": false,
-        "thursday": false,
-        "friday": true,
-        "saturday": false,
-        "sunday": false,
-        "fullWeek": false
-      }
-    },
-    {
-      "source": "santander",
-      "sourceIds": {
-        "brandId": 4,
         "publicationId": 7757
       },
       "brand": {
@@ -1946,92 +1697,6 @@
         "wednesday": true,
         "thursday": false,
         "friday": false,
-        "saturday": false,
-        "sunday": false,
-        "fullWeek": false
-      }
-    },
-    {
-      "source": "santander",
-      "sourceIds": {
-        "brandId": 8,
-        "publicationId": 8072
-      },
-      "brand": {
-        "id": 8,
-        "name": "Adriana Costantini"
-      },
-      "benefit": {
-        "type": "Ahorro",
-        "typeCode": "A",
-        "discount": 30,
-        "title": "30% de ahorro + hasta 9 cuotas sin interés",
-        "description": "Sin tope de reintegro",
-        "topAmount": null,
-        "startDate": "2026-10-16T00:00:00",
-        "endDate": "2026-10-16T00:00:00",
-        "paymentType": "No Aplica",
-        "frequency": "No Aplica",
-        "tag": "Especial Cuenta Sueldo y Jubilados"
-      },
-      "conditions": {
-        "additionalText": "<p>Pagando con <strong>QR</strong> a través de la <strong>App Santander</strong>.</p><p></p><p>Exclusivo para clientes que cobren su sueldo o jubilación en Santander.</p>",
-        "specialCondition": null,
-        "legal": "<p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL</p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p><span style=\"font-size: 48px;\">CFTNA: 2,40%</span> (CARTERA COMERCIAL)</p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p>Válido el viernes 16/10, en los locales adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Visa Crédito y/o Débito. Exclusivo para clientes que cobren su sueldo o jubilación en Santander. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. No acumulable con otras promociones. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo: en una compra con tarjeta de crédito de $180.000, en 9 cuotas: registrará un reintegro de $54.000 en la cuenta bancaria titular, y del primer al noveno resumen de la tarjeta de crédito un consumo de $20.000 en cada uno.</p>"
-      },
-      "cards": [
-        {
-          "id": 1,
-          "description": "VISA",
-          "code": "81",
-          "idType": 1,
-          "descriptionType": "DEBITO",
-          "codeType": "D",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
-        },
-        {
-          "id": 2,
-          "description": "VISA",
-          "code": "40",
-          "idType": 2,
-          "descriptionType": "CREDITO",
-          "codeType": "C",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
-        }
-      ],
-      "categories": [
-        {
-          "id": 13,
-          "description": "Indumentaria",
-          "code": "IND"
-        },
-        {
-          "id": 34,
-          "description": "Especial Plan Sueldo",
-          "code": "EPS"
-        },
-        {
-          "id": 36,
-          "description": "Modo",
-          "code": "MOD"
-        },
-        {
-          "id": 58,
-          "description": "Exclusiva Visa",
-          "code": "EXV"
-        },
-        {
-          "id": 64,
-          "description": "Plan Sueldo",
-          "code": "PSU"
-        }
-      ],
-      "schedule": {
-        "monday": false,
-        "tuesday": false,
-        "wednesday": false,
-        "thursday": false,
-        "friday": true,
         "saturday": false,
         "sunday": false,
         "fullWeek": false
@@ -4943,92 +4608,6 @@
     {
       "source": "santander",
       "sourceIds": {
-        "brandId": 188,
-        "publicationId": 8069
-      },
-      "brand": {
-        "id": 188,
-        "name": "Juleriaque"
-      },
-      "benefit": {
-        "type": "Ahorro",
-        "typeCode": "A",
-        "discount": 15,
-        "title": "15% de ahorro + hasta 9 cuotas sin interés",
-        "description": "Sin tope de reintegro",
-        "topAmount": null,
-        "startDate": "2026-10-16T00:00:00",
-        "endDate": "2026-10-16T00:00:00",
-        "paymentType": "No Aplica",
-        "frequency": "No Aplica",
-        "tag": "Especial Cuenta Sueldo Perfumerías"
-      },
-      "conditions": {
-        "additionalText": "<p>Pagando con <strong>QR</strong> a través de la <strong>App Santander</strong>.</p><p></p><p>Exclusivo para clientes que cobren su sueldo o jubilación en Santander.</p>",
-        "specialCondition": null,
-        "legal": "<p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL</p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p><span style=\"font-size: 48px;\">CFTNA: 2,40%</span> (CARTERA COMERCIAL)</p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%.</p><p>Válido el viernes 16/10, en los locales adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Visa Crédito y/o Débito. Exclusivo para clientes que cobren su sueldo o jubilación en Santander. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. No acumulable con otras promociones. El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo: en una compra con tarjeta de crédito de $180.000, en 9 cuotas: registrará un reintegro de $27.000 en la cuenta bancaria titular, y del primer al noveno resumen de la tarjeta de crédito un consumo de $20.000 en cada uno.</p>"
-      },
-      "cards": [
-        {
-          "id": 1,
-          "description": "VISA",
-          "code": "81",
-          "idType": 1,
-          "descriptionType": "DEBITO",
-          "codeType": "D",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
-        },
-        {
-          "id": 2,
-          "description": "VISA",
-          "code": "40",
-          "idType": 2,
-          "descriptionType": "CREDITO",
-          "codeType": "C",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
-        }
-      ],
-      "categories": [
-        {
-          "id": 34,
-          "description": "Especial Plan Sueldo",
-          "code": "EPS"
-        },
-        {
-          "id": 36,
-          "description": "Modo",
-          "code": "MOD"
-        },
-        {
-          "id": 58,
-          "description": "Exclusiva Visa",
-          "code": "EXV"
-        },
-        {
-          "id": 64,
-          "description": "Plan Sueldo",
-          "code": "PSU"
-        },
-        {
-          "id": 109,
-          "description": "Perfumerías",
-          "code": "PER"
-        }
-      ],
-      "schedule": {
-        "monday": false,
-        "tuesday": false,
-        "wednesday": false,
-        "thursday": false,
-        "friday": true,
-        "saturday": false,
-        "sunday": false,
-        "fullWeek": false
-      }
-    },
-    {
-      "source": "santander",
-      "sourceIds": {
         "brandId": 193,
         "publicationId": 7355
       },
@@ -5584,68 +5163,6 @@
         "saturday": true,
         "sunday": true,
         "fullWeek": true
-      }
-    },
-    {
-      "source": "santander",
-      "sourceIds": {
-        "brandId": 391,
-        "publicationId": 8088
-      },
-      "brand": {
-        "id": 391,
-        "name": "Patio Bullrich"
-      },
-      "benefit": {
-        "type": "Ahorro",
-        "typeCode": "A",
-        "discount": 10,
-        "title": "10% de ahorro + hasta 6 cuotas fijas",
-        "description": "Sin tope de reintegro",
-        "topAmount": null,
-        "startDate": "2026-10-15T00:00:00",
-        "endDate": "2026-10-16T00:00:00",
-        "paymentType": "No Aplica",
-        "frequency": "No Aplica",
-        "tag": "Exclusivo Amex"
-      },
-      "conditions": {
-        "additionalText": "",
-        "specialCondition": null,
-        "legal": "<p><strong>DISPONIBLE PARA CARTERA DE CONSUMO</strong></p><p>COSTO FINANCIERO TOTAL NOMINAL ANUAL</p><p><span style=\"font-size: 48px;\">C.F.T.N.A: 0%</span> (para cartera de consumo)</p><p>TASA FIJA NOMINAL ANUAL: 0% TASA EFECTIVA ANUAL: 0%</p><p>Sin tope de reintegro. Promoción no acumulable con otras promociones. Abonando con Tarjeta Santander American Express el ahorro se hará efectivo vía crédito en la tarjeta que registra el consumo dentro de los 30 días de efectuado el mismo. Ejemplo: En una compra de $90.000 con su Tarjeta Santander American Express financiada en 6 cuotas, usted recibirá en el primer resumen, un consumo de $15.000 y un reintegro de $9.000. Del segundo hasta el sexto resumen posterior a la compra, recibirá un consumo de $15.000 en cada uno de ellos. Con excepción de MODO, la promoción no aplica a pagos a través de billeteras virtuales y/o plataformas de pago online.</p>"
-      },
-      "cards": [
-        {
-          "id": 5,
-          "description": "AMEX",
-          "code": "42",
-          "idType": 2,
-          "descriptionType": "CREDITO",
-          "codeType": "C",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/amex_tarjeta_credito.png"
-        }
-      ],
-      "categories": [
-        {
-          "id": 66,
-          "description": "Exclusiva Amex",
-          "code": "EXA"
-        },
-        {
-          "id": 109,
-          "description": "Perfumerías",
-          "code": "PER"
-        }
-      ],
-      "schedule": {
-        "monday": false,
-        "tuesday": false,
-        "wednesday": false,
-        "thursday": true,
-        "friday": false,
-        "saturday": false,
-        "sunday": false,
-        "fullWeek": false
       }
     },
     {
@@ -7612,36 +7129,6 @@
     {
       "source": "lanacion",
       "sourceIds": {
-        "accountId": "1d95ac3a-a855-f011-8153-0ab6811d4821",
-        "crmId": "A38832",
-        "benefitId": "1c7390ea-5a57-f011-8153-0ab6811d4821"
-      },
-      "brand": {
-        "id": "1d95ac3a-a855-f011-8153-0ab6811d4821",
-        "name": "CARREFOUR"
-      },
-      "benefit": {
-        "type": "15%",
-        "discount": 15,
-        "title": "15% de ahorro",
-        "slug": "/supermercados/supermercados/descuentos-en-carrefour-A38832",
-        "ecommerce": false,
-        "virtualCard": false,
-        "exclusiveBlack": false
-      },
-      "images": [
-        {
-          "id": "45079",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768333_57b63bd572.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ]
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
         "accountId": "26a97252-583a-e711-812b-0ab6811d4821",
         "crmId": "A04766",
         "benefitId": "62c4761e-c429-ef11-814b-0ab6811d4821"
@@ -7754,36 +7241,6 @@
           "id": "44847",
           "type": "",
           "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768593_90556b35a1.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ]
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
-        "accountId": "4c619870-c76a-ed11-8149-0ab6811d4821",
-        "crmId": "A05496963",
-        "benefitId": "2d8a468d-d2e0-f011-8155-0ab6811d4821"
-      },
-      "brand": {
-        "id": "4c619870-c76a-ed11-8149-0ab6811d4821",
-        "name": "LA ALMEJA MIOPE"
-      },
-      "benefit": {
-        "type": "15%",
-        "discount": 15,
-        "title": "15% de ahorro",
-        "slug": "/otros-beneficios/optica/descuentos-en-la-almeja-miope-A05496963",
-        "ecommerce": false,
-        "virtualCard": true,
-        "exclusiveBlack": false
-      },
-      "images": [
-        {
-          "id": "43691",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767425_159b6551c2.jpg",
           "highlighted": false,
           "thumb": false
         }
@@ -8211,36 +7668,6 @@
           "id": "44474",
           "type": "",
           "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768233_c2f285ce46.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ]
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
-        "accountId": "15fc774c-583a-e711-812b-0ab6811d4821",
-        "crmId": "A03678044",
-        "benefitId": "f5412bdb-617c-f011-8155-0ab6811d4821"
-      },
-      "brand": {
-        "id": "15fc774c-583a-e711-812b-0ab6811d4821",
-        "name": "LUXO"
-      },
-      "benefit": {
-        "type": "20%",
-        "discount": 20,
-        "title": "20% de ahorro",
-        "slug": "/moda/indumentaria/descuentos-en-luxo-A03678044",
-        "ecommerce": false,
-        "virtualCard": false,
-        "exclusiveBlack": false
-      },
-      "images": [
-        {
-          "id": "44327",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768420_b4760b7ade.jpg",
           "highlighted": false,
           "thumb": false
         }
@@ -10790,36 +10217,6 @@
     {
       "source": "lanacion",
       "sourceIds": {
-        "accountId": "54a8ba12-9e9c-e711-812e-0ab6811d4821",
-        "crmId": "A01163126",
-        "benefitId": "578eeaf7-3800-f111-8155-0ab6811d4821"
-      },
-      "brand": {
-        "id": "54a8ba12-9e9c-e711-812e-0ab6811d4821",
-        "name": "ROSES ARE ROSES"
-      },
-      "benefit": {
-        "type": "20%",
-        "discount": 20,
-        "title": "20% de ahorro",
-        "slug": "/bienestar/farmacias-y-perfumerias/descuentos-en-roses-are-roses-A01163126",
-        "ecommerce": false,
-        "virtualCard": true,
-        "exclusiveBlack": false
-      },
-      "images": [
-        {
-          "id": "43627",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767213_1df66832dd.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ]
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
         "accountId": "6b6de8cc-bbb9-f011-8155-0ab6811d4821",
         "crmId": "A05870267",
         "benefitId": "44b0e9d8-0ebb-f011-8155-0ab6811d4821"
@@ -11622,36 +11019,6 @@
           "id": "44534",
           "type": "",
           "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768105_bdd7ea7148.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ]
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
-        "accountId": "a1b27f46-583a-e711-812b-0ab6811d4821",
-        "crmId": "A20010",
-        "benefitId": "3ad53a0c-e92d-f111-8155-0ab6811d4821"
-      },
-      "brand": {
-        "id": "a1b27f46-583a-e711-812b-0ab6811d4821",
-        "name": "ARREDO"
-      },
-      "benefit": {
-        "type": "25%",
-        "discount": 25,
-        "title": "25% de ahorro",
-        "slug": "/deco-y-hogar/tiendas/descuentos-en-arredo-A20010",
-        "ecommerce": false,
-        "virtualCard": true,
-        "exclusiveBlack": false
-      },
-      "images": [
-        {
-          "id": "43625",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767813_e56e0044ab.jpg",
           "highlighted": false,
           "thumb": false
         }
@@ -14450,36 +13817,6 @@
     {
       "source": "lanacion",
       "sourceIds": {
-        "accountId": "9ff77e61-4518-ea11-8144-0ab6811d4821",
-        "crmId": "A38997",
-        "benefitId": "ce1e814c-42d5-f011-8155-0ab6811d4821"
-      },
-      "brand": {
-        "id": "9ff77e61-4518-ea11-8144-0ab6811d4821",
-        "name": "GOODYEAR"
-      },
-      "benefit": {
-        "type": "15%",
-        "discount": 15,
-        "title": "15% de ahorro",
-        "slug": "/automovil/neumaticos/descuentos-en-goodyear-A38997",
-        "ecommerce": false,
-        "virtualCard": true,
-        "exclusiveBlack": false
-      },
-      "images": [
-        {
-          "id": "45084",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768588_c4817df797.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ]
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
         "accountId": "81f5f81f-950e-f111-8155-0ab6811d4821",
         "crmId": "A05570244",
         "benefitId": "634d8c70-9a0e-f111-8155-0ab6811d4821"
@@ -14652,36 +13989,6 @@
           "id": "44147",
           "type": "",
           "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767794_5833b9fe33.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ]
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
-        "accountId": "7e97001b-80a0-f011-8155-0ab6811d4821",
-        "crmId": "A05863142",
-        "benefitId": "55916fbe-2fa9-f011-8155-0ab6811d4821"
-      },
-      "brand": {
-        "id": "7e97001b-80a0-f011-8155-0ab6811d4821",
-        "name": "FABRIC"
-      },
-      "benefit": {
-        "type": "20%",
-        "discount": 20,
-        "title": "20% de ahorro",
-        "slug": "/gastronomia/restaurantes/descuentos-en-fabric-A05863142",
-        "ecommerce": false,
-        "virtualCard": true,
-        "exclusiveBlack": false
-      },
-      "images": [
-        {
-          "id": "44742",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768511_2076c8f0c0.jpg",
           "highlighted": false,
           "thumb": false
         }
@@ -15470,36 +14777,6 @@
     {
       "source": "lanacion",
       "sourceIds": {
-        "accountId": "ec354572-c7c8-4c2a-a822-44592aad32e7",
-        "crmId": "A05863827",
-        "benefitId": "98543bd9-9996-4c6e-9137-5b0d1f191c71"
-      },
-      "brand": {
-        "id": "ec354572-c7c8-4c2a-a822-44592aad32e7",
-        "name": "NÉCTAR"
-      },
-      "benefit": {
-        "type": "15%",
-        "discount": 15,
-        "title": "15% de ahorro",
-        "slug": "/bienestar/belleza/descuentos-en-nectar-A05863827",
-        "ecommerce": false,
-        "virtualCard": false,
-        "exclusiveBlack": false
-      },
-      "images": [
-        {
-          "id": "46484",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/nectar_f767c25cfe.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ]
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
         "accountId": "27b65624-7165-4889-ad85-689da2158938",
         "crmId": "A05954639",
         "benefitId": "9b8c0c2d-e563-45f1-9c54-6a547ac1d7fa"
@@ -15582,36 +14859,6 @@
           "id": "43684",
           "type": "",
           "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A765724_aa3dc54b05.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ]
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
-        "accountId": "b6a83b25-e6a9-4e87-a2a0-c3b628f50c6b",
-        "crmId": "A05913851",
-        "benefitId": "7ce47a59-d6d8-41ea-8d3d-fa628d38c04f"
-      },
-      "brand": {
-        "id": "b6a83b25-e6a9-4e87-a2a0-c3b628f50c6b",
-        "name": "SODA CAFÉ"
-      },
-      "benefit": {
-        "type": "15%",
-        "discount": 15,
-        "title": "15% de ahorro",
-        "slug": "/gastronomia/cafeteria-dulceria/descuentos-en-soda-cafe-A05913851",
-        "ecommerce": false,
-        "virtualCard": true,
-        "exclusiveBlack": false
-      },
-      "images": [
-        {
-          "id": "45440",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/soda_cafe_03_01_4407346e4e.jpg",
           "highlighted": false,
           "thumb": false
         }
@@ -16122,36 +15369,6 @@
           "id": "44867",
           "type": "",
           "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768605_d773f7d466.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ]
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
-        "accountId": "61c48b4c-32ae-4377-95db-4f44730c0481",
-        "crmId": "A05901032",
-        "benefitId": "39c384e3-897a-4baf-931a-028047b03c39"
-      },
-      "brand": {
-        "id": "61c48b4c-32ae-4377-95db-4f44730c0481",
-        "name": "THE WELLNESS PROJECT"
-      },
-      "benefit": {
-        "type": "10%",
-        "discount": 10,
-        "title": "10% de ahorro",
-        "slug": "/bienestar/salud/descuentos-en-the-wellness-project-A05901032",
-        "ecommerce": false,
-        "virtualCard": false,
-        "exclusiveBlack": false
-      },
-      "images": [
-        {
-          "id": "46482",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/The_wellness_project_1_9a02656b8e.jpg",
           "highlighted": false,
           "thumb": false
         }
@@ -16790,36 +16007,6 @@
     {
       "source": "lanacion",
       "sourceIds": {
-        "accountId": "e788a8d0-2295-ea11-8145-0ab6811d4821",
-        "crmId": "A05302515",
-        "benefitId": "55db63fd-373b-f011-8153-0ab6811d4821"
-      },
-      "brand": {
-        "id": "e788a8d0-2295-ea11-8145-0ab6811d4821",
-        "name": "BON MARCHÉ"
-      },
-      "benefit": {
-        "type": "15%",
-        "discount": 15,
-        "title": "15% de ahorro",
-        "slug": "/supermercados/tiendas/descuentos-en-bon-marche-A05302515",
-        "ecommerce": false,
-        "virtualCard": true,
-        "exclusiveBlack": false
-      },
-      "images": [
-        {
-          "id": "43839",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A766155_a9ee712338.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ]
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
         "accountId": "fe0b2737-d3f7-ec11-8148-0ab6811d4821",
         "crmId": "A05394274",
         "benefitId": "8b3b4249-4f0d-ef11-814b-0ab6811d4821"
@@ -17172,36 +16359,6 @@
           "id": "44666",
           "type": "",
           "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768398_e53eb0622e.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ]
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
-        "accountId": "bdce9a9c-8fd3-eb11-8146-0ab6811d4821",
-        "crmId": "A05391216",
-        "benefitId": "8edd5391-314d-f011-8153-0ab6811d4821"
-      },
-      "brand": {
-        "id": "bdce9a9c-8fd3-eb11-8146-0ab6811d4821",
-        "name": "MALA PELUQUERÍA"
-      },
-      "benefit": {
-        "type": "25%",
-        "discount": 25,
-        "title": "25% de ahorro",
-        "slug": "/bienestar/peluquerias/descuentos-en-mala-peluqueria-A05391216",
-        "ecommerce": false,
-        "virtualCard": true,
-        "exclusiveBlack": false
-      },
-      "images": [
-        {
-          "id": "43916",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A766767_d0a15ee519.jpg",
           "highlighted": false,
           "thumb": false
         }
@@ -18634,36 +17791,6 @@
     {
       "source": "lanacion",
       "sourceIds": {
-        "accountId": "efa684df-975a-e711-812b-0ab6811d4821",
-        "crmId": "A00755396",
-        "benefitId": "fa5688bd-78d0-4439-808c-1701e8cf54fc"
-      },
-      "brand": {
-        "id": "efa684df-975a-e711-812b-0ab6811d4821",
-        "name": "OSSIRA"
-      },
-      "benefit": {
-        "type": "20%",
-        "discount": 20,
-        "title": "20% de ahorro",
-        "slug": "/moda/indumentaria/descuentos-en-ossira-A00755396",
-        "ecommerce": false,
-        "virtualCard": true,
-        "exclusiveBlack": false
-      },
-      "images": [
-        {
-          "id": "46469",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/ossira_02_9dfc7b73e7.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ]
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
         "accountId": "f696cad3-1aef-eb11-8146-0ab6811d4821",
         "crmId": "A12459",
         "benefitId": "837f93b2-2f07-ef11-814b-0ab6811d4821"
@@ -18934,36 +18061,6 @@
     {
       "source": "lanacion",
       "sourceIds": {
-        "accountId": "7ed2d208-61e6-e711-8130-0ab6811d4821",
-        "crmId": "A04034506",
-        "benefitId": "df868111-8aed-4f26-ba5f-4824dacbf8d6"
-      },
-      "brand": {
-        "id": "7ed2d208-61e6-e711-8130-0ab6811d4821",
-        "name": "SAMSUNG STORE"
-      },
-      "benefit": {
-        "type": "10%",
-        "discount": 10,
-        "title": "10% de ahorro",
-        "slug": "/otros-beneficios/tecnologia/descuentos-en-samsung-store-A04034506",
-        "ecommerce": true,
-        "virtualCard": true,
-        "exclusiveBlack": false
-      },
-      "images": [
-        {
-          "id": "45927",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/Galaxy_S25_FE_01_9d5709cbc7.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ]
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
         "accountId": "dfd5dfff-e8a2-f011-8155-0ab6811d4821",
         "crmId": "A05863625",
         "benefitId": "cc895165-d5db-42fe-9cbc-1d71915db325"
@@ -19090,6 +18187,396 @@
           "id": "45233",
           "type": "",
           "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/campo_bravo_2_bd780e2ba6.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "1d95ac3a-a855-f011-8153-0ab6811d4821",
+        "crmId": "A38832",
+        "benefitId": "1c7390ea-5a57-f011-8153-0ab6811d4821"
+      },
+      "brand": {
+        "id": "1d95ac3a-a855-f011-8153-0ab6811d4821",
+        "name": "CARREFOUR"
+      },
+      "benefit": {
+        "type": "15%",
+        "discount": 15,
+        "title": "15% de ahorro",
+        "slug": "/supermercados/supermercados/descuentos-en-carrefour-A38832",
+        "ecommerce": false,
+        "virtualCard": false,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "45079",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768333_57b63bd572.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "7e97001b-80a0-f011-8155-0ab6811d4821",
+        "crmId": "A05863142",
+        "benefitId": "55916fbe-2fa9-f011-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "7e97001b-80a0-f011-8155-0ab6811d4821",
+        "name": "FABRIC"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/gastronomia/restaurantes/descuentos-en-fabric-A05863142",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44742",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768511_2076c8f0c0.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "54a8ba12-9e9c-e711-812e-0ab6811d4821",
+        "crmId": "A01163126",
+        "benefitId": "2f7d3196-4ee2-4cad-adc2-d77c7c260be8"
+      },
+      "brand": {
+        "id": "54a8ba12-9e9c-e711-812e-0ab6811d4821",
+        "name": "ROSES ARE ROSES"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/bienestar/farmacias-y-perfumerias/descuentos-en-roses-are-roses-A01163126",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43627",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767213_1df66832dd.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "bdce9a9c-8fd3-eb11-8146-0ab6811d4821",
+        "crmId": "A05391216",
+        "benefitId": "8edd5391-314d-f011-8153-0ab6811d4821"
+      },
+      "brand": {
+        "id": "bdce9a9c-8fd3-eb11-8146-0ab6811d4821",
+        "name": "MALA PELUQUERÍA"
+      },
+      "benefit": {
+        "type": "25%",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "slug": "/bienestar/peluquerias/descuentos-en-mala-peluqueria-A05391216",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43916",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A766767_d0a15ee519.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "d6e9c1ba-7ca0-f011-8155-0ab6811d4821",
+        "crmId": "A05863138",
+        "benefitId": "c48e4231-0f81-41c4-96b2-ec8b81b72608"
+      },
+      "brand": {
+        "id": "d6e9c1ba-7ca0-f011-8155-0ab6811d4821",
+        "name": "LA NUEVE EQUIPAJES"
+      },
+      "benefit": {
+        "type": "15%",
+        "discount": 15,
+        "title": "15% de ahorro",
+        "slug": "/moda/accesorios/descuentos-en-la-nueve-equipajes-A05863138",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44739",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768486_47a3d7fb46.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "efa684df-975a-e711-812b-0ab6811d4821",
+        "crmId": "A00755396",
+        "benefitId": "fa5688bd-78d0-4439-808c-1701e8cf54fc"
+      },
+      "brand": {
+        "id": "efa684df-975a-e711-812b-0ab6811d4821",
+        "name": "OSSIRA"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/moda/indumentaria/descuentos-en-ossira-A00755396",
+        "ecommerce": true,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "46469",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/ossira_02_9dfc7b73e7.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "a1b27f46-583a-e711-812b-0ab6811d4821",
+        "crmId": "A20010",
+        "benefitId": "3ad53a0c-e92d-f111-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "a1b27f46-583a-e711-812b-0ab6811d4821",
+        "name": "ARREDO"
+      },
+      "benefit": {
+        "type": "25%",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "slug": "/deco-y-hogar/tiendas/descuentos-en-arredo-A20010",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43625",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767813_e56e0044ab.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "4c619870-c76a-ed11-8149-0ab6811d4821",
+        "crmId": "A05496963",
+        "benefitId": "2d8a468d-d2e0-f011-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "4c619870-c76a-ed11-8149-0ab6811d4821",
+        "name": "LA ALMEJA MIOPE"
+      },
+      "benefit": {
+        "type": "15%",
+        "discount": 15,
+        "title": "15% de ahorro",
+        "slug": "/otros-beneficios/optica/descuentos-en-la-almeja-miope-A05496963",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43691",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767425_159b6551c2.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "9ff77e61-4518-ea11-8144-0ab6811d4821",
+        "crmId": "A38997",
+        "benefitId": "ce1e814c-42d5-f011-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "9ff77e61-4518-ea11-8144-0ab6811d4821",
+        "name": "GOODYEAR"
+      },
+      "benefit": {
+        "type": "15%",
+        "discount": 15,
+        "title": "15% de ahorro",
+        "slug": "/automovil/neumaticos/descuentos-en-goodyear-A38997",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "45084",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768588_c4817df797.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "7ed2d208-61e6-e711-8130-0ab6811d4821",
+        "crmId": "A04034506",
+        "benefitId": "df868111-8aed-4f26-ba5f-4824dacbf8d6"
+      },
+      "brand": {
+        "id": "7ed2d208-61e6-e711-8130-0ab6811d4821",
+        "name": "SAMSUNG STORE"
+      },
+      "benefit": {
+        "type": "10%",
+        "discount": 10,
+        "title": "10% de ahorro",
+        "slug": "/otros-beneficios/tecnologia/descuentos-en-samsung-store-A04034506",
+        "ecommerce": true,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "45927",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/Galaxy_S25_FE_01_9d5709cbc7.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "15fc774c-583a-e711-812b-0ab6811d4821",
+        "crmId": "A03678044",
+        "benefitId": "f5412bdb-617c-f011-8155-0ab6811d4821"
+      },
+      "brand": {
+        "id": "15fc774c-583a-e711-812b-0ab6811d4821",
+        "name": "LUXO"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "slug": "/moda/indumentaria/descuentos-en-luxo-A03678044",
+        "ecommerce": false,
+        "virtualCard": false,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "44327",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768420_b4760b7ade.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "b6a83b25-e6a9-4e87-a2a0-c3b628f50c6b",
+        "crmId": "A05913851",
+        "benefitId": "baad50de-e7f2-4dde-96ca-1ecd172e4a9c"
+      },
+      "brand": {
+        "id": "b6a83b25-e6a9-4e87-a2a0-c3b628f50c6b",
+        "name": "SODA CAFÉ"
+      },
+      "benefit": {
+        "type": "2x1",
+        "discount": null,
+        "title": "2x1 de ahorro",
+        "slug": "/gastronomia/cafeteria-dulceria/descuentos-en-soda-cafe-A05913851",
+        "ecommerce": true,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "45440",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/soda_cafe_03_01_4407346e4e.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ]
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "e788a8d0-2295-ea11-8145-0ab6811d4821",
+        "crmId": "A05302515",
+        "benefitId": "3732b5af-25b6-4997-94b0-e885457acb23"
+      },
+      "brand": {
+        "id": "e788a8d0-2295-ea11-8145-0ab6811d4821",
+        "name": "BON MARCHÉ"
+      },
+      "benefit": {
+        "type": "15%",
+        "discount": 15,
+        "title": "15% de ahorro",
+        "slug": "/supermercados/tiendas/descuentos-en-bon-marche-A05302515",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false
+      },
+      "images": [
+        {
+          "id": "43839",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A766155_a9ee712338.jpg",
           "highlighted": false,
           "thumb": false
         }
