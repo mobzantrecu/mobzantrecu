@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-19T06:37:35.530Z",
+  "generatedAt": "2026-10-20T06:36:12.503Z",
   "sources": {
-    "santander": 77,
-    "lanacion": 404
+    "santander": 79,
+    "lanacion": 406
   },
-  "total": 481,
+  "total": 485,
   "benefits": [
     {
       "source": "santander",
@@ -246,6 +246,74 @@
         "tuesday": false,
         "wednesday": false,
         "thursday": true,
+        "friday": false,
+        "saturday": false,
+        "sunday": false,
+        "fullWeek": false
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 546,
+        "publicationId": 8130
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": 546,
+        "name": "YPF"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 10,
+        "title": "10% de ahorro",
+        "description": "Tope de reintegro: $6.000 semanal",
+        "topAmount": 6000,
+        "startDate": "2026-10-19T00:00:00",
+        "endDate": "2026-10-31T00:00:00",
+        "paymentType": "App Externa",
+        "frequency": "Semanal",
+        "tag": "Exclusivo Mastercard"
+      },
+      "conditions": {
+        "additionalText": "<p>Abonando a través de la <strong>App YFP</strong>.</p><p></p><p>Compra mínima: $35.000.</p>",
+        "specialCondition": null,
+        "legal": "<p>Promoción válida en la República Argentina, desde las 00:00hs del 28/09/2026 hasta las 23:59hs del 31/10/2026 (el “Plazo de Vigencia”). La promoción consiste en el reintegro de un 10% (diez por ciento) del monto de las compras realizadas exclusivamente los días lunes comprendidos dentro del Plazo de Vigencia en estaciones de servicio de YPF, a los titulares y/o adicionales de tarjetas de crédito, débito o prepagas de la marca Mastercard emitidas en la República Argentina (las “Tarjetas”) que abonen a través de la App YPF, con un monto mínimo de compra de $35.000 (pesos argentinos treinta y cinco mil) y un tope de reintegro semanal de $6.000 (pesos argentinos seis mil) por Tarjeta (el “Reintegro”). Para los consumos con Tarjetas de crédito, el Reintegro será realizado dentro de los 60 (sesenta) días posteriores a la fecha de la transacción o dentro de los próximos 2 (dos) resúmenes. Para los consumos con Tarjetas de débito o prepagas, el Reintegro será realizado dentro de los 30 (treinta) días posteriores a la fecha de la transacción en el resumen de la Tarjeta.</p>"
+      },
+      "cards": [
+        {
+          "id": 4,
+          "description": "MASTER",
+          "code": "41",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/mastercard_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 1,
+          "description": "Automotor",
+          "code": "AUT"
+        },
+        {
+          "id": 17,
+          "description": "Viajes",
+          "code": "VIA"
+        },
+        {
+          "id": 67,
+          "description": "Exclusiva Mastercard",
+          "code": "EXM"
+        }
+      ],
+      "schedule": {
+        "monday": true,
+        "tuesday": false,
+        "wednesday": false,
+        "thursday": false,
         "friday": false,
         "saturday": false,
         "sunday": false,
@@ -4414,6 +4482,78 @@
         "wednesday": true,
         "thursday": false,
         "friday": false,
+        "saturday": false,
+        "sunday": false,
+        "fullWeek": false
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 3863,
+        "publicationId": 8129
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": 3863,
+        "name": "GAES"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 50,
+        "title": "50% de ahorro + hasta 9 cuotas sin interés",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-10-23T00:00:00",
+        "endDate": "2026-10-23T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Exclusivo Visa"
+      },
+      "conditions": {
+        "additionalText": null,
+        "specialCondition": null,
+        "legal": "<p>Costo financiero total nominal anual: C.F.T.N.A.</p><p><span style=\"font-size: 48px;\">C.F.T.N.A: 2,14%</span> (cartera comercial por &quot;seguro de vida e invalidez total o permanente&quot;) </p><p><span style=\"font-size: 48px;\">C.F.T.N.A: 0%</span> (cartera de consumo).</p><p>Tasa fija nominal anual: 0%. Tasa fija efectiva anual : 0%.</p><p>Válida en los locales adheridos, abonando con Tarjetas Santander Visa débito y crédito, incluidos también los pagos realizados con App Santander, MODO, Google Pay y Apple Pay. Se excluyen compras abonadas por transferencias, a través de billeteras virtuales o financiadas por programas Cuota Simple. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria de dicho titular.</p><p>El ahorro se hará efectivo vía reintegro dentro de los 60 días de efectuado el consumo en la cuenta bancaria titular del cliente. No aplica a tarjetas de débito vinculadas a cajas de ahorro en pesos gratuitas, ni pagos realizados con dinero en cuenta. Promoción sin tope de reintegro. Ejemplo: en una compra de $90.000 realizada con su Tarjeta Santander Visa Crédito financiada en 9 cuotas registrará un reintegro de $45.000 en la cuenta bancaria titular, y del primer al noveno resumen de la tarjeta de crédito un consumo de $10.000 en cada uno.</p>"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 18,
+          "description": "Varios",
+          "code": "VAR"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        }
+      ],
+      "schedule": {
+        "monday": false,
+        "tuesday": false,
+        "wednesday": false,
+        "thursday": false,
+        "friday": true,
         "saturday": false,
         "sunday": false,
         "fullWeek": false
@@ -9200,48 +9340,6 @@
     {
       "source": "lanacion",
       "sourceIds": {
-        "accountId": "3d81794e-9e9c-e711-812e-0ab6811d4821",
-        "crmId": "A00731943",
-        "benefitId": "0faa1b53-c3a4-ee11-814b-0ab6811d4821"
-      },
-      "sourceUrl": null,
-      "brand": {
-        "id": "3d81794e-9e9c-e711-812e-0ab6811d4821",
-        "name": "MOSTAZA"
-      },
-      "benefit": {
-        "type": "30%",
-        "discount": 30,
-        "title": "30% de ahorro",
-        "description": null,
-        "slug": "/gastronomia/comidas-rapidas/descuentos-en-mostaza-A00731943",
-        "ecommerce": false,
-        "virtualCard": false,
-        "exclusiveBlack": false,
-        "startDate": null,
-        "endDate": null
-      },
-      "conditions": {
-        "additionalText": null,
-        "specialCondition": null,
-        "legal": null
-      },
-      "images": [
-        {
-          "id": "43681",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/B775123_566545cceb.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ],
-      "categories": [],
-      "cards": [],
-      "schedule": null
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
         "accountId": "6f58ac44-9764-eb11-8146-0ab6811d4821",
         "crmId": "A05000581",
         "benefitId": "2ef8f799-39ae-ee11-814b-0ab6811d4821"
@@ -9567,48 +9665,6 @@
           "id": "43632",
           "type": "",
           "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A766514_b0b575d2e2.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ],
-      "categories": [],
-      "cards": [],
-      "schedule": null
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
-        "accountId": "6456a18e-9436-ec11-8146-0ab6811d4821",
-        "crmId": "A38879",
-        "benefitId": "e5172783-4b13-f111-8155-0ab6811d4821"
-      },
-      "sourceUrl": null,
-      "brand": {
-        "id": "6456a18e-9436-ec11-8146-0ab6811d4821",
-        "name": "NATURA"
-      },
-      "benefit": {
-        "type": "25%",
-        "discount": 25,
-        "title": "25% de ahorro",
-        "description": null,
-        "slug": "/bienestar/belleza/descuentos-en-natura-A38879",
-        "ecommerce": false,
-        "virtualCard": true,
-        "exclusiveBlack": false,
-        "startDate": null,
-        "endDate": null
-      },
-      "conditions": {
-        "additionalText": null,
-        "specialCondition": null,
-        "legal": null
-      },
-      "images": [
-        {
-          "id": "43678",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A766923_c57cf6ec8a.jpg",
           "highlighted": false,
           "thumb": false
         }
@@ -23186,48 +23242,6 @@
     {
       "source": "lanacion",
       "sourceIds": {
-        "accountId": "a1b27f46-583a-e711-812b-0ab6811d4821",
-        "crmId": "A20010",
-        "benefitId": "3ad53a0c-e92d-f111-8155-0ab6811d4821"
-      },
-      "sourceUrl": null,
-      "brand": {
-        "id": "a1b27f46-583a-e711-812b-0ab6811d4821",
-        "name": "ARREDO"
-      },
-      "benefit": {
-        "type": "25%",
-        "discount": 25,
-        "title": "25% de ahorro",
-        "description": null,
-        "slug": "/deco-y-hogar/tiendas/descuentos-en-arredo-A20010",
-        "ecommerce": false,
-        "virtualCard": true,
-        "exclusiveBlack": false,
-        "startDate": null,
-        "endDate": null
-      },
-      "conditions": {
-        "additionalText": null,
-        "specialCondition": null,
-        "legal": null
-      },
-      "images": [
-        {
-          "id": "43625",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767813_e56e0044ab.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ],
-      "categories": [],
-      "cards": [],
-      "schedule": null
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
         "accountId": "4c619870-c76a-ed11-8149-0ab6811d4821",
         "crmId": "A05496963",
         "benefitId": "2d8a468d-d2e0-f011-8155-0ab6811d4821"
@@ -23396,6 +23410,90 @@
     {
       "source": "lanacion",
       "sourceIds": {
+        "accountId": "a1b27f46-583a-e711-812b-0ab6811d4821",
+        "crmId": "A20010",
+        "benefitId": "3ad53a0c-e92d-f111-8155-0ab6811d4821"
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": "a1b27f46-583a-e711-812b-0ab6811d4821",
+        "name": "ARREDO"
+      },
+      "benefit": {
+        "type": "25%",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "description": null,
+        "slug": "/deco-y-hogar/tiendas/descuentos-en-arredo-A20010",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false,
+        "startDate": null,
+        "endDate": null
+      },
+      "conditions": {
+        "additionalText": null,
+        "specialCondition": null,
+        "legal": null
+      },
+      "images": [
+        {
+          "id": "43625",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767813_e56e0044ab.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ],
+      "categories": [],
+      "cards": [],
+      "schedule": null
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "54a8ba12-9e9c-e711-812e-0ab6811d4821",
+        "crmId": "A01163126",
+        "benefitId": "578eeaf7-3800-f111-8155-0ab6811d4821"
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": "54a8ba12-9e9c-e711-812e-0ab6811d4821",
+        "name": "ROSES ARE ROSES"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "description": null,
+        "slug": "/bienestar/farmacias-y-perfumerias/descuentos-en-roses-are-roses-A01163126",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false,
+        "startDate": null,
+        "endDate": null
+      },
+      "conditions": {
+        "additionalText": null,
+        "specialCondition": null,
+        "legal": null
+      },
+      "images": [
+        {
+          "id": "43627",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767213_1df66832dd.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ],
+      "categories": [],
+      "cards": [],
+      "schedule": null
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
         "accountId": "e788a8d0-2295-ea11-8145-0ab6811d4821",
         "crmId": "A05302515",
         "benefitId": "3732b5af-25b6-4997-94b0-e885457acb23"
@@ -23438,6 +23536,48 @@
     {
       "source": "lanacion",
       "sourceIds": {
+        "accountId": "c8c3ed6d-bdcd-4e19-9d5b-9b571c62c9b2",
+        "crmId": "A05974585",
+        "benefitId": "0c50c50e-4878-42a2-9ee8-11c1b2f553b0"
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": "c8c3ed6d-bdcd-4e19-9d5b-9b571c62c9b2",
+        "name": "MIRA DROR"
+      },
+      "benefit": {
+        "type": "25%",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "description": null,
+        "slug": "/bienestar/belleza/descuentos-en-mira-dror-A05974585",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false,
+        "startDate": null,
+        "endDate": null
+      },
+      "conditions": {
+        "additionalText": null,
+        "specialCondition": null,
+        "legal": null
+      },
+      "images": [
+        {
+          "id": "46541",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/mira_dror_01_a7ce93a18b.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ],
+      "categories": [],
+      "cards": [],
+      "schedule": null
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
         "accountId": "b6a83b25-e6a9-4e87-a2a0-c3b628f50c6b",
         "crmId": "A05913851",
         "benefitId": "7ce47a59-d6d8-41ea-8d3d-fa628d38c04f"
@@ -23469,6 +23609,90 @@
           "id": "45440",
           "type": "",
           "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/soda_cafe_03_01_4407346e4e.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ],
+      "categories": [],
+      "cards": [],
+      "schedule": null
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "3d81794e-9e9c-e711-812e-0ab6811d4821",
+        "crmId": "A00731943",
+        "benefitId": "0faa1b53-c3a4-ee11-814b-0ab6811d4821"
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": "3d81794e-9e9c-e711-812e-0ab6811d4821",
+        "name": "MOSTAZA"
+      },
+      "benefit": {
+        "type": "30%",
+        "discount": 30,
+        "title": "30% de ahorro",
+        "description": null,
+        "slug": "/gastronomia/comidas-rapidas/descuentos-en-mostaza-A00731943",
+        "ecommerce": false,
+        "virtualCard": false,
+        "exclusiveBlack": false,
+        "startDate": null,
+        "endDate": null
+      },
+      "conditions": {
+        "additionalText": null,
+        "specialCondition": null,
+        "legal": null
+      },
+      "images": [
+        {
+          "id": "43681",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/B775123_566545cceb.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ],
+      "categories": [],
+      "cards": [],
+      "schedule": null
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "6456a18e-9436-ec11-8146-0ab6811d4821",
+        "crmId": "A38879",
+        "benefitId": "e5172783-4b13-f111-8155-0ab6811d4821"
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": "6456a18e-9436-ec11-8146-0ab6811d4821",
+        "name": "NATURA"
+      },
+      "benefit": {
+        "type": "25%",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "description": null,
+        "slug": "/bienestar/belleza/descuentos-en-natura-A38879",
+        "ecommerce": true,
+        "virtualCard": true,
+        "exclusiveBlack": false,
+        "startDate": null,
+        "endDate": null
+      },
+      "conditions": {
+        "additionalText": null,
+        "specialCondition": null,
+        "legal": null
+      },
+      "images": [
+        {
+          "id": "43678",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A766923_c57cf6ec8a.jpg",
           "highlighted": false,
           "thumb": false
         }
