@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-20T06:36:12.503Z",
+  "generatedAt": "2026-10-21T06:34:06.447Z",
   "sources": {
-    "santander": 79,
+    "santander": 81,
     "lanacion": 406
   },
-  "total": 485,
+  "total": 487,
   "benefits": [
     {
       "source": "santander",
@@ -599,6 +599,79 @@
         "tuesday": false,
         "wednesday": true,
         "thursday": false,
+        "friday": false,
+        "saturday": false,
+        "sunday": false,
+        "fullWeek": false
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
+        "brandId": 131,
+        "publicationId": 8137
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": 131,
+        "name": "Coto"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 30,
+        "title": "30% de ahorro",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-10-22T00:00:00",
+        "endDate": "2026-10-29T00:00:00",
+        "paymentType": "Contactless",
+        "frequency": "No Aplica",
+        "tag": "Exclusivo Visa"
+      },
+      "conditions": {
+        "additionalText": "<p>Exclusivo pagando sin contacto desde el celu con <strong>NFC</strong>, a través de <strong>Apple Pay</strong> y <strong>Google Pay</strong>.</p><p></p><p>Exclusivo para locales físicos. No válido para venta online y/o Coto Digital.</p><p></p><p>El descuento se aplicará en línea de caja, al momento de realizar el pago.</p>",
+        "specialCondition": null,
+        "legal": "<p>Promoción vigente en la Ciudad Autónoma de Buenos Aires, Gran Buenos Aires, Neuquén, Mendoza, Entre Rios y Santa Fe, exclusivamente en todas las Sucursales Físicas de Coto ( “Coto”) (el “Territorio”) todos los días jueves, desde el 26 de febrero de 2026 hasta el 29 de octubre de 2026 (la “Vigencia”). </p><p>Promoción vigente para pagos NFC utilizando la Tarjeta Santander Visa débito a través de alguna de las siguientes billeteras digitales (las “Billeteras NFC”):</p><p>• Apple Pay (en caso de tener un dispositivo iOS)</p><p>• Google Pay, MODO Contactless (en caso de tener un dispositivo Android).</p><p>LA PROMOCIÓN NO APLICA PARA PAGOS QR.</p><p>Durante la Vigencia de la Promoción, el Participante que realice exitosamente un pago sin contacto con una Tarjeta Visa a través de las Billeteras NFC en Coto, recibirá un descuento del 30%. El descuento se aplicará en línea de caja, al momento de realizar el pago.</p><p>Participan de la Promoción únicamente las tiendas presenciales de Coto.</p><p>No válido para venta online y/o Coto Digital (WWW.COTODIGITAL.COM.AR).</p><p>No acumulable con otras promociones vigentes.</p><p>DESCUENTOS NO APLICABLES SOBRE PRODUCTOS INCLUIDOS EN PROGRAMAS DE PRECIOS DEL GOBIERNO Y/O APLICABLES POR NORMATIVA VIGENTE. DESCUENTOS NO VÁLIDOS PARA COMPRAS EN LOS PATIOS DE COMIDAS, COTO EXPRESSO, COTO BAR, ZONA JUEGOS Y ESTACIONAMIENTO PROPIO. NO INCLUYE ELECTRODOMÉSTICOS, NEUMÁTICOS NI RODADOS. NO INCLUYE PRODUCTOS DE BODEGAS CATENA ZAPATA, NICOLA CATENA, BODEGA ERNESTO CATENA (ALMA NEGRA, PADRILLOS, ANIMAL, ENEMIGO Y GRAN ENEMIGO), MALBEC DV CATENA BOT X 1,5LT, MALBEC LA RIOJA DV CATENA, MALBEC SALTA DV CATENA, SAINT FELICIEN, NICASIA, TILIA, BODEGA LA RURAL (RUTINI, TRUMPETER, SAN FELIPE Y CEPA TRADICIONAL SEMILLON/MALBEC- MALBEC/TINTO BLEND), CHANDON Y TERRAZAS DE LOS ANDES (LATITUD 33°, CASTEL, ALTOS DEL PLATA, VALMONT, BELTOUR, CHEVAL Y CLOS DU MOULIN), BODEGA NORTON (LOTE NEGRO, QUORUM VI, PRIVADA FAMILY BLEND), BODEGA CADUS WINES (CADUS), CASA PIRQUE (ALTALAND, LA POSTA, LUCA, ARUMA, PETIT CARO, MALBEC/CABERNET FRANC CASA DE HERRERO, MALBEC OJO DE BUEN CUBERO, MALBEC/CABERNET FRANC/PINOT NOIR CUCHILLO DE PALO, MALBEC RÍO DE LOS CIERVOS ARAUCANA, MALBEC NICO Y BLEND BESO DE DANTE LUCA), BODEGA BIANCHI</p><p>(VINO CHARDONNAY RESERVADO MARÍA CARMEN, VINO GRAN CORTE ENZO BIANCHI, VINOS MALBEC Y CABERNET SAUVIGNON PARTICULAR BIANCHI), BODEGA VALENTÍN BIANCHI (VINO TINTO CORTE Y MALBEC IV GENERACIÓN) BODEGA MONTEVIEJO (FESTIVO Y PETITE FLEUR) NI VINOS EN TETRABRIK NI GENEROSOS. EL DESCUENTO EN CHAMPAÑAS Y ESPUMANTES NO INCLUYE PRODUCTOS DE BODEGAS CHANDON, MERCIER, CATENA ZAPATA, BARÓN B, DOM PERIGNON, POMMERY, MÖET CHANDON, LA GRANDE DAME NI KRUG. NO INCLUYE CORTES DE CARNES DE NOVILLO, NOVILLITO, TERNERA, MENUDENCIAS NI CARNES ELABORADAS. NO INCLUYE POLLO ENTERO NI TROZADO, FRESCO NI CONGELADO, PORCINOS, EMBUTIDOS. NO INCLUYE LECHES INFANTILES ETAPAS 1 Y 2 (FLUÍDAS NI EN POLVO), NI HARINAS EN TODAS SUS PRESENTACIONES, NI AZÚCAR EN TODAS SUS PRESENTACIONES, NI ACEITE DE GIRASOL Y MEZCLA GIRASOL-SOJA EN TODAS SUS PRESENTACIONES. NO INCLUYE TODAS LAS PRESENTACIONES DE LAS SIGUIENTES MARCAS: COCA COLA, COCA COLA LIGHT, COCA COLA SIN AZÚCAR, CRUSH, FANTA, FANTA SIN AZÚCAR, SCHWEPPES, SPRITE, SPRITE SIN AZÚCAR, AQUARIUS, SMARTWATER, CEPITA, BENEDICTINO, POWERADE, ADES, HI-C NI MONSTER.</p><p>El Organizador y el Auspiciante podrán ampliar el tope de la bonificación o el plazo de vigencia de la Promoción. A su vez, cuando circunstancias no imputables al Organizador o no previstas en estos Términos que constituyan caso fortuito o fuerza mayor lo justifiquen, el Organizador podrá suspender, cancelar o modificar la Promoción.</p><p>Ver TYC: Supermercados COTO | Promociones | Visa</p>"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 16,
+          "description": "Supermercados",
+          "code": "SUP"
+        },
+        {
+          "id": 56,
+          "description": "Destacado",
+          "code": "DES"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 417,
+          "description": "Everyday",
+          "code": "DAY"
+        }
+      ],
+      "schedule": {
+        "monday": false,
+        "tuesday": false,
+        "wednesday": false,
+        "thursday": true,
         "friday": false,
         "saturday": false,
         "sunday": false,
@@ -3977,6 +4050,78 @@
     {
       "source": "santander",
       "sourceIds": {
+        "brandId": 3539,
+        "publicationId": 8133
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": 3539,
+        "name": "Fabio Cuggini"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 20,
+        "title": "20% de ahorro + hasta 3 cuotas sin interés",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-10-07T00:00:00",
+        "endDate": "2027-03-31T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Exclusivo Visa"
+      },
+      "conditions": {
+        "additionalText": null,
+        "specialCondition": null,
+        "legal": "<p>Costo financiero total nominal anual: C.F.T.N.A.</p><p><span style=\"font-size: 48px;\">C.F.T.N.A: 2,14%</span> (cartera comercial por &quot;seguro de vida e invalidez total o permanente&quot;)</p><p><span style=\"font-size: 48px;\">C.F.T.N.A: 0%</span> (cartera de consumo).</p><p>Tasa fija nominal anual: 0%. Tasa fija efectiva anual : 0%.</p><p>Válida en los locales adheridos, abonando con Tarjetas Santander Visa débito y crédito, incluidos también los pagos realizados con App Santander, MODO, Google Pay y Apple Pay. Se excluyen compras abonadas por transferencias, a través de billeteras virtuales o financiadas por programas Cuota Simple. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria de dicho titular.</p><p>El ahorro se hará efectivo vía reintegro dentro de los 60 días de efectuado el consumo en la cuenta bancaria titular del cliente. No aplica a tarjetas de débito vinculadas a cajas de ahorro en pesos gratuitas, ni pagos realizados con dinero en cuenta. Promoción sin tope de reintegro. Ejemplo: en una compra con tarjeta de crédito de $90.000 en 3 cuotas, el cliente recibirá un reintegro de $18.000 en la cuenta bancaria titular.</p>"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 41,
+          "description": "Getnet",
+          "code": "GET"
+        },
+        {
+          "id": 351,
+          "description": "Peluquerías",
+          "code": "PELU"
+        }
+      ],
+      "schedule": {
+        "monday": false,
+        "tuesday": false,
+        "wednesday": true,
+        "thursday": false,
+        "friday": false,
+        "saturday": false,
+        "sunday": false,
+        "fullWeek": false
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
         "brandId": 178,
         "publicationId": 7712
       },
@@ -5065,7 +5210,7 @@
         "description": "Tope de reintegro: $20.000 mensual",
         "topAmount": 20000,
         "startDate": "2026-08-16T00:00:00",
-        "endDate": "2026-10-31T00:00:00",
+        "endDate": "2026-12-31T00:00:00",
         "paymentType": "QR - Modo",
         "frequency": "Mensual",
         "tag": "Pagando con QR"
@@ -7894,48 +8039,6 @@
           "id": "44730",
           "type": "",
           "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768559_a3b8f1cebf.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ],
-      "categories": [],
-      "cards": [],
-      "schedule": null
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
-        "accountId": "647196e9-53b2-ef11-814d-0ab6811d4821",
-        "crmId": "A05747426",
-        "benefitId": "035e3523-40b3-ef11-814d-0ab6811d4821"
-      },
-      "sourceUrl": null,
-      "brand": {
-        "id": "647196e9-53b2-ef11-814d-0ab6811d4821",
-        "name": "KIDS CLUB PLAYGROUD"
-      },
-      "benefit": {
-        "type": "2x1",
-        "discount": null,
-        "title": "2x1 de ahorro",
-        "description": null,
-        "slug": "/entretenimiento/familia/descuentos-en-kids-club-playgroud-A05747426",
-        "ecommerce": false,
-        "virtualCard": true,
-        "exclusiveBlack": false,
-        "startDate": null,
-        "endDate": null
-      },
-      "conditions": {
-        "additionalText": null,
-        "specialCondition": null,
-        "legal": null
-      },
-      "images": [
-        {
-          "id": "44527",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768101_d8c33d2f75.jpg",
           "highlighted": false,
           "thumb": false
         }
@@ -18216,48 +18319,6 @@
     {
       "source": "lanacion",
       "sourceIds": {
-        "accountId": "8967ec39-fe7d-ec11-8148-0ab6811d4821",
-        "crmId": "A05433433",
-        "benefitId": "55a2aea2-a11f-f011-8153-0ab6811d4821"
-      },
-      "sourceUrl": null,
-      "brand": {
-        "id": "8967ec39-fe7d-ec11-8148-0ab6811d4821",
-        "name": "BURGER54"
-      },
-      "benefit": {
-        "type": "20%",
-        "discount": 20,
-        "title": "20% de ahorro",
-        "description": null,
-        "slug": "/gastronomia/restaurantes/descuentos-en-burger54-A05433433",
-        "ecommerce": false,
-        "virtualCard": true,
-        "exclusiveBlack": false,
-        "startDate": null,
-        "endDate": null
-      },
-      "conditions": {
-        "additionalText": null,
-        "specialCondition": null,
-        "legal": null
-      },
-      "images": [
-        {
-          "id": "43756",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767036_674607d894.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ],
-      "categories": [],
-      "cards": [],
-      "schedule": null
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
         "accountId": "27b65624-7165-4889-ad85-689da2158938",
         "crmId": "A05954639",
         "benefitId": "9b8c0c2d-e563-45f1-9c54-6a547ac1d7fa"
@@ -23693,6 +23754,90 @@
           "id": "43678",
           "type": "",
           "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A766923_c57cf6ec8a.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ],
+      "categories": [],
+      "cards": [],
+      "schedule": null
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "273b2c61-9da3-f011-8155-0ab6811d4821",
+        "crmId": "800000010079",
+        "benefitId": "2de0212f-5f62-49db-954d-8516e3c0d702"
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": "273b2c61-9da3-f011-8155-0ab6811d4821",
+        "name": "BIENESTAR FEST"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "description": null,
+        "slug": "/entretenimiento/eventos/descuentos-en-bienestar-fest-800000010079",
+        "ecommerce": false,
+        "virtualCard": false,
+        "exclusiveBlack": false,
+        "startDate": null,
+        "endDate": null
+      },
+      "conditions": {
+        "additionalText": null,
+        "specialCondition": null,
+        "legal": null
+      },
+      "images": [
+        {
+          "id": "46254",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/Bienestar_072f9dbe4f.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ],
+      "categories": [],
+      "cards": [],
+      "schedule": null
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "8967ec39-fe7d-ec11-8148-0ab6811d4821",
+        "crmId": "A05433433",
+        "benefitId": "55a2aea2-a11f-f011-8153-0ab6811d4821"
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": "8967ec39-fe7d-ec11-8148-0ab6811d4821",
+        "name": "BURGER54"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "description": null,
+        "slug": "/gastronomia/restaurantes/descuentos-en-burger54-A05433433",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false,
+        "startDate": null,
+        "endDate": null
+      },
+      "conditions": {
+        "additionalText": null,
+        "specialCondition": null,
+        "legal": null
+      },
+      "images": [
+        {
+          "id": "43756",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767036_674607d894.jpg",
           "highlighted": false,
           "thumb": false
         }
