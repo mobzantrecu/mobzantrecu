@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-21T06:34:06.447Z",
+  "generatedAt": "2026-10-23T08:52:29.859Z",
   "sources": {
-    "santander": 81,
+    "santander": 83,
     "lanacion": 406
   },
-  "total": 487,
+  "total": 489,
   "benefits": [
     {
       "source": "santander",
@@ -4050,6 +4050,92 @@
     {
       "source": "santander",
       "sourceIds": {
+        "brandId": 170,
+        "publicationId": 7967
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": 170,
+        "name": "Equus"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 30,
+        "title": "30% de ahorro + hasta 6 cuotas sin interés",
+        "description": "Tope de reintegro: $50.000 durante la vigencia de la promoción",
+        "topAmount": 50000,
+        "startDate": "2026-10-29T00:00:00",
+        "endDate": "2026-10-29T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "Vigencia de la campania",
+        "tag": "Sorpresa"
+      },
+      "conditions": {
+        "additionalText": "<p><span style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(79, 84, 87);\">Beneficio exclusivo para clientes suscriptos a </span><strong style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(79, 84, 87);\">Sorpresa Santander</strong><span style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(79, 84, 87);\">.</span></p>",
+        "specialCondition": null,
+        "legal": "<p>VALIDO PARA CLIENTES SUSCRIPTOS AL PROGRAMA SORPRESA SANTANDER.</p><p>Válida el día 29/10/2026, en los locales adheridos, abonando con Tarjetas Santander Visa Crédito y/o Débito, incluidos los pagos realizados con MODO, Google Pay y Apple Pay. Se excluyen compras abonadas por transferencias, a través de billeteras virtuales o financiadas por programas Cuota Simple. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria de dicho titular.</p><p>CFTNA: COSTO FINANCIERO TOTAL EFECTIVO ANUAL.</p><p><span style=\"font-size: 48px;\">CFTNA: 0%</span> (CARTERA DE CONSUMO)</p><p><span style=\"font-size: 48px;\">CFTNA: 1,34%</span> (CARTERA COMERCIAL)</p><p>TASA FIJA NOMINAL Y EFECTIVA ANUAL: 0%</p><p>El ahorro se hará efectivo vía reintegro dentro de los 60 días de efectuado el consumo en la cuenta bancaria titular del cliente. No aplica a tarjetas de débito vinculadas a cajas de ahorro en pesos gratuitas, ni pagos realizados con dinero en cuenta.</p><p>Ejemplo: en una compra de $180.000 realizada con su Tarjeta Santander Visa Crédito financiada en 6 cuotas, usted recibirá en el primer resumen, un consumo de $30.000 y un reintegro de $50.000 (Tope) Del segundo hasta el sexto resumen posterior a la compra, recibirá un consumo de $30.000 en cada uno de ellos.</p>"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        },
+        {
+          "id": 3,
+          "description": "VISA",
+          "code": "43",
+          "idType": 3,
+          "descriptionType": "RECARGABLE",
+          "codeType": "R",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_recargable.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 13,
+          "description": "Indumentaria",
+          "code": "IND"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        },
+        {
+          "id": 61,
+          "description": "Sorpresa",
+          "code": "SOR"
+        }
+      ],
+      "schedule": {
+        "monday": false,
+        "tuesday": false,
+        "wednesday": false,
+        "thursday": true,
+        "friday": false,
+        "saturday": false,
+        "sunday": false,
+        "fullWeek": false
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
         "brandId": 3539,
         "publicationId": 8133
       },
@@ -6654,6 +6740,78 @@
     {
       "source": "santander",
       "sourceIds": {
+        "brandId": 1670,
+        "publicationId": 8138
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": 1670,
+        "name": "Work Cafe"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 30,
+        "title": "30% de ahorro",
+        "description": "Tope de reintegro: $15.000 mensual",
+        "topAmount": 15000,
+        "startDate": "2026-09-01T00:00:00",
+        "endDate": "2026-12-31T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "Mensual",
+        "tag": "Exclusivo Visa"
+      },
+      "conditions": {
+        "additionalText": "<p>En todo el menú.</p>",
+        "specialCondition": null,
+        "legal": "<p>Válida en los locales adheridos, abonando con Tarjetas Santander Visa Crédito y/o Débito, incluidos los pagos realizados con MODO, Google Pay y Apple Pay. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada y/o caja de ahorro en pesos gratuita. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular.</p><p>El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Tope Mensual: $15.000 sumando las compras realizadas por el titular de la tarjeta de crédito y sus adicionales, y las efectuadas con todas las tarjetas de débito asociadas a la cuenta titular de la misma. Ejemplo: en una compra con tarjeta de crédito de $50.000, el cliente recibirá un reintegro de $15,000 en la cuenta bancaria titular.</p>"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 11,
+          "description": "Gastronomía",
+          "code": "GAS"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        }
+      ],
+      "schedule": {
+        "monday": true,
+        "tuesday": true,
+        "wednesday": true,
+        "thursday": true,
+        "friday": true,
+        "saturday": true,
+        "sunday": true,
+        "fullWeek": true
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
         "brandId": 713,
         "publicationId": 6370
       },
@@ -6737,48 +6895,6 @@
         "sunday": true,
         "fullWeek": true
       }
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
-        "accountId": "20c6b1ec-cacb-e711-812f-0ab6811d4821",
-        "crmId": "A10677",
-        "benefitId": "3be38442-c1c3-ef11-814d-0ab6811d4821"
-      },
-      "sourceUrl": null,
-      "brand": {
-        "id": "20c6b1ec-cacb-e711-812f-0ab6811d4821",
-        "name": "YPF"
-      },
-      "benefit": {
-        "type": "30%",
-        "discount": 30,
-        "title": "30% de ahorro",
-        "description": null,
-        "slug": "/automovil/combustible/descuentos-en-ypf-A10677",
-        "ecommerce": false,
-        "virtualCard": false,
-        "exclusiveBlack": false,
-        "startDate": null,
-        "endDate": null
-      },
-      "conditions": {
-        "additionalText": null,
-        "specialCondition": null,
-        "legal": null
-      },
-      "images": [
-        {
-          "id": "43769",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767538_cb405cd8e2.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ],
-      "categories": [],
-      "cards": [],
-      "schedule": null
     },
     {
       "source": "lanacion",
@@ -11592,48 +11708,6 @@
     {
       "source": "lanacion",
       "sourceIds": {
-        "accountId": "5aa809f7-419d-e711-812e-0ab6811d4821",
-        "crmId": "A01252417",
-        "benefitId": "7967b88c-97d7-f011-8155-0ab6811d4821"
-      },
-      "sourceUrl": null,
-      "brand": {
-        "id": "5aa809f7-419d-e711-812e-0ab6811d4821",
-        "name": "BOWLING AND CO NORCENTER"
-      },
-      "benefit": {
-        "type": "2x1",
-        "discount": null,
-        "title": "2x1 de ahorro",
-        "description": null,
-        "slug": "/entretenimiento/familia/descuentos-en-bowling-and-co-norcenter-A01252417",
-        "ecommerce": false,
-        "virtualCard": false,
-        "exclusiveBlack": false,
-        "startDate": null,
-        "endDate": null
-      },
-      "conditions": {
-        "additionalText": null,
-        "specialCondition": null,
-        "legal": null
-      },
-      "images": [
-        {
-          "id": "43709",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767429_d03a4779eb.JPG",
-          "highlighted": false,
-          "thumb": false
-        }
-      ],
-      "categories": [],
-      "cards": [],
-      "schedule": null
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
         "accountId": "60809f41-69b5-ee11-814b-0ab6811d4821",
         "crmId": "A05592227",
         "benefitId": "5f9ad905-7800-f111-8155-0ab6811d4821"
@@ -15295,48 +15369,6 @@
     {
       "source": "lanacion",
       "sourceIds": {
-        "accountId": "8e80794e-9e9c-e711-812e-0ab6811d4821",
-        "crmId": "A00955502",
-        "benefitId": "0ddc8894-7c41-f011-8153-0ab6811d4821"
-      },
-      "sourceUrl": null,
-      "brand": {
-        "id": "8e80794e-9e9c-e711-812e-0ab6811d4821",
-        "name": "PIOPPA"
-      },
-      "benefit": {
-        "type": "20%",
-        "discount": 20,
-        "title": "20% de ahorro",
-        "description": null,
-        "slug": "/moda/infantiles/descuentos-en-pioppa-A00955502",
-        "ecommerce": false,
-        "virtualCard": true,
-        "exclusiveBlack": false,
-        "startDate": null,
-        "endDate": null
-      },
-      "conditions": {
-        "additionalText": null,
-        "specialCondition": null,
-        "legal": null
-      },
-      "images": [
-        {
-          "id": "44227",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768282_2d5c346489.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ],
-      "categories": [],
-      "cards": [],
-      "schedule": null
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
         "accountId": "50cbf9f0-a711-f111-8155-0ab6811d4821",
         "crmId": "A05892916",
         "benefitId": "4a2d7748-7e12-f111-8155-0ab6811d4821"
@@ -16166,48 +16198,6 @@
           "id": "45894",
           "type": "",
           "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/go_assistance_873fd33508.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ],
-      "categories": [],
-      "cards": [],
-      "schedule": null
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
-        "accountId": "f9f8560b-016c-4167-9625-28d2ba1d1c57",
-        "crmId": "A05967208",
-        "benefitId": "7340703a-6abe-4b4d-8901-c0902c0f9dd6"
-      },
-      "sourceUrl": null,
-      "brand": {
-        "id": "f9f8560b-016c-4167-9625-28d2ba1d1c57",
-        "name": "PEUQUE JEANS"
-      },
-      "benefit": {
-        "type": "20%",
-        "discount": 20,
-        "title": "20% de ahorro",
-        "description": null,
-        "slug": "/moda/indumentaria/descuentos-en-peuque-jeans-A05967208",
-        "ecommerce": false,
-        "virtualCard": true,
-        "exclusiveBlack": false,
-        "startDate": null,
-        "endDate": null
-      },
-      "conditions": {
-        "additionalText": null,
-        "specialCondition": null,
-        "legal": null
-      },
-      "images": [
-        {
-          "id": "46282",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/peuque_01_01_a378633693.jpg",
           "highlighted": false,
           "thumb": false
         }
@@ -22659,48 +22649,6 @@
     {
       "source": "lanacion",
       "sourceIds": {
-        "accountId": "f9c4ba38-0e9f-e711-812e-0ab6811d4821",
-        "crmId": "A00676264",
-        "benefitId": "e6d562b5-389c-454f-909e-9c1183852166"
-      },
-      "sourceUrl": null,
-      "brand": {
-        "id": "f9c4ba38-0e9f-e711-812e-0ab6811d4821",
-        "name": "CHUNGO"
-      },
-      "benefit": {
-        "type": "20%",
-        "discount": 20,
-        "title": "20% de ahorro",
-        "description": null,
-        "slug": "/gastronomia/heladerias/descuentos-en-chungo-A00676264",
-        "ecommerce": false,
-        "virtualCard": true,
-        "exclusiveBlack": false,
-        "startDate": null,
-        "endDate": null
-      },
-      "conditions": {
-        "additionalText": null,
-        "specialCondition": null,
-        "legal": null
-      },
-      "images": [
-        {
-          "id": "45581",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/chungo_022_31e19c0c48.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ],
-      "categories": [],
-      "cards": [],
-      "schedule": null
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
         "accountId": "f905e40b-4e21-f011-8153-0ab6811d4821",
         "crmId": "A05821627",
         "benefitId": "d1c1c42a-0622-f011-8153-0ab6811d4821"
@@ -22953,48 +22901,6 @@
     {
       "source": "lanacion",
       "sourceIds": {
-        "accountId": "c47f4428-9577-4de7-bb64-c7530aea12ec",
-        "crmId": "A05970587",
-        "benefitId": "ab2441f3-b6a9-4a57-bf66-905168892fdf"
-      },
-      "sourceUrl": null,
-      "brand": {
-        "id": "c47f4428-9577-4de7-bb64-c7530aea12ec",
-        "name": "MARCHAND D’ ARÔMES"
-      },
-      "benefit": {
-        "type": "20%",
-        "discount": 20,
-        "title": "20% de ahorro",
-        "description": null,
-        "slug": "/otros-beneficios/farmacias-y-perfumerias/descuentos-en-marchand-d-aromes-A05970587",
-        "ecommerce": true,
-        "virtualCard": true,
-        "exclusiveBlack": false,
-        "startDate": null,
-        "endDate": null
-      },
-      "conditions": {
-        "additionalText": null,
-        "specialCondition": null,
-        "legal": null
-      },
-      "images": [
-        {
-          "id": "46339",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/Imagen_Beneficio_800x600_f698727912.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ],
-      "categories": [],
-      "cards": [],
-      "schedule": null
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
         "accountId": "92945d00-9fef-4cbb-842d-84d5400c0847",
         "crmId": "A05965382",
         "benefitId": "64019d84-0f79-4860-9259-3933deb76d98"
@@ -23026,104 +22932,6 @@
           "id": "46500",
           "type": "",
           "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/Villa_Ocampo_e94c6ba79c.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ],
-      "categories": [],
-      "cards": [],
-      "schedule": null
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
-        "accountId": "c5ba37af-3eed-4fda-ae8e-e34841e3bb84",
-        "crmId": "A05912906",
-        "benefitId": "e5783931-7cbb-4d43-8bab-7ede28c3a03b"
-      },
-      "sourceUrl": null,
-      "brand": {
-        "id": "c5ba37af-3eed-4fda-ae8e-e34841e3bb84",
-        "name": "CAMPOBRAVO"
-      },
-      "benefit": {
-        "type": "20%",
-        "discount": 20,
-        "title": "20% de ahorro",
-        "description": null,
-        "slug": "/gastronomia/restaurantes/descuentos-en-campobravo-A05912906",
-        "ecommerce": false,
-        "virtualCard": true,
-        "exclusiveBlack": false,
-        "startDate": null,
-        "endDate": null
-      },
-      "conditions": {
-        "additionalText": null,
-        "specialCondition": null,
-        "legal": null
-      },
-      "images": [
-        {
-          "id": "45232",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/campo_bravo_39dfad9460.jpg",
-          "highlighted": false,
-          "thumb": false
-        },
-        {
-          "id": "45234",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/campo_bravo_1_01dd18f647.jpg",
-          "highlighted": false,
-          "thumb": false
-        },
-        {
-          "id": "45233",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/campo_bravo_2_bd780e2ba6.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ],
-      "categories": [],
-      "cards": [],
-      "schedule": null
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
-        "accountId": "1d95ac3a-a855-f011-8153-0ab6811d4821",
-        "crmId": "A38832",
-        "benefitId": "1c7390ea-5a57-f011-8153-0ab6811d4821"
-      },
-      "sourceUrl": null,
-      "brand": {
-        "id": "1d95ac3a-a855-f011-8153-0ab6811d4821",
-        "name": "CARREFOUR"
-      },
-      "benefit": {
-        "type": "15%",
-        "discount": 15,
-        "title": "15% de ahorro",
-        "description": null,
-        "slug": "/supermercados/supermercados/descuentos-en-carrefour-A38832",
-        "ecommerce": false,
-        "virtualCard": false,
-        "exclusiveBlack": false,
-        "startDate": null,
-        "endDate": null
-      },
-      "conditions": {
-        "additionalText": null,
-        "specialCondition": null,
-        "legal": null
-      },
-      "images": [
-        {
-          "id": "45079",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768333_57b63bd572.jpg",
           "highlighted": false,
           "thumb": false
         }
@@ -23387,48 +23195,6 @@
     {
       "source": "lanacion",
       "sourceIds": {
-        "accountId": "7ed2d208-61e6-e711-8130-0ab6811d4821",
-        "crmId": "A04034506",
-        "benefitId": "df868111-8aed-4f26-ba5f-4824dacbf8d6"
-      },
-      "sourceUrl": null,
-      "brand": {
-        "id": "7ed2d208-61e6-e711-8130-0ab6811d4821",
-        "name": "SAMSUNG STORE"
-      },
-      "benefit": {
-        "type": "10%",
-        "discount": 10,
-        "title": "10% de ahorro",
-        "description": null,
-        "slug": "/otros-beneficios/tecnologia/descuentos-en-samsung-store-A04034506",
-        "ecommerce": true,
-        "virtualCard": true,
-        "exclusiveBlack": false,
-        "startDate": null,
-        "endDate": null
-      },
-      "conditions": {
-        "additionalText": null,
-        "specialCondition": null,
-        "legal": null
-      },
-      "images": [
-        {
-          "id": "45927",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/Galaxy_S25_FE_01_9d5709cbc7.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ],
-      "categories": [],
-      "cards": [],
-      "schedule": null
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
         "accountId": "15fc774c-583a-e711-812b-0ab6811d4821",
         "crmId": "A03678044",
         "benefitId": "f5412bdb-617c-f011-8155-0ab6811d4821"
@@ -23597,48 +23363,6 @@
     {
       "source": "lanacion",
       "sourceIds": {
-        "accountId": "c8c3ed6d-bdcd-4e19-9d5b-9b571c62c9b2",
-        "crmId": "A05974585",
-        "benefitId": "0c50c50e-4878-42a2-9ee8-11c1b2f553b0"
-      },
-      "sourceUrl": null,
-      "brand": {
-        "id": "c8c3ed6d-bdcd-4e19-9d5b-9b571c62c9b2",
-        "name": "MIRA DROR"
-      },
-      "benefit": {
-        "type": "25%",
-        "discount": 25,
-        "title": "25% de ahorro",
-        "description": null,
-        "slug": "/bienestar/belleza/descuentos-en-mira-dror-A05974585",
-        "ecommerce": false,
-        "virtualCard": true,
-        "exclusiveBlack": false,
-        "startDate": null,
-        "endDate": null
-      },
-      "conditions": {
-        "additionalText": null,
-        "specialCondition": null,
-        "legal": null
-      },
-      "images": [
-        {
-          "id": "46541",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/mira_dror_01_a7ce93a18b.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ],
-      "categories": [],
-      "cards": [],
-      "schedule": null
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
         "accountId": "b6a83b25-e6a9-4e87-a2a0-c3b628f50c6b",
         "crmId": "A05913851",
         "benefitId": "7ce47a59-d6d8-41ea-8d3d-fa628d38c04f"
@@ -23765,48 +23489,6 @@
     {
       "source": "lanacion",
       "sourceIds": {
-        "accountId": "273b2c61-9da3-f011-8155-0ab6811d4821",
-        "crmId": "800000010079",
-        "benefitId": "2de0212f-5f62-49db-954d-8516e3c0d702"
-      },
-      "sourceUrl": null,
-      "brand": {
-        "id": "273b2c61-9da3-f011-8155-0ab6811d4821",
-        "name": "BIENESTAR FEST"
-      },
-      "benefit": {
-        "type": "20%",
-        "discount": 20,
-        "title": "20% de ahorro",
-        "description": null,
-        "slug": "/entretenimiento/eventos/descuentos-en-bienestar-fest-800000010079",
-        "ecommerce": false,
-        "virtualCard": false,
-        "exclusiveBlack": false,
-        "startDate": null,
-        "endDate": null
-      },
-      "conditions": {
-        "additionalText": null,
-        "specialCondition": null,
-        "legal": null
-      },
-      "images": [
-        {
-          "id": "46254",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/Bienestar_072f9dbe4f.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ],
-      "categories": [],
-      "cards": [],
-      "schedule": null
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
         "accountId": "8967ec39-fe7d-ec11-8148-0ab6811d4821",
         "crmId": "A05433433",
         "benefitId": "55a2aea2-a11f-f011-8153-0ab6811d4821"
@@ -23838,6 +23520,468 @@
           "id": "43756",
           "type": "",
           "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767036_674607d894.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ],
+      "categories": [],
+      "cards": [],
+      "schedule": null
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "8e80794e-9e9c-e711-812e-0ab6811d4821",
+        "crmId": "A00955502",
+        "benefitId": "0ddc8894-7c41-f011-8153-0ab6811d4821"
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": "8e80794e-9e9c-e711-812e-0ab6811d4821",
+        "name": "PIOPPA"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "description": null,
+        "slug": "/moda/infantiles/descuentos-en-pioppa-A00955502",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false,
+        "startDate": null,
+        "endDate": null
+      },
+      "conditions": {
+        "additionalText": null,
+        "specialCondition": null,
+        "legal": null
+      },
+      "images": [
+        {
+          "id": "44227",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768282_2d5c346489.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ],
+      "categories": [],
+      "cards": [],
+      "schedule": null
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "f9f8560b-016c-4167-9625-28d2ba1d1c57",
+        "crmId": "A05967208",
+        "benefitId": "7340703a-6abe-4b4d-8901-c0902c0f9dd6"
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": "f9f8560b-016c-4167-9625-28d2ba1d1c57",
+        "name": "PEUQUE JEANS"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "description": null,
+        "slug": "/moda/indumentaria/descuentos-en-peuque-jeans-A05967208",
+        "ecommerce": true,
+        "virtualCard": true,
+        "exclusiveBlack": false,
+        "startDate": null,
+        "endDate": null
+      },
+      "conditions": {
+        "additionalText": null,
+        "specialCondition": null,
+        "legal": null
+      },
+      "images": [
+        {
+          "id": "46282",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/peuque_01_01_a378633693.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ],
+      "categories": [],
+      "cards": [],
+      "schedule": null
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "7ed2d208-61e6-e711-8130-0ab6811d4821",
+        "crmId": "A04034506",
+        "benefitId": "df868111-8aed-4f26-ba5f-4824dacbf8d6"
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": "7ed2d208-61e6-e711-8130-0ab6811d4821",
+        "name": "SAMSUNG STORE"
+      },
+      "benefit": {
+        "type": "10%",
+        "discount": 10,
+        "title": "10% de ahorro",
+        "description": null,
+        "slug": "/otros-beneficios/tecnologia/descuentos-en-samsung-store-A04034506",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false,
+        "startDate": null,
+        "endDate": null
+      },
+      "conditions": {
+        "additionalText": null,
+        "specialCondition": null,
+        "legal": null
+      },
+      "images": [
+        {
+          "id": "45927",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/Galaxy_S25_FE_01_9d5709cbc7.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ],
+      "categories": [],
+      "cards": [],
+      "schedule": null
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "273b2c61-9da3-f011-8155-0ab6811d4821",
+        "crmId": "800000010079",
+        "benefitId": "2de0212f-5f62-49db-954d-8516e3c0d702"
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": "273b2c61-9da3-f011-8155-0ab6811d4821",
+        "name": "BIENESTAR FEST"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "description": null,
+        "slug": "/entretenimiento/eventos/descuentos-en-bienestar-fest-800000010079",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false,
+        "startDate": null,
+        "endDate": null
+      },
+      "conditions": {
+        "additionalText": null,
+        "specialCondition": null,
+        "legal": null
+      },
+      "images": [
+        {
+          "id": "46254",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/Bienestar_072f9dbe4f.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ],
+      "categories": [],
+      "cards": [],
+      "schedule": null
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "c5ba37af-3eed-4fda-ae8e-e34841e3bb84",
+        "crmId": "A05912906",
+        "benefitId": "e5783931-7cbb-4d43-8bab-7ede28c3a03b"
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": "c5ba37af-3eed-4fda-ae8e-e34841e3bb84",
+        "name": "CAMPOBRAVO"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "description": null,
+        "slug": "/gastronomia/restaurantes/descuentos-en-campobravo-A05912906",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false,
+        "startDate": null,
+        "endDate": null
+      },
+      "conditions": {
+        "additionalText": null,
+        "specialCondition": null,
+        "legal": null
+      },
+      "images": [
+        {
+          "id": "45232",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/campo_bravo_39dfad9460.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ],
+      "categories": [],
+      "cards": [],
+      "schedule": null
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "20c6b1ec-cacb-e711-812f-0ab6811d4821",
+        "crmId": "A10677",
+        "benefitId": "3be38442-c1c3-ef11-814d-0ab6811d4821"
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": "20c6b1ec-cacb-e711-812f-0ab6811d4821",
+        "name": "YPF"
+      },
+      "benefit": {
+        "type": "30%",
+        "discount": 30,
+        "title": "30% de ahorro",
+        "description": null,
+        "slug": "/automovil/combustible/descuentos-en-ypf-A10677",
+        "ecommerce": false,
+        "virtualCard": false,
+        "exclusiveBlack": false,
+        "startDate": null,
+        "endDate": null
+      },
+      "conditions": {
+        "additionalText": null,
+        "specialCondition": null,
+        "legal": null
+      },
+      "images": [
+        {
+          "id": "43769",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767538_cb405cd8e2.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ],
+      "categories": [],
+      "cards": [],
+      "schedule": null
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "c47f4428-9577-4de7-bb64-c7530aea12ec",
+        "crmId": "A05970587",
+        "benefitId": "ab2441f3-b6a9-4a57-bf66-905168892fdf"
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": "c47f4428-9577-4de7-bb64-c7530aea12ec",
+        "name": "MARCHAND D’ ARÔMES"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "description": null,
+        "slug": "/otros-beneficios/farmacias-y-perfumerias/descuentos-en-marchand-d-aromes-A05970587",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false,
+        "startDate": null,
+        "endDate": null
+      },
+      "conditions": {
+        "additionalText": null,
+        "specialCondition": null,
+        "legal": null
+      },
+      "images": [
+        {
+          "id": "46339",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/Imagen_Beneficio_800x600_f698727912.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ],
+      "categories": [],
+      "cards": [],
+      "schedule": null
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "c8c3ed6d-bdcd-4e19-9d5b-9b571c62c9b2",
+        "crmId": "A05974585",
+        "benefitId": "0c50c50e-4878-42a2-9ee8-11c1b2f553b0"
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": "c8c3ed6d-bdcd-4e19-9d5b-9b571c62c9b2",
+        "name": "MIRA DROR"
+      },
+      "benefit": {
+        "type": "25%",
+        "discount": 25,
+        "title": "25% de ahorro",
+        "description": null,
+        "slug": "/bienestar/belleza/descuentos-en-mira-dror-A05974585",
+        "ecommerce": true,
+        "virtualCard": true,
+        "exclusiveBlack": false,
+        "startDate": null,
+        "endDate": null
+      },
+      "conditions": {
+        "additionalText": null,
+        "specialCondition": null,
+        "legal": null
+      },
+      "images": [
+        {
+          "id": "46541",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/mira_dror_01_a7ce93a18b.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ],
+      "categories": [],
+      "cards": [],
+      "schedule": null
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "f9c4ba38-0e9f-e711-812e-0ab6811d4821",
+        "crmId": "A00676264",
+        "benefitId": "e6d562b5-389c-454f-909e-9c1183852166"
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": "f9c4ba38-0e9f-e711-812e-0ab6811d4821",
+        "name": "CHUNGO"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "description": null,
+        "slug": "/gastronomia/heladerias/descuentos-en-chungo-A00676264",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false,
+        "startDate": null,
+        "endDate": null
+      },
+      "conditions": {
+        "additionalText": null,
+        "specialCondition": null,
+        "legal": null
+      },
+      "images": [
+        {
+          "id": "45581",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/chungo_022_31e19c0c48.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ],
+      "categories": [],
+      "cards": [],
+      "schedule": null
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "1d95ac3a-a855-f011-8153-0ab6811d4821",
+        "crmId": "A38832",
+        "benefitId": "1c7390ea-5a57-f011-8153-0ab6811d4821"
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": "1d95ac3a-a855-f011-8153-0ab6811d4821",
+        "name": "CARREFOUR"
+      },
+      "benefit": {
+        "type": "15%",
+        "discount": 15,
+        "title": "15% de ahorro",
+        "description": null,
+        "slug": "/supermercados/supermercados/descuentos-en-carrefour-A38832",
+        "ecommerce": false,
+        "virtualCard": false,
+        "exclusiveBlack": false,
+        "startDate": null,
+        "endDate": null
+      },
+      "conditions": {
+        "additionalText": null,
+        "specialCondition": null,
+        "legal": null
+      },
+      "images": [
+        {
+          "id": "45079",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768333_57b63bd572.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ],
+      "categories": [],
+      "cards": [],
+      "schedule": null
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "5aa809f7-419d-e711-812e-0ab6811d4821",
+        "crmId": "A01252417",
+        "benefitId": "7967b88c-97d7-f011-8155-0ab6811d4821"
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": "5aa809f7-419d-e711-812e-0ab6811d4821",
+        "name": "BOWLING AND CO NORCENTER"
+      },
+      "benefit": {
+        "type": "2x1",
+        "discount": null,
+        "title": "2x1 de ahorro",
+        "description": null,
+        "slug": "/entretenimiento/familia/descuentos-en-bowling-and-co-norcenter-A01252417",
+        "ecommerce": false,
+        "virtualCard": false,
+        "exclusiveBlack": false,
+        "startDate": null,
+        "endDate": null
+      },
+      "conditions": {
+        "additionalText": null,
+        "specialCondition": null,
+        "legal": null
+      },
+      "images": [
+        {
+          "id": "43709",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767429_d03a4779eb.JPG",
           "highlighted": false,
           "thumb": false
         }
