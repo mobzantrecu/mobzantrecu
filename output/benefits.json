@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-23T08:52:29.859Z",
+  "generatedAt": "2026-10-24T06:41:39.184Z",
   "sources": {
-    "santander": 83,
+    "santander": 82,
     "lanacion": 406
   },
-  "total": 489,
+  "total": 488,
   "benefits": [
     {
       "source": "santander",
@@ -4713,78 +4713,6 @@
         "wednesday": true,
         "thursday": false,
         "friday": false,
-        "saturday": false,
-        "sunday": false,
-        "fullWeek": false
-      }
-    },
-    {
-      "source": "santander",
-      "sourceIds": {
-        "brandId": 3863,
-        "publicationId": 8129
-      },
-      "sourceUrl": null,
-      "brand": {
-        "id": 3863,
-        "name": "GAES"
-      },
-      "benefit": {
-        "type": "Ahorro",
-        "typeCode": "A",
-        "discount": 50,
-        "title": "50% de ahorro + hasta 9 cuotas sin interés",
-        "description": "Sin tope de reintegro",
-        "topAmount": null,
-        "startDate": "2026-10-23T00:00:00",
-        "endDate": "2026-10-23T00:00:00",
-        "paymentType": "No Aplica",
-        "frequency": "No Aplica",
-        "tag": "Exclusivo Visa"
-      },
-      "conditions": {
-        "additionalText": null,
-        "specialCondition": null,
-        "legal": "<p>Costo financiero total nominal anual: C.F.T.N.A.</p><p><span style=\"font-size: 48px;\">C.F.T.N.A: 2,14%</span> (cartera comercial por &quot;seguro de vida e invalidez total o permanente&quot;) </p><p><span style=\"font-size: 48px;\">C.F.T.N.A: 0%</span> (cartera de consumo).</p><p>Tasa fija nominal anual: 0%. Tasa fija efectiva anual : 0%.</p><p>Válida en los locales adheridos, abonando con Tarjetas Santander Visa débito y crédito, incluidos también los pagos realizados con App Santander, MODO, Google Pay y Apple Pay. Se excluyen compras abonadas por transferencias, a través de billeteras virtuales o financiadas por programas Cuota Simple. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria de dicho titular.</p><p>El ahorro se hará efectivo vía reintegro dentro de los 60 días de efectuado el consumo en la cuenta bancaria titular del cliente. No aplica a tarjetas de débito vinculadas a cajas de ahorro en pesos gratuitas, ni pagos realizados con dinero en cuenta. Promoción sin tope de reintegro. Ejemplo: en una compra de $90.000 realizada con su Tarjeta Santander Visa Crédito financiada en 9 cuotas registrará un reintegro de $45.000 en la cuenta bancaria titular, y del primer al noveno resumen de la tarjeta de crédito un consumo de $10.000 en cada uno.</p>"
-      },
-      "cards": [
-        {
-          "id": 1,
-          "description": "VISA",
-          "code": "81",
-          "idType": 1,
-          "descriptionType": "DEBITO",
-          "codeType": "D",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
-        },
-        {
-          "id": 2,
-          "description": "VISA",
-          "code": "40",
-          "idType": 2,
-          "descriptionType": "CREDITO",
-          "codeType": "C",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
-        }
-      ],
-      "categories": [
-        {
-          "id": 18,
-          "description": "Varios",
-          "code": "VAR"
-        },
-        {
-          "id": 58,
-          "description": "Exclusiva Visa",
-          "code": "EXV"
-        }
-      ],
-      "schedule": {
-        "monday": false,
-        "tuesday": false,
-        "wednesday": false,
-        "thursday": false,
-        "friday": true,
         "saturday": false,
         "sunday": false,
         "fullWeek": false
@@ -17511,48 +17439,6 @@
     {
       "source": "lanacion",
       "sourceIds": {
-        "accountId": "8bf1040e-9df8-e811-813b-0ab6811d4821",
-        "crmId": "A04297465",
-        "benefitId": "90c34b32-47ad-4920-8a54-dbabbf443b8e"
-      },
-      "sourceUrl": null,
-      "brand": {
-        "id": "8bf1040e-9df8-e811-813b-0ab6811d4821",
-        "name": "DEFINIT"
-      },
-      "benefit": {
-        "type": "30%",
-        "discount": 30,
-        "title": "30% de ahorro",
-        "description": null,
-        "slug": "/bienestar/centros-esteticos/descuentos-en-definit-A04297465",
-        "ecommerce": false,
-        "virtualCard": true,
-        "exclusiveBlack": false,
-        "startDate": null,
-        "endDate": null
-      },
-      "conditions": {
-        "additionalText": null,
-        "specialCondition": null,
-        "legal": null
-      },
-      "images": [
-        {
-          "id": "46274",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/Bienestar_1_bf38e69f78.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ],
-      "categories": [],
-      "cards": [],
-      "schedule": null
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
         "accountId": "dedbcb0b-a911-f111-8155-0ab6811d4821",
         "crmId": "A05892921",
         "benefitId": "9a97df3f-2113-f111-8155-0ab6811d4821"
@@ -18130,48 +18016,6 @@
           "id": "44354",
           "type": "",
           "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768494_e72549d48e.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ],
-      "categories": [],
-      "cards": [],
-      "schedule": null
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
-        "accountId": "97d3afe1-e28c-f011-8155-0ab6811d4821",
-        "crmId": "A05855858",
-        "benefitId": "723ec6cc-e98c-f011-8155-0ab6811d4821"
-      },
-      "sourceUrl": null,
-      "brand": {
-        "id": "97d3afe1-e28c-f011-8155-0ab6811d4821",
-        "name": "THIS IS FELIZ NAVIDAD"
-      },
-      "benefit": {
-        "type": "20%",
-        "discount": 20,
-        "title": "20% de ahorro",
-        "description": null,
-        "slug": "/moda/indumentaria/descuentos-en-this-is-feliz-navidad-A05855858",
-        "ecommerce": false,
-        "virtualCard": true,
-        "exclusiveBlack": false,
-        "startDate": null,
-        "endDate": null
-      },
-      "conditions": {
-        "additionalText": null,
-        "specialCondition": null,
-        "legal": null
-      },
-      "images": [
-        {
-          "id": "44704",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768441_4acb7ef9fc.jpg",
           "highlighted": false,
           "thumb": false
         }
@@ -23657,48 +23501,6 @@
     {
       "source": "lanacion",
       "sourceIds": {
-        "accountId": "273b2c61-9da3-f011-8155-0ab6811d4821",
-        "crmId": "800000010079",
-        "benefitId": "2de0212f-5f62-49db-954d-8516e3c0d702"
-      },
-      "sourceUrl": null,
-      "brand": {
-        "id": "273b2c61-9da3-f011-8155-0ab6811d4821",
-        "name": "BIENESTAR FEST"
-      },
-      "benefit": {
-        "type": "20%",
-        "discount": 20,
-        "title": "20% de ahorro",
-        "description": null,
-        "slug": "/entretenimiento/eventos/descuentos-en-bienestar-fest-800000010079",
-        "ecommerce": false,
-        "virtualCard": true,
-        "exclusiveBlack": false,
-        "startDate": null,
-        "endDate": null
-      },
-      "conditions": {
-        "additionalText": null,
-        "specialCondition": null,
-        "legal": null
-      },
-      "images": [
-        {
-          "id": "46254",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/Bienestar_072f9dbe4f.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ],
-      "categories": [],
-      "cards": [],
-      "schedule": null
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
         "accountId": "c5ba37af-3eed-4fda-ae8e-e34841e3bb84",
         "crmId": "A05912906",
         "benefitId": "e5783931-7cbb-4d43-8bab-7ede28c3a03b"
@@ -23982,6 +23784,132 @@
           "id": "43709",
           "type": "",
           "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767429_d03a4779eb.JPG",
+          "highlighted": false,
+          "thumb": false
+        }
+      ],
+      "categories": [],
+      "cards": [],
+      "schedule": null
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "8bf1040e-9df8-e811-813b-0ab6811d4821",
+        "crmId": "A04297465",
+        "benefitId": "90c34b32-47ad-4920-8a54-dbabbf443b8e"
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": "8bf1040e-9df8-e811-813b-0ab6811d4821",
+        "name": "DEFINIT"
+      },
+      "benefit": {
+        "type": "30%",
+        "discount": 30,
+        "title": "30% de ahorro",
+        "description": null,
+        "slug": "/bienestar/centros-esteticos/descuentos-en-definit-A04297465",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false,
+        "startDate": null,
+        "endDate": null
+      },
+      "conditions": {
+        "additionalText": null,
+        "specialCondition": null,
+        "legal": null
+      },
+      "images": [
+        {
+          "id": "46274",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/Bienestar_1_bf38e69f78.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ],
+      "categories": [],
+      "cards": [],
+      "schedule": null
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "4a4ef555-f714-4266-a7d0-c4dc6133a0ee",
+        "crmId": "A05978176",
+        "benefitId": "8c09d5d3-1431-4075-85b2-a3d7460368b0"
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": "4a4ef555-f714-4266-a7d0-c4dc6133a0ee",
+        "name": "GUILAROFF BE NATURAL"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "description": null,
+        "slug": "/bienestar/peluquerias/descuentos-en-guilaroff-be-natural-A05978176",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false,
+        "startDate": null,
+        "endDate": null
+      },
+      "conditions": {
+        "additionalText": null,
+        "specialCondition": null,
+        "legal": null
+      },
+      "images": [
+        {
+          "id": "46588",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/GUILAROFF_01_01_6878adb826.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ],
+      "categories": [],
+      "cards": [],
+      "schedule": null
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "273b2c61-9da3-f011-8155-0ab6811d4821",
+        "crmId": "800000010079",
+        "benefitId": "96f68189-6d7e-49b8-9fa1-601ec6fdfe8b"
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": "273b2c61-9da3-f011-8155-0ab6811d4821",
+        "name": "BIENESTAR FEST"
+      },
+      "benefit": {
+        "type": "2x1",
+        "discount": null,
+        "title": "2x1 de ahorro",
+        "description": null,
+        "slug": "/entretenimiento/eventos/descuentos-en-bienestar-fest-800000010079",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false,
+        "startDate": null,
+        "endDate": null
+      },
+      "conditions": {
+        "additionalText": null,
+        "specialCondition": null,
+        "legal": null
+      },
+      "images": [
+        {
+          "id": "46254",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/Bienestar_072f9dbe4f.jpg",
           "highlighted": false,
           "thumb": false
         }
