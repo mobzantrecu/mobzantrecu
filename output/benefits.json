@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T06:41:39.184Z",
+  "generatedAt": "2026-10-25T06:41:51.564Z",
   "sources": {
     "santander": 82,
     "lanacion": 406
@@ -23669,48 +23669,6 @@
     {
       "source": "lanacion",
       "sourceIds": {
-        "accountId": "f9c4ba38-0e9f-e711-812e-0ab6811d4821",
-        "crmId": "A00676264",
-        "benefitId": "e6d562b5-389c-454f-909e-9c1183852166"
-      },
-      "sourceUrl": null,
-      "brand": {
-        "id": "f9c4ba38-0e9f-e711-812e-0ab6811d4821",
-        "name": "CHUNGO"
-      },
-      "benefit": {
-        "type": "20%",
-        "discount": 20,
-        "title": "20% de ahorro",
-        "description": null,
-        "slug": "/gastronomia/heladerias/descuentos-en-chungo-A00676264",
-        "ecommerce": false,
-        "virtualCard": true,
-        "exclusiveBlack": false,
-        "startDate": null,
-        "endDate": null
-      },
-      "conditions": {
-        "additionalText": null,
-        "specialCondition": null,
-        "legal": null
-      },
-      "images": [
-        {
-          "id": "45581",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/chungo_022_31e19c0c48.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ],
-      "categories": [],
-      "cards": [],
-      "schedule": null
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
         "accountId": "1d95ac3a-a855-f011-8153-0ab6811d4821",
         "crmId": "A38832",
         "benefitId": "1c7390ea-5a57-f011-8153-0ab6811d4821"
@@ -23742,48 +23700,6 @@
           "id": "45079",
           "type": "",
           "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768333_57b63bd572.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ],
-      "categories": [],
-      "cards": [],
-      "schedule": null
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
-        "accountId": "5aa809f7-419d-e711-812e-0ab6811d4821",
-        "crmId": "A01252417",
-        "benefitId": "7967b88c-97d7-f011-8155-0ab6811d4821"
-      },
-      "sourceUrl": null,
-      "brand": {
-        "id": "5aa809f7-419d-e711-812e-0ab6811d4821",
-        "name": "BOWLING AND CO NORCENTER"
-      },
-      "benefit": {
-        "type": "2x1",
-        "discount": null,
-        "title": "2x1 de ahorro",
-        "description": null,
-        "slug": "/entretenimiento/familia/descuentos-en-bowling-and-co-norcenter-A01252417",
-        "ecommerce": false,
-        "virtualCard": false,
-        "exclusiveBlack": false,
-        "startDate": null,
-        "endDate": null
-      },
-      "conditions": {
-        "additionalText": null,
-        "specialCondition": null,
-        "legal": null
-      },
-      "images": [
-        {
-          "id": "43709",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767429_d03a4779eb.JPG",
           "highlighted": false,
           "thumb": false
         }
@@ -23837,21 +23753,21 @@
     {
       "source": "lanacion",
       "sourceIds": {
-        "accountId": "4a4ef555-f714-4266-a7d0-c4dc6133a0ee",
-        "crmId": "A05978176",
-        "benefitId": "8c09d5d3-1431-4075-85b2-a3d7460368b0"
+        "accountId": "f9c4ba38-0e9f-e711-812e-0ab6811d4821",
+        "crmId": "A00676264",
+        "benefitId": "e6d562b5-389c-454f-909e-9c1183852166"
       },
       "sourceUrl": null,
       "brand": {
-        "id": "4a4ef555-f714-4266-a7d0-c4dc6133a0ee",
-        "name": "GUILAROFF BE NATURAL"
+        "id": "f9c4ba38-0e9f-e711-812e-0ab6811d4821",
+        "name": "CHUNGO"
       },
       "benefit": {
         "type": "20%",
         "discount": 20,
         "title": "20% de ahorro",
         "description": null,
-        "slug": "/bienestar/peluquerias/descuentos-en-guilaroff-be-natural-A05978176",
+        "slug": "/gastronomia/heladerias/descuentos-en-chungo-A00676264",
         "ecommerce": false,
         "virtualCard": true,
         "exclusiveBlack": false,
@@ -23865,9 +23781,9 @@
       },
       "images": [
         {
-          "id": "46588",
+          "id": "45581",
           "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/GUILAROFF_01_01_6878adb826.jpg",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/chungo_022_31e19c0c48.jpg",
           "highlighted": false,
           "thumb": false
         }
@@ -23910,6 +23826,90 @@
           "id": "46254",
           "type": "",
           "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/Bienestar_072f9dbe4f.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ],
+      "categories": [],
+      "cards": [],
+      "schedule": null
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "5aa809f7-419d-e711-812e-0ab6811d4821",
+        "crmId": "A01252417",
+        "benefitId": "7967b88c-97d7-f011-8155-0ab6811d4821"
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": "5aa809f7-419d-e711-812e-0ab6811d4821",
+        "name": "BOWLING AND CO NORCENTER"
+      },
+      "benefit": {
+        "type": "2x1",
+        "discount": null,
+        "title": "2x1 de ahorro",
+        "description": null,
+        "slug": "/entretenimiento/familia/descuentos-en-bowling-and-co-norcenter-A01252417",
+        "ecommerce": false,
+        "virtualCard": false,
+        "exclusiveBlack": false,
+        "startDate": null,
+        "endDate": null
+      },
+      "conditions": {
+        "additionalText": null,
+        "specialCondition": null,
+        "legal": null
+      },
+      "images": [
+        {
+          "id": "43709",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A767429_d03a4779eb.JPG",
+          "highlighted": false,
+          "thumb": false
+        }
+      ],
+      "categories": [],
+      "cards": [],
+      "schedule": null
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "4a4ef555-f714-4266-a7d0-c4dc6133a0ee",
+        "crmId": "A05978176",
+        "benefitId": "8c09d5d3-1431-4075-85b2-a3d7460368b0"
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": "4a4ef555-f714-4266-a7d0-c4dc6133a0ee",
+        "name": "GUILAROFF BE NATURAL"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "description": null,
+        "slug": "/bienestar/peluquerias/descuentos-en-guilaroff-be-natural-A05978176",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false,
+        "startDate": null,
+        "endDate": null
+      },
+      "conditions": {
+        "additionalText": null,
+        "specialCondition": null,
+        "legal": null
+      },
+      "images": [
+        {
+          "id": "46588",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/GUILAROFF_01_01_6878adb826.jpg",
           "highlighted": false,
           "thumb": false
         }
