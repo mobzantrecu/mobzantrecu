@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-26T06:47:41.192Z",
+  "generatedAt": "2026-10-27T06:36:15.306Z",
   "sources": {
-    "santander": 81,
-    "lanacion": 404
+    "santander": 80,
+    "lanacion": 406
   },
-  "total": 485,
+  "total": 486,
   "benefits": [
     {
       "source": "santander",
@@ -4962,6 +4962,83 @@
     {
       "source": "santander",
       "sourceIds": {
+        "brandId": 4007,
+        "publicationId": 8151
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": 4007,
+        "name": "Hotel Plaza Francia"
+      },
+      "benefit": {
+        "type": "Ahorro",
+        "typeCode": "A",
+        "discount": 20,
+        "title": "20% de ahorro + hasta 3 cuotas sin interés",
+        "description": "Sin tope de reintegro",
+        "topAmount": null,
+        "startDate": "2026-10-07T00:00:00",
+        "endDate": "2027-03-31T00:00:00",
+        "paymentType": "No Aplica",
+        "frequency": "No Aplica",
+        "tag": "Exclusivo Visa"
+      },
+      "conditions": {
+        "additionalText": "<p>Hotel Esplendor</p>",
+        "specialCondition": null,
+        "legal": "<p>Costo financiero total nominal anual: C.F.T.N.A.</p><p><span style=\"font-size: 48px;\">C.F.T.N.A: 2,14%</span> (cartera comercial por &quot;seguro de vida e invalidez total o permanente&quot;)</p><p><span style=\"font-size: 48px;\">C.F.T.N.A: 0%</span> (cartera de consumo).</p><p>Tasa fija nominal anual: 0%. Tasa fija efectiva anual : 0%.</p><p>Válida en los locales adheridos, abonando con Tarjetas Santander Visa débito y crédito, incluidos también los pagos realizados con App Santander, MODO, Google Pay y Apple Pay. Se excluyen compras abonadas por transferencias, a través de billeteras virtuales o financiadas por programas Cuota Simple. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria de dicho titular.</p><p>El ahorro se hará efectivo vía reintegro dentro de los 60 días de efectuado el consumo en la cuenta bancaria titular del cliente. No aplica a tarjetas de débito vinculadas a cajas de ahorro en pesos gratuitas, ni pagos realizados con dinero en cuenta. Promoción sin tope de reintegro. Ejemplo: en una compra con tarjeta de crédito de $90.000 en 3 cuotas, el cliente recibirá un reintegro de $18.000 en la cuenta bancaria titular.</p>"
+      },
+      "cards": [
+        {
+          "id": 1,
+          "description": "VISA",
+          "code": "81",
+          "idType": 1,
+          "descriptionType": "DEBITO",
+          "codeType": "D",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
+        },
+        {
+          "id": 2,
+          "description": "VISA",
+          "code": "40",
+          "idType": 2,
+          "descriptionType": "CREDITO",
+          "codeType": "C",
+          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 17,
+          "description": "Viajes",
+          "code": "VIA"
+        },
+        {
+          "id": 41,
+          "description": "Getnet",
+          "code": "GET"
+        },
+        {
+          "id": 58,
+          "description": "Exclusiva Visa",
+          "code": "EXV"
+        }
+      ],
+      "schedule": {
+        "monday": false,
+        "tuesday": false,
+        "wednesday": true,
+        "thursday": false,
+        "friday": false,
+        "saturday": false,
+        "sunday": false,
+        "fullWeek": false
+      }
+    },
+    {
+      "source": "santander",
+      "sourceIds": {
         "brandId": 193,
         "publicationId": 7355
       },
@@ -6183,82 +6260,6 @@
     {
       "source": "santander",
       "sourceIds": {
-        "brandId": 3637,
-        "publicationId": 7727
-      },
-      "sourceUrl": null,
-      "brand": {
-        "id": 3637,
-        "name": "Teatro Colón - Ciclo Aura 2026 4ta Función"
-      },
-      "benefit": {
-        "type": "Solo Cuotas",
-        "typeCode": "C",
-        "discount": 0,
-        "title": "Teatro Colón - Ciclo Aura 2026 4ta Función",
-        "description": "Hasta 6 cuotas sin interés",
-        "topAmount": null,
-        "startDate": "2026-08-26T00:00:00",
-        "endDate": "2026-10-26T00:00:00",
-        "paymentType": "No Aplica",
-        "frequency": "No Aplica",
-        "tag": "CABA"
-      },
-      "conditions": {
-        "additionalText": "<p><strong style=\"font-size: 16px;\">26 de octubre</strong><span style=\"font-size: 16px;\"> - 20:00 hs - Teatro Colon, Buenos Aires</span></p><p></p><p><strong>Freddie De Tommaso (Tenor) y Nadine Sierra (Soprano Invitada), junto a la Orquesta del Ciclo Aura, bajo la dirección de Constantine Orbelian</strong></p><p></p><p>El tenor Freddie De Tommaso, una de las grandes voces de la actualidad, se presentará en la última función de esta temporada 2026 de Ciclo Aura, en una noche que incluirá también el retorno de la soprano Nadine Sierra, como artista invitada. Ambos realizarán sus interpretaciones junto a la orquesta del ciclo bajo la dirección de Constantine Orbelian.</p>",
-        "specialCondition": null,
-        "legal": "<p>PARA MÁS INFORMACIÓN Y CONDICIONES O LIMITACIONES APLICABLES EN LA ARGENTINA, CONSULTÁ EN SANTANDER.COM.AR.</p><p>C.F.T: COSTO FINANCIERO TOTAL</p><p><span style=\"font-size: 48px;\">C.F.T: 1.53%</span> CARTERA COMERCIAL</p><p><span style=\"font-size: 48px;\">C.F.T: 0%</span> CARTERA DE CONSUMO</p><p>Tasa fija nominal y efectiva anual 0%.</p><p>Vigencia del 17/07/265 hasta el 28/09/26. Promoción válida para Tarjeta Santander Visa, American Express y Mastercard. Preventa del 17/07/26 a las 10hs PM por 72 hs o hasta agotar stock, lo que suceda primero. Stock preventa: 800 tickets. Cupo máximo 4 entradas por cliente. No acumulables con otras promociones vigentes. Ejemplo: Una compra de $90.000 realizada con su Tarjeta de crédito Santander, podrá ser financiada en 6 cuotas de $15.000 cada una. Promoción válida sobre el valor de entradas que figura en https://teatrocolon.org.ar/ciclo/ciclo-aura/.. No incluye service charge. Los accionistas de Banco Santander Argentina S.A. no responden en exceso de su integración accionaria.</p>"
-      },
-      "cards": [
-        {
-          "id": 2,
-          "description": "VISA",
-          "code": "40",
-          "idType": 2,
-          "descriptionType": "CREDITO",
-          "codeType": "C",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
-        },
-        {
-          "id": 4,
-          "description": "MASTER",
-          "code": "41",
-          "idType": 2,
-          "descriptionType": "CREDITO",
-          "codeType": "C",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/mastercard_tarjeta_credito.png"
-        },
-        {
-          "id": 5,
-          "description": "AMEX",
-          "code": "42",
-          "idType": 2,
-          "descriptionType": "CREDITO",
-          "codeType": "C",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/amex_tarjeta_credito.png"
-        }
-      ],
-      "categories": [
-        {
-          "id": 8,
-          "description": "Espectáculos",
-          "code": "ESP"
-        }
-      ],
-      "schedule": {
-        "monday": true,
-        "tuesday": true,
-        "wednesday": true,
-        "thursday": true,
-        "friday": true,
-        "saturday": true,
-        "sunday": true,
-        "fullWeek": true
-      }
-    },
-    {
-      "source": "santander",
-      "sourceIds": {
         "brandId": 500,
         "publicationId": 3844
       },
@@ -6642,93 +6643,6 @@
           "id": 58,
           "description": "Exclusiva Visa",
           "code": "EXV"
-        }
-      ],
-      "schedule": {
-        "monday": true,
-        "tuesday": true,
-        "wednesday": true,
-        "thursday": true,
-        "friday": true,
-        "saturday": true,
-        "sunday": true,
-        "fullWeek": true
-      }
-    },
-    {
-      "source": "santander",
-      "sourceIds": {
-        "brandId": 713,
-        "publicationId": 6370
-      },
-      "sourceUrl": null,
-      "brand": {
-        "id": 713,
-        "name": "Yatai Yatoi"
-      },
-      "benefit": {
-        "type": "Ahorro",
-        "typeCode": "A",
-        "discount": 25,
-        "title": "25% de ahorro",
-        "description": "Sin tope de reintegro",
-        "topAmount": null,
-        "startDate": "2025-12-03T00:00:00",
-        "endDate": "2026-11-30T00:00:00",
-        "paymentType": "No Aplica",
-        "frequency": "No Aplica",
-        "tag": "Select"
-      },
-      "conditions": {
-        "additionalText": "<p>Exclusivo con <strong>Tarjetas Santander Visa Black y Platinum</strong>.</p>",
-        "specialCondition": null,
-        "legal": "<p>Válida todos los días, en los locales adheridos, abonando con Tarjetas Santander Visa Black y Platinum, incluidos los pagos realizados con MODO, Google Pay y Apple Pay. Se excluyen compras abonadas por transferencias, a través de billeteras virtuales o financiadas por programas Cuota Simple. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria de dicho titular. </p> <p></p> <p>El ahorro se hará efectivo vía reintegro dentro de los 60 días de efectuado el consumo en la cuenta bancaria titular del cliente. No aplica a tarjetas de débito vinculadas a cajas de ahorro en pesos gratuitas, ni pagos realizados con dinero en cuenta. Promoción sin tope de reintegro. Ejemplo: en una compra con tarjeta de crédito de $100.000, el cliente recibirá un reintegro de $25.000 en la cuenta bancaria titular. </p>"
-      },
-      "cards": [
-        {
-          "id": 1,
-          "description": "VISA",
-          "code": "81",
-          "idType": 1,
-          "descriptionType": "DEBITO",
-          "codeType": "D",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
-        },
-        {
-          "id": 2,
-          "description": "VISA",
-          "code": "40",
-          "idType": 2,
-          "descriptionType": "CREDITO",
-          "codeType": "C",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
-        }
-      ],
-      "categories": [
-        {
-          "id": 11,
-          "description": "Gastronomía",
-          "code": "GAS"
-        },
-        {
-          "id": 58,
-          "description": "Exclusiva Visa",
-          "code": "EXV"
-        },
-        {
-          "id": 59,
-          "description": "Dining",
-          "code": "DIN"
-        },
-        {
-          "id": 65,
-          "description": "Select",
-          "code": "SEC"
-        },
-        {
-          "id": 315,
-          "description": "Fabric",
-          "code": "FBR"
         }
       ],
       "schedule": {
@@ -23545,6 +23459,132 @@
     {
       "source": "lanacion",
       "sourceIds": {
+        "accountId": "1d95ac3a-a855-f011-8153-0ab6811d4821",
+        "crmId": "A38832",
+        "benefitId": "1c7390ea-5a57-f011-8153-0ab6811d4821"
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": "1d95ac3a-a855-f011-8153-0ab6811d4821",
+        "name": "CARREFOUR"
+      },
+      "benefit": {
+        "type": "15%",
+        "discount": 15,
+        "title": "15% de ahorro",
+        "description": null,
+        "slug": "/supermercados/supermercados/descuentos-en-carrefour-A38832",
+        "ecommerce": false,
+        "virtualCard": false,
+        "exclusiveBlack": false,
+        "startDate": null,
+        "endDate": null
+      },
+      "conditions": {
+        "additionalText": null,
+        "specialCondition": null,
+        "legal": null
+      },
+      "images": [
+        {
+          "id": "45079",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768333_57b63bd572.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ],
+      "categories": [],
+      "cards": [],
+      "schedule": null
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "c7f7eb5b-15bd-e811-8139-0ab6811d4821",
+        "crmId": "A00101975",
+        "benefitId": "61e287cc-eefb-418a-857c-6a5c73d4c59c"
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": "c7f7eb5b-15bd-e811-8139-0ab6811d4821",
+        "name": "AAP - ABIERTO DE POLO"
+      },
+      "benefit": {
+        "type": "2x1",
+        "discount": null,
+        "title": "2x1 de ahorro",
+        "description": null,
+        "slug": "/entretenimiento/eventos/descuentos-en-aap-abierto-de-polo-A00101975",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false,
+        "startDate": null,
+        "endDate": null
+      },
+      "conditions": {
+        "additionalText": null,
+        "specialCondition": null,
+        "legal": null
+      },
+      "images": [
+        {
+          "id": "46559",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/polo_2026_01_01_5aa05963d8.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ],
+      "categories": [],
+      "cards": [],
+      "schedule": null
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "314eb86c-16b4-e711-812f-0ab6811d4821",
+        "crmId": "A20069",
+        "benefitId": "89e3f152-6e6d-437c-b0b7-8dd9253019b9"
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": "314eb86c-16b4-e711-812f-0ab6811d4821",
+        "name": "ARTEBA"
+      },
+      "benefit": {
+        "type": "2x1",
+        "discount": null,
+        "title": "2x1 de ahorro",
+        "description": null,
+        "slug": "/entretenimiento/tienda-online/descuentos-en-arteba-A20069",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false,
+        "startDate": null,
+        "endDate": null
+      },
+      "conditions": {
+        "additionalText": null,
+        "specialCondition": null,
+        "legal": null
+      },
+      "images": [
+        {
+          "id": "46609",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/arteba_2026_02_04423eb00c.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ],
+      "categories": [],
+      "cards": [],
+      "schedule": null
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
         "accountId": "8bf1040e-9df8-e811-813b-0ab6811d4821",
         "crmId": "A04297465",
         "benefitId": "90c34b32-47ad-4920-8a54-dbabbf443b8e"
@@ -23702,48 +23742,6 @@
           "id": "46588",
           "type": "",
           "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/GUILAROFF_01_01_6878adb826.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ],
-      "categories": [],
-      "cards": [],
-      "schedule": null
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
-        "accountId": "1d95ac3a-a855-f011-8153-0ab6811d4821",
-        "crmId": "A38832",
-        "benefitId": "1c7390ea-5a57-f011-8153-0ab6811d4821"
-      },
-      "sourceUrl": null,
-      "brand": {
-        "id": "1d95ac3a-a855-f011-8153-0ab6811d4821",
-        "name": "CARREFOUR"
-      },
-      "benefit": {
-        "type": "15%",
-        "discount": 15,
-        "title": "15% de ahorro",
-        "description": null,
-        "slug": "/supermercados/supermercados/descuentos-en-carrefour-A38832",
-        "ecommerce": true,
-        "virtualCard": false,
-        "exclusiveBlack": false,
-        "startDate": null,
-        "endDate": null
-      },
-      "conditions": {
-        "additionalText": null,
-        "specialCondition": null,
-        "legal": null
-      },
-      "images": [
-        {
-          "id": "45079",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768333_57b63bd572.jpg",
           "highlighted": false,
           "thumb": false
         }
