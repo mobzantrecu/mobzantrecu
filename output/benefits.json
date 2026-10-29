@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-28T06:29:52.475Z",
+  "generatedAt": "2026-10-29T06:37:50.166Z",
   "sources": {
-    "santander": 80,
+    "santander": 77,
     "lanacion": 406
   },
-  "total": 486,
+  "total": 483,
   "benefits": [
     {
       "source": "santander",
@@ -313,291 +313,6 @@
         "monday": true,
         "tuesday": false,
         "wednesday": false,
-        "thursday": false,
-        "friday": false,
-        "saturday": false,
-        "sunday": false,
-        "fullWeek": false
-      }
-    },
-    {
-      "source": "santander",
-      "sourceIds": {
-        "brandId": 86,
-        "publicationId": 8006
-      },
-      "sourceUrl": null,
-      "brand": {
-        "id": 86,
-        "name": "Carrefour"
-      },
-      "benefit": {
-        "type": "Ahorro",
-        "typeCode": "A",
-        "discount": 10,
-        "title": "10% de ahorro",
-        "description": "Tope de reintegro: $10.000 mensual",
-        "topAmount": 10000,
-        "startDate": "2026-10-14T00:00:00",
-        "endDate": "2026-10-28T00:00:00",
-        "paymentType": "QR - Modo",
-        "frequency": "Mensual",
-        "tag": "Pagando con QR"
-      },
-      "conditions": {
-        "additionalText": "<p>Tope compartido con las demás promociones en Carrefour.</p><p></p><p><span style=\"font-size: 14px; color: rgb(79, 84, 87); background-color: rgb(255, 255, 255);\">Pagando con </span><strong style=\"font-size: 14px; color: rgb(79, 84, 87); background-color: rgb(255, 255, 255);\">QR</strong><span style=\"font-size: 14px; color: rgb(79, 84, 87); background-color: rgb(255, 255, 255);\"> a través de la </span><strong style=\"font-size: 14px; color: rgb(79, 84, 87); background-color: rgb(255, 255, 255);\">App Santander</strong><span style=\"font-size: 14px; color: rgb(79, 84, 87); background-color: rgb(255, 255, 255);\">.</span></p><p></p><p><span style=\"font-size: 14px; color: rgb(79, 84, 87); background-color: rgb(255, 255, 255);\">Compra mínima: $15.000. No aplica a compras online.</span></p>",
-        "specialCondition": null,
-        "legal": "<p>Válida los miércoles 14. 21 y 28 de Octubre del 2026, en los locales adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Crédito y/o Débito. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. Tope de reintegro $10.000 mensual para compras mayor o iguales a $15.000. El tope se calcula sumando las compras realizadas por el titular de la tarjeta de crédito y sus adicionales, y las efectuadas con todas las tarjetas de débito asociadas a la cuenta titular de la misma, El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo: en una compra con tarjeta de crédito de $100.000, el cliente recibirá un reintegro de $10.000 en la cuenta bancaria titular.</p>"
-      },
-      "cards": [
-        {
-          "id": 1,
-          "description": "VISA",
-          "code": "81",
-          "idType": 1,
-          "descriptionType": "DEBITO",
-          "codeType": "D",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
-        },
-        {
-          "id": 2,
-          "description": "VISA",
-          "code": "40",
-          "idType": 2,
-          "descriptionType": "CREDITO",
-          "codeType": "C",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
-        },
-        {
-          "id": 4,
-          "description": "MASTER",
-          "code": "41",
-          "idType": 2,
-          "descriptionType": "CREDITO",
-          "codeType": "C",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/mastercard_tarjeta_credito.png"
-        },
-        {
-          "id": 5,
-          "description": "AMEX",
-          "code": "42",
-          "idType": 2,
-          "descriptionType": "CREDITO",
-          "codeType": "C",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/amex_tarjeta_credito.png"
-        }
-      ],
-      "categories": [
-        {
-          "id": 16,
-          "description": "Supermercados",
-          "code": "SUP"
-        },
-        {
-          "id": 36,
-          "description": "Modo",
-          "code": "MOD"
-        },
-        {
-          "id": 56,
-          "description": "Destacado",
-          "code": "DES"
-        }
-      ],
-      "schedule": {
-        "monday": false,
-        "tuesday": false,
-        "wednesday": true,
-        "thursday": false,
-        "friday": false,
-        "saturday": false,
-        "sunday": false,
-        "fullWeek": false
-      }
-    },
-    {
-      "source": "santander",
-      "sourceIds": {
-        "brandId": 87,
-        "publicationId": 8005
-      },
-      "sourceUrl": null,
-      "brand": {
-        "id": 87,
-        "name": "Carrefour Express"
-      },
-      "benefit": {
-        "type": "Ahorro",
-        "typeCode": "A",
-        "discount": 10,
-        "title": "10% de ahorro",
-        "description": "Tope de reintegro: $10.000 mensual",
-        "topAmount": 10000,
-        "startDate": "2026-10-14T00:00:00",
-        "endDate": "2026-10-28T00:00:00",
-        "paymentType": null,
-        "frequency": "Mensual",
-        "tag": "Pagando con QR"
-      },
-      "conditions": {
-        "additionalText": "<p>Tope compartido con las demás promociones en Carrefour.</p><p></p><p><span style=\"font-size: 14px; background-color: rgb(255, 255, 255); color: rgb(79, 84, 87);\">Pagando con </span><strong style=\"font-size: 14px; background-color: rgb(255, 255, 255); color: rgb(79, 84, 87);\">QR</strong><span style=\"font-size: 14px; background-color: rgb(255, 255, 255); color: rgb(79, 84, 87);\"> a través de la </span><strong style=\"font-size: 14px; background-color: rgb(255, 255, 255); color: rgb(79, 84, 87);\">App Santander</strong><span style=\"font-size: 14px; background-color: rgb(255, 255, 255); color: rgb(79, 84, 87);\">.</span></p><p></p><p><span style=\"font-size: 14px; color: rgb(79, 84, 87); background-color: rgb(255, 255, 255);\">Compra mínima: $15.000. No aplica a compras online.</span></p>",
-        "specialCondition": null,
-        "legal": "<p>Válida los miércoles 14. 21 y 28 de Octubre del 2026, en los locales adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Crédito y/o Débito. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. Tope de reintegro $10.000 mensual para compras mayor o iguales a $15.000. El tope se calcula sumando las compras realizadas por el titular de la tarjeta de crédito y sus adicionales, y las efectuadas con todas las tarjetas de débito asociadas a la cuenta titular de la misma, El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo: en una compra con tarjeta de crédito de $100.000, el cliente recibirá un reintegro de $10.000 en la cuenta bancaria titular.</p>"
-      },
-      "cards": [
-        {
-          "id": 1,
-          "description": "VISA",
-          "code": "81",
-          "idType": 1,
-          "descriptionType": "DEBITO",
-          "codeType": "D",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
-        },
-        {
-          "id": 2,
-          "description": "VISA",
-          "code": "40",
-          "idType": 2,
-          "descriptionType": "CREDITO",
-          "codeType": "C",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
-        },
-        {
-          "id": 4,
-          "description": "MASTER",
-          "code": "41",
-          "idType": 2,
-          "descriptionType": "CREDITO",
-          "codeType": "C",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/mastercard_tarjeta_credito.png"
-        },
-        {
-          "id": 5,
-          "description": "AMEX",
-          "code": "42",
-          "idType": 2,
-          "descriptionType": "CREDITO",
-          "codeType": "C",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/amex_tarjeta_credito.png"
-        }
-      ],
-      "categories": [
-        {
-          "id": 16,
-          "description": "Supermercados",
-          "code": "SUP"
-        },
-        {
-          "id": 36,
-          "description": "Modo",
-          "code": "MOD"
-        },
-        {
-          "id": 56,
-          "description": "Destacado",
-          "code": "DES"
-        }
-      ],
-      "schedule": {
-        "monday": false,
-        "tuesday": false,
-        "wednesday": true,
-        "thursday": false,
-        "friday": false,
-        "saturday": false,
-        "sunday": false,
-        "fullWeek": false
-      }
-    },
-    {
-      "source": "santander",
-      "sourceIds": {
-        "brandId": 3721,
-        "publicationId": 8003
-      },
-      "sourceUrl": null,
-      "brand": {
-        "id": 3721,
-        "name": "Carrefour Market"
-      },
-      "benefit": {
-        "type": "Ahorro",
-        "typeCode": "A",
-        "discount": 10,
-        "title": "10% de ahorro",
-        "description": "Tope de reintegro: $10.000 mensual",
-        "topAmount": 10000,
-        "startDate": "2026-10-14T00:00:00",
-        "endDate": "2026-10-28T00:00:00",
-        "paymentType": "QR - Modo",
-        "frequency": "Mensual",
-        "tag": "Pagando con QR"
-      },
-      "conditions": {
-        "additionalText": "<p>Tope compartido con las demás promociones en Carrefour.</p><p></p><p>Pagando con <strong>QR</strong> a través de la <strong>App Santander</strong>.</p><p></p><p>Compra mínima: $15.000. No aplica a compras online.</p>",
-        "specialCondition": null,
-        "legal": "<p>Válida los miércoles 14. 21 y 28 de Octubre del 2026, en los locales adheridos, abonando con QR a través de la App Santander o App MODO con Tarjetas Santander Crédito y/o Débito. Se excluyen compras abonadas por transferencias o pagos realizados con dinero en cuenta, a través de billeteras virtuales o financiadas por programas Cuota a Cuota. No acumulable con otras promociones. Válido únicamente para clientes titulares de cuenta bancaria Santander. No aplica a clientes que posean tarjeta de crédito sin cuenta bancaria asociada. En caso que la compra sea realizada con una tarjeta adicional, el reintegro se verá reflejado en la cuenta bancaria del titular. Tope de reintegro $10.000 mensual para compras mayor o iguales a $15.000. El tope se calcula sumando las compras realizadas por el titular de la tarjeta de crédito y sus adicionales, y las efectuadas con todas las tarjetas de débito asociadas a la cuenta titular de la misma, El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta bancaria titular del cliente. Ejemplo: en una compra con tarjeta de crédito de $100.000, el cliente recibirá un reintegro de $10.000 en la cuenta bancaria titular.</p>"
-      },
-      "cards": [
-        {
-          "id": 1,
-          "description": "VISA",
-          "code": "81",
-          "idType": 1,
-          "descriptionType": "DEBITO",
-          "codeType": "D",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_debito.png"
-        },
-        {
-          "id": 2,
-          "description": "VISA",
-          "code": "40",
-          "idType": 2,
-          "descriptionType": "CREDITO",
-          "codeType": "C",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/visa_tarjeta_credito.png"
-        },
-        {
-          "id": 4,
-          "description": "MASTER",
-          "code": "41",
-          "idType": 2,
-          "descriptionType": "CREDITO",
-          "codeType": "C",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/mastercard_tarjeta_credito.png"
-        },
-        {
-          "id": 5,
-          "description": "AMEX",
-          "code": "42",
-          "idType": 2,
-          "descriptionType": "CREDITO",
-          "codeType": "C",
-          "image": "https://microfe.santander.com.ar/premify/benefits/assets/images/amex_tarjeta_credito.png"
-        }
-      ],
-      "categories": [
-        {
-          "id": 16,
-          "description": "Supermercados",
-          "code": "SUP"
-        },
-        {
-          "id": 36,
-          "description": "Modo",
-          "code": "MOD"
-        },
-        {
-          "id": 56,
-          "description": "Destacado",
-          "code": "DES"
-        }
-      ],
-      "schedule": {
-        "monday": false,
-        "tuesday": false,
-        "wednesday": true,
         "thursday": false,
         "friday": false,
         "saturday": false,
@@ -8874,48 +8589,6 @@
           "id": "44627",
           "type": "",
           "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768305_5749b28a24.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ],
-      "categories": [],
-      "cards": [],
-      "schedule": null
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
-        "accountId": "bc39463d-e267-e711-812d-0ab6811d4821",
-        "crmId": "A19064",
-        "benefitId": "96bcf871-62e3-4b54-9c50-b2df2150d101"
-      },
-      "sourceUrl": null,
-      "brand": {
-        "id": "bc39463d-e267-e711-812d-0ab6811d4821",
-        "name": "SIMMONS"
-      },
-      "benefit": {
-        "type": "10%",
-        "discount": 10,
-        "title": "10% de ahorro",
-        "description": null,
-        "slug": "/deco-y-hogar/tiendas/descuentos-en-simmons-A19064",
-        "ecommerce": false,
-        "virtualCard": true,
-        "exclusiveBlack": false,
-        "startDate": null,
-        "endDate": null
-      },
-      "conditions": {
-        "additionalText": null,
-        "specialCondition": null,
-        "legal": null
-      },
-      "images": [
-        {
-          "id": "45064",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768369_6166a18aad.jpg",
           "highlighted": false,
           "thumb": false
         }
@@ -20001,48 +19674,6 @@
     {
       "source": "lanacion",
       "sourceIds": {
-        "accountId": "4967c5a7-d52b-42d4-bc6b-6736e4505006",
-        "crmId": "A05914960",
-        "benefitId": "40cf195c-4118-4863-9b30-b30dd63fb8fd"
-      },
-      "sourceUrl": null,
-      "brand": {
-        "id": "4967c5a7-d52b-42d4-bc6b-6736e4505006",
-        "name": "GO! ASSISTANCE"
-      },
-      "benefit": {
-        "type": "35%",
-        "discount": 35,
-        "title": "35% de ahorro",
-        "description": null,
-        "slug": "/viajes/asistencia-al-viajero/descuentos-en-go-assistance-A05914960",
-        "ecommerce": false,
-        "virtualCard": true,
-        "exclusiveBlack": false,
-        "startDate": null,
-        "endDate": null
-      },
-      "conditions": {
-        "additionalText": null,
-        "specialCondition": null,
-        "legal": null
-      },
-      "images": [
-        {
-          "id": "45894",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/go_assistance_873fd33508.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ],
-      "categories": [],
-      "cards": [],
-      "schedule": null
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
         "accountId": "4a4ef555-f714-4266-a7d0-c4dc6133a0ee",
         "crmId": "A05978176",
         "benefitId": "8c09d5d3-1431-4075-85b2-a3d7460368b0"
@@ -23543,21 +23174,21 @@
     {
       "source": "lanacion",
       "sourceIds": {
-        "accountId": "1ee89687-1b3b-44d1-a752-1705aa887c4f",
-        "crmId": "A05979263",
-        "benefitId": "26b3b176-2714-49a2-b0af-fc14bbb2761e"
+        "accountId": "7e97001b-80a0-f011-8155-0ab6811d4821",
+        "crmId": "A05863142",
+        "benefitId": "427ee03b-0681-4d50-8079-50240b9da7ea"
       },
       "sourceUrl": null,
       "brand": {
-        "id": "1ee89687-1b3b-44d1-a752-1705aa887c4f",
-        "name": "PLAYFAN"
+        "id": "7e97001b-80a0-f011-8155-0ab6811d4821",
+        "name": "FABRIC"
       },
       "benefit": {
         "type": "20%",
         "discount": 20,
         "title": "20% de ahorro",
         "description": null,
-        "slug": "/entretenimiento/familia/descuentos-en-playfan-A05979263",
+        "slug": "/gastronomia/restaurantes/descuentos-en-fabric-A05863142",
         "ecommerce": false,
         "virtualCard": true,
         "exclusiveBlack": false,
@@ -23571,93 +23202,9 @@
       },
       "images": [
         {
-          "id": "46627",
+          "id": "44742",
           "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/playfan_03_01_c9ba568150.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ],
-      "categories": [],
-      "cards": [],
-      "schedule": null
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
-        "accountId": "c7f7eb5b-15bd-e811-8139-0ab6811d4821",
-        "crmId": "A00101975",
-        "benefitId": "61e287cc-eefb-418a-857c-6a5c73d4c59c"
-      },
-      "sourceUrl": null,
-      "brand": {
-        "id": "c7f7eb5b-15bd-e811-8139-0ab6811d4821",
-        "name": "AAP - ABIERTO DE POLO"
-      },
-      "benefit": {
-        "type": "2x1",
-        "discount": null,
-        "title": "2x1 de ahorro",
-        "description": null,
-        "slug": "/entretenimiento/eventos/descuentos-en-aap-abierto-de-polo-A00101975",
-        "ecommerce": false,
-        "virtualCard": true,
-        "exclusiveBlack": false,
-        "startDate": null,
-        "endDate": null
-      },
-      "conditions": {
-        "additionalText": null,
-        "specialCondition": null,
-        "legal": null
-      },
-      "images": [
-        {
-          "id": "46559",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/polo_2026_01_01_5aa05963d8.jpg",
-          "highlighted": false,
-          "thumb": false
-        }
-      ],
-      "categories": [],
-      "cards": [],
-      "schedule": null
-    },
-    {
-      "source": "lanacion",
-      "sourceIds": {
-        "accountId": "2dc25aca-7173-47de-ac9f-b5b07a70033f",
-        "crmId": "A05979426",
-        "benefitId": "a197c527-fa92-4d2b-933f-6485099925ec"
-      },
-      "sourceUrl": null,
-      "brand": {
-        "id": "2dc25aca-7173-47de-ac9f-b5b07a70033f",
-        "name": "ARDILLA BUCEO"
-      },
-      "benefit": {
-        "type": "20%",
-        "discount": 20,
-        "title": "20% de ahorro",
-        "description": null,
-        "slug": "/educacion/cursos/descuentos-en-ardilla-buceo-A05979426",
-        "ecommerce": false,
-        "virtualCard": true,
-        "exclusiveBlack": false,
-        "startDate": null,
-        "endDate": null
-      },
-      "conditions": {
-        "additionalText": null,
-        "specialCondition": null,
-        "legal": null
-      },
-      "images": [
-        {
-          "id": "46631",
-          "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/ardilla_buceo_01_8e3e4404a6.jpg",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768511_2076c8f0c0.jpg",
           "highlighted": false,
           "thumb": false
         }
@@ -23711,21 +23258,21 @@
     {
       "source": "lanacion",
       "sourceIds": {
-        "accountId": "7e97001b-80a0-f011-8155-0ab6811d4821",
-        "crmId": "A05863142",
-        "benefitId": "427ee03b-0681-4d50-8079-50240b9da7ea"
+        "accountId": "c7f7eb5b-15bd-e811-8139-0ab6811d4821",
+        "crmId": "A00101975",
+        "benefitId": "61e287cc-eefb-418a-857c-6a5c73d4c59c"
       },
       "sourceUrl": null,
       "brand": {
-        "id": "7e97001b-80a0-f011-8155-0ab6811d4821",
-        "name": "FABRIC"
+        "id": "c7f7eb5b-15bd-e811-8139-0ab6811d4821",
+        "name": "AAP - ABIERTO DE POLO"
       },
       "benefit": {
-        "type": "20%",
-        "discount": 20,
-        "title": "20% de ahorro",
+        "type": "2x1",
+        "discount": null,
+        "title": "2x1 de ahorro",
         "description": null,
-        "slug": "/gastronomia/restaurantes/descuentos-en-fabric-A05863142",
+        "slug": "/entretenimiento/eventos/descuentos-en-aap-abierto-de-polo-A00101975",
         "ecommerce": false,
         "virtualCard": true,
         "exclusiveBlack": false,
@@ -23739,9 +23286,177 @@
       },
       "images": [
         {
-          "id": "44742",
+          "id": "46559",
           "type": "",
-          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768511_2076c8f0c0.jpg",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/polo_2026_01_01_5aa05963d8.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ],
+      "categories": [],
+      "cards": [],
+      "schedule": null
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "1ee89687-1b3b-44d1-a752-1705aa887c4f",
+        "crmId": "A05979263",
+        "benefitId": "26b3b176-2714-49a2-b0af-fc14bbb2761e"
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": "1ee89687-1b3b-44d1-a752-1705aa887c4f",
+        "name": "PLAYFAN"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "description": null,
+        "slug": "/entretenimiento/familia/descuentos-en-playfan-A05979263",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false,
+        "startDate": null,
+        "endDate": null
+      },
+      "conditions": {
+        "additionalText": null,
+        "specialCondition": null,
+        "legal": null
+      },
+      "images": [
+        {
+          "id": "46627",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/playfan_03_01_c9ba568150.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ],
+      "categories": [],
+      "cards": [],
+      "schedule": null
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "2dc25aca-7173-47de-ac9f-b5b07a70033f",
+        "crmId": "A05979426",
+        "benefitId": "a197c527-fa92-4d2b-933f-6485099925ec"
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": "2dc25aca-7173-47de-ac9f-b5b07a70033f",
+        "name": "ARDILLA BUCEO"
+      },
+      "benefit": {
+        "type": "20%",
+        "discount": 20,
+        "title": "20% de ahorro",
+        "description": null,
+        "slug": "/educacion/cursos/descuentos-en-ardilla-buceo-A05979426",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false,
+        "startDate": null,
+        "endDate": null
+      },
+      "conditions": {
+        "additionalText": null,
+        "specialCondition": null,
+        "legal": null
+      },
+      "images": [
+        {
+          "id": "46631",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/ardilla_buceo_01_8e3e4404a6.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ],
+      "categories": [],
+      "cards": [],
+      "schedule": null
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "4967c5a7-d52b-42d4-bc6b-6736e4505006",
+        "crmId": "A05914960",
+        "benefitId": "40cf195c-4118-4863-9b30-b30dd63fb8fd"
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": "4967c5a7-d52b-42d4-bc6b-6736e4505006",
+        "name": "GO! ASSISTANCE"
+      },
+      "benefit": {
+        "type": "35%",
+        "discount": 35,
+        "title": "35% de ahorro",
+        "description": null,
+        "slug": "/viajes/asistencia-al-viajero/descuentos-en-go-assistance-A05914960",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false,
+        "startDate": null,
+        "endDate": null
+      },
+      "conditions": {
+        "additionalText": null,
+        "specialCondition": null,
+        "legal": null
+      },
+      "images": [
+        {
+          "id": "45894",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/go_assistance_873fd33508.jpg",
+          "highlighted": false,
+          "thumb": false
+        }
+      ],
+      "categories": [],
+      "cards": [],
+      "schedule": null
+    },
+    {
+      "source": "lanacion",
+      "sourceIds": {
+        "accountId": "bc39463d-e267-e711-812d-0ab6811d4821",
+        "crmId": "A19064",
+        "benefitId": "96bcf871-62e3-4b54-9c50-b2df2150d101"
+      },
+      "sourceUrl": null,
+      "brand": {
+        "id": "bc39463d-e267-e711-812d-0ab6811d4821",
+        "name": "SIMMONS"
+      },
+      "benefit": {
+        "type": "10%",
+        "discount": 10,
+        "title": "10% de ahorro",
+        "description": null,
+        "slug": "/deco-y-hogar/tiendas/descuentos-en-simmons-A19064",
+        "ecommerce": false,
+        "virtualCard": true,
+        "exclusiveBlack": false,
+        "startDate": null,
+        "endDate": null
+      },
+      "conditions": {
+        "additionalText": null,
+        "specialCondition": null,
+        "legal": null
+      },
+      "images": [
+        {
+          "id": "45064",
+          "type": "",
+          "url": "https://backwebclub-media.glanacion.com/Club.LN-Strapi/A768369_6166a18aad.jpg",
           "highlighted": false,
           "thumb": false
         }
